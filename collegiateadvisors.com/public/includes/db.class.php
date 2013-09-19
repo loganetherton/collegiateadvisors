@@ -3,17 +3,19 @@
 	class DB
 	{
 
+		// Set a private static database handler
 		private static $dbh = null;
 
+		// Connect to the database
 		private static function connect()
 		{
 
-			// server, user, pass
 			$dbh = mysql_connect( 'localhost', 'collegia_legato', 'cad4ldo79' );
 			mysql_select_db( 'collegia_legato' );
 
 		}
 
+		// Return an array of news items from the database
 		public static function get_news()
 		{
 
