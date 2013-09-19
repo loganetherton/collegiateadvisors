@@ -1,0 +1,2 @@
+<script type="text/javascript" src="http://www.inteliwise.com/client/inteliwise_embed.js"></script>
+<script type="text/javascript">inteliwiseEmbed('http://media.avaguide.net/embed/AvaGuide?ticket=U1c0L0R0A0V0d:W1L2U7T5T:R1e:W1S0V0S0U:e1f9a0f0&amp;host=http://media.avaguide.net/&amp;mp=http://media.avaguide.net/&amp;dialogID=default&amp;skinID=default&amp;dynamic=true&amp;skinURL=http://tuitionconnection.com/Avatar/skin2.xml')</script>
