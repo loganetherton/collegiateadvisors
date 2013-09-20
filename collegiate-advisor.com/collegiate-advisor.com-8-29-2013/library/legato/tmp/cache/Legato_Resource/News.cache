@@ -1,0 +1,3 @@
+0
+1355405642
+a:4:{s:6:"tables";a:1:{s:4:"news";a:2:{s:2:"id";s:2:"id";s:6:"fields";a:5:{i:0;s:2:"id";i:1;s:4:"date";i:2;s:4:"news";i:3;s:16:"link_description";i:4;s:4:"link";}}}s:2:"db";s:4:"Main";s:6:"fields";a:5:{s:2:"id";s:4:"news";s:4:"date";s:4:"news";s:4:"news";s:4:"news";s:16:"link_description";s:4:"news";s:4:"link";s:4:"news";}s:7:"version";s:2:"11";}

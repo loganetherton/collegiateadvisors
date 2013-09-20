@@ -1,0 +1,55 @@
+<?php echo $form->output(); ?>
+
+<script type="text/javascript">	
+
+	Legato_Events_Handler.DOMReady
+	(
+		function()
+		{	
+		
+			function toggle()
+			{
+				
+				if ( $$( 'card_type' ).value == 'PayPal' )
+				{		
+					
+					$$( 'billing_information' ).elmsByTag( 'input' ).each( function() 
+					{						
+						if ( this.type == 'button' || this.type == 'submit' || this.type == 'hidden' || this.type == 'radio' )
+							return;
+						
+						this.disabled = true;						
+					} );
+					
+					$$( 'billing_information' ).elmsByTag( 'select' ).each( function()
+					{						
+						if ( this.id == 'card_type' )
+							return;
+						
+						this.disabled = true;						
+					} );	
+					
+					$$( 'credit_card_fields' ).setStyle( 'display', 'none' );
+									
+				}	
+				else
+				{
+					
+					$$( 'billing_information' ).elmsByTag( 'input' ).each( function() { this.disabled = false; } );
+					$$( 'billing_information' ).elmsByTag( 'select' ).each( function() { this.disabled = false; } );
+					
+					$$( 'credit_card_fields' ).setStyle( 'display', 'block' );
+					
+				}
+						
+			}
+						
+			Legato_Events_Handler.addEvent( $$( 'card_type' ), 'onchange', toggle );
+			
+			// Make sure it's all toggled correctly when the page loads.
+			toggle();
+		
+		}
+	);	
+	
+</script>

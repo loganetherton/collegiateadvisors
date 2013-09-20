@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<resource_schema>
+	<db>Main</db>
+	<tables>
+		<table>hooks</table>	
+	</tables>
+	<foreign_keys>
+		<reference>Advisor</reference>
+		<reference key="editable_page_id">Advisor_EditablePage</reference>
+	</foreign_keys>
+</resource_schema>

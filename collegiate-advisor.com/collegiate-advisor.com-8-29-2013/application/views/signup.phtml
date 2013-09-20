@@ -1,0 +1,23 @@
+<div id="signup">
+
+	<h1>Sign Up</h1>
+
+	<p>Using the link at the bottom of this page, you can sign up for, and have access to, our suite of college planning services.</p>
+
+	<?php if ( file_exists( ROOT . '/application/views/ext/' . $GLOBALS['advisor']->get( 'id' ) . '/signup.phtml' ) ): ?>
+
+		<?php
+
+			$view = new Legato_View( 'ext/' . $GLOBALS['advisor']->get( 'id' ) . '/signup' );
+			$view->render();
+
+		?>
+
+	<?php endif; ?>
+
+	<p>
+		<a href="<?php echo str_replace( 'http', 'https', DOMAIN ) . SITE_URL . '/signup/' . $GLOBALS['advisor']->id; ?>" onclick="window.open( this.href, 'ca_signup', 'menubar=yes,location=yes,resizable=yes,scrollbars=yes,status=yes,width=700,height=600' ); return false;">Click here to sign up.</a> <br />
+		<em>(page will open in a popup)</em>
+	</p>
+
+</div>

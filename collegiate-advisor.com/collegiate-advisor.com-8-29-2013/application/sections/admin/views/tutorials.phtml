@@ -1,0 +1,43 @@
+<h1>Tutorials</h1>
+
+<p>
+	We have put together some tutorials to walk you through how your site works.<br />
+	If you are new to the site, we suggest that you watch them in order.
+</p>
+
+<br />
+
+<ul id="tutorials" class="commands">
+
+	<li><a href="<?php echo SITE_URL . '/files/tutorials/lesson1.swf'; ?>" onclick="loadVideo( this ); return false;">Updating Your Information</a></li>
+	<li><a href="<?php echo SITE_URL . '/files/tutorials/lesson2.swf'; ?>" onclick="loadVideo( this ); return false;">Editing Pages</a></li>
+	<li><a href="<?php echo SITE_URL . '/files/tutorials/lesson3.swf'; ?>" onclick="loadVideo( this ); return false;">Adding Workshops</a></li>
+	<li><a href="<?php echo SITE_URL . '/files/tutorials/customizations.swf'; ?>" onclick="loadVideo( this ); return false;">Customizations</a></li>
+	<li><a href="<?php echo SITE_URL . '/files/tutorials/member_section.swf'; ?>" onclick="loadVideo( this ); return false;">Member Section</a></li>
+
+</ul>
+<br />
+
+<div id="tutorial_video"></div>
+
+<script type="text/javascript">
+
+	function loadVideo( element )
+	{
+		
+		$$( "tutorial_video" ).innerHTML = "";
+		
+		var vid1 = new SWFObject( element.href, "video", "640", "533", "9", "#eeeeee");  
+		vid1.addParam( "quality", "high" );
+		
+		vid1.write( "tutorial_video" );
+		
+		var active = $$( 'tutorials' ).elmsByClass( 'active', 'li' );
+		
+		if ( active[0] ) active[0].className = "";
+		
+		element.parentNode.className = "active";
+		
+	}
+
+</script>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+	
+<resource_schema>
+	<db>Main</db>	
+	<tables>
+		<table>workshop_registrants</table>
+	</tables>
+	<serialized>
+		<field>guests</field>
+		<field>grades</field>
+	</serialized>
+	<foreign_keys>
+		<reference>Workshop</reference>
+	</foreign_keys>	
+</resource_schema>

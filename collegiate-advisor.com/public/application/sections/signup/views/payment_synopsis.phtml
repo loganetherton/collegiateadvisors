@@ -1,0 +1,116 @@
+<table cellspacing="0" cellpadding="0" border="0">
+	<caption>Student Information</caption>
+	<tr>
+		<td>First Name:</td>
+		<td><?php echo $first_name; ?></td>
+	</tr>
+	<tr>
+		<td>Last Name:</td>
+		<td><?php echo $last_name; ?></td>
+	</tr>
+	<tr>
+		<td>Email Address:</td>
+		<td><?php echo $email_address; ?></td>
+	</tr>
+	<tr>
+		<td>Phone Number:</td>
+		<td><?php echo $phone_number; ?></td>
+	</tr>
+	<tr>
+		<td>Birth Date:</td>
+		<td><?php echo $birth_date_month . '/' . $birth_date_day . '/' . $birth_date_year; ?></td>
+	</tr>
+	<tr>
+		<td>Highschool Graduation Year:</td>
+		<td><?php echo ($graduation_year == 1) ? 'Already Graduated' : $graduation_year; ?></td>
+	</tr>
+	<tr>
+		<td>Anticipated First Year of College:</td>
+		<td><?php echo $college_year; ?></td>
+	</tr>
+	<tr>
+		<td>Account Username:</td>
+		<td><?php echo $username; ?></td>
+	</tr>
+</table>
+
+<table cellspacing="0" cellpadding="0" border="0">
+	<caption>Billing Information</caption>
+	<tr>
+		<td>Payment Type:</td>
+		<td>
+
+			<?php
+			
+				if( $billing_type_twostage )
+				{
+					$amounts = explode( '|', $amount );
+					echo 'One Time ($' . $amounts[0] . ') with a Montly Fee of $' . $amounts[1];
+				}
+				else
+				{
+					if ( $billing_type_monthly )
+						echo 'Monthly ';
+					else
+						echo 'One Time ';
+
+					echo '($' . $amount . ')';
+				}
+
+			?>
+
+		</td>
+	</tr>
+	<tr>
+		<td>Payment Method:</td>
+		<td><?php echo $card_type; ?></td>
+	</tr>
+
+	<?php if ( $card_type == 'PayPal' ): ?>
+
+		<tr>
+			<td>PayPal Account:</td>
+			<td><?php echo $paypal_info['account']; ?></td>
+		</tr>
+
+	<?php else: ?>
+
+		<tr>
+			<td>Billing Name:</td>
+			<td><?php echo $first_name . ' ' . $last_name; ?></td>
+		</tr>
+		<tr>
+			<td>Card Number:</td>
+			<td><?php echo '**** **** **** ' . substr( $card_number, -4 ); ?></td>
+		</tr>
+		<tr>
+			<td>CVV Number:</td>
+			<td><?php echo $cvv; ?></td>
+		</tr>
+		<tr>
+			<td>Billing Address:</td>
+			<td>
+				<?php
+
+					echo $address1;
+					if ( $address2 ) echo '<br /> ' . $address2;
+				?>
+			</td>
+		</tr>
+		<tr>
+			<td>City:</td>
+			<td><?php echo $city; ?></td>
+		</tr>
+		<tr>
+			<td>State:</td>
+			<td><?php echo $state; ?></td>
+		</tr>
+		<tr>
+			<td>Zip Code:</td>
+			<td><?php echo $zip_code; ?></td>
+		</tr>
+
+	<?php endif; ?>
+
+</table>
+<br />

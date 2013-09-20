@@ -1,0 +1,2 @@
+dev                      blocks      quota      limit      grace      files      quota      limit      grace
+/dev/vzfs                241864          0          0                  2582          0          0           

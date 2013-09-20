@@ -1,0 +1,3 @@
+0
+1355405642
+a:5:{s:6:"tables";a:1:{s:5:"hooks";a:2:{s:2:"id";s:2:"id";s:6:"fields";a:5:{i:0;s:2:"id";i:1;s:10:"advisor_id";i:2;s:4:"type";i:3;s:4:"data";i:4;s:16:"editable_page_id";}}}s:2:"db";s:4:"Main";s:6:"fields";a:5:{s:2:"id";s:5:"hooks";s:10:"advisor_id";s:5:"hooks";s:4:"type";s:5:"hooks";s:4:"data";s:5:"hooks";s:16:"editable_page_id";s:5:"hooks";}s:12:"foreign_keys";a:2:{s:10:"advisor_id";s:7:"Advisor";s:16:"editable_page_id";s:20:"Advisor_EditablePage";}s:7:"version";s:2:"11";}

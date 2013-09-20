@@ -1,0 +1,11 @@
+<?php
+
+	foreach( $hooks as $hook )
+	{
+		
+		$data = $hook->get( 'data' );
+		echo '<li><a href="' . SITE_URL . $data[1] . '">' . $data[0] . '</a></li>';
+		
+	}
+	
+?>

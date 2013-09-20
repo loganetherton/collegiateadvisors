@@ -1,0 +1,91 @@
+<?php if ( $action != '' ): ?>
+
+	<script type="text/javascript">
+	
+		<?php if ( $action == 'added' ): ?>
+		
+			Legato_Events_Handler.addEvent( window, "onload", function(){ show_alert( "Successfully Added Style" ); } );
+			
+		<?php elseif ( $action == 'edited' ): ?>
+		
+			Legato_Events_Handler.addEvent( window, "onload", function(){ show_alert( "Successfully Edited Style" ); } );
+		
+		<?php endif; ?>	
+	
+	</script>
+	
+<?php endif; ?>
+
+<div id="admin_styles">
+
+	<h1>Manage Styles <?php echo '(' . count( $styles ) . ')'; ?></h1>
+
+	<ul class="commands">
+	 
+		<?php if ( $level > 2 ): ?>
+	  
+			<li><a href="<?php echo SITE_URL . '/admin/styles/add'; ?>">Add Style</a></li>
+	
+		<?php endif; ?>
+		
+	</ul>
+
+	<table cellspacing="0">
+
+		<tr>
+			<th>ID</th>
+			<th>Businesses</th>
+			<th>Commands</th>
+		</tr>
+		
+		<?php
+			
+			// Loop through each advisor.
+			$i = 0;
+			foreach ( $styles as $style_id => $style )
+			{		
+				?>
+				<tr class="row<?php echo $i + 1; ?>" id="style<?php echo $style_id; ?>">
+				
+				<td><?php echo $style_id; ?></td>
+				<td>
+				<?php
+				$j = 0;
+				if ( $advisors[$style_id] != null )
+				{
+					foreach ($advisors[$style_id] as $advisor)
+					{
+						if ( $j > 0 ) echo '<br />';
+						echo $advisor->get( 'business_name' );
+						$j++;
+					}
+				}
+				else
+				{
+					echo "None";
+				}
+				?>
+				</td>
+				<td>
+				
+					<a href="<?php echo SITE_URL . '/admin/styles/view/' . $style_id; ?>">View</a> |
+					<a href="<?php echo SITE_URL . '/admin/styles/edit/' . $style_id; ?>">Edit</a> |
+					<a href="" onclick="delete_resource( 'style', '<?php echo $style_id; ?>' ); return false;">Delete</a>
+ 
+				
+				</td>
+		
+				<?php
+				
+				$i++;
+				
+				// Wrap.
+				if ( $i == 2 )
+					$i = 0;
+			
+			}
+		?>
+		
+	</table>
+	
+</div>

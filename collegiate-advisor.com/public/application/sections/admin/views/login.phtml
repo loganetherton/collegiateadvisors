@@ -1,0 +1,11 @@
+<script type="text/javascript">
+
+	Legato_Events_Handler.addEvent( window, "onload", function(){ document.getElementById( "username" ).focus(); } );
+
+</script>
+
+<? if( isset( $error_message ) ): ?>
+	<p>Error: <?= $error_message; ?></p>
+<? endif; ?>
+
+<?php echo $form->output(); ?>

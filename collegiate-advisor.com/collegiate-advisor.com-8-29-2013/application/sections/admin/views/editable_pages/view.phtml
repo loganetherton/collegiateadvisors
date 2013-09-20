@@ -1,0 +1,34 @@
+<div id="<?php echo $page; ?>">
+
+	<h1>View Editable Page</h1>
+
+	<ul class="commands">
+	 
+		<li><a href="<?php echo SITE_URL . '/admin/editable_pages/edit/' . $editable_page->get( 'id' ); ?>">Edit Editable Page</a></li>     
+				
+	</ul>
+
+	<table cellspacing="0" class="information_table">
+		<tr>
+			<td>Editable Page ID:</td>
+			<td><?php echo $editable_page->get( 'id' ); ?></td>
+		</tr>
+		<tr>
+			<td>Advisor:</td>
+			<td><a href="<?php echo SITE_URL; ?>/admin/advisors/view/<?php echo $editable_page->get( 'advisor_id' ); ?>"><?php echo $editable_page->get( 'advisor' )->get( 'first_name' ) . ' ' . $editable_page->get( 'advisor' )->get( 'last_name' ); ?></a></td>
+		</tr>
+		<tr>
+			<td>Filename:</td>
+			<td><?php echo $editable_page->get( 'filename' ); ?></td>
+		</tr>
+		<tr>
+			<td>Title:</td>
+			<td><?php echo $editable_page->get( 'title' ); ?></td>
+		</tr>
+		<tr>
+			<td>Page Content:</td>
+			<td><?php echo $page_content; ?></td>
+		</tr>
+	</table>
+
+</div>

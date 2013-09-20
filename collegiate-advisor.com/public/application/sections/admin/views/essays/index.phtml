@@ -1,0 +1,83 @@
+<h1>Manage Essays <?php echo '(' . count( $essays ) . ')'; ?></h1>
+
+<div id="admin_advisor_select">
+
+	<h3>Select Advisor:</h3>
+  	
+	<select name="advisor_id" id="advisor_id" onchange="location = '<?php echo SITE_URL . '/admin/essays/'; ?>' + document.getElementById( 'advisor_id' ).value;">
+	
+		<?php
+		
+			foreach( $advisors as $advisor )
+			{
+				echo '<option';
+	
+				if ( $advisor->get('id') == $advisor_id )
+					echo ' selected="selected"';
+	
+				echo ' value="'. $advisor->get('id') .'">';
+				echo $advisor->get( 'business_name' );
+				echo '</option>';
+			}
+			
+		?>
+		
+	</select>
+  	
+</div>
+
+<?php if ( count( $essays ) != 0 ): ?>
+	
+	<table cellspacing="0">
+	
+		<tr>
+			<th>User</th>
+			<th>Time Uploaded</th>
+			<th>File</th>
+			<th>Commands</th>
+		</tr>
+		
+		<?php
+			
+			// Loop through each workshop.
+			$i = 0;
+			foreach ( $essays as $essay )
+			{
+				
+				// Which row type?
+				if ( $i == 0 )
+					echo '<tr class="row1" id="essay'. urlencode( $essay->filename ) .'">';
+				else
+					echo '<tr class="row2" id="essay'. urlencode( $essay->filename ) .'">';
+					
+				$user = new User( $essay->user_id );
+					
+				?>
+				
+				<td><?php echo $user->get( 'username' ); ?></td>
+				<td><?php echo date( 'n/j/Y - g:i A', $essay->time ); ?></td>
+				<td><?php echo $essay->filename; ?></td>
+				<td>
+				
+					<a href="<?php echo SITE_URL . '/admin/essays/view/' . $advisor_id . '/' . urlencode( $essay->filename ); ?>">View</a> |
+					<a href="" onclick="delete_essay( '<?php echo $essay->advisor_id; ?>', '<?php echo urlencode( $essay->filename ); ?>' ); return false;">Delete</a>
+				
+				</td>
+					
+				<?php
+				
+				echo '</tr>';
+				
+				$i++;
+				
+				// Wrap.
+				if ( $i == 2 )
+					$i = 0;
+			
+			}
+		
+		?>
+		
+	</table>
+
+<?php endif; ?>

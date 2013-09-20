@@ -1,0 +1,12 @@
+<h1><?php echo $page->title; ?></h1>
+
+<?php if ( $complete ): ?>
+
+	<div class="containing_box">You will receive an email shortly with instructions on how to proceed.</div>
+	<br>
+
+<?php endif; ?>
+
+<?php $content_view->render(); ?>
+
+<?php echo $form->output(); ?>

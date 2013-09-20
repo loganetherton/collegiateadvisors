@@ -1,0 +1,124 @@
+<html>
+	<head>
+
+        <link rel="stylesheet" type="text/css" href="<?php echo SITE_URL . Legato_Compressor::get( 'CSS_Common' ); ?>" />
+        
+	</head>
+	<body>
+	
+		<div id="print">
+		
+			<h1>Financial Statement for <?php echo date( 'F Y' ); ?></h1>
+			<br />
+
+			<table cellspacing="0">
+			
+				<thead>
+			
+					<tr>
+						<th>Client Name</th>
+						<th>Business Name</th>
+						<th>Start Date</th>
+						<th>Renewal Date</th>
+						<th>Amount Owed</th>
+						<?php if ( $action != 'printable' ) echo '<th>Status</th>'; ?>
+					</tr>
+				
+				</thead>
+				
+				<tbody>
+				
+					<?php
+						
+						// Loop through each advisor.
+						$total_amount = 0;
+						$i = 0;
+						foreach ( $advisors as $advisor_id => $advisor )
+						{
+						
+							// Which row type?
+							echo $advisor->get( 'status' ) ? '<tr class="row' . ($i + 1) . ' active">' : '<tr class="row' . ($i + 1) . ' inactive">';
+								
+							?>
+							
+							<td><?php echo $advisor->get( 'last_name' ) . ', ' . $advisor->get( 'first_name' ); ?></td>
+							<td><?php echo $advisor->get( 'business_name' ); ?></td>
+							<td><?php echo date( 'm/d/Y', $advisor->get( 'start_date' ) ); ?></td>
+							<td><?php echo date( 'm/d', $advisor->get( 'start_date' ) ) . '/' . (date( 'Y', $advisor->get( 'start_date' ) ) + 3); ?></td>
+							<td>
+								
+								<?php 
+									
+									list( $date_month, $date_year ) = explode( '/', date( 'n/Y' ) );
+									
+									// Only do this if the advisor is active.
+									if ( $advisor->get( 'status' ) && $advisor->get( 'start_date' ) < mktime( 0, 0, 0, $date_month, 3, $date_year ) )
+									{
+									
+										// Get the multiplier (dependent upon the amount of users the advisor has)
+										// and the initial money owned.
+										$multiplier = intval( $user_count[$advisor_id] / 300 ) + 1;
+										$advisor_owed = $multiplier * 30;
+										
+										// Check to see if he has any initial payment from last month.
+										if ( $advisor->get( 'start_date' ) > time() - 2160000 && date( 'j', $advisor->get( 'start_date' ) ) == 15 )
+										{
+											$advisor_owed += 15;
+										}
+							
+										$free_advisors = array( 25, 28, 40, 42, 43, 44 );
+										if( in_array( $advisor->id, $free_advisors ) )
+										{
+											$advisor_owed = 0;
+										}
+										
+										$total_amount += $advisor_owed;
+										
+										echo '$' . number_format( $advisor_owed, 2, '.', '' );
+										
+									}
+									else
+										echo '$0.00';
+									
+								?>
+								
+							</td>
+							<?php if ( $action != 'printable' ): ?>
+							
+								<td><?php echo $advisor->get( 'status' ) ? '<a href="' . SITE_URL . '/admin/advisors/disable/' . $advisor_id . '">Disable Advisor</a>' : '<a href="' . SITE_URL . '/admin/advisors/enable/' . $advisor_id . '">Enable Advisor</a>'; ?></td>
+								
+							<?php endif; ?>
+								
+							<?php
+							
+							echo '</tr>';
+							
+							$i++;
+							
+							// Wrap.
+							if ( $i == 2 )
+								$i = 0;
+						
+						}
+						
+					?>
+					
+				</tbody>
+				
+				<tfoot>
+				
+					<tr>
+						<td colspan="4">Balance Due (<?php echo date( 'm/10/Y' ); ?>) </td>
+						<td><?php echo '$' . number_format( $total_amount, 2, '.', '' ); ?></td>
+						<?php if ( $action != 'printable' ) echo '<td></td>'; ?>
+					</tr>
+				
+				</tfoot>
+				
+			</table>
+			
+		</div>
+		
+	</body>
+	
+</html>

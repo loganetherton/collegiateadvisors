@@ -1,0 +1,439 @@
+head	1.62;
+access;
+symbols;
+locks
+	collegia:1.62; strict;
+comment	@# @;
+
+
+1.62
+date	2008.10.15.15.45.27;	author collegia;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2008.10.15.15.45.27;	author collegia;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2008.09.02.17.31.40;	author collegia;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2008.09.01.02.37.03;	author collegia;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2008.09.01.02.37.03;	author collegia;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2008.08.25.17.11.36;	author collegia;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2008.08.25.17.11.36;	author collegia;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2008.08.21.16.07.54;	author collegia;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2008.08.21.16.07.54;	author collegia;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2008.08.21.16.07.35;	author collegia;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2008.08.21.16.07.35;	author collegia;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2008.08.21.15.09.07;	author collegia;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2008.08.21.15.09.07;	author collegia;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2008.08.21.15.08.57;	author collegia;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2008.08.21.15.08.56;	author collegia;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2008.08.21.15.08.45;	author collegia;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2008.08.21.15.08.45;	author collegia;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2008.08.21.15.08.15;	author collegia;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2008.08.21.15.08.15;	author collegia;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2008.08.21.15.07.56;	author collegia;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2008.08.21.15.07.56;	author collegia;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2008.08.21.15.07.30;	author collegia;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2008.08.21.15.07.29;	author collegia;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2008.08.21.15.07.10;	author collegia;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2008.08.21.15.07.10;	author collegia;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2008.08.21.13.47.07;	author collegia;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2008.08.21.13.47.07;	author collegia;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2008.07.23.19.53.56;	author collegia;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2008.06.20.19.19.59;	author collegia;	state Exp;
+branches;
+next	;
+
+
+desc
+@Init by /usr/local/cpanel/cpanel
+@
+
+
+1.62
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@keith.landis:x:33330:33333::/home/collegia/mail/collegiateadvisors.com/keith.landis:/usr/local/cpanel/bin/noshell
+answers:x:33330:33333::/home/collegia/mail/collegiateadvisors.com/answers:/usr/local/cpanel/bin/noshell
+faxes:x:33330:33333::/home/collegia/mail/collegiateadvisors.com/faxes:/usr/local/cpanel/bin/noshell
+register:x:33330:33333::/home/collegia/mail/collegiateadvisors.com/register:/usr/local/cpanel/bin/noshell
+vmails:x:33330:33333::/home/collegia/mail/collegiateadvisors.com/vmails:/usr/local/cpanel/bin/noshell
+webmaster:x:33330:33333::/home/collegia/mail/collegiateadvisors.com/webmaster:/usr/local/cpanel/bin/noshell
+admissionsedit:x:33330:33333::/home/collegia/mail/collegiateadvisors.com/admissionsedit:/usr/local/cpanel/bin/noshell
+robert.tramo:x:33330:33333::/home/collegia/mail/collegiateadvisors.com/robert.tramo:/usr/local/cpanel/bin/noshell
+@
+
+
+1.61
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@d8 1
+@
+
+
+1.60
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@a0 1
+robert.tramo:x:33330:33333::/home/collegia/mail/collegiateadvisors.com/robert.tramo:/usr/local/cpanel/bin/noshell
+@
+
+
+1.59
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@a7 1
+2collegeavenue:x:33330:33333::/home/collegia/mail/collegiateadvisors.com/2collegeavenue:/usr/local/cpanel/bin/noshell
+@
+
+
+1.58
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@d9 1
+@
+
+
+1.57
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@a8 1
+admissionsedit:x:33330:33333::/home/collegia/mail/collegiateadvisors.com/admissionsedit:/usr/local/cpanel/bin/noshell
+@
+
+
+1.56
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@d9 1
+@
+
+
+1.55
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@a2 1
+admissionsedit:x:33330:33333::/home/collegia/mail/collegiateadvisors.com/admissionsedit:/usr/local/cpanel/bin/noshell
+@
+
+
+1.54
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@d9 1
+@
+
+
+1.53
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@a8 1
+2collegeavenue:x:33330:33333::/home/collegia/mail/collegiateadvisors.com/2collegeavenue:/usr/local/cpanel/bin/noshell
+@
+
+
+1.52
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@d9 1
+@
+
+
+1.51
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@a1 1
+2collegeavenue:x:33330:33333::/home/collegia/mail/collegiateadvisors.com/2collegeavenue:/usr/local/cpanel/bin/noshell
+@
+
+
+1.50
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@d9 1
+@
+
+
+1.49
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@a0 1
+webmaster:x:33330:33333::/home/collegia/mail/collegiateadvisors.com/webmaster:/usr/local/cpanel/bin/noshell
+@
+
+
+1.48
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@d9 1
+@
+
+
+1.47
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@a0 1
+vmails:x:33330:33333::/home/collegia/mail/collegiateadvisors.com/vmails:/usr/local/cpanel/bin/noshell
+@
+
+
+1.46
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@d9 1
+@
+
+
+1.45
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@a8 1
+register:x:33330:33333::/home/collegia/mail/collegiateadvisors.com/register:/usr/local/cpanel/bin/noshell
+@
+
+
+1.44
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@d9 1
+@
+
+
+1.43
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@a0 1
+register:x:33330:33333::/home/collegia/mail/collegiateadvisors.com/register:/usr/local/cpanel/bin/noshell
+@
+
+
+1.42
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@d9 1
+@
+
+
+1.41
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@a0 1
+faxes:x:33330:33333::/home/collegia/mail/collegiateadvisors.com/faxes:/usr/local/cpanel/bin/noshell
+@
+
+
+1.40
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@d9 1
+@
+
+
+1.39
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@a0 1
+answers:x:33330:33333::/home/collegia/mail/collegiateadvisors.com/answers:/usr/local/cpanel/bin/noshell
+@
+
+
+1.38
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@d9 1
+@
+
+
+1.37
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@a0 1
+admissionsedit:x:33330:33333::/home/collegia/mail/collegiateadvisors.com/admissionsedit:/usr/local/cpanel/bin/noshell
+@
+
+
+1.36
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@d9 1
+@
+
+
+1.35
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@a6 1
+keith.landis:x:33330:33333::/home/collegia/mail/collegiateadvisors.com/keith.landis:/usr/local/cpanel/bin/noshell
+@
+
+
+1.34
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@d9 1
+@

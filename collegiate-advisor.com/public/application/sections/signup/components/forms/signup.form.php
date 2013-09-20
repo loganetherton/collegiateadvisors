@@ -1,0 +1,281 @@
+<?php
+
+	class SignupForm extends Legato_Form
+	{
+
+		public function __construct( $advisor )
+		{
+
+			parent::__construct( 'signup_form', array( 'action' => SITE_URL . '/signup/' . $advisor->id . '/' ) );
+
+			//////////////////
+			// Student Information
+			$this->add( new Legato_Form_Fieldset( 'student_information' ) );
+
+			$this->add( new Legato_Form_Element_Text( 'first_name' ) );
+			$this->add( new Legato_Form_Element_Text( 'last_name' ) );
+
+			$this->add( new Legato_Form_Element_Text( 'email_address' ) )
+			     ->rule( 'email', true );
+
+			$this->add( new Legato_Form_Element_Text( 'retype_email_address' ) )
+			     ->rule( 'compare', 'email_address' );
+
+			$this->add( new Legato_Form_Element_Text( 'phone_number', 'Phone Number:' ) )
+			     ->rule( 'phone_number', true );
+
+			$months = array();
+			for ( $i = 1; $i <= 12; $i++ )
+				$months[sprintf( "%02d", $i )] = date( 'M - m', (mktime( 0, 0, 0, $i ) - 1) );
+
+			$days = array();
+			for ( $i = 1; $i <= 31; $i++ )
+				$days[$i] = $i;
+
+			$year = date( 'Y' ) - 30;
+			$years = array();
+			for ( $i = 0; $i < 21; $i++ )
+				$years[($year + $i)] = $year + $i;
+
+			$this->add( new Legato_Form_Group( 'birth_date' ) );
+
+			$this->birth_date->add( new Legato_Form_Element_Select( 'birth_date_month', false, $months ) );
+			$this->birth_date->add( new Legato_Form_Element_Select( 'birth_date_day', false, $days ) );
+			$this->birth_date->add( new Legato_Form_Element_Select( 'birth_date_year', false, $years ) );
+
+			$year = date( 'Y' );
+			$years = array( 'Please Choose', 'Already Graduated' );
+			for ( $i = 0; $i < 7; $i++ )
+				$years[($year + $i)] = $year + $i;
+
+			$this->add( new Legato_Form_Element_Select( 'graduation_year', 'Highschool Graduation Year:', $years ) );
+
+			$year = date( 'Y' );
+			$years = array( 'Please Choose' );
+			for ( $i = 0; $i < 7; $i++ )
+				$years[($year + $i)] = $year + $i;
+
+			$this->add( new Legato_Form_Element_Select( 'college_year', 'Anticipated First Year of College:', $years ) );
+
+
+			//////////////////
+			// Billing Information
+			$this->add( new Legato_Form_Fieldset( 'billing_information' ) );
+
+			$this->add( new Legato_Form_Group( 'amount', 'Please Choose Payment Type:', '<br />' ) );
+			
+			if($advisor->monthly_service_charge != 0.00 || $advisor->monthly_service_charge != 00.00 || $advisor->monthly_service_charge != 0)
+			{
+			$this->amount->add( new Legato_Form_Element_Radio( 'billing_type_monthly', '', false, $advisor->monthly_service_charge, 'Monthly ($' . $advisor->monthly_service_charge . ')' ) )
+			     ->default_value( true );
+			}			
+			if( $advisor->twostage_yearly_service_charge && $advisor->twostage_monthly_service_charge )
+			{
+			$this->amount->add( new Legato_Form_Element_Radio( 'billing_type_twostage', '', false, $advisor->twostage_yearly_service_charge . '|' . $advisor->twostage_monthly_service_charge, 'One Time ($' . $advisor->twostage_yearly_service_charge . ')<br /> plus $' . $advisor->twostage_monthly_service_charge . ' Monthly' ) );
+			}
+			if($advisor->monthly_service_charge != 0.00 || $advisor->monthly_service_charge != 00.00 || $advisor->monthly_service_charge != 0)
+			{
+			$this->amount->add( new Legato_Form_Element_Radio( 'billing_type_yearly', '', false, $advisor->yearly_service_charge, 'One Time ($' . $advisor->yearly_service_charge . ')' ) );
+			}
+			else
+			{
+			$this->amount->add( new Legato_Form_Element_Radio( 'billing_type_yearly', '', false, $advisor->yearly_service_charge, 'One Time ($' . $advisor->yearly_service_charge . ')' ) ) 
+				 ->default_value( true );
+			}
+
+			$card_type_options = array
+			(
+				'Visa' => 'Visa',
+				'MasterCard' => 'MasterCard',
+				'Discover' => 'Discover',
+				'Amex' => 'American Express',
+				'PayPal' => 'PayPal'
+			);
+
+			$this->add( new Legato_Form_Element_Select( 'card_type', 'Payment Method:', $card_type_options ) );
+
+			$this->add( new Legato_Form_Element_Text( 'billing_first_name' ) );
+			$this->add( new Legato_Form_Element_Text( 'billing_last_name' ) );
+
+			$this->add( new Legato_Form_Element_Text( 'card_number' ) )
+			     ->rule( 'credit_card', true );
+
+			$years = array();
+			for ( $i = 0; $i < 12; $i++ )
+				$years[($year + $i)] = $year + $i;
+
+			$this->add( new Legato_Form_Group( 'exp', 'Expiration Date:' ) );
+
+			$this->exp->add( new Legato_Form_Element_Select( 'expiration_month', false, $months ) );
+			$this->exp->add( new Legato_Form_Element_Select( 'expiration_year', false, $years ) );
+
+			$this->add( new Legato_Form_Element_Text( 'cvv', 'CVV Code:' ) )
+			     ->rule( array( 'numeric' => true, 'rangelength' => array( 3, 4 ) ) );
+
+			$this->add( new Legato_Form_Element_Text( 'address1', 'Billing Address:' ) );
+			$this->add( new Legato_Form_Element_Text( 'address2', ' ' ) )
+			     ->rule( 'required', false );
+
+			$this->add( new Legato_Form_Element_Text( 'city' ) );
+
+			$states = array
+			(
+				'AL', 'AK', 'AZ', 'AR',
+				'CA', 'CO', 'CT', 'DE',
+				'FL', 'GA', 'HI', 'ID',
+				'IL', 'IN', 'IA', 'KS',
+				'KY', 'LA', 'ME', 'MD',
+				'MA', 'MI', 'MN', 'MS',
+				'MO', 'MT', 'NE', 'NV',
+				'NH', 'NJ', 'NM', 'NY',
+				'NC', 'ND', 'OH', 'OK',
+				'OR', 'PA', 'RI', 'SC',
+				'SD', 'TN', 'TX', 'UT',
+				'VT', 'VA', 'WA', 'WV',
+				'WI', 'WY'
+			);
+			$states = array_combine( $states, $states );
+
+			$this->add( new Legato_Form_Element_Select( 'state', '', $states ) );
+
+			$this->add( new Legato_Form_Element_Text( 'zip_code' ) )
+			     ->rule( 'rangelength', array( 5, 10 ) );
+
+			//////////////////
+			// Login Information
+			$this->add( new Legato_Form_Fieldset( 'create_login_information' ) );
+
+			$this->add( new Legato_Form_Element_Text( 'username' ) );
+			$this->add( new Legato_Form_Element_Password( 'password' ) )
+			     ->rule( 'rangelength', array( 5, 15 ) )
+			     ->filter( 'html', false );
+
+			$this->add( new Legato_Form_Element_Password( 'retype_password' ) )
+			     ->rule( 'compare', 'password' );
+
+			////////////////////
+			// Agreement
+			$this->add( new Legato_Form_Fieldset( 'agreement' ) );
+
+			$this->add( new Legato_Form_Element_Checkbox( 'agree', 'I have read the contract and agree to the terms set forth:', 'agreement' ) );
+
+			$this->add( new Legato_Form_Element_Submit( 'sign_up', 'Sign Up' ) );
+
+
+			// If we already have data stored for this in the session, use it.
+			if ( $_SESSION['information'] )
+				$this->default_values( unserialize( $_SESSION['information'] ) );
+
+		}
+
+
+		public function validate()
+		{
+
+			// Get the errors.
+			if ( parent::validate() === null )
+				return null;
+
+			// If they chose PayPal, remove any errors associated with
+			// paying by credit card.
+			if ( $this->card_type->value == 'PayPal' )
+			{
+
+				$this->billing_first_name->errors = array();
+				$this->billing_last_name->errors = array();
+				$this->card_number->errors = array();
+				$this->expiration_month->errors = array();
+				$this->expiration_year->errors = array();
+				$this->cvv->errors = array();
+				$this->address1->errors = array();
+				$this->address2->errors = array();
+				$this->city->errors = array();
+				$this->state->errors = array();
+				$this->zip_code->errors = array();
+
+			}  // End if using PayPal.
+
+			// Any errors from the initial validation?
+			$errors = false;
+			foreach ( $this->elements as $element )
+			{
+				if ( $element->errors )
+				{
+					$errors = true;
+					break;
+				}
+			}
+
+			// If there were errors, return.
+			if ( $errors )
+				return false;
+
+			// Make sure they put in a graduation year.
+			if ( !$this->graduation_year->value )
+			{
+				$this->graduation_year->error( 'You must fill in a graduation year.' );
+				return false;
+			}
+
+			// Make sure they put in a college year.
+			if ( !$this->college_year->value )
+			{
+				$this->college_year->error( 'You must fill in your anticipated first year of college.' );
+				return false;
+			}
+
+			// Make sure the username is available.
+			if ( !User::username_available( $this->username->value ) )
+			{
+				$this->username->error( 'The username you\'ve entered is not available. Please try another one.' );
+				return false;
+			}
+
+			// Only do this part if they're paying by credit card.
+			// We must authorize the card they chose to use.
+			if ( $this->card_type->value != 'PayPal' )
+			{
+
+				// Get the data for authorization.
+				$data = $this->values();
+				$data['type'] = 'Authorization';
+				$data['amount'] = '1.00';  // Authorize a minimal amount.
+
+				// Set up the paypal object and make the call.
+				$paypal = new PayPal();
+
+				$request = $paypal->encode( $data );
+				$response = $paypal->call( 'DoDirectPayment', $request );
+
+				// We have to void the authorization.
+				$transaction_id = $response['TRANSACTIONID'];
+				if ( $transaction_id )
+				{
+					$void_request = $paypal->encode( array( 'authorization_id' => $transaction_id, 'note' => 'Authorization of your account.' ) );
+					$void_response = $paypal->call( 'DoVoid', $void_request );
+				}
+
+				// Get any errors that were thrown.
+				list( $error_flag, $error_field, $error_message ) = $paypal->errors( $response );
+
+				// Any errors?
+				if ( !$error_flag )
+				{
+
+					// Output the errors.
+					if ( $error_field == '' )
+						$error_field = 'card_type';
+
+					$this->{$error_field}->error( $error_message );
+					return false;
+
+				}
+
+			}  // End if not using PayPal.
+
+			// Success!
+			return true;
+
+		}
+
+	}

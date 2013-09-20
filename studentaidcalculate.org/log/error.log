@@ -1,0 +1,216 @@
+[Wed Sep 04 17:20:19 2013] [error] [client 174.129.251.135] Invalid URI in request GET <title>phpMyAdmin HTTP/1.1
+[Wed Sep 04 17:20:20 2013] [error] [client 174.129.251.135] File does not exist: /home/logan/public/studentaidcalculate.org/public/phpmyadmin
+[Wed Sep 04 17:20:20 2013] [error] [client 174.129.251.135] File does not exist: /home/logan/public/studentaidcalculate.org/public/phpMyAdmin
+[Wed Sep 04 17:20:20 2013] [error] [client 174.129.251.135] File does not exist: /home/logan/public/studentaidcalculate.org/public/PMA
+[Wed Sep 04 17:20:20 2013] [error] [client 174.129.251.135] File does not exist: /home/logan/public/studentaidcalculate.org/public/pma
+[Wed Sep 04 17:20:20 2013] [error] [client 174.129.251.135] File does not exist: /home/logan/public/studentaidcalculate.org/public/admin
+[Wed Sep 04 17:20:20 2013] [error] [client 174.129.251.135] File does not exist: /home/logan/public/studentaidcalculate.org/public/dbadmin
+[Wed Sep 04 17:20:20 2013] [error] [client 174.129.251.135] File does not exist: /home/logan/public/studentaidcalculate.org/public/sql
+[Wed Sep 04 17:20:21 2013] [error] [client 174.129.251.135] File does not exist: /home/logan/public/studentaidcalculate.org/public/mysql
+[Wed Sep 04 17:20:21 2013] [error] [client 174.129.251.135] File does not exist: /home/logan/public/studentaidcalculate.org/public/myadmin
+[Wed Sep 04 17:20:22 2013] [error] [client 174.129.251.135] File does not exist: /home/logan/public/studentaidcalculate.org/public/phpmyadmin2
+[Wed Sep 04 17:20:22 2013] [error] [client 174.129.251.135] File does not exist: /home/logan/public/studentaidcalculate.org/public/phpMyAdmin2
+[Wed Sep 04 17:20:22 2013] [error] [client 174.129.251.135] File does not exist: /home/logan/public/studentaidcalculate.org/public/phpMyAdmin-2
+[Wed Sep 04 17:20:22 2013] [error] [client 174.129.251.135] File does not exist: /home/logan/public/studentaidcalculate.org/public/php-my-admin
+[Wed Sep 04 17:20:22 2013] [error] [client 174.129.251.135] File does not exist: /home/logan/public/studentaidcalculate.org/public/sqlmanager
+[Wed Sep 04 17:20:22 2013] [error] [client 174.129.251.135] File does not exist: /home/logan/public/studentaidcalculate.org/public/mysqlmanager
+[Wed Sep 04 17:20:22 2013] [error] [client 174.129.251.135] File does not exist: /home/logan/public/studentaidcalculate.org/public/p
+[Wed Sep 04 17:20:22 2013] [error] [client 174.129.251.135] File does not exist: /home/logan/public/studentaidcalculate.org/public/php-myadmin
+[Wed Sep 04 17:20:23 2013] [error] [client 174.129.251.135] File does not exist: /home/logan/public/studentaidcalculate.org/public/phpmy-admin
+[Wed Sep 04 17:20:23 2013] [error] [client 174.129.251.135] File does not exist: /home/logan/public/studentaidcalculate.org/public/webadmin
+[Wed Sep 04 17:20:23 2013] [error] [client 174.129.251.135] File does not exist: /home/logan/public/studentaidcalculate.org/public/sqlweb
+[Wed Sep 04 17:20:23 2013] [error] [client 174.129.251.135] File does not exist: /home/logan/public/studentaidcalculate.org/public/websql
+[Wed Sep 04 17:20:23 2013] [error] [client 174.129.251.135] File does not exist: /home/logan/public/studentaidcalculate.org/public/webdb
+[Wed Sep 04 17:20:23 2013] [error] [client 174.129.251.135] File does not exist: /home/logan/public/studentaidcalculate.org/public/mysqladmin
+[Wed Sep 04 17:20:23 2013] [error] [client 174.129.251.135] File does not exist: /home/logan/public/studentaidcalculate.org/public/mysql-admin
+[Thu Sep 05 13:26:13 2013] [error] [client 66.249.73.145] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Thu Sep 05 13:26:13 2013] [error] [client 66.249.73.137] File does not exist: /home/logan/public/studentaidcalculate.org/public/favicon.ico
+[Thu Sep 05 13:36:33 2013] [error] [client 199.21.99.73] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Thu Sep 05 13:36:33 2013] [error] [client 199.21.99.73] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Thu Sep 05 14:39:59 2013] [error] [client 88.190.52.184] script '/home/logan/public/studentaidcalculate.org/public/wp-login.php' not found or unable to stat
+[Thu Sep 05 14:40:00 2013] [error] [client 88.190.52.184] File does not exist: /home/logan/public/studentaidcalculate.org/public/blog
+[Thu Sep 05 14:40:00 2013] [error] [client 88.190.52.184] File does not exist: /home/logan/public/studentaidcalculate.org/public/wordpress
+[Thu Sep 05 14:40:00 2013] [error] [client 88.190.52.184] File does not exist: /home/logan/public/studentaidcalculate.org/public/wp
+[Thu Sep 05 22:47:58 2013] [error] [client 89.46.161.210] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.Win32:)
+[Fri Sep 06 10:36:24 2013] [error] [client 96.11.219.43] File does not exist: /home/logan/public/studentaidcalculate.org/public/favicon.ico
+[Fri Sep 06 11:11:32 2013] [error] [client 66.249.75.160] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Fri Sep 06 16:38:25 2013] [error] [client 216.115.68.220] File does not exist: /home/logan/public/studentaidcalculate.org/public/favicon.ico, referer: http://www.studentaidcalculate.org/
+[Fri Sep 06 23:14:35 2013] [error] [client 66.249.75.120] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Sat Sep 07 10:08:18 2013] [error] [client 199.21.99.73] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Sat Sep 07 16:04:16 2013] [error] [client 199.21.99.73] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Sun Sep 08 13:06:27 2013] [error] [client 66.249.75.76] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Sun Sep 08 18:02:06 2013] [error] [client 66.249.75.76] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Mon Sep 09 07:24:08 2013] [error] [client 65.49.23.115] File does not exist: /home/logan/public/studentaidcalculate.org/public/wp-includes
+[Mon Sep 09 10:47:13 2013] [error] [client 107.27.35.243] File does not exist: /home/logan/public/studentaidcalculate.org/public/favicon.ico
+[Mon Sep 09 11:11:34 2013] [error] [client 66.249.74.103] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Mon Sep 09 11:46:28 2013] [error] [client 74.215.127.23] File does not exist: /home/logan/public/studentaidcalculate.org/public/favicon.ico
+[Mon Sep 09 11:47:53 2013] [error] [client 74.215.127.23] File does not exist: /home/logan/public/studentaidcalculate.org/public/favicon.ico
+[Mon Sep 09 12:34:16 2013] [error] [client 74.215.127.23] File does not exist: /home/logan/public/studentaidcalculate.org/public/favicon.ico
+[Mon Sep 09 12:35:00 2013] [error] [client 74.215.127.23] File does not exist: /home/logan/public/studentaidcalculate.org/public/favicon.ico
+[Mon Sep 09 12:36:25 2013] [error] [client 74.215.127.23] File does not exist: /home/logan/public/studentaidcalculate.org/public/favicon.ico
+[Mon Sep 09 13:37:25 2013] [error] [client 24.238.60.106] File does not exist: /home/logan/public/studentaidcalculate.org/public/favicon.ico
+[Mon Sep 09 18:51:38 2013] [error] [client 157.56.93.93] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Mon Sep 09 20:47:42 2013] [error] [client 69.58.178.58] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Mon Sep 09 23:14:35 2013] [error] [client 66.249.74.103] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Tue Sep 10 02:53:09 2013] [error] [client 66.249.74.160] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Tue Sep 10 06:27:16 2013] [error] [client 178.124.111.101] File does not exist: /home/logan/public/studentaidcalculate.org/public/wordpress, referer: http://studentaidcalculate.org/wordpress
+[Tue Sep 10 06:27:19 2013] [error] [client 178.124.111.101] File does not exist: /home/logan/public/studentaidcalculate.org/public/wp, referer: http://studentaidcalculate.org/wp
+[Tue Sep 10 06:27:24 2013] [error] [client 178.124.111.101] File does not exist: /home/logan/public/studentaidcalculate.org/public/joomla, referer: http://studentaidcalculate.org/joomla
+[Tue Sep 10 06:27:25 2013] [error] [client 178.124.111.101] File does not exist: /home/logan/public/studentaidcalculate.org/public/drupal, referer: http://studentaidcalculate.org/drupal
+[Tue Sep 10 06:27:28 2013] [error] [client 178.124.111.101] File does not exist: /home/logan/public/studentaidcalculate.org/public/blog, referer: http://studentaidcalculate.org/blog
+[Tue Sep 10 09:25:37 2013] [error] [client 96.11.219.43] File does not exist: /home/logan/public/studentaidcalculate.org/public/phpmyadmin
+[Tue Sep 10 09:27:17 2013] [error] [client 96.11.219.43] File does not exist: /home/logan/public/studentaidcalculate.org/public/phpmyadmin
+[Tue Sep 10 12:05:26 2013] [error] [client 199.21.99.73] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Tue Sep 10 12:05:27 2013] [error] [client 199.21.99.73] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Wed Sep 11 10:37:27 2013] [error] [client 66.249.66.76] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Thu Sep 12 02:20:00 2013] [error] [client 180.76.5.85] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Thu Sep 12 11:11:36 2013] [error] [client 66.249.73.141] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Thu Sep 12 12:38:25 2013] [error] [client 199.21.99.73] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Thu Sep 12 12:38:30 2013] [error] [client 199.21.99.73] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Thu Sep 12 14:38:32 2013] [error] [client 71.60.14.82] File does not exist: /home/logan/public/studentaidcalculate.org/public/favicon.ico
+[Thu Sep 12 18:17:39 2013] [error] [client 66.249.73.62] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Thu Sep 12 22:03:29 2013] [error] [client 64.246.161.42] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Thu Sep 12 23:14:35 2013] [error] [client 66.249.73.141] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Sat Sep 14 22:29:13 2013] [error] [client 157.56.93.71] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Sun Sep 15 11:11:36 2013] [error] [client 66.249.75.115] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Sun Sep 15 20:36:27 2013] [error] [client 71.60.14.82] File does not exist: /home/logan/public/studentaidcalculate.org/public/favicon.ico
+[Sun Sep 15 20:38:37 2013] [error] [client 71.60.14.82] PHP Warning:  include(../application/settings/config.conf.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 3
+[Sun Sep 15 20:38:37 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening '../application/settings/config.conf.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 3
+[Sun Sep 15 20:38:37 2013] [error] [client 71.60.14.82] PHP Notice:  Use of undefined constant LEGATO - assumed 'LEGATO' in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Sun Sep 15 20:38:37 2013] [error] [client 71.60.14.82] PHP Warning:  include(LEGATO/autoloader/autoloader.fns.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Sun Sep 15 20:38:37 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening 'LEGATO/autoloader/autoloader.fns.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Sun Sep 15 20:38:37 2013] [error] [client 71.60.14.82] PHP Fatal error:  Class 'Legato_Stage' not found in /home/logan/public/studentaidcalculate.org/public/index.php on line 7
+[Sun Sep 15 20:38:38 2013] [error] [client 71.60.14.82] PHP Warning:  include(../application/settings/config.conf.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 3
+[Sun Sep 15 20:38:38 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening '../application/settings/config.conf.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 3
+[Sun Sep 15 20:38:38 2013] [error] [client 71.60.14.82] PHP Notice:  Use of undefined constant LEGATO - assumed 'LEGATO' in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Sun Sep 15 20:38:38 2013] [error] [client 71.60.14.82] PHP Warning:  include(LEGATO/autoloader/autoloader.fns.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Sun Sep 15 20:38:38 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening 'LEGATO/autoloader/autoloader.fns.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Sun Sep 15 20:38:38 2013] [error] [client 71.60.14.82] PHP Fatal error:  Class 'Legato_Stage' not found in /home/logan/public/studentaidcalculate.org/public/index.php on line 7
+[Sun Sep 15 20:40:10 2013] [error] [client 71.60.14.82] File does not exist: /home/logan/public/studentaidcalculate.org/public/usage.png, referer: http://studentaidcalculate.org/
+[Sun Sep 15 20:48:19 2013] [error] [client 71.60.14.82] PHP Warning:  include(../application/settings/config.conf.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 3
+[Sun Sep 15 20:48:19 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening '../application/settings/config.conf.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 3
+[Sun Sep 15 20:48:19 2013] [error] [client 71.60.14.82] PHP Notice:  Use of undefined constant LEGATO - assumed 'LEGATO' in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Sun Sep 15 20:48:19 2013] [error] [client 71.60.14.82] PHP Warning:  include(LEGATO/autoloader/autoloader.fns.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Sun Sep 15 20:48:19 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening 'LEGATO/autoloader/autoloader.fns.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Sun Sep 15 20:48:19 2013] [error] [client 71.60.14.82] PHP Fatal error:  Class 'Legato_Stage' not found in /home/logan/public/studentaidcalculate.org/public/index.php on line 7
+[Sun Sep 15 20:48:20 2013] [error] [client 71.60.14.82] PHP Warning:  include(../application/settings/config.conf.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 3
+[Sun Sep 15 20:48:20 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening '../application/settings/config.conf.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 3
+[Sun Sep 15 20:48:20 2013] [error] [client 71.60.14.82] PHP Notice:  Use of undefined constant LEGATO - assumed 'LEGATO' in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Sun Sep 15 20:48:20 2013] [error] [client 71.60.14.82] PHP Warning:  include(LEGATO/autoloader/autoloader.fns.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Sun Sep 15 20:48:20 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening 'LEGATO/autoloader/autoloader.fns.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Sun Sep 15 20:48:20 2013] [error] [client 71.60.14.82] PHP Fatal error:  Class 'Legato_Stage' not found in /home/logan/public/studentaidcalculate.org/public/index.php on line 7
+[Sun Sep 15 20:51:45 2013] [error] [client 71.60.14.82] PHP Warning:  include(../application/settings/config.conf.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 3
+[Sun Sep 15 20:51:45 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening '../application/settings/config.conf.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 3
+[Sun Sep 15 20:51:45 2013] [error] [client 71.60.14.82] PHP Notice:  Use of undefined constant LEGATO - assumed 'LEGATO' in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Sun Sep 15 20:51:45 2013] [error] [client 71.60.14.82] PHP Warning:  include(LEGATO/autoloader/autoloader.fns.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Sun Sep 15 20:51:45 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening 'LEGATO/autoloader/autoloader.fns.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Sun Sep 15 20:51:45 2013] [error] [client 71.60.14.82] PHP Fatal error:  Class 'Legato_Stage' not found in /home/logan/public/studentaidcalculate.org/public/index.php on line 7
+[Sun Sep 15 20:51:47 2013] [error] [client 71.60.14.82] PHP Warning:  include(../application/settings/config.conf.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 3
+[Sun Sep 15 20:51:47 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening '../application/settings/config.conf.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 3
+[Sun Sep 15 20:51:47 2013] [error] [client 71.60.14.82] PHP Notice:  Use of undefined constant LEGATO - assumed 'LEGATO' in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Sun Sep 15 20:51:47 2013] [error] [client 71.60.14.82] PHP Warning:  include(LEGATO/autoloader/autoloader.fns.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Sun Sep 15 20:51:47 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening 'LEGATO/autoloader/autoloader.fns.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Sun Sep 15 20:51:47 2013] [error] [client 71.60.14.82] PHP Fatal error:  Class 'Legato_Stage' not found in /home/logan/public/studentaidcalculate.org/public/index.php on line 7
+[Sun Sep 15 20:53:31 2013] [error] [client 71.60.14.82] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/logan/public/studentaidcalculate.org/public/index.php on line 1
+[Sun Sep 15 20:54:36 2013] [error] [client 71.60.14.82] PHP Warning:  include(../application/settings/config.conf.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 3
+[Sun Sep 15 20:54:36 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening '../application/settings/config.conf.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 3
+[Sun Sep 15 20:54:36 2013] [error] [client 71.60.14.82] PHP Notice:  Use of undefined constant LEGATO - assumed 'LEGATO' in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Sun Sep 15 20:54:36 2013] [error] [client 71.60.14.82] PHP Warning:  include(LEGATO/autoloader/autoloader.fns.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Sun Sep 15 20:54:36 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening 'LEGATO/autoloader/autoloader.fns.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Sun Sep 15 20:54:36 2013] [error] [client 71.60.14.82] PHP Fatal error:  Class 'Legato_Stage' not found in /home/logan/public/studentaidcalculate.org/public/index.php on line 7
+[Sun Sep 15 20:56:43 2013] [error] [client 71.60.14.82] PHP Warning:  include(../application/settings/config.conf.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 8
+[Sun Sep 15 20:56:43 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening '../application/settings/config.conf.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 8
+[Sun Sep 15 20:56:43 2013] [error] [client 71.60.14.82] PHP Notice:  Use of undefined constant LEGATO - assumed 'LEGATO' in /home/logan/public/studentaidcalculate.org/public/index.php on line 9
+[Sun Sep 15 20:56:43 2013] [error] [client 71.60.14.82] PHP Warning:  include(LEGATO/autoloader/autoloader.fns.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 9
+[Sun Sep 15 20:56:43 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening 'LEGATO/autoloader/autoloader.fns.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 9
+[Sun Sep 15 20:56:43 2013] [error] [client 71.60.14.82] PHP Fatal error:  Class 'Legato_Stage' not found in /home/logan/public/studentaidcalculate.org/public/index.php on line 12
+[Sun Sep 15 20:57:14 2013] [error] [client 71.60.14.82] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/logan/public/studentaidcalculate.org/public/index.php on line 6
+[Sun Sep 15 20:57:37 2013] [error] [client 71.60.14.82] PHP Parse error:  syntax error, unexpected '<' in /home/logan/public/studentaidcalculate.org/public/index.php on line 14
+[Sun Sep 15 20:57:46 2013] [error] [client 71.60.14.82] PHP Parse error:  syntax error, unexpected '<' in /home/logan/public/studentaidcalculate.org/public/index.php on line 14
+[Sun Sep 15 20:57:48 2013] [error] [client 71.60.14.82] PHP Parse error:  syntax error, unexpected '<' in /home/logan/public/studentaidcalculate.org/public/index.php on line 14
+[Sun Sep 15 20:57:53 2013] [error] [client 71.60.14.82] PHP Warning:  include(../application/settings/config.conf.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 8
+[Sun Sep 15 20:57:53 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening '../application/settings/config.conf.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 8
+[Sun Sep 15 20:57:53 2013] [error] [client 71.60.14.82] PHP Notice:  Use of undefined constant LEGATO - assumed 'LEGATO' in /home/logan/public/studentaidcalculate.org/public/index.php on line 9
+[Sun Sep 15 20:57:53 2013] [error] [client 71.60.14.82] PHP Warning:  include(LEGATO/autoloader/autoloader.fns.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 9
+[Sun Sep 15 20:57:53 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening 'LEGATO/autoloader/autoloader.fns.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 9
+[Sun Sep 15 20:57:53 2013] [error] [client 71.60.14.82] PHP Fatal error:  Class 'Legato_Stage' not found in /home/logan/public/studentaidcalculate.org/public/index.php on line 12
+[Sun Sep 15 20:58:17 2013] [error] [client 71.60.14.82] PHP Warning:  include(../application/settings/config.conf.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 9
+[Sun Sep 15 20:58:17 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening '../application/settings/config.conf.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 9
+[Sun Sep 15 20:58:17 2013] [error] [client 71.60.14.82] PHP Notice:  Use of undefined constant LEGATO - assumed 'LEGATO' in /home/logan/public/studentaidcalculate.org/public/index.php on line 10
+[Sun Sep 15 20:58:17 2013] [error] [client 71.60.14.82] PHP Warning:  include(LEGATO/autoloader/autoloader.fns.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 10
+[Sun Sep 15 20:58:17 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening 'LEGATO/autoloader/autoloader.fns.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 10
+[Sun Sep 15 20:58:17 2013] [error] [client 71.60.14.82] PHP Fatal error:  Class 'Legato_Stage' not found in /home/logan/public/studentaidcalculate.org/public/index.php on line 13
+[Sun Sep 15 20:58:43 2013] [error] [client 71.60.14.82] PHP Warning:  include(../application/settings/config.conf.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 6
+[Sun Sep 15 20:58:43 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening '../application/settings/config.conf.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 6
+[Sun Sep 15 20:58:43 2013] [error] [client 71.60.14.82] PHP Notice:  Use of undefined constant LEGATO - assumed 'LEGATO' in /home/logan/public/studentaidcalculate.org/public/index.php on line 7
+[Sun Sep 15 20:58:43 2013] [error] [client 71.60.14.82] PHP Warning:  include(LEGATO/autoloader/autoloader.fns.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 7
+[Sun Sep 15 20:58:43 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening 'LEGATO/autoloader/autoloader.fns.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 7
+[Sun Sep 15 20:58:43 2013] [error] [client 71.60.14.82] PHP Fatal error:  Class 'Legato_Stage' not found in /home/logan/public/studentaidcalculate.org/public/index.php on line 10
+[Sun Sep 15 20:58:44 2013] [error] [client 71.60.14.82] PHP Warning:  include(../application/settings/config.conf.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 6
+[Sun Sep 15 20:58:44 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening '../application/settings/config.conf.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 6
+[Sun Sep 15 20:58:44 2013] [error] [client 71.60.14.82] PHP Notice:  Use of undefined constant LEGATO - assumed 'LEGATO' in /home/logan/public/studentaidcalculate.org/public/index.php on line 7
+[Sun Sep 15 20:58:44 2013] [error] [client 71.60.14.82] PHP Warning:  include(LEGATO/autoloader/autoloader.fns.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 7
+[Sun Sep 15 20:58:44 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening 'LEGATO/autoloader/autoloader.fns.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 7
+[Sun Sep 15 20:58:44 2013] [error] [client 71.60.14.82] PHP Fatal error:  Class 'Legato_Stage' not found in /home/logan/public/studentaidcalculate.org/public/index.php on line 10
+[Sun Sep 15 21:02:47 2013] [error] [client 71.60.14.82] PHP Warning:  include(../application/settings/config.conf.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 6
+[Sun Sep 15 21:02:47 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening '../application/settings/config.conf.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 6
+[Sun Sep 15 21:02:47 2013] [error] [client 71.60.14.82] PHP Notice:  Use of undefined constant LEGATO - assumed 'LEGATO' in /home/logan/public/studentaidcalculate.org/public/index.php on line 7
+[Sun Sep 15 21:02:47 2013] [error] [client 71.60.14.82] PHP Warning:  include(LEGATO/autoloader/autoloader.fns.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 7
+[Sun Sep 15 21:02:47 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening 'LEGATO/autoloader/autoloader.fns.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 7
+[Sun Sep 15 21:02:47 2013] [error] [client 71.60.14.82] PHP Fatal error:  Class 'Legato_Stage' not found in /home/logan/public/studentaidcalculate.org/public/index.php on line 10
+[Sun Sep 15 21:02:59 2013] [error] [client 71.60.14.82] PHP Warning:  include(../application/settings/config.conf.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 6
+[Sun Sep 15 21:02:59 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening '../application/settings/config.conf.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 6
+[Sun Sep 15 21:02:59 2013] [error] [client 71.60.14.82] PHP Notice:  Use of undefined constant LEGATO - assumed 'LEGATO' in /home/logan/public/studentaidcalculate.org/public/index.php on line 7
+[Sun Sep 15 21:02:59 2013] [error] [client 71.60.14.82] PHP Warning:  include(LEGATO/autoloader/autoloader.fns.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 7
+[Sun Sep 15 21:02:59 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening 'LEGATO/autoloader/autoloader.fns.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 7
+[Sun Sep 15 21:02:59 2013] [error] [client 71.60.14.82] PHP Fatal error:  Class 'Legato_Stage' not found in /home/logan/public/studentaidcalculate.org/public/index.php on line 10
+[Sun Sep 15 23:14:35 2013] [error] [client 66.249.75.115] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Mon Sep 16 04:39:24 2013] [error] [client 198.27.66.83] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Mon Sep 16 04:39:24 2013] [error] [client 198.27.66.83] PHP Warning:  include(../application/settings/config.conf.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 6
+[Mon Sep 16 04:39:24 2013] [error] [client 198.27.66.83] PHP Warning:  include(): Failed opening '../application/settings/config.conf.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 6
+[Mon Sep 16 04:39:24 2013] [error] [client 198.27.66.83] PHP Notice:  Use of undefined constant LEGATO - assumed 'LEGATO' in /home/logan/public/studentaidcalculate.org/public/index.php on line 7
+[Mon Sep 16 04:39:24 2013] [error] [client 198.27.66.83] PHP Warning:  include(LEGATO/autoloader/autoloader.fns.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 7
+[Mon Sep 16 04:39:24 2013] [error] [client 198.27.66.83] PHP Warning:  include(): Failed opening 'LEGATO/autoloader/autoloader.fns.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 7
+[Mon Sep 16 04:39:24 2013] [error] [client 198.27.66.83] PHP Fatal error:  Class 'Legato_Stage' not found in /home/logan/public/studentaidcalculate.org/public/index.php on line 10
+[Mon Sep 16 04:39:24 2013] [error] [client 198.27.66.83] File does not exist: /home/logan/public/studentaidcalculate.org/public/favicon.ico
+[Mon Sep 16 04:39:24 2013] [error] [client 198.27.66.83] File does not exist: /home/logan/public/studentaidcalculate.org/public/apple-touch-icon.png
+[Mon Sep 16 06:22:04 2013] [error] [client 71.60.14.82] PHP Warning:  include(../application/settings/config.conf.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 6
+[Mon Sep 16 06:22:04 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening '../application/settings/config.conf.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 6
+[Mon Sep 16 06:22:04 2013] [error] [client 71.60.14.82] PHP Notice:  Use of undefined constant LEGATO - assumed 'LEGATO' in /home/logan/public/studentaidcalculate.org/public/index.php on line 7
+[Mon Sep 16 06:22:04 2013] [error] [client 71.60.14.82] PHP Warning:  include(LEGATO/autoloader/autoloader.fns.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 7
+[Mon Sep 16 06:22:04 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening 'LEGATO/autoloader/autoloader.fns.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 7
+[Mon Sep 16 06:22:04 2013] [error] [client 71.60.14.82] PHP Fatal error:  Class 'Legato_Stage' not found in /home/logan/public/studentaidcalculate.org/public/index.php on line 10
+[Mon Sep 16 06:22:04 2013] [error] [client 71.60.14.82] File does not exist: /home/logan/public/studentaidcalculate.org/public/favicon.ico
+[Mon Sep 16 08:43:56 2013] [error] [client 71.60.14.82] PHP Warning:  include(../application/settings/config.conf.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 3
+[Mon Sep 16 08:43:56 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening '../application/settings/config.conf.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 3
+[Mon Sep 16 08:43:56 2013] [error] [client 71.60.14.82] PHP Notice:  Use of undefined constant LEGATO - assumed 'LEGATO' in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Mon Sep 16 08:43:56 2013] [error] [client 71.60.14.82] PHP Warning:  include(LEGATO/autoloader/autoloader.fns.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Mon Sep 16 08:43:56 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening 'LEGATO/autoloader/autoloader.fns.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Mon Sep 16 08:43:56 2013] [error] [client 71.60.14.82] PHP Fatal error:  Class 'Legato_Stage' not found in /home/logan/public/studentaidcalculate.org/public/index.php on line 7
+[Mon Sep 16 08:46:57 2013] [error] [client 71.60.14.82] PHP Warning:  include(../application/settings/config.conf.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 3
+[Mon Sep 16 08:46:57 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening '../application/settings/config.conf.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 3
+[Mon Sep 16 08:46:57 2013] [error] [client 71.60.14.82] PHP Notice:  Use of undefined constant LEGATO - assumed 'LEGATO' in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Mon Sep 16 08:46:57 2013] [error] [client 71.60.14.82] PHP Warning:  include(LEGATO/autoloader/autoloader.fns.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Mon Sep 16 08:46:57 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening 'LEGATO/autoloader/autoloader.fns.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Mon Sep 16 08:46:57 2013] [error] [client 71.60.14.82] PHP Fatal error:  Class 'Legato_Stage' not found in /home/logan/public/studentaidcalculate.org/public/index.php on line 7
+[Mon Sep 16 08:47:10 2013] [error] [client 71.60.14.82] PHP Warning:  include(../application/settings/config.conf.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 3
+[Mon Sep 16 08:47:10 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening '../application/settings/config.conf.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 3
+[Mon Sep 16 08:47:10 2013] [error] [client 71.60.14.82] PHP Notice:  Use of undefined constant LEGATO - assumed 'LEGATO' in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Mon Sep 16 08:47:10 2013] [error] [client 71.60.14.82] PHP Warning:  include(LEGATO/autoloader/autoloader.fns.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Mon Sep 16 08:47:10 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening 'LEGATO/autoloader/autoloader.fns.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Mon Sep 16 08:47:10 2013] [error] [client 71.60.14.82] PHP Fatal error:  Class 'Legato_Stage' not found in /home/logan/public/studentaidcalculate.org/public/index.php on line 7
+[Mon Sep 16 09:00:24 2013] [error] [client 71.60.14.82] PHP Warning:  include(../application/settings/config.conf.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 3
+[Mon Sep 16 09:00:24 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening '../application/settings/config.conf.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 3
+[Mon Sep 16 09:00:24 2013] [error] [client 71.60.14.82] PHP Notice:  Use of undefined constant LEGATO - assumed 'LEGATO' in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Mon Sep 16 09:00:24 2013] [error] [client 71.60.14.82] PHP Warning:  include(LEGATO/autoloader/autoloader.fns.php): failed to open stream: No such file or directory in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Mon Sep 16 09:00:24 2013] [error] [client 71.60.14.82] PHP Warning:  include(): Failed opening 'LEGATO/autoloader/autoloader.fns.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/logan/public/studentaidcalculate.org/public/index.php on line 4
+[Mon Sep 16 09:00:24 2013] [error] [client 71.60.14.82] PHP Fatal error:  Class 'Legato_Stage' not found in /home/logan/public/studentaidcalculate.org/public/index.php on line 7
+[Mon Sep 16 15:33:40 2013] [error] [client 199.21.99.73] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Mon Sep 16 15:33:47 2013] [error] [client 199.21.99.73] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Mon Sep 16 15:38:05 2013] [error] [client 96.11.219.43] File does not exist: /home/logan/public/studentaidcalculate.org/public/favicon.ico
+[Mon Sep 16 15:38:05 2013] [error] [client 96.11.219.43] File does not exist: /home/logan/public/studentaidcalculate.org/public/favicon.ico
+[Mon Sep 16 15:38:10 2013] [error] [client 96.11.219.43] File does not exist: /home/logan/public/studentaidcalculate.org/public/public
+[Mon Sep 16 16:23:19 2013] [error] [client 96.11.219.43] File does not exist: /home/logan/public/studentaidcalculate.org/public/favicon.ico
+[Wed Sep 18 17:02:39 2013] [error] [client 66.249.75.76] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Thu Sep 19 06:24:51 2013] [error] [client 157.56.92.159] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt
+[Thu Sep 19 06:55:00 2013] [error] [client 199.21.99.73] File does not exist: /home/logan/public/studentaidcalculate.org/public/robots.txt

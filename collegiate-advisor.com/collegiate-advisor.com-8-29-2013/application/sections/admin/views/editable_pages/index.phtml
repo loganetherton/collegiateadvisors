@@ -1,0 +1,82 @@
+<?php if ( $action != '' ): ?>
+
+	<script type="text/javascript">
+	
+		<?php if ( $action == 'added' ): ?>
+		
+			Legato_Events_Handler.addEvent( window, "onload", function(){ show_alert( "Successfully Added Editable Page" ); } );
+			
+		<?php elseif ( $action == 'edited' ): ?>
+		
+			Legato_Events_Handler.addEvent( window, "onload", function(){ show_alert( "Successfully Edited Editable Page" ); } );
+			
+		<?php elseif ( $action == 'deleted' ): ?>
+		
+			Legato_Events_Handler.addEvent( window, "onload", function(){ show_alert( "Successfully Deleted Editable Page" ); } );
+			
+		<?php endif; ?>	
+	
+	</script>
+	
+<?php endif; ?>
+
+<div id="<?php echo $page; ?>">
+
+	<h1>Manage Editable Pages <?php echo '(' . count( $editable_pages ) . ')'; ?></h1>
+
+	<ul class="commands">
+	  
+		<li><a href="<?php echo SITE_URL . '/admin/editable_pages/add'; ?>">Add Editable Page</a></li>
+		
+	</ul>
+
+	<table cellspacing="0">
+
+		<tr>
+			<th>ID</th>
+			<th>Advisor</th>
+			<th>Filename</th>
+			<th>Title</th>
+			<th>Commands</th>
+		</tr>
+		
+		<?php
+			
+			// Loop through each editable_page.
+			$i = 0;
+			foreach ( $editable_pages as $editable_page_id => $editable_page )
+			{
+					
+				// Which row type?
+				echo '<tr class="row' . ($i + 1) . '" id="editable_page'. $editable_page_id .'">';
+					
+				?>
+				
+				<td><?php echo $editable_page->get( 'id' ); ?></td>
+				<td><a href="<?php echo SITE_URL; ?>/admin/advisors/view/<?php echo $editable_page->get( 'advisor_id' ); ?>"><?php echo $editable_page->get( 'advisor' )->get( 'first_name' ) . ' ' . $editable_page->get( 'advisor' )->get( 'last_name' ); ?></a></td>
+				<td><?php echo $editable_page->get( 'filename' ); ?></td>
+				<td><?php echo $editable_page->get( 'title' ); ?></td>
+				<td style="white-space:nowrap">
+				
+					<a href="<?php echo SITE_URL . '/admin/editable_pages/view/' . $editable_page_id; ?>">View</a> |
+					<a href="<?php echo SITE_URL . '/admin/editable_pages/edit/' . $editable_page_id; ?>">Edit</a> |
+					<a href="" onclick="delete_resource( 'editable_page', '<?php echo $editable_page_id; ?>', '<?php echo SITE_URL . '/admin/editable_pages/deleted'; ?>' ); return false;">Delete</a>
+				
+				</td>
+					
+				<?php
+				
+				echo '</tr>';
+				
+				$i++;
+				
+				// Wrap.
+				if ( $i == 2 )
+					$i = 0;
+			
+			}
+		?>
+		
+	</table>
+	
+</div>

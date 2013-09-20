@@ -1,0 +1,114 @@
+<?php if ( $action != '' ): ?>
+
+	<script type="text/javascript">
+	
+		<?php if ( $action == 'added' ): ?>
+		
+			Legato_Events_Handler.addEvent( window, "onload", function(){ show_alert( "Successfully Added Workshop" ); } );
+			
+		<?php elseif ( $action == 'edited' ): ?>
+		
+			Legato_Events_Handler.addEvent( window, "onload", function(){ show_alert( "Successfully Edited Workshop" ); } );
+			
+		<?php elseif ( $action == 'deleted' ): ?>
+		
+			Legato_Events_Handler.addEvent( window, "onload", function(){ show_alert( "Successfully Deleted Workshop" ); } );
+		
+		<?php endif; ?>	
+	
+	</script>
+	
+<?php endif; ?>
+
+<h1>Manage Workshops <?php echo '(' . count( $workshops ) . ')'; ?></h1>
+
+<?php if ( $level > 1 ) : ?>
+
+	<div id="admin_advisor_select">
+	
+		<h3>Select Advisor:</h3>
+	  	
+  		<select name="advisor_id" id="advisor_id" onchange="location = '<?php echo SITE_URL . '/admin/workshops/'; ?>' + document.getElementById( 'advisor_id' ).value;">
+  		
+			<?php
+			
+				foreach( $advisors as $advisor )
+				{
+					echo '<option';
+		
+					if ( $advisor->get('id') == $advisor_id )
+						echo ' selected="selected"';
+		
+					echo ' value="'. $advisor->get('id') .'">';
+					echo $advisor->get( 'business_name' );
+					echo '</option>';
+				}
+				
+			?>
+		
+  		</select>
+	  	
+	</div>
+	
+<?php endif; ?>
+
+	<ul class="commands">
+	 
+	  <li><a href="<?php echo SITE_URL . '/admin/workshops/add/' . $advisor_id; ?>">Add Workshop</a></li>
+	
+	</ul>
+
+<?php if ( $workshops ): ?>
+
+	<table cellspacing="0">
+
+		<tr>
+			<th>Location</th>
+			<th>Time</th>
+			<th>Registrants</th>
+			<th>Commands</th>
+		</tr>
+
+		<?php
+
+			// Loop through each workshop.
+			$i = 0;
+			foreach ( $workshops as $workshop_id => $workshop )
+			{
+				
+				// Which row type?
+				if ( $i == 0 )
+					echo '<tr class="row1" id="workshop'. $workshop_id .'">';
+				else
+					echo '<tr class="row2" id="workshop'. $workshop_id .'">';
+
+				?>
+
+				<td><?php echo $workshop->get( 'address' ) . ', ' . $workshop->get( 'city' ) . ', ' . $workshop->get( 'state' ); ?></td>
+				<td><?php echo date( 'n/j/Y - g:i A', $workshop->get( 'time' ) ); ?></td>
+				<td><?php echo Workshop_Registrant::get_num_registrants( $registrants[$workshop_id] ); ?></td>
+				<td>
+
+					<a href="<?php echo SITE_URL . '/admin/workshops/view/' . $workshop_id; ?>">View</a> |
+					<a href="<?php echo SITE_URL . '/admin/workshops/edit/' . $workshop_id; ?>">Edit</a> |
+					<a href="" onclick="delete_resource( 'workshop', '<?php echo $workshop_id; ?>' ); return false;">Delete</a>
+
+				</td>
+
+				<?php
+
+				echo '</tr>';
+
+				$i++;
+
+				// Wrap.
+				if ( $i == 2 )
+					$i = 0;
+
+			}
+
+		?>
+
+	</table>
+	
+<?php endif; ?>

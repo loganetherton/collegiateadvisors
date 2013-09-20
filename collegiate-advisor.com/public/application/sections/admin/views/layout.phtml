@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+		<title><?php echo 'Control Panel - ' . $this->layout->title; ?></title>
+
+		<link rel="stylesheet" type="text/css" href="<?php echo SITE_URL . Legato_Compressor::get( 'CSS_Common' ); ?>" />
+
+		<?php include( ROOT . '/application/settings/jsconfig.conf.php' ); ?>
+
+		<script type="text/javascript" src="<?php echo SITE_URL . Legato_Compressor::get( 'JS_Top' ); ?>"></script>
+
+	</head>
+
+	<body>
+
+		<div id="container">
+
+	        <div id="top_container">
+
+	            <div id="header">
+
+					<h1>Control Panel</h1>
+
+	            </div><!-- End Header -->
+
+	            <div id="menu">
+
+	              <h1>Menu</h1>
+
+                	<?php if ( !$GLOBALS['admin'] ): ?>
+
+						<ul><li><a href="<?php echo SITE_URL; ?>/admin/login">Log In</a></li></ul>
+
+					<?php else: ?>
+
+						<ul>
+
+							<li><a href="<?php echo SITE_URL; ?>/admin">Home</a></li>
+							<li><a href="<?php echo SITE_URL; ?>/admin/tutorials">Tutorials</a></li>
+
+							<li class="spacer">&nbsp;</li>
+
+							<?php if ( $level > 1 ): ?>
+
+								<li><a href="<?php echo SITE_URL; ?>/admin/advisors">Manage Advisors</a></li>
+								<li><a href="<?php echo SITE_URL; ?>/admin/users">Manage Users</a></li>
+								<li><a href="<?php echo SITE_URL; ?>/admin/workshops">Manage Workshops</a></li>
+								<li><a href="<?php echo SITE_URL; ?>/admin/news">Manage News</a></li>
+								<li><a href="<?php echo SITE_URL; ?>/admin/newsletter">Manage Newsletter</a></li>
+								<li><a href="<?php echo SITE_URL; ?>/admin/essays">Manage Essays</a></li>
+
+								<?php if ( $level > 2 ): ?>
+
+									<li><a href="<?php echo SITE_URL; ?>/admin/editable_pages">Manage Editable Pages</a></li>
+									<li><a href="<?php echo SITE_URL; ?>/admin/styles">Manage Styles</a></li>
+
+								<?php endif; ?>
+
+								<li class="spacer">&nbsp;</li>
+
+								<li><a href="<?php echo SITE_URL; ?>/admin/financial">Financial Statements</a></li>
+
+							<?php else: ?>
+
+								<?php
+
+									$advisor = $GLOBALS['admin']->get( 'advisor' );
+									$pages = $advisor->get_sub_resources( 'Advisor_EditablePage' );
+									$plugins = $advisor->get( 'plugins' );
+
+								?>
+
+								<li><a href="<?php echo SITE_URL; ?>/admin/advisors/edit">Update Your Info</a></li>
+								<li><a href="<?php echo SITE_URL; ?>/admin/users">Manage Users</a></li>
+								<?php if ( $plugins['workshops'] ): ?><li><a href="<?php echo SITE_URL; ?>/admin/workshops">Manage Workshops</a></li><?php endif; ?>
+
+								<li class="spacer">&nbsp;</li>
+								
+								<? if( isset( $GLOBALS['advisor_data'] ) && $GLOBALS['advisor_data']->cfs ): ?>
+									<? 
+										include( dirname( dirname( dirname( dirname( __FILE__ ) ) ) ) . '/components/classes/encryptionutil.class.php' );
+										$key = EncryptionUtil::pbkdf2('Ue3(nE76Nidk#2!tB9KiN^gfDCv39kUz','m*(2lk3nAS#kas93jAasd9)njAdke9Lk',15,32);
+									?>
+									<li><a href="http://test.collegiatefundingsolutions.com/ims/partnerLogin.php?1=<?= urlencode( EncryptionUtil::encrypt( $GLOBALS['advisor_data']->email_address, $key ) ); ?>&amp;2=d3113c5c714532a6e01a02e0a34b4ccd&amp;3=<?= urlencode( EncryptionUtil::encrypt( $GLOBALS['advisor_data']->namespace, $key ) ); ?>" target="_blank">Pro EFC</a></li>
+									<li class="spacer">&nbsp;</li>
+								<? endif; ?>
+
+								<li class="heading">Edit Pages:</li>
+
+								<li class="nested">
+
+									<ul>
+
+										<?php if ( $plugins['index'] ): ?><li><a href="<?php echo SITE_URL; ?>/admin/pages/edit/index">Index Page</a></li><?php endif; ?>
+										<li>Services <em>(currently not editable)</em></li>
+										<?php if ( $plugins['about'] ): ?><li><a href="<?php echo SITE_URL; ?>/admin/pages/edit/about">About Page</a></li><?php endif; ?>
+										<?php if ( $plugins['contact'] ): ?><li><a href="<?php echo SITE_URL; ?>/admin/pages/edit/contact">Contact Page</a></li><?php endif; ?>
+										<?php if ( $plugins['user_signup'] ): ?><li><a href="<?php echo SITE_URL; ?>/admin/pages/edit/signup">Sign Up Page</a></li><?php endif; ?>
+
+										<li class="spacer">&nbsp;</li>
+
+										<?php if ( count( $pages ) != 0 ): ?>
+
+											<?php foreach( $pages as $page ): ?>
+
+												<li><a href="<?php echo SITE_URL . '/admin/pages/edit/' . $page->get( 'id' ); ?>"><?php echo $page->get( 'title' ); ?></a></li>
+
+											<?php endforeach; ?>
+
+										<?php endif; ?>
+
+									</ul>
+
+								</li>
+
+							<?php endif; ?>
+
+						</ul>
+
+					<?php endif; ?>
+
+	            </div><!-- End Menu -->
+
+	            <div id="content">
+
+	            	<ul id="header_menu">
+
+	                    <?php if ( !$GLOBALS['admin'] ): ?>
+
+							<li><a href="<?php echo SITE_URL; ?>/admin/login">Log In</a></li>
+
+						<?php else: ?>
+
+							<li><a href="<?php echo SITE_URL; ?>/admin/logout">Log Out</a></li>
+							<li><a href="<?php echo SITE_URL; ?>/admin">Home</a></li>
+
+						<?php endif; ?>
+
+	                </ul><!-- End Header Menu -->
+
+	                <div id="page_trail">
+
+						<?php if ( is_array( $page_trail ) ):
+
+							$i = 0;
+
+							foreach ( $page_trail as $link => $title ):
+
+								if ( $i != 0 ) echo ' &raquo; ';
+
+								echo '<a href="' . SITE_URL . '/admin' . $link . '">' . $title . '</a>';
+
+								$i++;
+
+							endforeach;
+
+						endif; ?>
+
+					</div><!-- End Page Trail -->
+
+					<?php echo $this->layout->content; ?>
+
+				</div><!-- End Content -->
+
+	        </div><!-- End Top Container -->
+
+	    </div><!-- End Container -->
+
+	    <script type="text/javascript" src="<?php echo SITE_URL . Legato_Compressor::get( 'JS_Bottom' ); ?>"></script>
+
+	</body>
+
+</html>

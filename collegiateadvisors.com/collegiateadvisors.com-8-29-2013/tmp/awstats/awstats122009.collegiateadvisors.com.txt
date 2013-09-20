@@ -1,0 +1,1716 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 200912 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2545                
+POS_VISITOR 20212               
+POS_DAY 55068               
+POS_DOMAIN 3400                
+POS_LOGIN 3898                
+POS_ROBOT 4053                
+POS_WORMS 4570                
+POS_EMAILSENDER 4701                
+POS_EMAILRECEIVER 4844                
+POS_SESSION 55966               
+POS_SIDER 56179               
+POS_FILETYPES 4979                
+POS_OS 5150                
+POS_BROWSER 5398                
+POS_SCREENSIZE 5975                
+POS_UNKNOWNREFERER 6049                
+POS_UNKNOWNREFERERBROWSER 7251                
+POS_ORIGIN 7695                
+POS_SEREFERRALS 7842                
+POS_PAGEREFS 8083                
+POS_SEARCHWORDS 13644               
+POS_KEYWORDS 17249               
+POS_MISC 2207                
+POS_ERRORS 19147               
+POS_CLUSTER 3754                
+POS_SIDER_404 19260               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20100101002800 128 29424 28083574385
+FirstTime 20091201004337
+LastTime 20091231231801
+LastUpdate 20100101163424 128 0 127 0 0
+TotalVisits 1059                
+TotalUnique 846                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 885                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 274 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 51 230 4310871 12 12 27905
+1 37 168 3327645 30 33 183278
+2 34 185 3349258 17 18 42649
+3 43 237 4193196 10 13 74764
+4 31 170 3075657 24 26 49000
+5 42 215 3740110 11 13 46033
+6 45 211 3882186 11 12 39217
+7 45 223 3697639 12 16 84915
+8 65 361 6554908 15 15 10809
+9 75 433 7256097 20 21 21200
+10 107 522 9288716 19 22 43141
+11 109 579 9589113 22 34 256663
+12 144 691 12540232 28 41 248286
+13 94 565 9677973 43 47 186388
+14 106 437 7546578 19 23 58829
+15 119 550 8984802 17 22 207835
+16 90 464 8671712 20 26 192130
+17 121 514 8291879 29 34 189176
+18 86 477 9229286 23 29 230545
+19 111 548 10571581 11 12 20874
+20 76 398 8138417 26 26 58631
+21 89 517 10883474 26 27 42387
+22 81 446 7810248 13 17 44313
+23 53 266 4695776 25 25 48397
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 19
+us 1547 7863 138830306
+ca 172 993 17714541
+cn 70 318 8568413
+ru 34 42 414407
+in 7 49 835307
+lv 5 5 27307
+au 4 20 403714
+pl 3 25 574695
+kw 2 9 84295
+de 2 18 394428
+bs 1 9 197249
+mx 1 9 197249
+pa 1 1 5214
+sa 1 9 197188
+eu 1 9 197214
+id 1 8 186249
+bg 1 9 197263
+nl 1 1 6595
+jp 0 10 275720
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+bot[+:,\.\;\/\\-] 49 380990 20091231203836 0
+slurp 36 272500 20091231145225 0
+googlebot 29 166137 20091231150036 0
+no_user_agent 11 105884 20091226150943 0
+jeeves 11 68655 20091231200711 0
+voila 10 51982 20091229185208 0
+ia_archiver 7 38181 20091231002448 0
+robot 7 36091 20091228214834 0
+crawl 5 25985 20091224013144 0
+spider 3 15579 20091231125404 0
+msnbot 3 15619 20091226015559 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+php 724 4526590 0 0
+css 1118 9175950 0 0
+html 1130 5723206 0 0
+jpg 1871 35070027 0 0
+js 4555 114792432 0 0
+gif 9 19149 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 20
+winlong 1699
+macintosh 1
+winxp 6686
+win2000 51
+linuxfedora 9
+winunknown 2
+win95 1
+win2003 28
+wince 1
+amigaos 1
+unix 1
+winnt 1
+win98 14
+linux 6
+bsdfreebsd 5
+winme 3
+macosx 439
+win16 37
+Unknown 114
+win2008 308
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 39
+msie6.0 1737
+chrome 130
+up\. 5
+firefox3.0.14 9
+msie4.01 2
+curl 2
+aweb 2
+firefox3.5.3 17
+firefox1.5.0.1 1
+msie8.0 1826
+firefox2.0.0.14 1
+msie7.01 1
+msie7.0 4207
+msie5.0 2
+firefox2.0.0.2 1
+Unknown 48
+firefox3.5.6 248
+firefox2.0.0.20 19
+msie5.01 3
+firefox3.0.16 51
+opera 41
+libwww 5
+firefox3.0 9
+lg\- 9
+firefox3.5.2 28
+firefox2.0.0.6 2
+firefox1.5.0.9 9
+firefox2.0.0.11 1
+firefox3.0.3 1
+firefox3.5.5 417
+mozilla 33
+firefox1.0 1
+netscape5.0 3
+mot\- 19
+netscape4.0 2
+firefox2.0.0.16 13
+firefox3.0.13 13
+safari 345
+firefox3.0.15 144
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 21
+Mozilla/5.0_(SnapPreviewBot)_Gecko/20061206_Firefox/1.5.0.9 20091229225912
+libwww-perl/5.808 20091231115940
+MOT-GATW_/00.62_UP.Browser/6.2.3.4.c.1.115_(GUI)_MMP/2.0 20091231110952
+Mozilla/5.0_(compatible;_Fedora_Core_5)_FC5_Gnome 20091231204542
+Mozilla/5.0_(compatible;_Fedora_Core_6)_FC6_GnomeDE_[ru] 20091231130735
+Opera/9.80_(J2ME/MIDP;_Opera_Mini/4.0/1280;_U;_en)_Presto/2.2.0 20091229221959
+JetBrains_5.0 20091231154824
+Opera/9.80_(J2ME/MIDP;_Opera_Mini/4.0.13067/1280;_U;_es)_Presto/2.2.0 20091229122823
+Mozilla/5.0_(compatible;_Teleca_Q7;_Brew_3.1.5;_U;_en)_240X400_LGE_VX9700 20091228232745
+AboutUsBot 20091227020051
+LG-KP265_Teleca/WAP2.0_MIDP-2.0/CLDC-1.1_UP.Link/6.3.0.0.0 20091228194053
+php-openid/2.1.1_(php/hphp)_curl/7.19.4 20091221123246
+PHP/5.2.8 20091216095134
+Mozilla/4.0 20091202184115
+Mozilla/5.0 20091208190449
+JetBrains_3.1 20091231103634
+MOT-VE465/00.72_UP.Browser/7.2.7.5.643_(GUI)_MMP/2.0 20091230213610
+Mozilla/4.0_(compatible;) 20091209165043
+Cricket-A200/1.0_UP.Browser/6.3.0.7_(GUI)_MMP/2.0 20091230144007
+JetBrains_4.0_Release_Candidate_3 20091231081059
+Java/1.6.0_04 20091224184134
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 9
+ICE_Browser/5.05_(Java_1.4.0;_Windows_2000_5.0_x86) 20091231182116
+PHP/5.2.8 20091216095134
+Yandex/1.01.001_(compatible;_Win16;_I) 20091231191213
+Yandex/1.01.001_(compatible;_Win16;_H) 20091203162205
+JetBrains_5.0 20091231154824
+JetBrains_3.1 20091231103634
+AboutUsBot 20091227020051
+JetBrains_4.0_Release_Candidate_3 20091231081059
+Java/1.6.0_04 20091224184134
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 548 642
+From1 0 0
+From2 236 236
+From3 445 447
+From4 625 8082
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 8
+google 186 186
+webcrawler 1 1
+alltheweb 1 1
+search 19 19
+att 4 4
+live 4 4
+yandex 1 1
+yahoo 20 20
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 111
+http://www.findstuff.com/home/search/index 154 154
+http://collegiateadvisors.collegiate-advisor.com/login 18 18
+http://collegiateadvisors.collegiate-advisor.com/workshop 15 15
+http://collegiateadvisors.collegiate-advisor.com/services 15 15
+http://www.juggle.com/search/ 14 14
+http://www.oneclicklocal.com/local.php 13 13
+http://www.dotellall.com/results.php 12 12
+http://guide.opendns.com/controller.php 11 11
+http://www.luv.com/result.php 10 10
+http://www.questbooster.com/6877/search.php 9 9
+http://search3.comcast.com 9 9
+http://ww23.rr.com/index.php 7 7
+http://www.ave99.com/search.php 7 7
+http://www.questbooster.com/6887/search.php 6 6
+http://ww1.glimpse.com/search 6 6
+http://nearplace.com/hc3.asp 5 5
+http://www.searchfindsite.com/6940/search.php 4 4
+http://www.fastbrowsersearch.com/results/results.aspx 4 4
+http://www.searchfindsite.com/7145/search.php 4 4
+http://www.toseeka.com/search.php 4 4
+http://www.bing.com/search 3 3
+http://eenadupellipandiri.com/search.php 3 3
+http://www.top10000.info/wwwmytextiledesigncom 3 3
+http://domainnotfound.optimum.net/cablevassist/dnsassist/main/ 3 3
+http://collegiateadvisors.collegiate-advisor.com/user_signup 3 3
+http://waphomefind.us/search.php 1 1
+http://us.mg1.mail.yahoo.com/dc/blank.html 1 1
+http://www.gaebler.com/07-Feet-08-At-A-Glance-Collegiate-1-Subject-Notetaker-Monthly-Planner-8-1-2-Inch-x-11-Inch.htm 1 1
+http://email.secureserver.net/webmail.php 2 2
+http://www.lifetoday.com/display.cfm 1 1
+http://graemont.com:2086/scripts4/listaccts 1 1
+http://nyinsurancecodes.propertyinsurancecompanies.info 1 1
+http://rc12.goldwebsearch.com/xtr_new 1 1
+http://www.candleoptions.com 1 1
+http://click.cheapstuff.com/r2.php 2 2
+http://eindustrialworld.com/results/bridges 1 1
+http://www.kidica.com/education/back-to-school/back-to-school-shopping/back-to-school-supplies.aspx 1 1
+http://www.ikqs.com 1 1
+http://lookingforgamesnow.com/result.php 1 1
+http://collegiateadvisors.collegiate-advisor.com/logout 1 1
+http://www.xomba.com/www_collegeboard_com_complete_resource_college_planning 2 2
+http://luv.com/result.php 2 2
+http://ngepress.com/entertainment/bridget-regan-sexy-photos-pics-profile-legend-of-the-seeker/ 1 1
+http://earthlink-help.com/main 1 1
+http://www.searchfindsite.com/6972/search.php 1 1
+http://www.infd.com 1 1
+http://webhelp.qwest.net/main 2 2
+http://www.snap.com/sosearch 1 1
+http://collegiateadvisors.collegiate-advisor.com/member/admissions/assistance 1 1
+http://planneradvisors.com 1 1
+http://www.novascotiacompanies.com 1 1
+http://webmail.aol.com/29644-412/aol-1/en-us/mail/DisplayMessage.aspx 1 1
+http://www.ifltswa.com 1 1
+http://feed.validclick.com/monitor.php 2 2
+http://tryfind.net 1 1
+http://www.yellowpages.com/relevance/Columbus-OH/college-planning-consultanting 1 1
+http://www.killerstartups.com/Site-Reviews/aessuccess-com-american-education-services 1 1
+http://www.costalicious.info/-/results/ 1 1
+http://greatfindmea.info/search.php 1 1
+http://toolbar.inbox.com/search/results.aspx 2 2
+http://www.shopica.com/search.php 2 2
+http://finder.cox.net/main 1 1
+http://www.tattoodle.com/results/results.aspx 1 1
+http://www.oulz.com 1 1
+http://www.searchingz.com/search.php 1 1
+http://www.flirtandmeetsingles.com/result.php 1 1
+http://www.mybrowserbar.com/cgi/errors.cgi 2 2
+http://allworldsite.com 2 2
+http://www.justclicklocal.com/citydir/Plymouth-MA--brides.html 1 1
+http://www.luckyresults.com/7380/search.php/ 2 2
+http://collegiateadvisors.collegiate-advisor.com/member/testgear_full/ 1 1
+http://us.mc821.mail.yahoo.com/mc/showFolder 1 1
+http://www.weeklywebsearch.com/au/googlesearch/aWQ9MTI1OTc5OTkzOCZ1PWh0dHAlM0ElMkYlMkZ3d3cuY29sbGVnaWF0ZWFkdmlzb3JzLmNvbSUyRiZxPQ== 1 1
+http://directory.consumeronly.com/Listings.aspx 1 1
+http://www.easytosearch.info/search.php 1 1
+http://sz0132.wc.mail.comcast.net/zimbra/mail 1 1
+http://www.crawler.com/search/results.aspx 2 2
+http://www.rrbo.com 2 2
+http://luv.com/click.php 0 2
+http://www.seekformal.com/-/results/ 1 1
+http://www.thefreedictionary.com/college+plan 1 1
+http://wwww11.charter.net/search 1 1
+http://www.justclicklocal.com/citydir/Mobile-AL--Bride.html 1 1
+http://www.jigsaw.com/id2235707/collegiate_advisors_company.xhtml 1 1
+http://www.weeklywebsearch.com/au/googlesearch/aWQ9MTI1OTgwNDMwNSZ1PWh0dHAlM0ElMkYlMkZ3d3cuY29sbGVnaWF0ZWFkdmlzb3JzLmNvbSUyRiZxPQ== 1 1
+http://collegiateadvisors.collegiate-advisor.com/privacy_policy 2 2
+http://clicks.search312.com/xtr_new 1 1
+http://www.collegechoice.com 1 1
+http://www.velocityreviews.com/forums/t299536-p2-finding-out-your-mcp-number-on-microsoft-website.html 1 1
+http://learningsoftwares.com 1 1
+http://sz0039.ev.mail.comcast.net/zimbra/mail 1 1
+http://www.justclicklocal.com/citydir/Chicago-IL--brides.html 1 1
+http://2benet.com/index.php 1 1
+http://searchtoolsweb.com/search.php 1 1
+http://keytime.net 2 2
+http://lookingfordiscountcar.com/result.php 1 1
+http://www.tuitionconnection.com 2 2
+http://us.mg201.mail.yahoo.com/dc/launch 1 1
+http://urlseek40.vmn.net/wsearch.php 2 2
+http://pages.us.com/a.php 1 1
+http://lookingfordiscountnow.com/result.php 1 1
+http://www.searchole.com 1 1
+http://www.avaguide.net/demos/collegiateadvisors/ 1 1
+http://www.rciw.com 1 1
+http://shop.simpli.com/search.php 1 1
+http://www.latinwives.org/search.cfm 2 2
+http://maxnetfinder.com 1 1
+http://www.justclicklocal.com/citydir/Oakland-TN--bridge.html 1 1
+http://www.ffwe.com 1 1
+http://searchauto.net 1 1
+http://www.local.com/results.aspx 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 129
+college+planning 30
+collegiate+advisors 16
+nacfa 9
+tim+austin 6
+college+advisors 6
+collegiate+advisors+llc 5
+college+advisor 5
+nacfa+college 4
+college+planners 4
+brian+kay 3
+naviance 3
+college+admissions+counseling 3
+the+college+coach 3
+private+college+advisors 2
+advisors+for+college 2
+college+advisors+boca+raton 2
+college+funding+advisors 2
+ron+them 2
+www.collegiateadvisors.com 2
+certified+college+planning+specialist 2
+college+advisors+spokane+wa 2
+niccp 2
+college+advising+bverkeley+ca 2
+3djw 2
+college+advising+for+students 2
+college+planning+network 1
+college123 1
+college+planning+services+08873 1
+college+planning+businesses 1
+college+advisors+in+md 1
+college+advising 1
+http+//collegeadvisor.blogspot.com 1
+nacfa+reviews 1
+gary+carpenter 1
+college+admissions+advisors 1
+college+transfer+advisors+chicago 1
+brodge 1
+naviance.com 1
+college+advisors+online 1
+www.naviance.connection%2fhfch.com 1
+www.collegiateadvisory.com 1
+google+search+college+planning 1
+college+advisors+orlando+fl 1
+college+planning+coach+ri 1
+college+planning+comparison 1
+college+planning+golf 1
+college+funding 1
+college+advisors+ma 1
+college+consultants+.com 1
+nacfa+mats 1
+study+to+be+academic+counselor+advisor+for+college 1
+college+advisor+near+chapel+hill+nc 1
+reviews+of+collegiate+advisors+llc 1
+bridgegames 1
+college+advisor+los+angeles 1
+becoming+a+college+advisor 1
+not+the+brides 1
+rhode+island+college+advisors 1
+books+on+certified+college+planners 1
+college+planning+centers+in+coventry+ri 1
+high+school+college+advisor+job+md 1
+new+bedford+college+advisor 1
+how+to+be+a+college+coach 1
+keith+landis+college+planning 1
+collegiateadvisors.com 1
+college+planning+ri 1
+college+planning+solutions+boston 1
+college+planning+and+assessment 1
+college+planning+in+pa 1
+college+search+advisors 1
+college+admissions+advisor 1
+college+planning+services+in+syracuse+ny 1
+college+consultants 1
+www.naviance.gov 1
+off+campus+advisors 1
+planning+for+college 1
+i.m+a+college+advisor 1
+college+advisor+norfolk 1
+college+planner+ohio 1
+college+coaches 1
+college+advisors+cost 1
+www.connection.naviance.con%2freadingmemorial.htm 1
+private+college+advisors+in+new+jersey 1
+strategic+advisors+group+education+systems 1
+college+class+advisors 1
+seeking+college+advisor 1
+college+advisor+needed 1
+college+resource+advisors+on+long+island 1
+aidlink.com 1
+www.connection.naviance.org 1
+chuck+moore 1
+www.naviance.holynames 1
+college+planning+denver 1
+college+planning+santa+clarita 1
+college+advisor+and+frank 1
+dr+michelle+berg+college+advisor 1
+bridge+lessons 1
+free+college+advisor+tx 1
+college+planner 1
+college+planning+for+high+school+juniors 1
+www.naviance%2fflinthill.com 1
+seth+kovensky.+fox+college+funding 1
+fox+college+funding 1
+personal+college+advisor 1
+edu+college+plan+advisors 1
+college+advising+corps+ri 1
+private+college+advisors+nashville+tn 1
+college+planners+and+organizers 1
+collegiateadvisory.com 1
+college+planning+adviser+reviews 1
+errs 1
+bridget 1
+become+a+college+coach 1
+college+advisors+bethesda+md 1
+college+advisor+san+francisco+bay+area 1
+college+advisors+group 1
+www.briges 1
+www.connection.naviance.com 1
+college+planning+new+hope+pa 1
+college+planning+in+naples+florida 1
+become+a+college+advisors 1
+college+advisory+service 1
+keith+landis+college 1
+%ec%f0%fd%ee+%f1%e0%ed%ea%f2-%ef%e5%f2%e5%f0%e1%f3%f0%e3 1
+private+advisors+for+college 1
+college+planning+guide 1
+florida+college+advisor 1
+college+advisor+almaden 1
+college+advisor+maryland 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 174
+college 146
+advisors 58
+planning 54
+advisor 24
+collegiate 22
+nacfa 15
+for 8
+tim 6
+austin 6
+in 6
+planners 6
+advising 6
+llc 6
+coach 6
+a 5
+funding 5
+private 5
+admissions 5
+the 4
+ri 4
+brian 3
+naviance 3
+certified 3
+reviews 3
+and 3
+google 1
+strategic 1
+college123 1
+clarita 1
+www.collegiateadvisors.com 2
+tn 1
+plan 1
+nc 1
+brodge 1
+naviance.com 1
+rhode 1
+them 2
+kovensky. 1
+www.naviance.connection%2fhfch.com 1
+//collegeadvisor.blogspot.com 1
+organizers 1
+comparison 1
+www.collegiateadvisory.com 1
+area 1
+of 1
+hope 1
+frank 1
+ohio 1
+becoming 1
+i.m 1
+bay 1
+tx 1
+businesses 1
+seth 1
+online 1
+naples 1
+bverkeley 2
+boca 2
+orlando 1
+network 1
+lessons 1
+off 1
+bridgegames 1
+chapel 1
+systems 1
+http 1
+ma 1
+08873 1
+cost 1
+guide 1
+francisco 1
+collegiateadvisors.com 1
+denver 1
+san 1
+coaches 1
+ron 2
+pa 2
+free 1
+angeles 1
+personal 1
+fl 1
+bridge 1
+www.naviance.gov 1
+fox 2
+counseling 3
+.com 1
+not 1
+on 2
+www.connection.naviance.con%2freadingmemorial.htm 1
+mats 1
+study 1
+moore 1
+3djw 2
+seeking 1
+edu 1
+aidlink.com 1
+counselor 1
+raton 2
+www.connection.naviance.org 1
+boston 1
+landis 2
+%f1%e0%ed%ea%f2-%ef%e5%f2%e5%f0%e1%f3%f0%e3 1
+specialist 2
+books 1
+www.naviance.holynames 1
+to 2
+group 2
+carpenter 1
+transfer 1
+students 2
+school 2
+wa 2
+corps 1
+education 1
+services 2
+assessment 1
+dr 1
+academic 1
+coventry 1
+norfolk 1
+ca 2
+job 1
+resource 1
+florida 2
+centers 1
+campus 1
+hill 1
+www.naviance%2fflinthill.com 1
+search 2
+consultants 2
+island 2
+juniors 1
+bedford 1
+berg 1
+kay 3
+new 3
+niccp 2
+bethesda 1
+adviser 1
+how 1
+service 1
+chicago 1
+near 1
+be 2
+brides 1
+jersey 1
+collegiateadvisory.com 1
+class 1
+maryland 1
+advisory 1
+errs 1
+syracuse 1
+nashville 1
+md 3
+bridget 1
+%ec%f0%fd%ee 1
+solutions 1
+needed 1
+high 2
+keith 2
+gary 1
+long 1
+www.briges 1
+www.connection.naviance.com 1
+almaden 1
+santa 1
+golf 1
+chuck 1
+spokane 2
+michelle 1
+ny 1
+los 1
+become 2
+planner 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 42 1216825
+301 30 12937
+404 321 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 19
+/robots.txt 198 -
+/~jpsd 7 -
+/favicon.gif 9 -
+/apple-touch-icon.png 2 -
+/mobile/ 2 -
+/~jpsdbiz/file: 6 -
+/~jpsdbiz/file:/ect/passwd/WellsFargo.CoM/wellsfargo.com/wellsfargo.com/img/arrow.gif 1 http://www.collegiateadvisors.com/~jpsdbiz/file:/ect/passwd/WellsFargo.CoM/wellsfargo.com/wellsfargo.com/
+/become_member.phpTerms 2 -
+/terms_and_conditions.phpCollegiate 2 -
+/services.phpCollegiate 2 -
+/SITE_URL/services.php 13 http://www.collegiateadvisors.com/become_member.php
+/m/ 2 -
+/(null) 2 -
+/~jpsdbiz 64 -
+/privacy_policy.phpMore 2 -
+/DSST 1 -
+/mobi/ 2 -
+/~jpsdbiz/file:/ect/passwd/WellsFargo.CoM/wellsfargo.com/wellsfargo 2 -
+/iphone/ 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 885
+24.14.39.189 37 99 777441 20091211171329
+12.156.208.3 26 134 1282431 20091216095621
+77.88.24.27 20 20 136472 20091231191213
+99.132.165.254 18 74 739989 20091217173511
+174.59.102.249 18 130 2782999 20091225110738
+173.76.12.252 17 47 481251 20091229173022
+173.161.77.233 16 56 502784 20091230094550
+75.85.96.218 14 80 848091 20091216225630
+75.146.244.186 14 94 1802476 20091231083345
+70.45.17.181 13 53 456986 20091211133425
+67.189.150.217 12 29 268431 20091228153800
+70.181.213.101 11 43 826464 20091229113943
+75.179.182.239 11 35 442019 20091211195027
+93.158.151.25 10 10 65138 20091217112354
+58.61.164.139 10 46 1242975 20091231220252
+24.149.18.141 10 29 450917 20091225010931
+124.115.1.8 10 46 1242975 20091231230322
+98.200.240.78 10 30 249072 20091207141351
+209.147.127.216 9 9 3555 20091231231801
+58.61.164.141 9 45 1237762 20091230221031
+124.115.1.7 9 41 1105443 20091231011450
+58.61.164.40 9 33 840805 20091230210554
+69.4.99.24 9 31 627805 20091229122113
+64.211.93.53 9 9 47043 20091215200935
+76.124.143.97 8 16 236693 20091204062636
+99.244.141.182 5 19 222848 20091203224547
+74.108.35.122 1 9 197249 20091229180736
+24.125.102.71 4 12 215945 20091206124449
+68.215.71.209 4 12 213165 20091227124814
+75.43.217.153 2 17 201322 20091206164020
+68.179.255.109 1 9 197263 20091220152322
+98.110.251.228 1 9 197249 20091228192358
+99.194.73.9 1 9 197250 20091222230724
+69.50.49.221 4 18 217271 20091210003400
+96.247.93.112 1 9 197214 20091202025632
+209.195.82.173 1 9 197249 20091229103418
+208.80.193.32 4 4 20721 20091227142400
+76.70.10.74 2 10 204169 20091214072803
+67.32.154.7 1 9 197188 20091210124213
+76.107.138.199 3 11 214978 20091229152144
+76.22.42.114 3 11 207717 20091215235325
+204.186.253.26 1 6 158932 20091204092700
+205.188.116.70 0 2 42722 
+208.80.193.27 7 7 36327 20091229181654
+99.228.88.136 4 12 212810 20091213073932
+209.195.81.74 1 9 197249 20091230071034
+67.87.55.65 2 16 208073 20091225020724
+68.63.29.158 1 9 197249 20091230231335
+71.93.98.200 1 9 197188 20091210004205
+72.80.172.241 1 9 197250 20091222192543
+216.249.10.209 1 9 197249 20091228101357
+67.181.213.32 4 12 219861 20091211061606
+71.166.98.222 1 9 197214 20091203175313
+72.94.4.214 4 12 212885 20091220204958
+207.200.116.72 1 1 4108 20091209140309
+74.81.43.10 1 1 5227 20091218150817
+24.184.207.77 1 9 197249 20091231104140
+99.151.74.154 1 9 197214 20091204162544
+65.1.190.94 1 10 206924 20091202175244
+99.55.159.11 1 7 5213 20091227133602
+208.80.193.38 2 2 10366 20091224100653
+208.80.193.31 6 6 31225 20091221154951
+70.146.206.214 1 9 197188 20091210103324
+67.243.147.215 1 9 197250 20091225182545
+208.80.193.53 1 1 5213 20091228102159
+98.206.138.135 1 9 197188 20091208082719
+24.1.110.194 1 5 65358 20091204061542
+76.192.169.248 1 9 197214 20091205112030
+24.63.66.29 1 7 180328 20091230181853
+24.64.173.227 4 12 218134 20091204042944
+67.183.39.78 1 9 197249 20091231220353
+173.79.120.248 1 7 180293 20091205185210
+173.202.107.75 3 19 207717 20091220215746
+38.98.19.68 1 3 37588 20091229225911
+69.171.163.155 2 10 79325 20091207180428
+70.242.134.202 1 9 197250 20091226191420
+207.193.177.1 1 10 204862 20091208085801
+83.5.221.174 1 9 197214 20091202031823
+75.118.236.227 1 9 197263 20091213214553
+208.108.217.23 2 10 202392 20091202112811
+88.80.205.215 2 18 394428 20091204051807
+98.209.126.155 1 9 197249 20091229160942
+69.141.234.235 4 18 221538 20091207025635
+209.43.65.170 1 5 65407 20091215125927
+207.200.116.68 0 3 318282 
+173.171.117.195 1 9 197249 20091231113252
+99.56.106.241 3 11 208728 20091201084203
+75.43.31.252 1 9 197214 20091204195711
+216.31.252.98 1 7 165868 20091204183415
+165.138.32.183 1 9 197263 20091216101345
+67.126.129.11 5 17 190883 20091209230733
+97.127.68.126 1 9 197214 20091203171424
+67.176.253.243 2 10 203809 20091203114045
+96.21.224.108 1 9 197250 20091223211904
+75.64.110.164 1 9 197263 20091217201051
+72.35.114.121 2 10 201371 20091218172518
+174.0.52.74 2 18 394428 20091205111741
+208.54.5.55 3 5 131287 20091208113416
+74.248.188.73 3 18 207966 20091214115251
+161.221.87.4 1 9 197263 20091221092308
+71.183.193.96 1 9 197214 20091202181203
+8.24.53.66 1 9 197214 20091203151052
+98.203.159.193 1 9 197249 20091230052008
+99.48.159.6 1 9 197250 20091221152410
+75.185.24.86 1 5 65358 20091205164631
+71.37.163.24 1 9 197249 20091229185349
+173.15.147.246 2 18 394437 20091230134037
+75.68.105.43 1 9 197249 20091228235105
+71.192.158.24 1 5 65393 20091229173253
+68.59.211.246 1 9 197249 20091230032906
+99.245.234.176 2 16 204120 20091205165839
+68.231.244.197 3 11 209059 20091225213311
+70.55.206.101 6 26 243322 20091231000808
+64.12.116.203 0 1 9710 
+216.104.15.138 0 6 147204 
+209.195.119.211 1 9 197249 20091230083658
+72.129.20.197 1 7 180267 20091212090450
+208.115.138.254 3 3 15324 20091215133004
+64.12.116.199 0 1 5907 
+65.16.83.178 1 7 180267 20091211113408
+72.25.50.151 5 13 220001 20091205105205
+24.17.251.253 1 1 5214 20091221203126
+75.145.214.66 1 9 197249 20091231110501
+76.22.130.154 1 9 197263 20091219194423
+65.55.230.168 1 1 5178 20091202132029
+68.167.153.214 1 9 197250 20091223195224
+75.130.108.66 5 39 412107 20091229172419
+76.172.211.149 2 10 202168 20091230133224
+71.103.77.19 5 13 220001 20091203164854
+74.97.147.118 8 32 426948 20091215192056
+64.12.116.70 0 1 21361 
+68.199.166.48 1 7 180328 20091229160542
+72.92.124.193 1 8 187967 20091206220404
+69.140.202.170 1 9 197249 20091230120258
+207.200.116.137 2 3 31273 20091229224125
+24.130.167.145 1 9 197263 20091217131859
+66.31.244.6 1 9 197188 20091209182011
+71.234.152.22 1 5 65407 20091218222257
+75.101.253.242 3 11 280094 20091208113025
+208.76.113.2 1 4 57733 20091216144127
+99.35.147.240 1 7 5214 20091223162142
+144.26.117.100 1 5 65358 20091206140002
+209.90.175.103 3 17 214979 20091223135221
+75.251.204.57 2 12 219874 20091214150314
+66.174.93.56 1 7 180328 20091228232738
+38.105.83.11 8 9 64291 20091208143759
+24.21.139.140 1 9 197214 20091204165125
+75.121.228.244 1 9 197263 20091216224528
+75.66.66.13 1 9 197249 20091227191236
+220.225.70.109 2 10 41203 20091228123315
+4.240.147.49 1 7 180267 20091210123527
+24.67.117.112 1 9 197214 20091205041058
+71.196.57.20 1 9 197263 20091217124146
+72.183.219.7 1 9 197188 20091210220445
+69.105.141.218 1 9 197250 20091222020912
+67.164.196.218 1 5 65332 20091212223250
+209.221.1.141 1 9 197263 20091218111634
+207.200.116.5 0 1 106094 
+72.152.63.223 2 8 172463 20091228152818
+71.240.100.212 1 9 197249 20091229175608
+71.28.146.244 1 10 206959 20091229170618
+65.79.192.218 1 1 5227 20091215153632
+173.34.68.236 3 23 210715 20091205070206
+67.236.241.85 1 8 175578 20091207165710
+67.85.127.37 6 14 226859 20091220170203
+70.54.115.110 3 20 401334 20091202081135
+65.51.179.190 1 9 197214 20091204085447
+63.131.72.69 2 10 201371 20091214071443
+71.184.145.191 1 5 65407 20091217174428
+99.224.132.78 1 9 197263 20091216150733
+95.215.1.3 1 1 6595 20091201170304
+24.202.217.105 1 9 197250 20091224121127
+97.117.124.180 1 9 295228 20091204130011
+66.49.228.112 1 9 197249 20091231051821
+96.56.172.186 2 11 203858 20091214203026
+59.92.70.101 1 9 197214 20091206011736
+67.140.1.231 1 9 197249 20091230212833
+24.62.16.190 2 10 203858 20091218070314
+38.100.41.120 1 1 6906 20091202185715
+24.46.164.134 4 12 221587 20091217001106
+24.111.122.83 1 1 1343 20091216192421
+174.0.114.241 2 10 203844 20091229220324
+71.251.131.222 1 7 180342 20091217062907
+99.21.183.117 1 7 5178 20091205100017
+207.200.116.13 0 2 16515 
+208.80.193.40 1 1 5227 20091218095143
+67.190.70.155 1 9 197249 20091231042654
+71.197.232.47 1 7 165868 20091220211506
+98.204.162.155 1 9 197249 20091229102447
+173.78.10.195 3 11 207966 20091221084714
+99.55.152.227 1 9 5178 20091206080546
+99.61.179.131 3 11 210764 20091220190150
+173.57.149.2 5 25 232513 20091214034355
+173.62.165.2 1 9 197188 20091207103232
+76.240.24.220 1 9 197249 20091229194544
+74.101.9.204 1 9 197214 20091203184004
+167.142.47.130 1 9 197263 20091213204714
+99.144.66.174 2 10 202340 20091208175220
+65.49.14.12 0 1 106094 
+72.130.171.9 1 6 171501 20091218222051
+206.111.181.149 2 10 202340 20091211121828
+70.187.22.22 1 9 197214 20091205153039
+72.14.192.2 2 18 394513 20091224094416
+66.113.102.253 1 1 483 20091228133715
+207.200.116.65 0 1 21435 
+148.177.0.100 5 13 220071 20091229124445
+24.188.25.166 1 9 197249 20091230211321
+68.145.102.179 2 2 10304 20091207114730
+98.141.176.128 1 9 197250 20091223191631
+68.45.62.222 1 9 197214 20091201202056
+70.156.64.178 2 9 70536 20091203142901
+70.16.149.100 3 11 210715 20091203161334
+68.106.29.114 3 19 399753 20091219175051
+71.30.179.177 1 9 197249 20091230194130
+98.244.73.91 7 15 230206 20091224080225
+67.168.208.206 1 10 206959 20091231062550
+64.124.150.42 2 10 202182 20091218080951
+70.55.145.176 1 9 197249 20091227221927
+208.80.193.33 1 1 5178 20091206143454
+99.55.152.74 1 7 5214 20091223091145
+70.121.7.73 4 12 212885 20091216173629
+74.216.34.228 1 9 197250 20091222210155
+76.245.228.198 2 8 115377 20091227194727
+67.62.237.170 2 8 172463 20091228124450
+97.89.87.252 1 9 197249 20091229031755
+98.247.224.98 1 7 180328 20091229130433
+76.113.141.24 2 10 202490 20091214194330
+24.45.55.245 1 9 197249 20091231134817
+76.76.100.194 1 1 5227 20091214185905
+99.185.83.14 1 9 197249 20091229031604
+71.184.116.22 1 5 65394 20091221194536
+173.64.162.131 1 9 197188 20091212144738
+207.200.116.11 0 1 9710 
+24.83.16.161 4 12 217345 20091227180812
+38.100.41.118 2 2 10703 20091207133803
+67.203.163.86 1 5 65332 20091209191709
+24.128.241.59 1 9 197214 20091206040702
+75.103.4.84 3 11 206448 20091208100524
+98.116.37.60 1 9 197263 20091218085257
+205.188.116.210 0 2 22028 
+71.59.55.142 1 9 197249 20091229021526
+123.108.201.196 2 10 202392 20091204094813
+71.75.18.75 1 9 294110 20091215133004
+153.19.129.170 1 9 197214 20091202041052
+66.196.119.21 1 2 5263 20091225075018
+12.159.169.4 4 18 389332 20091204093652
+69.63.181.251 2 2 10428 20091221123246
+98.199.54.59 1 9 197188 20091210180119
+208.80.193.34 2 2 10330 20091208014739
+216.104.15.134 0 4 28329 
+66.21.198.70 1 9 197263 20091220104937
+24.131.38.121 4 12 225607 20091214050711
+71.123.224.28 1 9 197214 20091205133812
+75.45.251.47 1 9 197250 20091222180954
+71.131.3.175 1 9 197250 20091222144403
+70.236.38.92 1 9 197188 20091207114417
+69.121.129.206 1 7 180328 20091229193928
+71.188.180.166 1 7 180328 20091230203921
+64.12.116.76 0 1 7674 
+71.112.89.58 3 11 207917 20091204003206
+65.49.2.14 1 6 74199 20091206160449
+76.107.213.138 4 12 215608 20091209164657
+76.170.248.8 1 9 197249 20091229051512
+208.80.193.26 3 3 15618 20091231150919
+66.216.163.194 4 12 212061 20091222134001
+71.199.24.234 1 5 65332 20091207221927
+63.174.175.230 3 3 0 20091208190449
+24.207.95.140 3 11 213059 20091202160055
+99.194.4.107 1 9 197214 20091207061744
+67.176.94.97 1 1 1343 20091203144146
+76.17.108.74 1 9 197188 20091207113051
+24.218.173.82 0 1 9710 
+99.30.45.148 1 7 180329 20091222155845
+68.119.55.170 4 24 538878 20091227192746
+173.3.197.54 3 11 214632 20091206175934
+24.190.182.138 1 4 57719 20091227234535
+71.133.5.97 1 9 197214 20091207045540
+71.138.91.63 1 9 197249 20091229174157
+209.48.55.194 4 12 215841 20091207123953
+74.5.104.222 4 20 213193 20091220181956
+64.253.69.182 3 11 218895 20091230080654
+173.78.19.58 1 9 197250 20091222083941
+72.200.164.42 1 9 197263 20091220010903
+99.91.227.41 1 9 197249 20091230140555
+8.21.4.254 1 1 5213 20091229030335
+64.203.182.146 1 5 65394 20091222082133
+70.253.77.86 2 8 115438 20091231133021
+72.148.170.192 1 9 197188 20091212175523
+71.239.126.46 1 9 197263 20091220165734
+74.192.44.75 2 10 203844 20091229200321
+74.5.150.210 3 11 215046 20091204025951
+67.162.179.219 1 7 180328 20091231024943
+98.151.163.226 1 9 197214 20091205003922
+69.74.224.11 1 9 197188 20091207085247
+64.191.11.31 1 7 180342 20091214035053
+70.88.204.209 1 9 197250 20091223120453
+190.120.228.38 1 1 5214 20091224184134
+69.171.163.90 2 5 64314 20091230144007
+75.89.8.169 1 10 197250 20091222190318
+72.193.253.22 1 10 206898 20091212043439
+209.147.127.217 5 5 1975 20091231204542
+173.17.244.48 1 7 180329 20091222152957
+66.183.41.81 4 12 215183 20091216033418
+71.228.22.230 1 5 65394 20091222180642
+98.110.190.7 1 9 197249 20091227135736
+75.150.177.154 2 8 172463 20091201170518
+24.138.10.219 4 12 213993 20091229031755
+24.113.197.239 1 7 180329 20091224152603
+72.224.105.172 1 4 57719 20091227164047
+75.121.235.239 1 9 197263 20091213224313
+71.170.12.136 4 12 212871 20091229225056
+64.255.180.100 1 9 197249 20091229221959
+173.173.77.187 4 18 214547 20091230224642
+71.134.53.118 1 9 197263 20091213174929
+24.42.93.120 1 9 197249 20091230104229
+24.173.74.234 2 10 203844 20091228104819
+67.186.167.194 1 9 197188 20091207135401
+99.152.36.119 1 7 5152 20091207221141
+24.147.58.208 2 10 203783 20091209152129
+68.174.143.206 1 9 197188 20091209214455
+99.31.77.93 5 27 417127 20091207113142
+208.47.92.188 4 12 214165 20091202090956
+24.44.95.164 1 7 180328 20091227214026
+70.245.187.238 1 5 65332 20091209204702
+77.255.240.58 1 7 180267 20091211094054
+205.188.117.7 1 1 4108 20091228175823
+66.18.52.14 1 4 57658 20091209122014
+76.126.229.19 0 1 9710 
+66.188.43.162 1 9 197249 20091228192103
+71.14.110.185 1 9 197250 20091226080640
+207.200.116.66 0 3 33042 
+75.135.162.12 1 9 197249 20091228155437
+74.45.29.69 1 9 197263 20091214050138
+64.5.70.162 1 9 197250 20091225192624
+174.26.102.128 1 9 197263 20091215204746
+72.185.228.103 3 11 209298 20091203183454
+212.162.130.92 1 9 197188 20091210215501
+67.33.166.3 3 13 239361 20091219060907
+67.169.187.21 1 9 197214 20091206033202
+72.90.250.54 1 9 197214 20091202083148
+173.31.122.18 1 9 197250 20091227112105
+24.80.149.229 1 9 197263 20091218093544
+24.138.104.209 1 5 65394 20091222170213
+71.99.125.112 4 12 213621 20091212110442
+71.178.229.131 6 20 225189 20091207153435
+76.111.201.134 1 7 180342 20091213141504
+68.192.141.35 1 9 197249 20091229120232
+64.12.116.16 1 1 6595 20091228164428
+205.188.117.5 0 1 21435 
+98.180.37.84 4 18 221330 20091206155558
+98.216.33.242 4 12 223045 20091211205104
+68.63.252.58 1 9 197263 20091215214514
+71.51.145.239 4 32 220121 20091205231603
+74.138.37.243 3 25 213313 20091215030351
+24.62.145.252 1 9 197188 20091212085044
+67.246.245.76 1 10 206924 20091205020552
+68.13.39.19 2 16 203783 20091213040608
+208.250.101.118 1 8 186200 20091206162221
+24.177.5.96 1 7 180293 20091206111249
+75.150.183.81 1 7 168355 20091210193759
+173.32.210.126 1 10 204862 20091210132501
+74.52.245.146 1 1 5152 20091210172747
+75.70.29.171 3 17 212956 20091204161146
+173.50.228.224 1 9 197188 20091211031008
+67.231.174.16 1 7 180293 20091202174132
+63.91.80.106 7 23 228976 20091202125413
+76.181.9.121 1 7 180267 20091207154539
+98.148.4.198 1 5 65358 20091206030331
+75.34.183.157 1 7 180342 20091217202552
+205.188.116.76 0 2 15348 
+72.93.90.91 2 17 365543 20091228152632
+69.234.100.224 3 23 205404 20091212113104
+68.37.50.73 3 23 214771 20091222050332
+209.173.84.111 1 9 197263 20091214184230
+96.33.81.164 1 5 65393 20091231191814
+76.64.77.10 2 18 394428 20091203095230
+68.38.122.95 2 10 201357 20091229142221
+216.72.88.221 2 16 202182 20091216061501
+24.46.125.110 1 9 197263 20091214034105
+75.75.19.39 4 12 219965 20091203145413
+66.91.35.104 1 4 57658 20091211030554
+68.114.50.39 1 9 197263 20091213124019
+98.164.202.39 0 1 7674 
+99.73.193.88 1 7 180293 20091204191415
+24.128.201.72 1 9 197249 20091229122759
+87.250.230.33 1 1 5178 20091201062641
+147.222.230.116 1 9 197214 20091204221244
+66.25.62.235 1 9 197249 20091229231645
+66.129.39.97 3 11 208728 20091203142502
+24.64.88.244 4 12 219100 20091220090538
+76.124.143.145 1 6 74199 20091202151212
+24.192.85.149 1 9 197214 20091204073036
+72.80.159.35 1 9 197263 20091220111719
+74.75.10.8 3 21 177382 20091230081520
+173.67.245.179 1 10 206959 20091231131319
+209.183.235.110 1 7 180293 20091201095533
+72.245.146.188 7 23 423649 20091216105648
+76.78.38.197 1 9 197214 20091206133343
+24.252.109.214 1 5 65407 20091218162911
+67.68.40.181 1 9 197214 20091203134722
+99.244.7.21 1 9 197249 20091230204234
+70.123.126.164 1 9 197249 20091228214258
+173.54.33.166 3 11 208935 20091207162830
+72.220.73.21 5 25 228493 20091218170407
+173.70.142.116 4 24 223917 20091229043105
+67.248.45.8 1 7 83014 20091207143507
+71.52.198.9 1 7 180293 20091205144436
+72.19.150.89 1 5 65393 20091228115058
+66.21.218.14 5 21 218655 20091230150611
+64.7.4.32 2 10 203858 20091214114011
+75.146.235.81 5 20 229781 20091229105010
+74.76.199.252 1 9 294096 20091227120445
+173.60.223.72 4 20 404672 20091217090523
+99.247.70.219 4 34 738114 20091226204833
+76.113.238.70 6 14 223005 20091226142733
+98.240.116.82 1 9 197188 20091210130049
+24.56.3.234 1 5 65332 20091210183709
+71.199.226.255 1 10 206959 20091231225622
+72.226.93.5 1 9 197249 20091229125256
+75.101.176.244 2 10 202490 20091217232358
+69.196.196.82 2 16 377605 20091216142435
+70.33.254.71 1 1 5227 20091216095134
+98.228.22.101 1 7 172583 20091204091330
+71.225.249.217 2 10 78308 20091215190414
+207.200.116.139 3 3 19785 20091229224040
+207.200.116.74 0 1 21361 
+70.22.51.192 1 9 197249 20091229184645
+75.251.45.104 3 19 399347 20091204163456
+69.231.85.217 2 11 203858 20091214203913
+24.57.138.144 1 9 197188 20091209150133
+98.64.67.147 3 19 401095 20091221133616
+98.111.23.251 1 9 197250 20091223111613
+173.76.202.35 1 4 57733 20091219190526
+74.67.198.68 1 9 197263 20091217191537
+208.80.193.44 3 3 15654 20091230065855
+74.103.167.124 2 10 201371 20091218032538
+174.27.62.3 3 11 208777 20091214021705
+69.8.42.52 1 9 197249 20091231093448
+24.43.9.187 2 10 202392 20091204154602
+71.88.39.224 3 16 191566 20091201203511
+208.80.193.39 1 1 5227 20091220070639
+66.65.189.21 1 9 197249 20091229184930
+74.248.178.69 3 11 207026 20091208132010
+71.225.128.162 7 15 229098 20091228214532
+71.247.83.26 3 11 209088 20091217051103
+99.89.206.178 1 9 197249 20091230171818
+74.105.8.183 1 9 197214 20091203082932
+118.96.133.56 1 8 186249 20091219043755
+71.50.189.58 1 6 74173 20091211203114
+72.54.81.17 1 9 197263 20091215141047
+24.86.138.33 1 10 206973 20091218213604
+207.200.116.131 0 4 30696 
+207.83.200.207 1 4 57719 20091231110947
+173.73.162.15 1 9 197188 20091210194330
+98.148.29.222 1 9 197263 20091213140723
+99.186.124.152 1 7 180329 20091227065643
+67.71.27.131 2 10 201322 20091203105028
+71.219.236.42 1 9 197263 20091213204402
+216.51.217.56 2 7 80318 20091226191943
+67.82.230.36 1 9 197214 20091202123533
+72.54.110.89 1 9 197263 20091216091038
+99.252.162.59 2 24 497800 20091219091222
+24.222.141.236 1 1 5227 20091217041956
+204.133.184.1 1 9 197249 20091230174115
+67.166.216.28 1 9 197214 20091202211515
+70.179.19.158 1 9 197250 20091224235617
+63.163.92.64 4 21 426566 20091203132320
+75.1.208.109 1 9 197249 20091230135526
+68.38.130.37 1 7 166679 20091223052543
+68.160.148.44 6 14 223896 20091214101355
+69.118.45.56 1 4 57684 20091207063836
+69.119.48.64 4 12 225766 20091204054546
+69.255.232.217 1 9 197263 20091215092102
+99.152.44.122 1 9 5213 20091228073117
+75.218.29.12 2 10 201357 20091228221627
+98.163.124.119 3 11 208763 20091228225017
+173.2.26.219 1 9 197263 20091218055320
+98.239.67.112 1 9 197249 20091231010352
+24.166.28.173 1 9 197249 20091228201555
+74.100.123.24 2 12 185471 20091203183715
+64.111.235.190 1 9 197249 20091228172645
+99.56.7.147 1 9 197188 20091207210939
+74.129.69.237 1 9 197214 20091202053458
+98.163.9.151 3 21 179369 20091228131013
+207.250.232.27 1 10 206924 20091202162233
+156.34.215.192 1 9 197249 20091231161910
+208.54.5.69 1 8 176029 20091228135312
+164.47.28.222 3 25 208935 20091207111614
+76.174.70.217 3 11 207101 20091218223215
+71.221.179.54 8 40 440137 20091204193206
+75.75.110.80 3 25 206448 20091209100628
+24.223.194.84 2 10 203809 20091204164644
+71.201.214.77 1 9 197249 20091231063841
+128.48.39.203 2 10 202462 20091228153027
+76.89.119.86 4 32 217393 20091230224623
+71.238.145.131 4 33 386267 20091207132753
+216.174.169.141 1 9 197249 20091230092605
+70.51.79.187 3 23 218998 20091230114859
+164.107.42.95 1 9 197214 20091202101537
+150.70.84.28 0 4 128516 
+78.154.213.110 2 9 84295 20091222123502
+71.127.58.29 1 9 197249 20091230084123
+204.95.105.214 1 1 494 20091228125139
+98.157.95.192 3 11 206277 20091226081411
+71.112.80.37 3 11 206448 20091209183215
+64.12.116.208 0 1 106094 
+76.250.117.149 1 9 197188 20091210162645
+207.81.0.182 1 9 197214 20091206180929
+74.232.99.41 3 19 405354 20091202235004
+24.229.109.116 2 18 394512 20091229091841
+24.8.51.194 4 12 213193 20091220051215
+98.222.17.113 3 12 224391 20091216044540
+71.92.248.20 2 11 208247 20091211005457
+72.174.42.202 1 8 189977 20091211220238
+76.126.232.128 3 10 188768 20091228165655
+24.117.111.115 1 9 197249 20091230010955
+70.171.205.67 1 9 197263 20091217112200
+24.206.10.135 1 9 197249 20091229074143
+76.216.22.141 1 9 197250 20091223061016
+69.29.25.171 1 9 197263 20091218162441
+76.111.6.51 1 1 5178 20091206223931
+208.80.193.42 4 4 20832 20091228231021
+69.58.178.27 8 8 54581 20091209153241
+72.241.236.105 1 10 206960 20091222225521
+32.177.49.119 4 32 405540 20091219134551
+70.161.2.225 1 5 65358 20091205152422
+66.240.17.13 2 10 202340 20091210133631
+75.90.226.79 1 9 197249 20091229030122
+99.235.240.246 3 11 212284 20091226122949
+69.158.105.200 1 9 197249 20091228160134
+70.131.94.245 1 4 57719 20091229193031
+209.195.75.67 1 9 197249 20091229082538
+98.213.206.54 1 5 65332 20091207183223
+64.255.180.133 1 9 197249 20091229122822
+74.186.135.130 1 9 197249 20091231185758
+68.53.113.226 3 11 207952 20091227201709
+76.108.155.116 1 7 168355 20091202082526
+24.1.197.73 2 16 203783 20091211223210
+75.168.182.76 1 7 180293 20091204025742
+72.87.83.45 2 10 203809 20091205182525
+76.28.168.156 1 9 197249 20091230015001
+174.54.31.178 5 13 221431 20091202165232
+70.55.206.127 5 19 391712 20091203205902
+70.161.21.219 1 9 197188 20091211221609
+205.188.116.208 0 2 212188 
+69.229.36.166 2 16 203858 20091214155829
+99.152.206.163 1 9 197249 20091228174503
+71.202.26.39 1 7 168355 20091208102207
+208.7.227.45 1 7 180267 20091208122324
+174.57.22.5 2 10 130787 20091228221053
+24.77.220.151 1 9 197250 20091224201419
+71.226.78.104 1 10 206973 20091216115059
+71.206.227.123 3 11 208777 20091217042221
+76.240.75.44 2 10 202169 20091222124114
+99.73.195.146 1 7 5213 20091227200103
+64.12.117.71 0 1 11014 
+66.42.143.130 1 9 197214 20091204101730
+69.171.166.84 2 10 203844 20091228180641
+75.238.62.77 1 9 197250 20091226203651
+64.191.211.55 3 11 207891 20091209165128
+173.2.98.137 1 9 197214 20091206174106
+24.46.209.154 1 9 197188 20091208213456
+72.66.254.242 2 10 204094 20091207102907
+70.2.123.75 3 19 207492 20091212121026
+209.147.127.219 4 4 1580 20091231182116
+24.130.118.2 1 9 197188 20091209225440
+99.239.174.129 1 9 197249 20091229163637
+67.82.39.61 2 10 203858 20091215195453
+173.69.166.235 1 4 57733 20091215214751
+76.116.193.42 1 7 180267 20091211212614
+150.70.84.155 0 6 147204 
+70.118.98.184 1 9 197249 20091229051046
+24.165.19.230 2 10 202490 20091217225535
+71.208.32.143 1 9 197214 20091206192926
+69.139.239.44 2 10 203858 20091220144706
+128.91.110.189 1 9 197263 20091216152900
+76.182.111.194 1 8 188373 20091206202943
+67.163.184.215 2 10 202107 20091207135618
+69.128.218.106 3 11 206570 20091230110859
+98.64.90.120 1 10 206959 20091231211544
+206.195.193.254 6 52 804952 20091215111305
+174.132.239.74 1 1 4108 20091212140358
+216.80.137.23 1 9 197214 20091206173435
+99.147.172.53 1 9 197188 20091213094519
+162.83.200.126 1 1 6906 20091228152518
+74.64.91.150 1 9 197250 20091226224750
+65.64.195.169 1 7 180329 20091221170317
+24.2.208.234 1 3 121031 20091215191142
+205.236.4.254 3 19 208987 20091202130955
+129.33.49.251 1 5 65358 20091204083330
+67.86.104.182 1 9 197188 20091212211142
+74.107.115.174 1 5 65394 20091226101322
+63.254.71.225 4 12 214548 20091226004210
+99.235.129.171 1 1 5178 20091205065134
+70.112.186.136 5 13 219239 20091208173440
+74.177.51.77 2 18 202392 20091204023351
+74.15.246.28 1 9 197249 20091231190310
+96.251.162.206 2 10 202490 20091217191105
+66.26.112.79 1 9 197263 20091218115045
+209.21.87.2 3 11 207891 20091208111817
+71.192.251.241 3 19 208935 20091209171349
+173.85.69.169 1 9 197214 20091204110900
+69.181.169.231 2 10 203844 20091231200853
+64.89.219.116 1 9 197214 20091202142314
+69.158.124.145 4 20 218185 20091211215502
+76.17.228.74 3 11 208987 20091201103014
+72.214.46.233 1 9 197188 20091207144230
+98.245.56.73 1 9 197188 20091208204322
+67.80.84.203 1 9 197249 20091228193549
+173.172.112.202 1 9 197214 20091203215952
+99.238.20.134 4 34 218393 20091203155912
+99.41.111.177 2 14 185569 20091215095327
+24.187.125.210 1 4 57719 20091227155417
+68.12.217.53 1 1 4039 20091217060318
+69.251.52.34 1 7 180267 20091210143920
+173.3.169.126 1 9 197214 20091206143939
+65.92.44.164 1 9 197263 20091214042543
+98.221.211.168 1 5 65332 20091212065353
+38.98.19.66 0 3 137239 
+68.161.54.144 2 8 170787 20091208013748
+74.87.184.69 4 11 193998 20091207125633
+68.58.90.1 1 9 197249 20091227190200
+76.114.46.150 1 9 197249 20091228124813
+67.182.39.150 2 10 202182 20091213181452
+99.251.255.140 3 11 214709 20091207143214
+71.251.129.123 1 4 57733 20091220092846
+207.172.184.52 4 12 212810 20091207141709
+74.98.216.109 2 13 185471 20091206184557
+117.198.165.172 1 10 197249 20091230030443
+198.246.171.200 1 5 65407 20091214025136
+216.104.15.142 0 3 128122 
+74.127.239.30 3 23 206215 20091211075314
+66.196.119.20 0 3 52506 
+70.238.140.202 1 9 197263 20091217152038
+174.132.215.58 1 1 5227 20091220222829
+67.200.63.4 2 10 203783 20091211124338
+64.134.224.210 2 18 394498 20091228173002
+71.110.77.67 1 4 57720 20091226143251
+70.169.55.169 3 12 68145 20091231115758
+174.106.18.252 2 7 70536 20091202114024
+69.117.69.57 1 7 180267 20091208204313
+71.75.245.35 4 20 213095 20091205090352
+205.188.116.16 1 1 6595 20091228175837
+114.80.93.71 7 31 830340 20091223192011
+96.22.195.188 1 9 197188 20091212081030
+74.190.107.163 1 9 197250 20091225161029
+70.105.114.241 1 9 197214 20091202154920
+216.130.124.150 1 8 286361 20091211110037
+67.241.137.176 3 21 505376 20091208182946
+207.200.116.7 0 3 29130 
+98.110.239.8 4 13 318404 20091211000157
+67.32.141.185 6 14 226134 20091217092800
+99.41.84.255 5 13 219791 20091215144501
+99.191.127.206 1 4 57658 20091207181123
+24.156.90.67 1 9 197249 20091228221611
+64.150.16.3 2 11 87149 20091217110213
+77.88.51.10 2 2 10356 20091203033520
+24.222.179.95 1 9 197250 20091225201149
+75.118.205.11 3 17 369712 20091228211033
+96.19.173.212 1 1 2578 20091209070852
+67.111.141.2 1 9 197214 20091202115920
+99.65.16.42 1 9 197250 20091221163542
+99.152.40.160 1 7 5178 20091204221849
+70.26.238.112 4 13 331701 20091214005942
+69.122.163.183 3 11 208987 20091205065702
+75.143.70.107 2 18 394428 20091202211805
+71.87.179.80 1 9 197263 20091215123514
+69.246.210.126 1 1 5178 20091203105253
+75.135.40.218 1 9 197249 20091228010837
+69.181.201.251 1 10 303344 20091222182014
+71.75.255.7 1 7 180293 20091204151954
+203.206.166.189 4 20 403714 20091202193743
+205.206.27.135 1 1 5214 20091221101255
+76.24.102.240 1 9 197188 20091209215823
+38.98.19.67 0 3 22422 
+74.176.66.69 1 9 197249 20091231142459
+74.57.31.84 2 10 208073 20091225230600
+24.62.229.122 7 15 231515 20091202153113
+95.25.138.124 1 9 197263 20091218161259
+216.241.32.34 1 7 168355 20091228130640
+70.106.232.59 1 6 74234 20091228130527
+66.197.167.100 3 3 15681 20091215013858
+66.130.246.243 1 9 197188 20091211100102
+70.239.5.54 1 9 197214 20091205123234
+70.232.76.251 1 8 189108 20091207122012
+98.242.64.121 1 9 197263 20091214133758
+205.188.117.67 1 1 5227 20091215172412
+75.75.25.46 2 15 309345 20091216163602
+98.233.209.9 2 10 201322 20091206073428
+174.21.138.222 1 9 197188 20091210023811
+99.32.64.203 1 7 5214 20091222220355
+174.45.25.18 1 9 197214 20091205185309
+65.188.210.209 1 9 197214 20091203183434
+207.200.116.138 1 2 16228 20091223152518
+72.78.120.152 1 4 57733 20091219181906
+174.119.18.21 1 9 197250 20091223110226
+72.242.34.187 1 9 197188 20091209043935
+99.14.112.71 3 17 209085 20091215093720
+70.90.158.101 1 9 197214 20091204132540
+99.34.194.143 5 13 219343 20091203123720
+173.75.218.126 1 9 197250 20091224170448
+75.224.143.54 1 9 197249 20091229094233
+67.70.93.248 4 12 219882 20091225232011
+67.189.195.0 2 8 181214 20091206143404
+24.113.250.114 1 7 180267 20091211222353
+66.69.234.210 1 9 197250 20091221162626
+99.229.62.170 2 16 208140 20091204154538
+174.114.236.183 1 9 197249 20091230200431
+208.80.193.29 2 2 10379 20091214232643
+74.190.236.51 2 16 201296 20091212065105
+68.9.52.131 1 9 197214 20091205073458
+174.142.104.57 3 12 315392 20091206134627
+69.171.163.105 3 15 197346 20091230213608
+24.58.34.108 1 9 197214 20091202220742
+99.156.149.252 1 9 197214 20091201195346
+69.172.112.180 1 9 197249 20091229041537
+173.35.249.103 1 9 197263 20091218135057
+216.37.221.103 1 9 197249 20091229004344
+59.99.18.64 1 10 197249 20091231035614
+67.79.122.72 2 18 394526 20091217100809
+69.36.214.63 2 5 62810 20091210101224
+216.51.255.136 1 9 197250 20091223100922
+205.188.116.130 0 1 8841 
+65.55.67.205 4 12 223223 20091220170502
+68.196.117.20 1 9 197214 20091203202651
+141.151.15.196 1 9 197249 20091228124914
+76.1.191.165 1 9 197263 20091213121521
+193.68.5.68 1 9 197263 20091219011707
+64.255.180.121 1 9 197249 20091228232740
+24.0.121.199 1 9 197188 20091209202435
+64.61.69.90 1 9 197263 20091215140356
+75.3.130.175 4 13 227069 20091220221127
+67.82.70.153 1 9 197188 20091207185638
+98.201.28.4 1 9 197249 20091230021941
+63.79.232.58 1 10 197214 20091207052039
+200.36.161.176 1 9 197249 20091228193838
+38.100.41.119 2 2 10304 20091207134531
+209.195.74.154 1 9 197249 20091231081004
+168.10.192.3 1 4 57684 20091204105718
+174.59.195.121 1 5 65394 20091222180128
+12.149.141.130 1 5 67368 20091209173013
+96.20.1.104 3 20 212181 20091223055925
+67.174.246.197 1 9 197249 20091229204106
+69.156.15.193 7 15 230206 20091225071250
+163.252.113.53 2 10 203844 20091229104211
+205.188.116.195 0 2 19420 
+68.63.201.110 4 14 214486 20091209122617
+24.187.39.165 1 9 197263 20091219182910
+65.55.231.40 0 1 21435 
+70.50.122.33 1 9 197250 20091227052716
+24.29.47.79 1 4 57720 20091224055443
+67.183.105.157 1 7 180329 20091222115442
+207.200.116.70 2 5 74387 20091209140356
+70.83.1.110 1 1 5152 20091207143753
+71.62.147.126 1 6 74199 20091201092514
+155.41.208.222 1 9 197250 20091221101041
+24.238.41.144 2 8 11514 20091204130839
+69.141.84.99 1 5 65407 20091219140647
+99.35.148.249 1 8 5214 20091223222711
+174.91.101.242 1 9 197183 20091213101806
+69.149.44.83 1 9 197249 20091231114610
+68.191.49.109 1 7 168355 20091228132921
+64.180.188.106 1 9 197249 20091229161601
+64.74.215.28 1 1 5227 20091219223745
+208.80.193.37 3 3 15668 20091223210117
+173.21.3.154 1 10 204888 20091206111423
+68.108.95.122 1 9 197188 20091212191629
+68.28.137.225 3 11 207917 20091205212336
+99.253.108.123 1 9 197214 20091203004240
+174.6.123.109 3 25 398536 20091205011750
+98.169.170.6 4 18 212310 20091209001546
+70.212.217.223 1 9 197188 20091210234928
+96.23.24.139 1 9 197188 20091209125158
+99.67.122.58 1 7 5214 20091224092022
+65.41.147.7 1 9 197188 20091211030952
+94.213.153.250 1 1 6595 20091217192015
+98.175.175.238 1 9 197214 20091201103556
+24.12.128.156 1 7 180267 20091210081759
+70.80.161.224 1 9 197250 20091224061211
+72.35.97.131 1 10 206959 20091229030335
+99.152.42.121 1 7 5213 20091227150928
+71.115.193.85 1 9 197263 20091219121413
+96.224.149.241 1 5 65407 20091215154107
+65.12.173.74 6 14 226233 20091211061349
+76.105.28.27 1 9 197249 20091230000143
+208.101.99.124 1 9 197214 20091207001117
+71.0.126.252 1 9 197188 20091208155018
+71.220.182.2 1 9 197263 20091220212303
+67.182.189.215 1 9 197214 20091204021737
+173.48.142.160 1 9 197188 20091209154851
+75.87.93.42 1 9 197249 20091230104806
+208.105.166.178 1 9 14068 20091217125608
+99.132.128.57 1 9 197249 20091231185354
+151.199.134.186 1 8 187967 20091203184307
+98.230.156.48 1 7 180328 20091227210214
+71.57.17.7 1 4 57658 20091207190535
+66.196.97.167 2 2 10426 20091228133952
+173.65.97.79 1 5 65407 20091218181714
+99.238.91.196 1 9 197263 20091217150416
+98.204.209.85 1 9 197214 20091205093455
+58.61.164.39 8 40 1100216 20091230210048
+69.14.24.237 2 18 383348 20091231171350
+12.111.192.164 1 9 197249 20091228072336
+74.96.167.202 1 9 197263 20091220013221
+174.129.149.12 2 4 40393 20091227020045
+24.141.68.82 3 11 215095 20091217124143
+173.48.24.53 1 9 197214 20091202211847
+70.81.21.41 2 10 208140 20091203232425
+72.148.222.60 3 11 207966 20091214213556
+66.162.225.90 3 11 207952 20091228123857
+75.99.228.186 1 9 197214 20091206130742
+99.35.144.227 1 7 5178 20091205145440
+208.80.193.43 2 2 10427 20091231020711
+70.40.134.67 1 9 197263 20091214104323
+64.102.254.33 1 9 197263 20091213125313
+75.25.13.220 2 10 208114 20091210021756
+76.1.71.128 1 9 197188 20091207190639
+68.123.232.52 2 14 172463 20091228125729
+216.146.76.90 1 9 197249 20091231075930
+76.83.29.196 2 10 203783 20091211124849
+131.107.0.114 1 1 494 20091228130601
+70.51.83.71 1 9 197249 20091230183126
+72.93.97.182 1 5 65358 20091204140121
+208.80.193.54 1 1 5227 20091218221331
+173.26.159.94 1 9 197263 20091218210139
+98.110.167.172 1 10 206973 20091216213736
+71.182.227.141 1 9 197249 20091231095908
+199.43.32.99 1 9 197263 20091214153241
+24.201.133.158 1 9 197214 20091204090758
+95.108.142.150 4 4 20712 20091203162205
+216.104.15.130 0 4 232043 
+174.129.52.110 8 35 957739 20091208123756
+63.231.84.53 1 9 197263 20091215223819
+68.209.8.245 3 9 190757 20091225204005
+96.232.219.239 1 9 197263 20091216103108
+98.213.210.28 6 14 226596 20091203104805
+174.106.23.163 1 10 206960 20091221195640
+205.188.116.14 1 1 4919 20091228180210
+207.200.116.67 0 1 5907 
+70.15.105.50 2 18 394526 20091218143022
+205.188.116.74 0 2 11814 
+76.249.45.223 2 6 70634 20091217233214
+98.248.195.62 1 9 197263 20091220220129
+98.165.44.103 1 9 197249 20091229035954
+67.8.245.65 4 29 219985 20091224081958
+70.114.216.86 4 12 225766 20091206090052
+174.59.201.127 2 11 208996 20091201101124
+65.68.200.141 1 9 197214 20091203081834
+65.118.59.5 4 12 221227 20091204195048
+71.48.52.225 1 5 65407 20091219124603
+216.64.107.132 3 19 208987 20091202214327
+72.95.203.74 1 9 197249 20091230030612
+174.133.83.226 2 2 9286 20091206163609
+75.161.242.128 1 9 197214 20091206211340
+69.218.24.194 1 6 73081 20091218100836
+58.61.164.140 8 36 967897 20091231003922
+66.61.122.37 4 18 229992 20091202163550
+83.5.224.102 1 9 197214 20091204063812
+207.200.116.71 1 1 6595 20091209140316
+68.122.160.242 1 9 197214 20091203170651
+208.54.5.71 6 12 112944 20091208113414
+69.108.3.121 2 16 202169 20091223142942
+174.91.81.164 1 9 197188 20091211062541
+74.64.108.213 1 9 197188 20091208210912
+172.190.73.158 2 14 175261 20091228125622
+206.248.177.211 1 9 197249 20091230150322
+207.200.116.135 0 4 26562 
+72.10.229.204 1 4 57658 20091207154110
+209.147.127.214 8 8 3160 20091231215920
+76.98.42.87 1 9 197214 20091207074210
+70.114.185.238 1 9 197263 20091215061327
+24.136.6.51 2 10 201322 20091202200506
+72.94.249.37 1 1 5227 20091214083510
+67.152.252.164 1 4 57720 20091223142312
+207.134.233.84 1 5 65332 20091209151908
+99.57.220.161 1 7 180329 20091222145228
+129.25.19.22 1 6 74199 20091202101400
+68.14.92.253 1 9 197249 20091231023431
+173.62.4.174 2 16 203845 20091227050422
+24.6.187.203 1 9 197214 20091206210021
+76.179.111.73 1 9 197250 20091226141827
+64.124.194.5 7 7 36363 20091231115940
+71.11.142.214 1 9 197263 20091217180216
+209.147.127.221 1 1 395 20091231170515
+68.17.115.102 4 12 214512 20091201082924
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20091201 37 160 2712648 19
+20091202 78 419 7745410 41
+20091203 84 388 6982273 40
+20091204 89 453 8318922 48
+20091205 55 340 5800575 34
+20091206 58 327 6574991 40
+20091207 106 534 8301035 50
+20091208 75 298 5674375 29
+20091209 73 325 5058709 35
+20091210 52 283 5491172 31
+20091211 130 522 7344576 39
+20091212 30 183 2990585 20
+20091213 31 195 3939625 24
+20091214 67 332 6239329 38
+20091215 64 298 4958143 34
+20091216 43 227 4448105 26
+20091217 57 262 4720117 34
+20091218 36 207 3887369 26
+20091219 24 158 2924842 16
+20091220 58 248 4674799 30
+20091221 35 170 3658788 28
+20091222 43 257 5130365 36
+20091223 26 177 2812848 21
+20091224 25 125 1968813 16
+20091225 39 157 2894023 15
+20091226 32 146 2800638 16
+20091227 47 247 4867893 34
+20091228 94 478 8717282 56
+20091229 112 612 11820866 62
+20091230 88 530 8793253 58
+20091231 66 349 7054985 63
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 4
+5mn-15mn 27
+2mn-5mn 28
+15mn-30mn 15
+30s-2mn 131
+0s-30s 843
+30mn-1h 11
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 13
+/ 1096 5678541 939 737
+/services.php 227 1490470 29 102
+/about.php 145 591552 26 43
+/references.php 94 642258 8 37
+/become_member.php 92 452548 8 42
+/index.php 80 414967 6 36
+/terms_and_conditions.php 47 508681 5 15
+/privacy_policy.php 39 426114 5 14
+/~jpsd/ 27 10665 27 27
+/~jpsdbiz/file:/ 3 1482 2 3
+http://www.collegiateadvisors.com/ 2 10426 2 2
+/~jpsdbiz/file:/ect/passwd/WellsFargo.CoM/wellsfargo.com/wellsfargo.com/ 1 21609 1 0
+/~jpsdbiz/ 1 483 1 1
+END_SIDER

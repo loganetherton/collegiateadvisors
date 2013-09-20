@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<resource_schema>
+	<db>Main</db>	
+	<tables>	
+		<table>advisors</table>
+		<table>advisors_contact_info</table>
+	</tables>
+	<serialized>
+		<field>plugins</field>
+	</serialized>
+	<foreign_keys>
+		<reference>Style</reference>
+		<reference key="test_user_id">User</reference>
+	</foreign_keys>
+	<sub_resources>
+		<sub_resource>User</sub_resource>
+		<sub_resource>Workshop</sub_resource>
+		<sub_resource>Hook</sub_resource>
+		<sub_resource>Advisor_EditablePage</sub_resource>
+	</sub_resources>
+</resource_schema>

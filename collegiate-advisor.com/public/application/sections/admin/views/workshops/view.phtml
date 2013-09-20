@@ -1,0 +1,143 @@
+<h1>View Workshop</h1>
+
+<ul class="commands">
+ 
+  <li><a href="<?php echo SITE_URL . '/admin/workshops/edit/' . $workshop->get( 'id' ); ?>">Edit Workshop</a></li>
+  <li><a href="" onclick="delete_resource( 'workshop', '<?php echo $workshop->get( 'id' ); ?>', '/admin/workshops/<?php echo $workshop->get( 'advisor_id' ); ?>/deleted' ); return false;">Delete Workshop</a></li>
+	
+</ul>
+
+<table cellspacing="0" class="information_table">
+
+	<?php if ( $this->level > 1 ): ?>
+	
+		<tr>
+			<td>Advisor:</td>
+			<td>
+				<?php 
+				
+					if ( $workshop->get( 'advisor_id' ) == 0 ) 
+						echo 'Global'; 
+					else 
+						echo '<a href="' . SITE_URL . '/admin/advisors/view/' . $workshop->get( 'advisor_id' ) . '">' . $workshop->get( 'business_name' ) . '</a>';
+				
+				?>
+			</td>
+		</tr>
+	
+	<?php endif; ?>
+	
+	<tr>
+		<td>Time:</td>
+		<td><?php echo $workshop_time ?></td>
+	</tr>
+	<tr>
+		<td>Location:</td>
+		<td><?php echo $workshop->get( 'location' ); ?></td>
+	</tr>
+	<tr>
+		<td>Address:</td>
+		<td><?php echo $workshop->get( 'address' ); ?></td>
+	</tr>
+	<tr>
+		<td>City:</td>
+		<td><?php echo $workshop->get( 'city' ); ?></td>
+	</tr>
+	<tr>
+		<td>State:</td>
+		<td><?php echo $workshop->get( 'state' ); ?></td>
+	</tr>
+	<tr>
+		<td>Zip:</td>
+		<td><?php echo $workshop->get( 'zip' ); ?></td>
+	</tr>
+	<tr>
+		<td>Phone Number:</td>
+		<td><?php echo $workshop->get( 'phone_number' ); ?></td>
+	</tr>
+	<tr>
+		<td>Description:</td>
+		<td><?php echo $workshop->get( 'description' ); ?></td>
+	</tr>
+</table>
+
+<h1>Workshop Registrants (<?php echo $num_registrants; ?>)</h1>
+
+<?php
+
+	if ( count( $registrants ) == 0 )
+	{
+
+		echo '<p>No registrants have signed up for this workshop yet.</p>';
+
+	}
+	else
+	{
+
+		?>
+		<ul class="commands">
+
+			<li><a href="<?php echo SITE_URL . '/admin/workshop_registrants/print_all/' . $workshop->id; ?>" onclick="window.open( '<?php echo SITE_URL . '/admin/workshop_registrants/print_all/' . $workshop->id; ?>', 'info' ); return false;">Print Registrants</a></li>
+
+		</ul>
+
+		<table cellspacing="0">
+
+			<tr>
+				<th>Name</th>
+				<th>Email Address</th>
+				<th>Phone Number</th>
+				<th># of Guests</th>
+				<th>Commands</th>
+			</tr>
+			
+			<?php
+				
+				// Loop through each workshop.
+				$i = 0;
+				foreach ( $registrants as $registrant_id => $registrant )
+				{
+				
+					// Which row type?
+					if ( $i == 0 )
+						echo '<tr class="row1" id="registrant'. $registrant_id .'">';
+					else
+						echo '<tr class="row2" id="registrant'. $registrant_id .'">';
+						
+					?>
+					
+					<td><?php echo $registrant->get( 'first_name' ) . ' ' . $registrant->get( 'last_name' ); ?></td>
+					<td><?php echo $registrant->get( 'email_address' ); ?></td>
+					<td><?php echo $registrant->get( 'phone_number' ); ?></td>
+					<td>
+						<?php
+						
+							$guests = $registrant->get( 'guests' );
+
+							echo $guests ? count( $guests ) : 0;
+							
+						?>
+					</td>
+					<td><a href="<?php echo SITE_URL . '/admin/workshop_registrants/view/' . $registrant->get( 'id' ); ?>">View</a></td>
+						
+					<?php
+					
+					echo '</tr>';
+					
+					$i++;
+
+					// Wrap.
+					if ( $i == 2 )
+						$i = 0;
+				
+				}
+
+			?>
+			
+		</table>
+		
+		<?php
+
+	}
+	
+?>

@@ -1,0 +1,15 @@
+<div id="recovery">
+
+	<h1>Forgotten Information</h1>
+	
+	<p>Enter your email address in the field below to recover your username or reset your password.</p>
+	
+	<?php 
+	
+		if ($message != '') echo '<p><em class="red">'.$message.'</em></p>'; 
+		
+		echo $form->output(); 
+	
+	?>
+
+</div>

@@ -1,0 +1,17 @@
+AddDefaultCharset UTF-8
+
+RewriteEngine On
+
+RewriteCond %{SERVER_PORT} ^443$
+RewriteCond %{HTTP_HOST} ^www\.collegiate-advisor.com [NC] 
+RewriteRule ^(.*) https://collegiate-advisor.com/$1 [L,R=301]
+
+RewriteCond %{QUERY_STRING} base64_encode.*\(.*\) [OR]
+RewriteCond %{QUERY_STRING} (\<|%3C).*script.*(\>|%3E) [NC,OR]
+RewriteCond %{QUERY_STRING} GLOBALS(=|\[|\%[0-9A-Z]{0,2}) [OR]
+RewriteCond %{QUERY_STRING} _REQUEST(=|\[|\%[0-9A-Z]{0,2})
+RewriteRule ^(.*)$ index.php [F,L]
+
+RewriteRule !\.(js|ico|gif|jpg|png|css|css.php|pdf|swf|flv)$ index.php
+
+RewriteRule (SkinOverPlayStopSeekMuteVol.swf)$ /files/tutorials/SkinOverPlayStopSeekMuteVol.swf

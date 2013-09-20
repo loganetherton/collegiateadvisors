@@ -1,0 +1,439 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 200806 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2528                
+POS_VISITOR 8192                
+POS_DAY 11673               
+POS_DOMAIN 3296                
+POS_LOGIN 3572                
+POS_ROBOT 3727                
+POS_WORMS 4170                
+POS_EMAILSENDER 4301                
+POS_EMAILRECEIVER 4444                
+POS_SESSION 12007               
+POS_SIDER 12214               
+POS_FILETYPES 4579                
+POS_OS 4725                
+POS_BROWSER 4837                
+POS_SCREENSIZE 5006                
+POS_UNKNOWNREFERER 5080                
+POS_UNKNOWNREFERERBROWSER 5410                
+POS_ORIGIN 5492                
+POS_SEREFERRALS 5635                
+POS_PAGEREFS 5822                
+POS_SEARCHWORDS 6405                
+POS_KEYWORDS 6678                
+POS_MISC 2191                
+POS_ERRORS 6829                
+POS_CLUSTER 3428                
+POS_SIDER_404 6941                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20080701022348 92 18307 31524877528
+FirstTime 0
+LastTime 20080630213315
+LastUpdate 20080701101641 92 0 91 0 0
+TotalVisits 111                 
+TotalUnique 76                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 91                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 25 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 16 203107 16 16 82239
+1 5 13 219866 4 4 24960
+2 1 1 5600 11 11 50557
+3 1 1 5600 8 8 35269
+4 1 1 5600 13 13 57988
+5 1 1 5600 42 44 219828
+6 1 1 5471 8 8 30426
+7 1 3 5600 7 7 32562
+8 14 70 1004419 36 37 139033
+9 31 136 2088619 23 24 90673
+10 35 165 1337367 38 41 284998
+11 48 180 2709279 26 26 112566
+12 34 111 1528779 15 16 71934
+13 35 133 1467044 11 11 44820
+14 26 114 1097043 19 19 85681
+15 18 73 1066736 29 35 279859
+16 12 67 645368 16 18 83787
+17 12 28 448952 32 34 169615
+18 3 19 400353 7 8 37273
+19 7 28 566633 14 14 60928
+20 6 30 609042 22 26 160559
+21 5 24 585229 41 42 201213
+22 1 9 197605 10 10 47750
+23 9 25 241096 15 15 69918
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+us 288 1201 15635416
+ip 13 32 579479
+fr 6 14 223887
+ca 2 2 11226
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+slurp 46 294641 20080630223730 0
+googlebot 30 467775 20080630083712 0
+msnbot 20 130852 20080630213107 0
+msnbot\-media 11 90136 20080623164547 0
+crawl 7 48151 20080629122458 0
+ia_archiver 6 42404 20080628214710 0
+\wbot[\/\-] 5 27711 20080629203119 0
+jeeves 2 11200 20080627031324 0
+robot 1 5600 20080627020423 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+php 175 940551 0 0
+css 149 781893 0 0
+html 134 753975 0 0
+jpg 208 3038368 0 0
+js 583 10935221 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 7
+macosx 19
+winxp 918
+winlong 246
+win2003 31
+win2000 2
+win98 11
+Unknown 22
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 10
+msie6.0 324
+firefox2.0.0.14 249
+nokia 4
+mozilla 13
+msie7.0 399
+firefox3.0 28
+opera 217
+netscape4.0 4
+wget 1
+safari 10
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Nokia6300/2.0_(05.50)_Profile/MIDP-2.0_Configuration/CLDC-1.1_(botmobi_http://find.mobi/bot.html_abuse@mtld.mobi) 20080627150412
+Wget/1.10.2_(Red_Hat_modified) 20080621194705
+Mozilla/4.0_(compatible;) 20080629075016
+Mozilla/4.0 20080630123651
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 125 144
+From1 0 0
+From2 12 12
+From3 15 15
+From4 157 1078
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+google 5 5
+live 5 5
+yahoo 1 1
+netscape 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 8
+http://collegiateadvisors.collegiate-advisor.com/login 6 6
+http://email.secureserver.net/webmail.php 2 2
+http://collegiateadvisors.collegiate-advisor.com/services 2 2
+http://us.mg2.mail.yahoo.com/dc/launch 1 1
+http://us.mc540.mail.yahoo.com/mc/showMessage 1 1
+http://collegiateadvisors.collegiate-advisor.com/member/ 1 1
+http://collegiateadvisors.collegiate-advisor.com/member/testgear_full 1 1
+http://www.niccp.com/recordings.asp 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 7
+collegiate+advisors 4
+college 2
+collegiate+advisors+llc 1
+collegiate 1
+information 1
+student 1
+colligiate+advisors.com 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 8
+collegiate 6
+advisors 5
+college 2
+information 1
+advisors.com 1
+student 1
+colligiate 1
+llc 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+403 5 0
+301 37 10780
+404 317 1345186
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 42
+/imode/ 2 -
+/xhtml/ 2 -
+/EFC/efc02.html 1 -
+/robots.txt 120 -
+/js/\"%20+%20creation_data%20+%20\" 1 -
+/references.php 3 -
+/aboutus.php 11 -
+/sign_up.php 9 -
+/password_misplaced.php 7 -
+/EFC/efc03.html 2 -
+/mapit.php 43 -
+/login.php 7 -
+/EFC/efc00.html 1 -
+/images/steps_to_success2.jpg 1 -
+/EFC/efc11.html 2 -
+/js/js/dom-min.js 1 -
+/m/ 2 -
+/wap/ 2 -
+/seminar_register.php 28 -
+/Privacy_Policy_052206.pdf 1 -
+/Terms_Conditions-05-22-06.pdf 2 -
+/EFC/efc07.html 2 -
+/hstimeline_jun.php 6 -
+/EFC/efc04.html 2 -
+/images/blue_right.jpg 1 -
+/mobile/ 2 -
+/services.htm 13 -
+/EFC/efc08.html 2 -
+/hstimeline_soph.php 8 -
+/images/services_focus.jpg 1 -
+/EFC/efc09.html 3 -
+/flash/flash/quotes.txt 1 -
+/PersonalFinancialAidAnalysis113006.pdf 1 -
+/EFC/efc01.html 1 -
+/Privacy%20Policy_012808.pdf 7 -
+/EFC/efc06.html 1 -
+/mobi/ 2 -
+/contactus.php 6 -
+/js/lw-framework 1 -
+/hstimeline_sen.php 5 -
+/images/index_header_backs_pic.jpg 1 -
+/EFC/efc10.html 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 91
+70.15.96.131 62 286 2261871 20080630113349
+68.46.42.153 39 159 2335765 20080630091749
+99.170.147.26 17 57 794125 20080625153141
+67.86.142.175 15 39 657005 20080626124019
+71.41.44.74 14 126 458742 20080624130049
+67.102.25.22 11 19 251977 20080627150137
+67.169.116.207 10 34 438084 20080625233444
+12.31.97.43 9 25 239508 20080624132216
+75.34.111.25 6 14 223613 20080625140930
+57.69.22.246 6 14 223887 20080626135403
+167.181.12.111 5 19 218111 20080626141717
+72.151.11.188 5 13 216375 20080625144434
+67.233.144.197 5 13 218112 20080626113936
+76.219.220.176 5 13 219866 20080624010325
+68.82.124.156 4 20 406707 20080621155556
+74.94.217.129 4 12 214241 20080625171832
+65.207.46.98 4 12 213229 20080626105144
+24.144.152.31 4 12 213251 20080624123501
+69.37.211.114 3 11 208352 20080622093142
+204.246.129.196 3 3 16254 20080630123651
+72.77.128.186 3 11 206745 20080625165934
+24.181.235.233 3 11 206751 20080623154205
+74.219.231.78 3 25 177594 20080623101939
+72.25.53.104 3 11 207693 20080625095739
+71.164.69.186 3 17 206849 20080625144154
+64.12.116.16 1 1 5009 20080625101910
+131.193.13.58 1 9 197476 20080621151641
+64.12.117.202 0 1 11014 
+64.12.117.78 0 1 106094 
+209.107.224.226 1 9 197605 20080625151155
+75.193.96.209 1 9 197599 20080624111448
+66.121.140.71 2 10 203107 20080622003633
+208.80.193.32 1 1 5600 20080630074518
+64.12.116.76 0 1 7674 
+205.188.116.145 1 1 4011 20080626104859
+209.191.87.217 2 2 11200 20080625151254
+67.234.70.219 1 9 197738 20080630085905
+216.113.168.139 2 10 203497 20080630122320
+205.188.117.18 0 2 30276 
+141.158.252.187 0 1 9653 
+208.80.193.35 1 1 5600 20080627215201
+75.101.246.128 1 2 15253 20080627150411
+64.12.117.129 0 2 30276 
+68.215.46.55 2 10 201742 20080625191423
+65.55.110.19 1 6 151042 20080630213315
+208.80.193.43 1 1 5600 20080628201151
+216.54.148.71 1 9 197738 20080625154445
+208.80.193.53 1 1 5600 20080626033655
+38.100.41.120 1 1 5661 20080625190932
+75.220.178.42 2 10 203226 20080627083301
+65.55.109.238 1 6 145698 20080630211823
+208.80.193.40 1 1 5600 20080624045540
+60.178.200.130 1 1 5471 20080621194705
+208.80.193.54 1 1 5600 20080625055211
+68.15.43.36 1 9 197738 20080624101451
+64.12.117.7 1 1 4004 20080625101915
+205.188.117.80 2 2 11386 20080626122140
+65.46.48.194 1 1 5626 20080624130513
+208.80.193.30 1 1 5471 20080622063241
+76.109.128.15 1 9 197477 20080621110929
+205.188.117.11 0 1 5907 
+205.188.116.142 1 1 5620 20080626104930
+205.188.117.135 0 1 11014 
+64.12.117.195 1 1 5633 20080625101839
+75.62.254.241 1 9 197470 20080621102533
+65.94.164.186 1 1 5600 20080627021516
+64.12.117.198 0 1 21361 
+70.226.172.50 1 9 197605 20080624221624
+65.55.109.49 1 7 154783 20080630211827
+65.92.201.61 1 1 5626 20080627235946
+71.141.228.68 1 9 197605 20080630114354
+96.227.75.91 1 11 166593 20080621081053
+208.80.193.44 1 1 5600 20080626160252
+208.80.193.33 1 1 5600 20080629174936
+76.167.69.119 3 11 214653 20080625163211
+24.63.47.138 2 10 202748 20080630115503
+75.101.254.169 1 2 15253 20080627104438
+65.55.109.169 1 6 145325 20080624113825
+75.197.49.250 3 11 206752 20080626110538
+64.12.117.74 0 1 5907 
+64.91.185.27 2 10 202607 20080626204820
+205.188.116.197 0 1 9653 
+64.12.117.10 0 1 9653 
+205.188.117.15 0 1 106094 
+65.55.109.106 1 6 151145 20080630193848
+76.65.3.64 1 1 5633 20080626144846
+207.255.12.113 1 4 128106 20080620215851
+12.31.97.44 1 9 197738 20080630123651
+205.188.117.131 0 1 21361 
+205.188.116.13 0 1 7674 
+38.100.41.118 1 1 5620 20080625203731
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 11
+20080620 26 86 1029429 8
+20080621 21 151 1619397 8
+20080622 7 31 614407 4
+20080623 60 281 2037530 13
+20080624 47 208 2860108 16
+20080625 51 182 2940644 21
+20080626 47 139 2169532 14
+20080627 23 49 722777 10
+20080628 3 11 208214 2
+20080629 1 3 5600 1
+20080630 23 108 2242370 14
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 2
+5mn-15mn 7
+2mn-5mn 5
+30s-2mn 19
+0s-30s 65
+15mn-30mn 6
+30mn-1h 7
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 8
+/ 134 753975 93 59
+/services.php 59 297010 5 22
+/about.php 33 132581 4 4
+/references.php 31 186522 0 9
+/index.php 25 140787 5 3
+/become_member.php 20 107687 2 10
+/terms_and_conditions.php 4 43292 1 2
+/privacy_policy.php 3 32672 1 2
+END_SIDER

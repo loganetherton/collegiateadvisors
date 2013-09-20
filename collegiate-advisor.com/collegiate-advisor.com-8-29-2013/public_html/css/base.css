@@ -1,0 +1,185 @@
+/* ----- Main.css ----- */
+
+html 
+{
+	font: 11px verdana;
+	line-height: 18px;
+}
+
+body 
+{
+	padding: 15px 0;
+	text-align:  center;
+}
+
+#container 
+{
+	position: relative;
+	margin: 0 auto;
+	text-align: left;	
+	width: 800px;
+	border: 1px solid;
+}
+
+a 
+{
+	text-decoration: none;
+}
+
+a:hover 
+{
+	text-decoration: underline;
+}
+
+/* ----- Header ----- */
+
+#header 
+{
+	position: relative;
+	border-bottom: 1px solid;
+}
+
+#header img
+{
+	display: block;
+}
+
+/* ----- Main ----- */
+
+#main 
+{
+	position: relative;
+	width: 800px;
+	border-bottom: 1px solid #333;
+}
+
+#main ul.login_button
+{
+	position: absolute;
+	right: 0px;
+	top: -20px;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	line-height: 12px;
+	z-index: 10;
+}
+
+#main ul.login_button li
+{
+	margin: 7px;
+	float: left;
+	padding: 5px 10px;
+	margin-bottom: 0px;
+	border: 1px solid #333;
+}
+
+/* ----- Menu ----- */
+
+#menu_back
+{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	width: 180px;
+	border-right: 1px solid #999;
+	z-index: 1;
+}
+
+#menu 
+{
+	position: relative;
+	width: 180px;
+	line-height: 12px;
+	z-index: 2;
+}
+
+#menu ul { padding: 10px; }
+#menu ul ul { padding: 4px 0 0 0; }
+
+#menu li { padding: 4px 10px 4px 15px; }
+#menu ul ul li { padding-right: 0; }
+
+#menu li.active { background: url(../images/menu-arrow-dark.gif) no-repeat center left; }
+#menu li.last { border-bottom: none; }
+
+#menu h3
+{
+	padding: 6px 8px 0px 0px;
+	color: #333;	
+	text-align: center;
+	font-weight: bold;
+}
+
+#menu h6
+{
+	margin-top: 2px;
+	font-size: 0.9em;
+	padding: 5px 8px 0px 15px;
+}
+
+#education_links
+{
+	overflow: hidden;
+}
+
+#retirement_links
+{
+	overflow: hidden;
+}
+
+#education_switcher { cursor: pointer; }
+#retirement_switcher { cursor: pointer; /*white-space: nowrap;*/ }
+
+.sub
+{
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+/* ----- Content ----- */
+
+#content 
+{
+	float: right;
+	width: 587px;
+	padding: 15px;
+	z-index: 0;
+}
+
+#min-height-content
+{
+	float: right;
+	height: 570px;	
+}
+
+/* ----- Footer ----- */
+
+#footer 
+{
+	height: 30px;
+	text-align: center;
+}
+
+#footer p 
+{
+	padding-top: 6px;
+}
+
+#below_footer
+{
+	padding-top: 15px;
+	text-align: center;
+}
+
+/* ----- General ----- */
+
+.clear 
+{
+	clear: right;
+}
+
+.red
+{
+	color: red;
+}

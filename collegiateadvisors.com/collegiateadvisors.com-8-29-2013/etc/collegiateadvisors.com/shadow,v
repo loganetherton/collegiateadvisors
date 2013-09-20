@@ -1,0 +1,47 @@
+head	1.62;
+access;
+symbols;
+locks
+	collegia:1.62; strict;
+comment	@# @;
+
+
+1.62
+date	2008.10.15.15.45.27;	author collegia;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2008.10.15.15.45.27;	author collegia;	state Exp;
+branches;
+next	;
+
+
+desc
+@Init by /usr/local/cpanel/cpanel
+@
+
+
+1.62
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@keith.landis:$1$39OgSRxn$cN5RGBeO1o4.ZSKthJCBs.:14112::::::
+answers:$1$8ABdsNIK$Khvqn/0Bu0pqPxUyRfVAY0:14112::::::
+faxes:$1$0rg8uFFX$eEpg8dQ9rctj2C5Uxy0kA1:14112::::::
+register:$1$y2ggWUBw$5XTNbZsGZPaxdEPjZ/1pL1:14112::::::
+vmails:$1$zykY7K4_$j8y3FnJIKhfWDJVJHE7oP/:14112::::::
+webmaster:$1$ngUUIyQ8$WWy.rvcWfT8dqUS3CPpD40:14112::::::
+admissionsedit:$1$B98Rajxw$LkhcFiuXDA5GzIpgwEtir0:14123::::::
+robert.tramo:$1$lj6g9L6B$Cql/pxLhs9PyhSliYxbZn.:14167::::::
+@
+
+
+1.61
+log
+@Modified by /usr/local/cpanel/cpanel .
+@
+text
+@d8 1
+@

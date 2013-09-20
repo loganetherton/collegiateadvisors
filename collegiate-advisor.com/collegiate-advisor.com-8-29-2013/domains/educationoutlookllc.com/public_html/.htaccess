@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule ^(.*)$ http://educationoutlook.collegiate-advisor.com/$1 [R=301,L]

@@ -1,0 +1,182 @@
+eth0      Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.77.242  Bcast:74.54.77.255  Mask:255.255.255.240
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:113027992 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:147601873 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1231678100 (1.1 GiB)  TX bytes:853341933 (813.8 MiB)
+          Interrupt:16 
+
+eth0:1    Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.77.243  Bcast:74.54.77.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:2    Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.77.244  Bcast:74.54.77.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:3    Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.77.245  Bcast:74.54.77.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:4    Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.77.246  Bcast:74.54.77.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:5    Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.77.247  Bcast:74.54.77.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:6    Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.77.248  Bcast:74.54.77.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:7    Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.77.249  Bcast:74.54.77.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:8    Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.77.250  Bcast:74.54.77.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:9    Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.77.251  Bcast:74.54.77.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:10   Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.178.40  Bcast:74.54.178.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:11   Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.178.41  Bcast:74.54.178.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:12   Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.178.42  Bcast:74.54.178.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:13   Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.178.43  Bcast:74.54.178.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:14   Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.178.44  Bcast:74.54.178.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:15   Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.178.45  Bcast:74.54.178.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:16   Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.178.46  Bcast:74.54.178.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:17   Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.178.47  Bcast:74.54.178.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:18   Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.54.208  Bcast:74.54.54.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:19   Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.54.209  Bcast:74.54.54.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:20   Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.54.210  Bcast:74.54.54.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:21   Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.54.211  Bcast:74.54.54.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:22   Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.54.212  Bcast:74.54.54.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:23   Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.54.213  Bcast:74.54.54.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:24   Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.54.214  Bcast:74.54.54.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:25   Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.54.215  Bcast:74.54.54.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:26   Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.58.200  Bcast:74.54.58.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:27   Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.58.201  Bcast:74.54.58.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:28   Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.58.202  Bcast:74.54.58.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:29   Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.58.203  Bcast:74.54.58.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:30   Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.58.204  Bcast:74.54.58.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:31   Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.58.205  Bcast:74.54.58.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:32   Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.58.206  Bcast:74.54.58.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+eth0:33   Link encap:Ethernet  HWaddr 00:19:B9:FD:B9:8A  
+          inet addr:74.54.58.207  Bcast:74.54.58.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:16 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:1903691 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1903691 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:1308826529 (1.2 GiB)  TX bytes:1308826529 (1.2 GiB)
+

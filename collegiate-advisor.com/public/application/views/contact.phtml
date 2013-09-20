@@ -1,0 +1,43 @@
+<div id="contact">
+
+	<h1>Our Contact Information</h1>
+	
+	<table class="no_border">
+		<tr>
+			<td><strong>By Phone:</strong></td>
+			<td><?php echo $GLOBALS['advisor']->get( 'contact_phone_number' ); ?></td>
+		</tr>
+		<tr>
+			<td><strong>By Fax:</strong></td>
+			<td><?php echo $GLOBALS['advisor']->get( 'contact_fax_number' ); ?></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td><strong>By E-Mail:</strong></td>
+			<td><?php echo '<a href="mailto:' . $GLOBALS['advisor']->get( 'contact_email_address' ) . '">' . $GLOBALS['advisor']->get( 'contact_email_address' ) . '</a>'; ?></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td><strong>By Mail:</strong></td>
+			<td>
+			
+				<?php
+					
+					echo $GLOBALS['advisor']->get( 'business_name' ) . '<br />';
+					echo $GLOBALS['advisor']->get( 'address' ) . '<br />';
+					echo $GLOBALS['advisor']->get( 'city' ) . ', ' . $GLOBALS['advisor']->get( 'state' ) . ' ' . $GLOBALS['advisor']->get( 'zip' );
+					
+				?>
+			</td>
+		</tr>
+	</table>
+	
+	<?php $contact_view->render(); ?>
+	
+</div>

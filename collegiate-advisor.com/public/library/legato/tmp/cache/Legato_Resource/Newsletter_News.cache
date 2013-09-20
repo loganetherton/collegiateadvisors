@@ -1,0 +1,3 @@
+0
+1355407990
+a:4:{s:6:"tables";a:1:{s:15:"newsletter_news";a:2:{s:2:"id";s:2:"id";s:6:"fields";a:3:{i:0;s:2:"id";i:1;s:4:"date";i:2;s:4:"news";}}}s:2:"db";s:4:"Main";s:6:"fields";a:3:{s:2:"id";s:15:"newsletter_news";s:4:"date";s:15:"newsletter_news";s:4:"news";s:15:"newsletter_news";}s:7:"version";s:2:"11";}

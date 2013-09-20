@@ -1,0 +1,32 @@
+--- 
+__version: '2.1'
+collegiateadvisors.com: 
+  account_count: 8
+  accounts: 
+    admissionsedit: 
+      disk_mtime: '1302120105'
+      diskused: 0
+    answers: 
+      disk_mtime: '1302120105'
+      diskused: 105818
+    faxes: 
+      disk_mtime: '1302120105'
+      diskused: 206552
+    keith.landis: 
+      disk_mtime: '1302120105'
+      diskused: 2095678
+    register: 
+      disk_mtime: '1302120105'
+      diskused: 0
+    robert.tramo: 
+      disk_mtime: '1302120105'
+      diskused: 32752634
+    vmails: 
+      disk_mtime: '1302120105'
+      diskused: 16484481
+    webmaster: 
+      disk_mtime: '1302120105'
+      diskused: 0
+  disk_mtime: '1302120105'
+  passwd_mtime: '1351776866'
+  quota_mtime: '1351776866'

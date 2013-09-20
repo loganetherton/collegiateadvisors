@@ -1,0 +1,238 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+		<title><?php echo $this->layout->title . $GLOBALS['advisor']->get( 'business_name' ); ?></title>
+
+		<link rel="stylesheet" type="text/css" href="<?php echo SITE_URL . Legato_Compressor::get( 'CSS_Common' ); ?>" />
+
+		<?php include( ROOT . '/application/settings/jsconfig.conf.php' ); ?>
+
+		<script type="text/javascript" src="<?php echo SITE_URL . Legato_Compressor::get( 'JS_Top' ); ?>"></script>
+
+	</head>
+
+	<body>
+
+		<div id="container">
+
+			<div id="header"><img src="<?php echo SITE_URL . '/advisor_files/' . $GLOBALS['advisor']->get( 'id' ) . '/header.jpg'; ?>" alt="" /></div>
+
+			<div id="main">
+
+				<ul class="login_button">
+
+					<?php
+
+						Legato_Stage::delegate( 'Hooks', 'menu', array( 'top' ) );
+
+						if ( $GLOBALS['user'] == false )
+						{
+							?> <li><a href="<?php echo SITE_URL . '/login'; ?>">Member Login</a></li> <?php
+						}
+						else
+						{
+							?>
+							<li><a href="<?php echo SITE_URL . '/member/update/'; ?>">Update Your Information</a></li>
+							<li><a href="<?php echo SITE_URL . '/logout'; ?>">Logout</a></li>
+							<?php
+						}
+
+					?>
+
+				</ul>
+
+				<div id="content">
+
+					<?php echo $this->layout->content; ?>
+
+				</div>
+
+				<div id="menu">
+
+					<?php if ( $GLOBALS['advisor']->get( 'web_site' ) != '' ) echo '<br /><h6><a href="' . $GLOBALS['advisor']->get( 'web_site' ) . '">&lt;- Back to Main Site</a></h6>'; ?>
+
+					<ul>
+
+						<!-- Public Links -->
+						<?php
+
+						if ( $plugins['index'] != '0' ): ?><li <?php if ($page == 'index') echo 'class="active"'; ?>><a href="<?php echo SITE_URL . '/'; ?>">Home</a></li><?php endif; ?>
+						<li <?php if ($page == 'services') echo 'class="active"'; ?>><a href="<?php echo SITE_URL . '/services'; ?>">Services</a></li>
+						<?php if ( $plugins['about'] ): ?><li <?php if ($page == 'about') echo 'class="active"'; ?>><a href="<?php echo SITE_URL . '/ext/' . $GLOBALS['advisor']->get( 'id' ) . '/about'; ?>">About Us</a></li><?php endif; ?>
+						<?php if ( $plugins['contact'] ): ?><li <?php if ($page == 'contact') echo 'class="active"'; ?>><a href="<?php echo SITE_URL . '/contact'; ?>">Contact Us</a></li><?php endif; ?>
+						<?php if( $GLOBALS['advisor']->cfs || isset( $_GET['cfs'] ) ): ?>
+							<li <?php if( $page == 'pro_efc' ) echo 'class="active"'; ?>><a href="<?php echo SITE_URL; ?>/pro_efc">Pro EFC</a></li>
+						<?php endif; ?>
+						<?php if ( $plugins['workshops'] ): ?><li <?php if ($page == 'workshop') echo 'class="active"'; ?>><a href="<?php echo SITE_URL . '/workshop'; ?>">Workshop &amp; Webinar Registration</a></li><?php endif; ?>
+						<?php if ( !$GLOBALS['user'] ): ?><li <?php if ( $page == 'login' ) echo 'class="active"'; ?>><a href="<?php echo SITE_URL . '/login'; ?>">Member Login</a></li><?php endif; ?>
+						<?php if ( $plugins['user_signup'] && !$GLOBALS['user'] ): ?><li><a href="<?php echo SITE_URL . '/user_signup'; ?>">Sign Up!</a></li><?php endif; ?>
+
+						<?php Legato_Stage::delegate( 'Hooks', 'menu', array( 'public_top', $page ) ); ?>
+
+						<?php if ( $plugins['retirement'] ): ?>
+
+							<?php
+
+								$expand = false;
+								if ( $section == 'retirement' )
+									$expand = true;
+
+							?>
+
+							<!-- Retirement Planning Links -->
+							<li>
+
+								<strong id="retirement_switcher" onclick="toggleSection( 'retirement' );"><?php if ( $expand ) echo '-'; else echo '+'; ?> Retirement &nbsp;&nbsp;&nbsp;Planning</strong>
+
+								<ul id="retirement_links" <?php if ( !$expand ) echo 'style="display: none;"'; ?>>
+
+									<li <?php if ($page == 'retirement_index') echo 'class="active"'; ?>><a href="<?php echo SITE_URL . '/retirement/'; ?>">Financial Planning Values</a></li>
+									<li <?php if ($page == 'retirement_services') echo 'class="active"'; ?>><a href="<?php echo SITE_URL . '/retirement/services'; ?>">Retirement Services</a></li>
+									<li <?php if ($page == 'retirement_iras') echo 'class="active"'; ?>><a href="<?php echo SITE_URL . '/retirement/iras'; ?>">Traditional vs. Roth IRA's</a></li>
+									<li <?php if ($page == 'retirement_life_insurance') echo 'class="active"'; ?>><a href="<?php echo SITE_URL . '/retirement/life_insurance'; ?>">Life Insurance</a></li>
+									<li <?php if ($page == 'retirement_401k') echo 'class="active"'; ?>><a href="<?php echo SITE_URL . '/retirement/p401k'; ?>">401k Planning</a></li>
+									<li <?php if ($page == 'retirement_529') echo 'class="active"'; ?>><a href="<?php echo SITE_URL . '/retirement/p529'; ?>">529 Planning</a></li>
+
+									<?php Legato_Stage::delegate( 'Hooks', 'menu', array( 'retirement', $page ) ); ?>
+
+								</ul>
+
+							</li>
+
+						<?php endif; ?>
+
+						<li>
+
+							<?php
+
+								$expand = false;
+								if ( $section == 'member' )
+									$expand = true;
+
+							?>
+
+							<strong id="education_switcher" onclick="toggleSection( 'education' );"><?php if ( $expand ) echo '-'; else echo '+'; ?> College<br />&nbsp;&nbsp;&nbsp;Planning</strong>
+
+							<div id="education_links" <?php if ( !$expand ) echo 'style="display: none;"'; ?>>
+
+								<?php if ( $GLOBALS['user'] ): ?>
+
+									<ul>
+
+										<!-- Private Links -->
+										<li <?php if ($page == 'member_index') echo 'class="active"'; ?>><a href="<?php echo SITE_URL . '/member/'; ?>">Member Portal</a></li>
+										<?php if ( !$GLOBALS['mycareer'] ): ?><li><a href="<?php echo SITE_URL . '/member/testgear_full/middle_school'; ?>">High School Planning</a><br /><span class="sub">- Middle School Students</span></li><?php endif; ?>
+										<?php if ( !$GLOBALS['mycareer'] ): ?><li><a href="<?php echo SITE_URL . '/member/testgear_full/high_school'; ?>">College, Major, &amp; Career Assessment</a><br /><span class="sub">- High School Students</span></li><?php endif; ?>
+										<?php if ( $GLOBALS['mycareer'] ): ?><li <?php if ($page == 'member_career_dimension') echo 'class="active"'; ?>><a href="<?php echo SITE_URL . '/member/career_dimension'; ?>">Student Assessment, Career Search, and College Search</a></li><?php endif; ?>
+										<li <?php if ($page == 'member_hs_timeline') echo 'class="active"'; ?>><a href="<?php echo SITE_URL . '/member/hs_timeline_sophomore'; ?>">High School Time Line</a></li>
+										<!--<li <?php if ($page == 'member_test_prep') echo 'class="active"'; ?>><a href="<?php echo SITE_URL . '/member/test_prep'; ?>">PSAT, ACT and SAT Downloadable Tests</a></li>-->
+										<li <?php if ($page == 'member_tutoring') echo 'class="active"'; ?>><a href="<?php echo SITE_URL . '/member/tutoring'; ?>">PSAT, ACT and SAT Tutoring</a></li>
+										<li <?php if ($page == 'member_letters_of_recommendation') echo 'class="active"'; ?>><a href="<?php echo SITE_URL . '/member/letters_of_recommendation'; ?>">Letters of Recommendation</a></li>
+										<li <?php if ($page == 'member_elite_schools') echo 'class="active"'; ?>><a href="<?php echo SITE_URL . '/member/elite_schools'; ?>">Admission to Elite Colleges</a></li>
+										<li <?php if ($page == 'member_admissions') echo 'class="active"'; ?>><a href="<?php echo SITE_URL . '/member/admissions/assistance'; ?>">Admissions Assistance</a></li>
+										<li <?php if ($page == 'member_test_out') echo 'class="active"'; ?>><a href="<?php echo SITE_URL . '/member/test_out'; ?>">Testing Out of Courses</a></li>
+										<li <?php if ($page == 'member_waiting_list') echo 'class="active"'; ?>><a href="<?php echo SITE_URL . '/member/waiting_list'; ?>">All About the Waiting List</a></li>
+										<?php if ( $plugins['credit'] ): ?><li <?php if ($page == 'member_credit_management') echo 'class="active"'; ?>><a href="<?php echo SITE_URL . '/member/credit_management'; ?>">Credit Management Videos</a></li><?php endif; ?>
+										<li <?php if ($page == 'member_imperative_financial_aid') echo 'class="active"'; ?>><a href="<?php echo SITE_URL . '/member/imperative_financial_aid'; ?>">Imperative Financial Aid Information</a></li>
+										<li <?php if ($page == 'member_financial_aid_overview') echo 'class="active"'; ?>><a href="<?php echo SITE_URL . '/member/financial_aid_overview'; ?>">Financial Aid Overview</a></li>
+										<li <?php if ($page == 'member_financial_aid_handbook') echo 'class="active"'; ?>><a href="<?php echo SITE_URL . '/member/private_file/financial_aid_handbook'; ?>">Financial Aid Handbook</a></li>
+										<li <?php if ($page == 'member_offered_aid') echo 'class="active"'; ?>><a href="<?php echo SITE_URL . '/member/offered_aid/'; ?>">Appealing the Offered Aid Package</a></li>
+										<li <?php if ($page == 'member_tax') echo 'class="active"'; ?>><a href="<?php echo SITE_URL . '/member/tax/'; ?>">Tax Information</a></li>
+										<?php if ( !$GLOBALS['mycareer'] ): ?><li><a href="<?php echo SITE_URL . '/member/testgear_full/high_school'; ?>">College Student Needing a New Major</a></li><?php endif; ?>
+										<li <?php if ($page == 'member_student_loans') echo 'class="active"'; ?>><a href="<?php echo SITE_URL . '/member/student_loans'; ?>">Student Loans</a></li>
+
+										<?php Legato_Stage::delegate( 'Hooks', 'menu', array( 'member', $page ) ); ?>
+
+									</ul>
+
+								<?php else: ?>
+
+									<h6>(<a href="<?php echo SITE_URL . '/login'; ?>">login required</a>)</h6>
+
+									<ul id="inactive_menu">
+
+										<li>Member Portal</li>
+										<?php if ( !$GLOBALS['mycareer'] ): ?><li>High School Planning<br /><span class="sub">- Middle School Students</span></li><?php endif; ?>
+										<?php if ( !$GLOBALS['mycareer'] ): ?><li>College, Major &amp; Career Assessment<br /><span class="sub">- High School Students</span></li><?php endif; ?>
+										<?php if ( $GLOBALS['mycareer'] ): ?><li>Student Assessment, Career Search, and College Search</li><?php endif; ?>
+										<li>High School Time Line</li>
+										<!--<li>PSAT, ACT and SAT Downloadable Tests</li>-->
+										<li>PSAT, ACT and SAT Tutoring</li>
+										<li>Letters of Recommendation</li>
+										<li>Admission to Elite Colleges</li>
+										<li>Admissions Assistance</li>
+										<li>Testing Out of Courses</li>
+										<li>All About the Waiting List</li>
+										<li>Credit Management Videos</li>
+										<li>Imperative Financial Aid Information</li>
+										<li>Financial Aid Overview</li>
+										<li>Financial Aid Handbook</li>
+										<li>Appealing the Offered Aid Package</li>
+										<li>Tax Information</li>
+										<?php if ( !$GLOBALS['mycareer'] ): ?><li>College Student Needing a New Major</li><?php endif; ?>
+										<li>Student Loans</li>
+
+										<?php Legato_Stage::delegate( 'Hooks', 'menu', array( 'member', $page ) ); ?>
+
+									</ul>
+
+								<?php endif; ?>
+
+							</div>
+
+						</li><!-- END EDUCATION LINKS -->
+
+						<?php Legato_Stage::delegate( 'Hooks', 'menu', array( 'public', $page ) ); ?>
+
+						<?php if ( $plugins['take_a_tour'] ): ?><li class="take_a_tour"><a href="" onclick="showAvatar(); return false;">Take a Tour</a></li><?php endif; ?>
+
+					</ul>
+
+				</div>
+
+				<div class="clear"></div>
+
+				<div id="menu_back"></div>
+
+			</div>
+
+			<div id="footer">
+
+				<p>
+
+					<?php
+
+						echo $GLOBALS['advisor']->get( 'business_name' );
+
+						if ( $GLOBALS['advisor']->get( 'slogan' ) != '' )
+							echo ' - ' . $GLOBALS['advisor']->get( 'slogan' );
+
+					?>
+
+					[<a href="<?php echo SITE_URL . '/privacy_policy'; ?>">Privacy Policy</a>] [<a href="<?php echo SITE_URL . '/terms_and_conditions'; ?>">Terms and Conditions</a>]
+
+				</p>
+
+			</div>
+
+		</div>
+
+		<div id="below_footer">
+
+			<?php Legato_Stage::delegate( 'Hooks', 'footer' ); ?>
+
+		</div>
+
+		<script type="text/javascript" src="<?php echo SITE_URL . Legato_Compressor::get( 'JS_Bottom' ); ?>"></script>
+
+		<!--[if lt IE 7]>
+			<script src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE7.js" type="text/javascript"></script>
+		<![endif]-->
+
+	</body>
+
+</html>

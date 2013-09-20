@@ -1,0 +1,80 @@
+<?php if ( $action != '' ): ?>
+
+	<script type="text/javascript">
+	
+		<?php if ( $action == 'added' ): ?>
+		
+			Legato_Events_Handler.addEvent( window, "onload", function(){ show_alert( "Successfully Added News" ); } );
+			
+		<?php elseif ( $action == 'edited' ): ?>
+		
+			Legato_Events_Handler.addEvent( window, "onload", function(){ show_alert( "Successfully Edited News" ); } );
+			
+		<?php elseif ( $action == 'deleted' ): ?>
+		
+			Legato_Events_Handler.addEvent( window, "onload", function(){ show_alert( "Successfully Deleted News" ); } );
+			
+		<?php endif; ?>	
+	
+	</script>
+	
+<?php endif; ?>
+
+<div id="admin_news">
+
+	<h1>Manage News <?php echo '(' . count( $news ) . ')'; ?></h1>
+
+	<ul class="commands">
+	 	  
+			<li><a href="<?php echo SITE_URL . '/admin/news/add'; ?>">Add News</a></li>
+		
+	</ul>
+
+	<table cellspacing="0">
+
+		<tr>
+			<th>Date</th>
+			<th>News</th>
+			<th>Link</th>
+			<th>Link Description</th>
+			<th>Commands</th>
+		</tr>
+		
+		<?php
+			
+			// Loop through each news.
+			$i = 0;
+			foreach ( $news as $news_id => $news )
+			{		
+				?>
+				
+				<tr class="row<?php echo $i + 1; ?>">
+				
+				<td style="white-space: nowrap"><?php echo date( 'F j, Y', $news->get( 'date' ) ); ?></td>
+				<td><?php echo $news->get( 'news' ); ?></td>
+				<td style="white-space: nowrap"><a href="<?php echo $news->get( 'link' ); ?>"><?php echo substr( $news->get( 'link' ), 7, 20 ); ?>...</a></td>
+				<td><?php echo $news->get( 'link_description' ); ?></td>
+				<td style="white-space: nowrap">
+				
+					<a href="<?php echo SITE_URL . '/admin/news/view/' . $news_id; ?>">View</a> |
+					<a href="<?php echo SITE_URL . '/admin/news/edit/' . $news_id; ?>">Edit</a>	|
+					<a href="" onclick="delete_resource( 'news', '<?php echo $news_id; ?>', '<?php echo SITE_URL . '/admin/news/deleted'; ?>' ); return false;">Delete</a>
+				
+				</td>
+	
+				<?php
+				
+				echo '</tr>';
+				
+				$i++;
+				
+				// Wrap.
+				if ( $i == 2 )
+					$i = 0;
+			
+			}
+		?>
+		
+	</table>
+	
+</div>

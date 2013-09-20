@@ -1,0 +1,824 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 201105 will be lost/reset.
+# Last config file used to build this data file was /home/collegia/tmp/awstats/awstats.collegiateadvisors.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1982                
+POS_TIME 2663                
+POS_VISITOR 14769               
+POS_DAY 25564               
+POS_DOMAIN 3500                
+POS_LOGIN 3877                
+POS_ROBOT 4032                
+POS_WORMS 4537                
+POS_EMAILSENDER 4668                
+POS_EMAILRECEIVER 4811                
+POS_SESSION 26408               
+POS_SIDER 26618               
+POS_FILETYPES 4946                
+POS_OS 5113                
+POS_BROWSER 5350                
+POS_SCREENSIZE 6010                
+POS_UNKNOWNREFERER 6084                
+POS_UNKNOWNREFERERBROWSER 6392                
+POS_ORIGIN 6741                
+POS_SEREFERRALS 6886                
+POS_PAGEREFS 7093                
+POS_SEARCHWORDS 9233                
+POS_KEYWORDS 9723                
+POS_MISC 2325                
+POS_ERRORS 10067               
+POS_CLUSTER 3733                
+POS_SIDER_404 10166               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20110601000309 293 81062 34522114104
+FirstTime 20110501051538
+LastTime 20110531232103
+LastUpdate 20110601045808 293 0 292 0 0
+TotalVisits 362                 
+TotalUnique 261                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 271                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 207 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 8 17 274131 26 27 120490
+1 7 11 204956 123 125 102640
+2 4 22 584634 33 36 96063
+3 12 17 212024 34 36 162714
+4 8 17 289028 31 40 320425
+5 54 129 2176700 24 33 73504
+6 8 36 752503 18 21 78472
+7 41 151 3078083 31 39 100476
+8 32 151 2630306 50 67 386427
+9 47 172 3061760 86 129 1264630
+10 76 282 4615138 32 49 95436
+11 67 264 4659862 22 42 82539
+12 48 238 4198926 43 70 360713
+13 40 191 3673327 19 35 91618
+14 74 390 6493599 22 45 196211
+15 97 458 5560664 27 57 158107
+16 24 134 2996865 33 61 248789
+17 63 174 3315725 63 78 357983
+18 36 137 2546251 37 48 149386
+19 20 75 1237362 21 25 43408
+20 27 157 3671500 80 98 424875
+21 27 92 1650335 43 54 108573
+22 21 70 1217620 74 83 298076
+23 26 87 1483146 46 56 351394
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 12
+us 837 3355 58064562
+ru 9 63 1467373
+de 4 4 21265
+ro 4 4 16804
+gb 4 4 21348
+il 3 3 14779
+cn 2 2 10024
+ca 1 1 5012
+lv 1 1 5289
+sg 1 1 5289
+eu 1 1 5337
+jp 0 33 947363
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+bot[\s_+:,\.\;\/\\-] 342 2179118 20110531161729 0
+spider 85 527788 20110531202809 0
+slurp 75 525485 20110530133356 0
+googlebot 73 1332918 20110531092455 0
+no_user_agent 23 472781 20110523232955 0
+crawl 18 128844 20110516001110 0
+[\s_+:,\.\;\/\\-]bot 16 80910 20110531090315 0
+robot 6 30369 20110529161641 0
+msnbot 5 26756 20110516151721 0
+netcraft 1 5337 20110528143607 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+php 535 2937990 0 0
+css 333 2724971 0 0
+png 37 74550 0 0
+html 332 1683246 0 0
+jpg 467 8214908 0 0
+js 1768 44948780 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 18
+linuxandroid 41
+blackberry 2
+winlong 411
+winxp 1536
+win2000 7
+linuxfedora 7
+winunknown 1
+win95 1
+win2003 25
+java 9
+winnt 7
+linuxubuntu 34
+win98 1
+linux 4
+winme 2
+macosx 228
+Unknown 10
+win2008 1146
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 40
+msie6.0 296
+safari5.0.3 31
+firefox3.6 36
+firefox4.0.1 448
+android 31
+firefox3.6.6 24
+firefox4.0 10
+opera9.00 1
+firefox3.5.3 7
+safari5.0.1 11
+firefox1.5.0.1 4
+safari5.0.2 70
+msie8.0 1228
+firefox2.0.0.14 4
+msie7.0 578
+chrome10.0.648.204 20
+msie5.0 1
+msie9.0 121
+Unknown 13
+chrome6.0.428.0 8
+safari5.0.5 42
+chrome11.0.696.68 84
+blackberry 2
+chrome0. 10
+samsung 10
+chrome10.0.648.205 10
+firefox3.6.16 50
+firefox3.6.17 111
+msie5.5 7
+firefox2.0.0.6 1
+netscape8.1 1
+netscape0.6 1
+mozilla 22
+safari5.0.4 20
+safari4.0.4 2
+chrome11.0.696.60 30
+chrome11.0.696.71 20
+firefox3.0.19 39
+chrome11.0.696.65 50
+firefox3.6.8 18
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Gist_Server 20110525000411
+EventMachine_HttpClient 20110524095412
+Mozilla/4.0_(compatible;) 20110522033829
+GeoHasher/Nutch-1.0_(GeoHasher_Web_Search_Engine;_geohasher.gotdns.org;_geo_hasher_at_yahoo_*_com) 20110503162908
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+Java/1.6.0_23 20110527092912
+Java/1.6.0_22 20110529110222
+Gist_Server 20110525000411
+EventMachine_HttpClient 20110524095412
+Java/1.6.0_24 20110527102111
+GeoHasher/Nutch-1.0_(GeoHasher_Web_Search_Engine;_geohasher.gotdns.org;_geo_hasher_at_yahoo_*_com) 20110503162908
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 342 387
+From1 0 0
+From2 42 42
+From3 133 133
+From4 350 2910
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 6
+google 27 27
+search 2 2
+bing 4 4
+live 1 1
+yandex 7 7
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 44
+http://www.tuitionconnection.com/nm.html 27 27
+http://www.tuitionconnection.com 16 16
+http://www.searchdiscovered.com/Naviance.cfm 14 14
+http://www.interesting.cc/r/ 7 7
+http://gladgrad.com 6 6
+http://guide.opendns.com/main 5 5
+http://cb.bargainmatch.com/search_j/ 3 3
+http://lalala123.com 3 3
+http://letmeget.com/blog/naviance-log-connectionnaviancecom-students 3 3
+http://search3.comcast.com 3 3
+http://www.connectionnaviance.com/search.php 3 3
+http://2collegeavenue.collegiate-advisor.com/avatar/ 3 3
+http://collegiateadvisors.collegiate-advisor.com/services 2 2
+http://us.mc1257.mail.yahoo.com/mc/welcome 2 2
+http://www.gladgrad.com 2 2
+http://www.designs-studio.com 2 2
+http://rollpeg.com 2 2
+http://search5.comcast.com 2 2
+http://collegiateadvisors.collegiate-advisor.com/login 2 2
+http://connectionnaviance.com/search.php 2 2
+http://www.blend.com/search.php 1 1
+http://swagbucks.com 1 1
+http://www.dotellall.com/results.php 1 1
+http://collegiateadvisors.collegiate-advisor.com/workshop 1 1
+http://mail.sigmarep.com/webmail/ 1 1
+http://mail4.redtailtechnology.com/webmail/ 1 1
+http://www.tlsubmit.com/product/seo-tools/ 1 1
+http://www.tazinga.com/directory/results_l/High%20School%20College%20Planning 1 1
+http://dnssearch2.rr.com/index_results.php 1 1
+http://www.freshdeals.com/deals.php 1 1
+http://www.kidica.com/education/back-to-school/back-to-school-shopping/back-to-school-supplies.aspx 1 1
+http://media.avaguide.net//embed/AvaGuide/CharacterAplication.swf 1 1
+http://tabyoke.com 1 1
+http://search2.comcast.com 1 1
+http://www.findpagefix.com/b.cgi 1 1
+http://www.savingmore.com/save.php 1 1
+http://webhelp.qwest.net/main 1 1
+http://www.bargainmatch.com/mixsearch/more 1 1
+http://webmail.mortgagewebsuccess.com/b/webmail.php 1 1
+http://www.bigfinder.de 1 1
+http://www.local.com/results/ 1 1
+http://domainnotfound.optimum.net/cablevassist/dnsassist/main/ 1 1
+http://collegiateadvisors.collegiate-advisor.com/user_signup 1 1
+http://mail.aol.com/33646-111/aol-6/en-us/Suite.aspx 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 14
+collegiate+advisors 11
+collegiateadvisors.com 8
+collegiate+advisors+llc 4
+dns 1
+naviance+dcsdk12 1
+mcps 1
+www.collegiateadvisors.com 1
+answers+%5banswers%40collegiateadvisors.com%5d 1
+tcci+naviance 1
+collegiate+advisors+inc 1
+collegiate+advisors+llc+lancaster+pa 1
+colleges+and+exton+pa 1
+planner+student 1
+102+pickering+way+suite+200 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 25
+collegiate 17
+advisors 17
+collegiateadvisors.com 8
+llc 5
+pa 2
+naviance 2
+dns 1
+way 1
+inc 1
+exton 1
+102 1
+suite 1
+mcps 1
+www.collegiateadvisors.com 1
+200 1
+student 1
+answers 1
+%5banswers%40collegiateadvisors.com%5d 1
+pickering 1
+lancaster 1
+dcsdk12 1
+colleges 1
+and 1
+tcci 1
+planner 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 21 322449
+404 482 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 107
+/sitemap.xml 1 http://lalala123.com
+/re= 1 -
+/robots.txt 326 -
+//phpMyAdmin-2.8.0-beta1/scripts/setup.php 1 -
+//scripts/setup.php 1 -
+//phpMyAdmin-2.8.1-rc1/scripts/setup.php 1 -
+//php-myadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.6.4-pl1/scripts/setup.php 1 -
+//sqlweb/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0.2/scripts/setup.php 1 -
+//phpMyAdmin-2/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-beta2/scripts/setup.php 1 -
+//phpMyAdmin-2.8.1/scripts/setup.php 1 -
+//phpMyAdmin-2.5.5-rc1/scripts/setup.php 1 -
+//php-my-admin/scripts/setup.php 2 -
+//phpadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1/scripts/setup.php 1 -
+//phpMyAdmin-2.6.2-beta1/scripts/setup.php 1 -
+//phpMyAdmin-2.2.6/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-pl1/scripts/setup.php 1 -
+/about.php> 2 -
+//phpMyAdmin-2.8.0-rc1/scripts/setup.php 1 -
+//phpMyAdmin-2.6.2-pl1/scripts/setup.php 1 -
+//phpMyAdmin-2.6.4-pl2/scripts/setup.php 1 -
+//phpMyAdmin-2.7.0-beta1/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-beta1/scripts/setup.php 1 -
+//phpmanager/scripts/setup.php 1 -
+/function.mysql-pconnect 3 -
+//phpMyAdmin-2.7.0-pl1/scripts/setup.php 1 -
+//PMA2005/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-alpha2/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0.1/scripts/setup.php 1 -
+//phpMyAdmin-2.2.3/scripts/setup.php 1 -
+//phpMyAdmin-2.5.7-pl1/scripts/setup.php 1 -
+//web/phpMyAdmin/scripts/setup.php 1 -
+/services.php> 2 -
+//admin/scripts/setup.php 1 -
+//phpmyadmin1/scripts/setup.php 1 -
+/become_index.php 1 http://www.collegiateadvisors.com/become_index.php
+//phpMyAdmin-2.8.0/scripts/setup.php 1 -
+//phpmy-admin/scripts/setup.php 1 -
+//mysql-admin/scripts/setup.php 1 -
+//phpMyAdmin-2.7.0-rc1/scripts/setup.php 1 -
+//p/m/a/scripts/setup.php 1 -
+/SITE_URL/services.php 19 -
+/function.mysql-query 5 -
+//web/scripts/setup.php 1 -
+/function.mysql-select-db 5 -
+//phpMyAdmin-2.6.3-rc1/scripts/setup.php 1 -
+//pma/scripts/setup.php 1 -
+/V20xRmRRPT0K 1 -
+//sqlmanager/scripts/setup.php 1 -
+//phpMyAdmin-2.6.4-rc1/scripts/setup.php 1 -
+/references.php> 2 -
+//phpmyadmin/scripts/setup.php 2 -
+//phpMyAdmin-2.8.2/scripts/setup.php 1 -
+//websql/scripts/setup.php 2 -
+//phpMyAdmin-2.8.0.4/scripts/setup.php 1 -
+//phpmyadmin2/scripts/setup.php 1 -
+/js/js/yahoo-min.js 6 http://collegiateadvisors.com/js/js/yahoo-min.js
+//phpMyAdmin-2.5.5-pl1/scripts/setup.php 1 -
+//phpMyAdmin-2.5.7/scripts/setup.php 1 -
+//phpMyAdmin-2.7.0/scripts/setup.php 1 -
+//webadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.5.5-rc2/scripts/setup.php 1 -
+//phpMyAdmin-2.5.1/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1-pl1/scripts/setup.php 1 -
+//phpMyAdmin-2.5.5/scripts/setup.php 1 -
+//xampp/phpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.6.2-rc1/scripts/setup.php 2 -
+//mysqladmin/scripts/setup.php 1 -
+/phpmyadmin/scripts/setup.php 1 http://COLLEGIATEADVISORS.COM/phpmyadmin/scripts/setup.php
+//phpMyAdmin-2.5.4/scripts/setup.php 1 -
+/js/js/dom-min.js 6 http://collegiateadvisors.com/js/js/dom-min.js
+//phpMyAdmin-2.8.0-rc2/scripts/setup.php 1 -
+/wp-content/plugins/simple-forum/editors/tinymce/plugins/tinybrowser/upload.php 1 -
+//phpMyAdmin-2.6.0-pl3/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-rc3/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1-rc1/scripts/setup.php 1 -
+//myadmin/scripts/setup.php 1 -
+//db/scripts/setup.php 1 -
+//admin/pma/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0/scripts/setup.php 1 -
+/crossdomain.xml 4 http://service.dropdowndeals.com/App/DddWrapper.swf
+//phpMyAdmin-2.6.3-pl1/scripts/setup.php 1 -
+//pma2005/scripts/setup.php 1 -
+//phpMyAdmin-2.6.4-pl3/scripts/setup.php 1 -
+//phpMyAdmin-2.5.6-rc2/scripts/setup.php 1 -
+//phpMyAdmin-2.5.6-rc1/scripts/setup.php 1 -
+//dbadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.6.3/scripts/setup.php 2 -
+//phpMyAdmin-2.6.0-pl2/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-rc1/scripts/setup.php 1 -
+//admin/phpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-rc2/scripts/setup.php 1 -
+//phpMyAdmin-2.5.6/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1-pl2/scripts/setup.php 1 -
+//typo3/phpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.6.4-pl4/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1-pl3/scripts/setup.php 1 -
+//phpMyAdmin-2.6.4/scripts/setup.php 1 -
+//phpMyAdmin-2.6.2/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-alpha/scripts/setup.php 1 -
+//phpMyAdmin/scripts/setup.php 1 -
+//mysql/scripts/setup.php 1 -
+/> 2 -
+//mysqlmanager/scripts/setup.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 271
+69.15.242.217 36 122 1188533 20110518161303
+173.225.17.50 36 36 208737 20110529182142
+4.79.204.36 32 32 208405 20110529110223
+174.59.110.7 26 88 1319815 20110520171550
+69.204.185.62 23 50 816060 20110518151457
+98.194.76.167 19 29 322738 20110514052747
+173.167.129.221 18 58 350347 20110531101733
+96.56.96.146 18 46 458726 20110518112445
+66.161.207.186 16 61 572774 20110517154206
+72.245.146.188 16 64 1019875 20110518081927
+209.243.27.244 13 94 303002 20110517151936
+99.124.250.38 11 50 333194 20110518090052
+71.212.140.70 11 29 533638 20110530154423
+71.95.236.209 11 21 296964 20110520112956
+50.9.47.118 11 43 306445 20110513110721
+206.74.181.63 11 20 266687 20110524073609
+208.80.194.29 10 10 53074 20110531232103
+174.129.117.237 10 10 0 20110531034756
+174.59.106.67 9 63 1474576 20110531081306
+173.48.104.179 9 70 283588 20110502142247
+69.58.178.56 9 9 60702 20110510154317
+71.58.111.253 9 17 249014 20110517174301
+174.111.77.215 9 30 526984 20110527152548
+24.1.96.70 9 49 494182 20110524101536
+174.122.254.42 8 8 23225 20110524213537
+67.61.211.249 1 10 5302 20110531221238
+95.27.67.77 1 9 210614 20110506052340
+174.129.160.144 1 1 5337 20110524095412
+50.35.197.74 1 10 242855 20110526121625
+67.139.59.14 4 13 258708 20110503131201
+173.65.73.203 3 20 456866 20110524104152
+71.8.80.20 1 8 214241 20110517074739
+174.121.88.26 1 1 10916 20110503162908
+50.19.10.251 2 2 10578 20110508202310
+109.230.216.233 2 2 10591 20110530210923
+83.133.125.202 1 1 5337 20110523232954
+207.46.193.42 1 4 72740 20110520153817
+72.43.0.212 1 6 197009 20110531143314
+71.169.188.94 7 38 267591 20110517190533
+208.80.194.32 3 3 15867 20110518054957
+71.214.231.123 1 10 242731 20110501112559
+24.12.255.20 1 10 242807 20110516004052
+71.184.197.98 5 29 259648 20110525102602
+207.46.193.38 1 5 173161 20110515011815
+208.102.203.113 2 11 249495 20110521043105
+70.184.223.25 1 8 194522 20110517144322
+96.246.31.111 1 10 242807 20110518164416
+98.201.29.0 1 10 242855 20110524200127
+96.242.69.137 4 11 232129 20110501172638
+72.66.244.111 3 19 467653 20110507234944
+24.40.184.132 5 21 472638 20110517170947
+75.20.232.70 2 11 249543 20110527170820
+76.28.16.142 2 11 249543 20110526184320
+98.15.200.104 7 16 278583 20110509121023
+207.189.121.45 4 4 23177 20110520092117
+173.74.7.175 2 9 216455 20110531124650
+50.9.25.245 1 8 213930 20110517133456
+38.127.197.122 1 1 5337 20110525053322
+69.74.31.131 7 36 269806 20110531114934
+207.46.12.106 1 8 190082 20110505154806
+72.24.168.29 3 12 253696 20110503224658
+96.251.178.104 5 12 236830 20110517140059
+71.217.207.37 1 10 242807 20110521131054
+64.128.172.211 1 8 214241 20110517141759
+93.80.100.122 0 1 10603 
+95.25.105.55 1 9 210614 20110519155031
+70.38.38.103 1 1 5012 20110503231755
+97.67.24.217 1 8 214241 20110521083011
+77.93.2.81 1 1 5289 20110508121705
+216.104.15.138 0 2 114913 
+75.223.226.5 3 12 254507 20110518213558
+98.245.196.73 1 10 242820 20110531183250
+71.190.189.177 2 11 248096 20110505185106
+24.6.206.97 2 12 245375 20110513153148
+72.66.225.139 2 18 456750 20110531123221
+65.185.0.200 4 22 497591 20110517172543
+173.69.51.3 1 11 253423 20110531140849
+207.46.193.50 1 5 173161 20110515034219
+99.13.195.215 1 8 211443 20110521113213
+74.118.195.117 1 1 5012 20110502124620
+205.222.248.152 1 10 242807 20110512064305
+96.57.106.10 1 10 242807 20110509071706
+98.226.124.62 3 12 252831 20110513094450
+174.126.224.149 3 12 253696 20110503153035
+68.199.152.148 4 13 259892 20110525054631
+24.63.66.237 2 11 248096 20110511193524
+75.147.102.73 5 42 265707 20110509153918
+67.228.36.69 1 1 11019 20110517042113
+69.132.57.87 2 10 216498 20110510080946
+74.170.211.203 1 10 242807 20110518083903
+71.175.29.151 4 13 258708 20110518114817
+76.125.83.76 3 31 268578 20110527234508
+207.46.195.206 1 8 196900 20110506200721
+65.174.160.10 1 10 242855 20110526074437
+99.191.141.40 2 9 220618 20110517092505
+209.120.218.202 3 3 5337 20110525033123
+46.73.62.142 1 7 193617 20110501131026
+173.107.249.95 1 8 213930 20110517153042
+207.46.193.37 4 27 756218 20110515054711
+69.121.231.24 1 10 242807 20110505162600
+173.10.54.186 7 16 277780 20110525101441
+76.6.53.80 1 10 242855 20110528091309
+98.114.48.252 1 10 242807 20110514072538
+107.26.151.101 3 10 226663 20110512143928
+208.80.194.36 2 2 10626 20110527074702
+164.92.9.21 1 10 242807 20110516104840
+72.46.215.57 2 11 248096 20110520204007
+72.240.71.209 1 7 118695 20110528121622
+74.199.96.123 6 24 271592 20110525050608
+216.104.15.142 0 1 8841 
+166.109.0.45 1 10 242855 20110527112648
+71.42.136.188 1 10 242855 20110524131038
+69.122.44.161 1 3 23614 20110527233359
+76.31.28.248 1 8 213930 20110527225900
+72.197.206.238 1 10 242855 20110526204511
+209.183.55.113 2 12 245375 20110519102635
+12.20.18.2 0 1 0 
+193.28.178.13 4 4 21348 20110527102111
+64.235.144.50 3 3 16011 20110525002250
+157.55.112.221 1 7 196797 20110520185518
+209.20.69.196 2 2 10591 20110531183241
+74.92.95.105 1 10 242807 20110517150325
+99.90.240.10 1 10 242855 20110526192208
+71.187.49.14 1 10 242807 20110509183812
+72.49.102.71 1 10 242807 20110502140310
+68.116.212.109 1 8 213930 20110528132829
+96.246.235.173 1 10 242807 20110514060718
+67.176.93.100 1 10 242807 20110504120415
+91.143.58.1 1 1 5012 20110509150944
+74.96.75.59 1 8 225934 20110529105939
+74.83.36.59 4 14 255772 20110525181542
+68.51.8.190 2 18 247867 20110527152702
+81.196.5.133 2 2 8402 20110510162045
+208.80.194.33 2 2 10578 20110519173853
+91.201.66.56 1 1 5012 20110519194514
+50.93.196.236 2 2 10301 20110509053336
+207.46.12.164 1 8 196900 20110506185452
+68.68.33.169 2 9 218131 20110527152907
+98.197.186.72 1 10 242855 20110524232305
+69.28.58.41 2 10 344974 20110521051347
+71.173.190.237 3 12 252297 20110506160514
+67.246.191.4 1 8 211443 20110504121000
+71.127.44.73 1 10 242807 20110513095241
+89.178.8.85 0 1 10603 
+66.220.242.100 1 10 242820 20110531061350
+75.103.4.84 3 10 222643 20110531175658
+75.83.121.172 1 8 214241 20110509021221
+95.26.55.73 1 9 210614 20110504233939
+207.46.195.208 1 7 190893 20110502235725
+157.55.17.92 1 7 196797 20110521054755
+173.8.104.121 1 10 242807 20110503111416
+206.226.145.2 3 20 249576 20110520093528
+208.80.194.37 3 3 15867 20110514152837
+98.212.6.210 1 10 242807 20110510222527
+208.115.217.18 2 2 10024 20110531000905
+24.118.14.238 2 16 218131 20110531191747
+74.63.240.58 3 3 13204 20110529010147
+76.115.99.201 1 10 242855 20110523105144
+207.46.12.108 1 7 192569 20110504075519
+71.168.198.177 1 10 242855 20110522125749
+66.31.184.67 1 10 242807 20110514205206
+95.221.65.29 1 9 210662 20110525143128
+99.40.185.143 2 20 248192 20110523153850
+76.117.88.145 2 18 247008 20110503141103
+12.147.113.178 1 10 242807 20110512103328
+67.161.26.238 2 12 245423 20110528113411
+65.46.252.162 3 3 15915 20110527225424
+64.73.240.162 2 9 218942 20110517135655
+75.175.4.74 1 10 242731 20110501161721
+207.22.160.17 3 12 253696 20110517143346
+98.252.207.197 1 9 218161 20110528200009
+188.138.100.106 2 2 10674 20110528214722
+75.87.101.185 2 11 253874 20110525071342
+95.220.233.243 1 8 200011 20110509071210
+174.23.197.252 2 10 214011 20110515150857
+72.24.169.244 6 15 272408 20110531112050
+157.55.112.231 1 8 200011 20110505205728
+71.173.148.21 4 22 499314 20110531142620
+208.80.194.27 4 4 21204 20110528055100
+68.199.64.180 2 11 249495 20110510162505
+76.235.174.51 3 12 252068 20110523164130
+173.66.209.195 1 10 242807 20110517173845
+72.160.68.39 1 2 15940 20110528222540
+24.22.20.36 1 8 213930 20110521200812
+50.52.192.46 1 7 118695 20110525072942
+65.96.154.51 2 16 427860 20110518195842
+167.206.78.2 1 10 242807 20110517073732
+38.127.197.112 1 1 5337 20110525075112
+208.80.194.34 5 5 26417 20110524124932
+198.134.135.58 1 10 242855 20110525121545
+69.118.60.183 1 10 242807 20110511093355
+96.239.105.24 2 11 247008 20110510053523
+72.94.249.38 1 1 5289 20110502140327
+98.15.216.45 1 4 58654 20110515110941
+97.62.34.250 4 23 493471 20110519082641
+72.189.125.188 1 10 242807 20110508140802
+128.177.42.2 2 20 485710 20110526113226
+150.70.172.108 0 2 16921 
+71.76.29.250 2 9 218942 20110518211450
+68.63.201.110 2 9 220929 20110518141130
+119.27.62.254 1 1 5289 20110501210232
+75.41.69.83 1 10 242807 20110509165917
+64.53.145.219 8 26 521135 20110525095913
+50.18.16.50 1 1 5337 20110529053216
+174.59.96.127 6 16 266161 20110525102711
+98.216.18.166 1 10 242855 20110522203124
+209.244.4.106 1 10 242855 20110524123145
+69.28.58.42 1 5 172535 20110525113241
+59.57.14.91 2 2 10024 20110519002425
+96.57.57.2 1 10 242855 20110525072700
+8.28.16.254 1 1 6999 20110517141759
+69.76.207.254 3 12 258838 20110521105551
+81.196.5.107 2 2 8402 20110503221608
+173.63.208.145 4 13 258674 20110517155456
+174.37.154.78 2 2 10674 20110525000411
+208.80.194.31 4 4 21204 20110523143959
+76.235.245.100 5 14 265769 20110523201854
+174.59.49.124 3 4 13070 20110503071931
+72.94.16.38 1 10 242807 20110503170745
+97.78.94.118 6 15 272395 20110518094052
+71.251.204.44 2 11 247008 20110520115813
+198.134.135.56 1 8 214241 20110525123837
+24.8.190.40 1 10 242807 20110514144727
+76.169.177.134 1 10 242807 20110518132801
+96.241.229.69 1 10 242807 20110511071411
+72.70.204.155 1 8 213930 20110517141536
+75.138.215.16 2 11 248096 20110505212911
+199.255.199.1 1 1 5289 20110513211859
+198.134.135.142 1 8 211443 20110525123201
+70.240.208.34 1 10 242820 20110530084350
+69.139.68.29 1 10 242855 20110524205934
+108.15.43.139 2 9 215644 20110518142506
+209.66.200.64 3 31 736143 20110525103157
+174.69.101.44 2 10 216809 20110504215252
+38.100.21.12 8 9 66016 20110504103711
+74.11.120.154 3 12 253696 20110509140609
+98.245.243.244 1 4 44927 20110512164019
+173.57.87.12 3 12 256231 20110524152712
+208.80.194.28 1 1 5289 20110507200641
+74.104.82.88 1 15 345562 20110505153036
+96.227.88.248 1 10 242820 20110531160353
+208.80.194.26 2 2 10578 20110522015128
+72.89.230.223 1 10 242807 20110513150659
+71.71.68.100 4 13 259892 20110525171452
+216.104.15.130 0 2 116080 
+66.17.95.222 3 12 330736 20110506182006
+69.28.58.43 3 15 517461 20110517213340
+97.124.164.196 1 15 286846 20110517214307
+150.70.75.33 0 8 202807 
+74.89.38.42 3 12 253385 20110516203315
+157.55.112.238 1 8 200011 20110503202931
+71.178.29.175 4 13 258708 20110518113308
+96.35.96.60 2 11 249508 20110531145151
+95.27.154.159 1 8 200011 20110502163122
+150.70.75.31 0 17 543516 
+209.112.70.232 1 8 211443 20110519084914
+208.80.194.35 2 2 10626 20110526093223
+74.219.78.18 1 10 242807 20110518113832
+75.57.126.98 1 10 242807 20110510094351
+173.54.186.47 1 10 242807 20110509200226
+150.70.172.109 0 6 184119 
+12.192.23.126 4 32 230142 20110518124216
+75.67.120.93 1 8 225886 20110504165756
+76.9.126.242 1 10 242807 20110517141712
+77.126.97.229 3 3 14779 20110518184319
+71.184.35.193 1 10 242855 20110523091726
+207.46.193.49 1 8 192569 20110515021014
+198.134.135.91 1 8 213930 20110525120807
+66.169.129.142 3 12 256494 20110505151220
+69.64.155.246 1 1 0 20110508153630
+71.212.147.11 4 4 21208 20110531221933
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20110501 21 52 997622 9
+20110502 20 104 966669 9
+20110503 38 167 2885313 18
+20110504 18 64 1382011 9
+20110505 28 111 2048395 11
+20110506 14 54 1215913 7
+20110507 6 22 483243 4
+20110508 7 16 263963 7
+20110509 33 154 2736156 13
+20110510 28 90 1690416 12
+20110511 8 37 766498 7
+20110512 7 35 762493 5
+20110513 25 94 1329309 9
+20110514 38 107 2114041 10
+20110515 16 98 1966623 10
+20110516 11 38 772754 6
+20110517 97 493 7753207 30
+20110518 108 417 6123449 26
+20110519 18 78 1658655 10
+20110520 45 117 1897622 10
+20110521 15 73 1775628 12
+20110522 9 28 524850 6
+20110523 13 69 1288813 8
+20110524 43 155 3174251 18
+20110525 60 226 4062257 25
+20110526 20 100 2215001 11
+20110527 20 97 1570158 13
+20110528 9 50 1065678 8
+20110529 26 51 849085 7
+20110530 8 17 279969 8
+20110531 58 258 3964403 24
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 4
+5mn-15mn 16
+2mn-5mn 17
+15mn-30mn 5
+30s-2mn 44
+0s-30s 268
+30mn-1h 8
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 9
+/ 332 1683246 258 204
+/services.php 138 916256 33 43
+/about.php 106 441105 31 26
+/references.php 89 615912 15 20
+/become_member.php 86 431032 12 27
+/avatar.php 47 20586 1 16
+/index.php 43 227944 3 14
+/terms_and_conditions.php 13 141908 5 5
+/privacy_policy.php 13 143247 4 7
+END_SIDER

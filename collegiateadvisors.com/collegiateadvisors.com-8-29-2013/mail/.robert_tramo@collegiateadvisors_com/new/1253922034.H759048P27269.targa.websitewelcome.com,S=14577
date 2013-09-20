@@ -1,0 +1,359 @@
+Return-path: <robert.tramo@collegiateadvisors.com>
+Envelope-to: robert.tramo@collegiateadvisors.com
+Delivery-date: Fri, 25 Sep 2009 18:40:34 -0500
+Received: from [190.234.136.55] (port=13507)
+	by targa.websitewelcome.com with esmtp (Exim 4.69)
+	(envelope-from <robert.tramo@collegiateadvisors.com>)
+	id 1MrKOv-00074E-Dc
+	for robert.tramo@collegiateadvisors.com; Fri, 25 Sep 2009 18:40:34 -0500
+From: "Eve Wilcinski" <robert.tramo@collegiateadvisors.com>
+To: robert.tramo@collegiateadvisors.com
+MIME-Version: 1.0
+Subject: Contract, you signed
+Message-ID: <204G81WRZZH785949.BJBTIZPRZX.3AACFF60C3@jessica>
+Content-Transfer-Encoding: 8bit
+Content-Type: text/html; charset="UTF-8"
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+
+<head><title>Your Advisory Has Arrived</title><style type="text/css">
+body, input, select, textarea {
+      font-family: Verdana, Arial, Trebuchet MS;
+      font-size: 10pt;
+      padding: 0px;
+                background: #EEEEEE
+}
+li {
+      font-family: Verdana, Trebuchet MS, Arial;
+      font-size: 10pt;
+                margin-top: .4em;
+      margin-bottom: 0em;
+      margin-left: .8em;
+      margin-right: .8em;
+}
+p {
+      color: #010101;
+      font-family: Arial, Verdana, Trebuchet MS, ;
+      font-size: 10pt;
+                margin-top: .6em;
+      margin-bottom: .6em;
+      margin-left: .4em;
+      margin-right: .4em;
+}
+p.calloutbox {
+      font-family: Verdana, Trebuchet MS, Arial;
+      font-size: 8pt;
+                margin-top: .6em;
+      margin-bottom: 0em;
+      margin-left: 0em;
+      margin-right: 0em;
+}
+p.firstpara {
+      font-family: Arial, Verdana, Trebuchet MS;
+      font-size: 10pt;
+                margin-top: 1.2em;
+      margin-bottom: 0em;
+      margin-left: .4em;
+      margin-right: .4em;
+}
+p.Rightpix {
+      font-family: Verdana, Trebuchet MS, Arial;
+                margin-top: .6em;
+      margin-bottom: 0em;
+      margin-left: .6em;
+      margin-right: .6em;
+}
+p.leftpix {
+      font-family: Verdana, Trebuchet MS, Arial;
+                margin-top: .6em;
+      margin-bottom: 0em;
+      margin-left: .6em;
+      margin-right: .6em;
+}
+p.bottom {
+      font-family: Verdana, Trebuchet MS, Arial;
+      font-size: 8pt;
+                margin-top: 0em;
+      margin-bottom: 0em;
+      margin-left: 0em;
+      margin-right: 0em;
+                padding: 0;
+}
+p.leftcolumnBanner {
+      font-family: Verdana, Trebuchet MS, Arial;
+      font-size: 8pt;
+      color: #ffffff;
+      margin-top: 0em;
+      margin-bottom: 0em;
+      margin-left: .5em;
+      margin-right: .5em
+}
+p.leftcolumn {
+      font-family: Arial, Verdana, Trebuchet MS,
+      font-size: 10pt;
+      color: #000000;
+      margin-top: .6em;
+      margin-bottom: 0em;
+      margin-left: .5em;
+      margin-right: .5em;
+}
+p.bestadvice {
+      font-family: Verdana, Trebuchet MS, Arial;
+      font-size: 8pt;
+                margin-top: .8em;
+      margin-bottom: 0em;
+      margin-left: .4em;
+      margin-right: .4em;
+}
+p.title {
+                margin-top: .6em;
+      margin-bottom: 0px;
+                font-family: Arial, Verdana, Trebuchet MS;
+      font-size: 12pt;
+      color: #010101;
+      font-weight: bold;
+      margin-left: 4pt;
+}
+p.subtitle {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      color: #010101;
+      font-size: 10pt;
+      font-family: Arial, Verdana, Trebuchet MS,;
+      margin-left: .4em;
+}
+p.credits {
+      padding-top: .3em;
+      padding-bottom: 0em;
+      color: #010101;
+      font-size: 8pt;
+      margin: 0px;
+      font-family: Arial, Verdana, Trebuchet MS, Lucida Grande;
+      margin-left: .4em;
+}
+p.titleother {
+      margin-top: 2.0em;
+                padding-top: 9px;
+      margin-bottom: 0px;
+                color: #010101;
+      font-size: 12pt;
+                font-family: Arial, Verdana, Trebuchet MS;
+      font-weight: bold;
+      margin: 0px;
+      margin-left: 4pt;
+}
+p.subtitleother {
+      font-family: Arial, Verdana, Trebuchet MS, Arial Narrow;
+      font-size: 10pt;
+                margin-top: .0em;
+      margin-bottom: 0px;
+      margin-left: .4em;
+}
+p.creditsother {
+      padding-top: .3em;
+      padding-bottom: .6em;
+      color: #010101;
+      font-size: 8pt;
+      font-family: Arial, Verdana, Trebuchet MS, Lucida Grande;
+      margin-top: .0em;
+      margin-left: 4pt;
+}
+p.small {
+      padding-top: .6em;
+      padding-bottom: .6em;
+                margin-left: .4em;
+      color: #010101;
+      font-size: .6em;
+      font-family: Verdana, Trebuchet MS, Lucida Grande, Arial;
+
+}
+p.header {
+      padding-top: .6em;
+      padding-bottom: .6em;
+      font-size: 8pt;
+                font-weight: bold;
+      margin: 0px;
+      font-family: verdana, arial, Trebuchet MS,
+      margin-left: 0em;
+}
+a, a:link {
+      color: #476678;
+}
+
+a:hover {
+      text-decoration: none;
+}
+
+      background: #E9,ED,EF;
+      border-top: 2px solid #010101;
+      border-bottom: 1px solid #fff;
+}
+      list-style: none;
+      padding: 0px;
+      margin: 0px;
+}
+      background: #010101;
+      color: #fff;
+      height: 20px;
+      padding-left: 0em;
+      position: relative;
+}
+      position: absolute;
+      top: 7px;
+      left: 8px;
+      right: 8px;
+      padding: 0px;
+      margin: 0px;
+}
+      position: absolute;
+      top: 14px;
+      right: 12px;
+}
+
+      padding: 2px;
+      padding-left: 8px;
+      padding-right: 8px;
+      border-bottom: 2px solid #fff;
+      font-size: 8pt;
+}
+      color: #89aedd;
+}
+      color: #929292;
+      font-weight: normal;
+}
+      padding-left: 20px;
+      list-style: none;
+}
+      border-bottom: 0px;
+      margin: 0px;
+      padding-left: 0px;
+      font-size: 8pt;
+}
+      text-transform: none;
+      color: #585858;
+      text-decoration: underline;
+      font-weight: normal;
+}
+      list-style: circle;
+      margin-left: 20px;
+}
+<!-- a.linkopacity:hover img {
+filter:alpha(opacity=75);
+-moz-opacity: 0.75;
+opacity: 0.75;}
+a.linkopacity img {
+filter:alpha(opacity=100);
+-moz-opacity: 1.0;
+opacity: 1.0; margin-bottom: .6em;
+}-->
+<!-- .archive_td { font-family: verdana,arial,sans-serif; font-size: 8pt; padding-bottom: 6px; }-->
+<!-- .archive_table {  margin-bottom: 0px; }-->
+
+</style></head>
+<body><TABLE align="center"  border="0" cellPadding="0" cellSpacing="0" width="700" bgcolor="#FFFFFF"><TR><TD><TABLE  border="0" cellPadding="0" cellSpacing="0" width='100%' bgcolor="#000000"><TR><TD width = "700" bgcolor="ffffff" valign="top"><TABLE  border="0" cellPadding="0" cellSpacing="0" width='100%'><TR><TD bgcolor = "#ffffff"><TABLE  border="0" cellPadding="0" cellSpacing="0" width='100%'><TR><TD><table id="AutoNumber1" style="border-collapse: collapse" bordercolor="#111111" cellspacing="0" cellpadding="0" width="673" bgcolor="#d1d1d1" border="0">
+    <tr>
+            <td width="19">&nbsp;</td>
+            <td width="259">
+            <p align="left"><strong><font face="Verdana" color="#5a5959" size="1">September&nbsp;2009&nbsp;- Issue 10</font></strong></p>
+            </td>
+            <td width="154">
+            <p align="center"><strong><font face="Verdana" color="#5a5959" size="1"><A TARGET="_blank" href="http://3e21.tdamijuw.cn/?ijieypacaf=35213806B943M620p4g0R76x0&ijyzijylyg=2244365676525012107411666" ><font color="#5a5959">View Online</font></A></font></strong></p>
+            </td>
+            <td width="259">
+            <p align="right"><strong><font face="Verdana" color="#5a5959" size="1"><a href="http://d84.tdamijuw.cn/?cywar=BI658n73H2x063rJ09W6m2&iaadinegag=51959505860731728628796"><font color="#5a5959">Tell a Friend</font></a></font></strong></p>
+            </td>
+            <td width="19">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="710" colspan="5">
+			<br><p align="center">
+			<a href="http://d019.tdamijuw.cn/?ajaqa=C430E891kJ0CPD8568937R7D5&omuuwato=50484039930104597812231" style="text-decoration:underline; font-size:large">
+			<img alt=".Image BLOCKED. Click to unlock." src="http://d41c.tdamijuw.cn/spacer.gif" style="border-width: 0px"></a></p>&nbsp;<br></td>
+        </tr>
+    </table>
+</TD></TR></TABLE></TD></TR>
+<TR><TD><TABLE  border="0" cellPadding="0" cellSpacing="0" width='100%' bgcolor="#ffffff"><TR><TD width = "183" bgcolor="#ffffff" valign="top"><TABLE  border="0" cellPadding="0" cellSpacing="0" width='100%'><TR><TD bgcolor = "#ffffff"><TABLE  border="0" cellPadding="0" cellSpacing="0" width='100%'><TR><TD><table id="table8" style="margin-top: 9px; margin-bottom: 0px; border-collapse: collapse" cellpadding="0" width="150">
+        <tr>
+            <td style="padding: 0px; border-right: 2px solid #b9b9b9; border-bottom-color: #ededed; border-left: #ededed 1px solid; border-top-color: #ededed; color: #FF3300; font-family: Tahoma; font-size: medium;" bordercolor="#ededed" width="180">
+			<b>NEWS:</b></td>
+        </tr>
+        <tr>
+            <td style="border-right: #b9b9b9 2px solid; padding-right: 0px; padding-left: 0px; border-bottom-color: #ededed; padding-bottom: 0px; border-left: #ededed 1px solid; border-top-color: #ededed; padding-top: 0px" bordercolor="#ededed" width="180">
+            <table id="table20" style="margin-top: 3px; margin-bottom: 0px" cellspacing="0" cellpadding="0" width="100%" border="0">
+                <tr>
+                        <td style="padding-right: 4px; padding-left: 4px" width="100%">
+                        <p style="margin-top: 3px">
+						<font style="font-size: 9pt" face="Arial">
+						<A TARGET="_blank" href="http://5de.tdamijuw.cn/?ymeho=6R082908WX4907b2696W1or&atizexaxoz=71420193146391900292" >
+						Restore rod&#39;s vitality</A></font></p>
+						<p style="margin-top: 3px">&nbsp;</p>
+                        <p style="margin-top: 3px"><font style="font-size: 9pt" face="Arial"><A TARGET="_blank" href="http://d08a8d.tdamijuw.cn/?yreku=1QiZza8S1FxQq08Yh909YZ&oneupugi=5738194398015812284432194" >
+						Turn on love ignition</A></font></p>
+																<p style="margin-top: 3px">
+																&nbsp;</p>
+                        <p style="margin-top: 3px">
+						<font style="font-size: 9pt" face="Arial">
+						<A TARGET="_blank" href="http://09b3.tdamijuw.cn/?kufulylob=276p97560R1952FY430tR&yceof=730441108042615339334105" >
+						Make love energy inexhaustible</A></font></p>
+																<p style="margin-top: 3px">
+																&nbsp;</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 0px; border-right: 2px solid #b9b9b9; border-bottom-color: #ededed; border-left: #ededed 1px solid; border-top-color: #ededed; font-size: medium; color: #FF3300; font-family: Tahoma;" bordercolor="#ededed" width="180">
+			<b>SUBSCRIBE:</b></td>
+        </tr>
+        <tr>
+            <td style="border-right: #b9b9b9 2px solid; padding-right: 0px; padding-left: 0px; border-bottom-color: #ededed; padding-bottom: 0px; border-left: #ededed 1px solid; border-top-color: #ededed; padding-top: 0px" bordercolor="#ededed" width="180">
+            <table id="table21" style="margin-top: 3px; margin-bottom: 0px" cellspacing="0" width="100%" border="0">
+                <tr>
+                        <td style="padding-right: 4px; padding-left: 4px" width="100%">
+                        <p><font style="font-size: 9pt" face="Arial"><strong style="font-weight: 400"><A TARGET="_blank" href="http://a88a.tdamijuw.cn/?mariri=2849S7502bZMi77H66lrk9&kyxulaa=306627694860823831812738" id="trk1321912" >Subscribe</A></strong> here or <a href="http://c28e49.tdamijuw.cn/?eficapazib=16151Sf9G38724A13332&unoaawepu=408971327908053289158" target="_blank">manage </a>your subscription.</font></p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        </table>
+&nbsp;</TD></TR></TABLE></TD></TR>
+</TABLE></TD>
+<TD width = "517" bgcolor="#ffffff" valign="top"><TABLE  border="0" cellPadding="0" cellSpacing="0" width='100%'><tr><td><TABLE  border="0" cellPadding="0" cellSpacing="0" width='100%' bgcolor="ffffff"><TR><TD>
+	<br></TD></TR><TR><td class="article"><a name="229879"></a>
+		<p style="color: #FF3300; font-size: medium"><strong>
+		When girls don’t like your feeble piece of meat, it is better to do
+		something</strong></p>
+<p>The Best thing to do is start using our special supplements. Improving your
+libido instantly, powerfully and without side effects. Your man-hood deserves
+care – our supplements provide it. <b><a href="http://a927f5.tdamijuw.cn/?ogeboxiz=9JT9p078g6dm6355vy38v&kufievo=63934255499055766091">Check this out</a></b></p></td></tr>
+</table></td></tr>
+</TABLE></TD>
+</TR></TABLE></TD></TR>
+<TR><TD><TABLE  border="0" cellPadding="0" cellSpacing="0" width='100%'><TR><TD>
+<table id="table1" cellspacing="0" cellpadding="0" width="100%" border="0">
+    <tr valign="top">
+            <td style="padding-right: 10px; padding-left: 10px; font-size: 8pt; padding-bottom: 10px; color: #666666; padding-top: 10px" colspan="2"><font face="verdana" size="1">Fortify is concerned about your privacy. We do not rent, sell or exchange email addresses. Copyright 2009, InternetVIZ. All rights reserved. You can write to us at 2215 Bridgepointe Pkwy, Suite 400, San Mateo, CA 94404.</font>
+            <p><font face="verdana" size="1">You are subscribed using the following email address:
+			robert.tramo@collegiateadvisors.com. If you wish to change your selections or unsubscribe altogether, click below.</font></p>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td style="padding-right: 10px; padding-left: 10px; font-size: 11px; padding-bottom: 10px; color: #666666; padding-top: 10px; font-family: Verdana, Arial, Helvetica, sans-serif">
+            <p>:: <A TARGET="_blank" href="http://ab2d40.tdamijuw.cn/?hosiry=5G279684280610a64j6N0&abuma=039782255080775239978392" >Subscribe</A><br />
+            :: <a href="http://2bf8.tdamijuw.cn/?euotoum=9JPe825u760343J274i751i1&ausukudy=7211508992825197006365364">Unsubscribe</a><br />
+            :: <a href="http://571e.tdamijuw.cn/?kasanes=2A1194d05erY69976g2k509&iybis=4805219891214432151360">Forward<br />
+            </a>:: <a href="http://56d3.tdamijuw.cn/?rylekoj=7G812n63808L77lC1fo03629&aytaaa=1561338649063576626126">Manage</a><br />
+            <br />
+            <A TARGET="_blank" href="http://ad20a1.tdamijuw.cn/?eciqe=6801634jpg6tc9P11261bp4&asetoj=461758776215397847247287" >Powered by TailoredMail</A></p>
+            </td>
+            <td align="right">&nbsp;</td>
+        </tr>
+    </table>
+</TD></TR></TABLE></TD></TR>
+</TABLE></TD>
+</TR></TABLE></TD></TR>
+</TABLE>
+</body></html>

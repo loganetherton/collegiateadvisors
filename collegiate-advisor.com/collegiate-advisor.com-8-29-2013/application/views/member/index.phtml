@@ -1,0 +1,110 @@
+<div id="member_index">
+
+	<h1>Member Portal</h1>
+
+	<h3>Welcome <?php echo $GLOBALS['user']->get( 'first_name' ) . ' ' . $GLOBALS['user']->get( 'last_name' ); ?></h3>
+
+	<table>
+		<?php if ( !$GLOBALS['mycareer'] ): ?>
+		<tr>
+			<td class="side_heading">
+				<a href="<?php echo SITE_URL . '/member/testgear_full/middle_school'; ?>">High School Planning - For Middle School Students</a>
+			</td>
+			<td>
+				Plan for what to expect in High School. Take some time, relax, and see in what careers people most like you have found the most amount of success. Watch videos on a multitude of careers.
+			</td>
+		</tr>
+		<tr>
+			<td class="side_heading"><a href="<?php echo SITE_URL . '/member/testgear_full/high_school'; ?>">College Major and Career Assessment - For High School Students</a></td>
+			<td>
+				Take any or all of the 4 most comprehensive tests designed to align students with the most fitting majors, careers &amp; schools. This includes an analysis of over 1200 careers and 6,000 schools. This feature requires JavaScript to be enabled.
+  				<br />Scholarship search with no advertising or junk mail, the only one of which we are aware.
+			</td>
+		</tr>
+		<?php else: ?>
+		<tr>
+			<td class="side_heading"><a href="<?php echo SITE_URL . '/member/career_dimension'; ?>">Student Assessment, Career Search, and College Search</a></td>
+			<td>Take any or all of the 4 most comprehensive tests designed to align students with the most fitting careers and schools. This includes an analysis of over 1200 careers and 6,000 schools. This feature requires JavaScript to be enabled.</td>
+		</tr>
+		<?php endif; ?>
+		<tr>
+			<td class="side_heading"><a href="<?php echo SITE_URL . '/member/hs_timeline_sophomore'; ?>">High School Time Line</a></td>
+			<td>Find out when to do what using the high school time line.</td>
+		</tr>
+		<!--<tr>
+			<td class="side_heading"><a href="<?php echo SITE_URL . '/member/test_prep'; ?>">PSAT, ACT and SAT Downloadable Tests</a></td>
+			<td>Prepare for PSAT, ACT and SAT using practice tests (2 of each). Also includes information on test layout, timing, and more.</td>
+		</tr>-->
+		<tr>
+			<td class="side_heading"><a href="<?php echo SITE_URL . '/member/tutoring'; ?>">PSAT, ACT and SAT Tutoring</a></td>
+			<td>Let the Tutoring begin! Get ready to raise your standardized test scores.</td>
+		</tr>
+		<tr>
+			<td class="side_heading"><a href="<?php echo SITE_URL . '/member/letters_of_recommendation'; ?>">Letters of Recommendation</a></td>
+			<td>Discover the strategies that yield the best letters of recommendation. View a strong sample letter.</td>
+		</tr>
+		<tr>
+			<td class="side_heading"><a href="<?php echo SITE_URL . '/member/elite_schools'; ?>">Admission to Elite Colleges</a></td>
+			<td>Learn from research on what admissions counselors at elite schools look for. (Elite schools accept less than 30% of their applicants.)</td>
+		</tr>
+		<tr>
+			<td class="side_heading"><a href="<?php echo SITE_URL . '/member/admissions/assistance'; ?>">Admissions Assistance</a></td>
+			<td>
+				<p>Three options:</p>
+				<ol>
+					<li>Read an article on how to write the admissions essay.</li>
+					<li>Upload your essay and get it reviewed by one of our editors.</li>
+					<li>Prepare for the admissions interview by reading our advice article.</li>
+				</ol>
+			</td>
+		</tr>
+		<tr>
+			<td class="side_heading"><a href="<?php echo SITE_URL . '/member/test_out'; ?>">Testing Out of Courses</a></td>
+			<td>Learn how to save money by taking CLEP tests to test out of college courses. Included is information on how to find and take the many tests available.</td>
+		</tr>
+		<tr>
+			<td class="side_heading"><a href="<?php echo SITE_URL . '/member/waiting_list'; ?>">All About the Waiting List</a></td>
+			<td>Get advice on what to do if you are waitlisted.</td>
+		</tr>
+		<tr>
+			<td class="side_heading"><a href="<?php echo SITE_URL . '/member/credit_management'; ?>">Credit Management Videos</a></td>
+			<td>Over 1 hour worth of video discussing these primary topics.</td>
+		</tr>
+		<tr>
+			<td class="side_heading"><a href="<?php echo SITE_URL . '/member/imperative_financial_aid'; ?>">Imperative Financial Aid Information</a></td>
+			<td>12 Significant Points that neither your Financial Aid Office or Lender will want to discuss with you.</td>
+		</tr>
+		<tr>
+			<td class="side_heading"><a href="<?php echo SITE_URL . '/member/financial_aid_overview'; ?>">Financial Aid Overview</a></td>
+			<td>Learn how to maximize financial aid.</td>
+		</tr>
+		<tr>
+			<td class="side_heading"><a href="<?php echo SITE_URL . '/member/private_file/financial_aid_handbook'; ?>">Financial Aid Handbook</a> (pdf)</td>
+			<td>Gain understanding of the EFC, Institutional Profile, applying for grant aid scholarships and more.</td>
+		</tr>
+		<tr>
+			<td class="side_heading"><a href="<?php echo SITE_URL . '/member/offered_aid'; ?>">Appealing the Offered Aid Package</a></td>
+			<td>Learn from financial aid Directors and bursar office professionals about what is and is not acceptable in the financial aid appeals process.</td>
+		</tr>
+		<tr>
+			<td class="side_heading"><a href="<?php echo SITE_URL . '/member/tax'; ?>">Tax Information</a></td>
+			<td>IMPORTANT! Discover applicable tax laws that too many accountants do not understand or use.</td>
+		</tr>
+		<?php if ( !$GLOBALS['mycareer'] ): ?>
+			<tr>
+				<td class="side_heading"><a href="<?php echo SITE_URL . '/member/testgear_full/high_school'; ?>">College Student Needing a New Major</a></td>
+				<td>It is ok, over 54% of schools and or majors are changed every year by college students. Come back and reassess where you want to end up.</td>
+			</tr>
+		<?php endif; ?>
+		<tr>
+			<td class="side_heading"><a href="<?php echo SITE_URL . '/member/student_loans'; ?>">Student Loans</a></td>
+			<td>Become aware of the various types of loans available.</td>
+		</tr>
+		<tr>
+			<td class="side_heading"><a href="<?php echo SITE_URL . '/contact'; ?>">Contact Us</a></td>
+			<td>Contact us with your questions. We've got answers.</td>
+		</tr>
+
+	</table>
+
+</div>

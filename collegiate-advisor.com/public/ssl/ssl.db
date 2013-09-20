@@ -1,0 +1,117 @@
+--- 
+files: 
+  certificate: 
+    AddTrust_External_CA_Root_b7f71_45a27_1590835718_99439f8250a71cf3344d253034ef851e: 
+      created: '1351785953'
+      domains: 
+        - AddTrust External CA Root
+      friendly_name: www.collegiate-advisor.com.cabundle
+      id: AddTrust_External_CA_Root_b7f71_45a27_1590835718_99439f8250a71cf3344d253034ef851e
+      is_self_signed: 1
+      issuer.commonName: AddTrust External CA Root
+      issuer.organizationName: AddTrust AB
+      modulus: b7f71a33e6f200042d39e04e5bed1fbc6c0fcdb5fa23b6cede9b113397a4294c7d939fbd4abc93ed031ae38fcfe56d505ad69729945a80b0497adb2e95fdb8cabf37382d1e3e9141ad7056c7f04f3fe8329e74cac89054e9c65f0f789d9a403c0eac61aa5e148f9e87a16a50dcd79a4eaf05b3a671949c71b350600ac7139d38078602a8e9a869261890ab4cb04f23ab3a4f84d8dfce9fe1696fbbd742d76b44e4c7adee6d415f725a710837b37965a459a09437f7002f0dc29272dad03872db14a845c45d2a7db7b4d6c4eeaccd1344b7c92bdd430025fa61b9696a582311b7a7338f567559f5cd29d746b70a2b65b6d3426f15b2b87bfbefe95d53d5345a27
+      modulus_length: 2048
+      not_after: '1590835718'
+      not_before: 959683718
+      subject.commonName: AddTrust External CA Root
+    COMODO_SSL_CA_d42b2_7b0e9_1590835718_7cadf056652abc91a4d5f7bca0b97565: 
+      created: '1351785419'
+      domains: 
+        - COMODO SSL CA
+      friendly_name: collegiate-advisor.com.cabundle.old.1351785419
+      id: COMODO_SSL_CA_d42b2_7b0e9_1590835718_7cadf056652abc91a4d5f7bca0b97565
+      is_self_signed: 0
+      issuer.commonName: AddTrust External CA Root
+      issuer.organizationName: AddTrust AB
+      modulus: d42b2e1cd2a3f87f551440def744dd8455f7857b556669a7e559eb6583f4f376b166c34f4e989309b740b3d117a01209a880e1296397028c319d0a02e0595bbbed30b5ef7e5daf084e8d8bc2395616987394780ac9a64f28b7a83437db2521b13c99f6e0123e73ea64329f42063c19d80a047a4c57492bd2777ad000bc5efa8eeeccc2e4136e255fdc3ca488a3dc49c7bcc70fdd19c0b172ed78ef38830a45171bc97d9deddfab2c2ca375ae5b821d88838dce08650c66265705a10cdfe607840b84a3c8abd59547bfdcdcfe1dfc02934401cae6b5b76b1630015de98909959ef85e295cddc7558cf28e204e407ae4f54503b4982bc4807e53876fc2d257b0e9
+      modulus_length: 2048
+      not_after: '1590835718'
+      not_before: '1314057600'
+      subject.commonName: COMODO SSL CA
+    collegiate_advisor_com_a4e41_4d855_1383320977_fd6bd6e9002d476a7bb3205ec090f1f0: 
+      created: '1351785036'
+      domains: 
+        - collegiate-advisor.com
+      friendly_name: collegiate-advisor.com.crt.old.1351785036
+      id: collegiate_advisor_com_a4e41_4d855_1383320977_fd6bd6e9002d476a7bb3205ec090f1f0
+      is_self_signed: 1
+      issuer.commonName: collegiate-advisor.com
+      issuer.organizationName: Collegiate Advisors
+      modulus: a4e41fb1af70620351f58cd4b4d7cfd003a4e3b84713b52c5f6323dc14a27f84bfd03c4a016837bffdb49bf7d3d8062b1cb05f95eada0405ec8ae50e42163bfb27e7890e40b2657969221036db12fff9a8acc3e724148785a43f774850d7320a80f768ef6cc5aeb10a1fd932f409a0a2ff484034a725107c28744a510c49a735725cb1057e59963e9d787391466cbeb6b173e7b2e9ca47968e11167fe6b0a9fae269c7470f34fe8be719275b081a41a1f899a646c647505249f72cdf481ad4a0ef7b15b51d073f63c257133550fd905548b5ba3f5c3f01533a336f3919b6424510cd78216a35aabb43d00c5ccb81655181e9aa548316098958fb08467b74d855
+      modulus_length: 2048
+      not_after: '1383320977'
+      not_before: '1351784977'
+      subject.commonName: collegiate-advisor.com
+    collegiate_advisor_com_caa16_e3a61_1383320259_eb52aecf009a5e86dbfd6ef9cd81e3d0: 
+      created: '1351784277'
+      domains: 
+        - collegiate-advisor.com
+      friendly_name: collegiate-advisor.com.crt.old.1351784277
+      id: collegiate_advisor_com_caa16_e3a61_1383320259_eb52aecf009a5e86dbfd6ef9cd81e3d0
+      is_self_signed: 1
+      issuer.commonName: collegiate-advisor.com
+      issuer.organizationName: Collegiate Advisors
+      modulus: caa1691326639de74197bc16563fc0ddf22d9026edd912df09e9246ed377b0931267a722390c466dc0ecb72bcfeb651db6acdf7800f3bfd0bd11b36bd6d63d71fbf0e9c91643d7bcd2f8e000d81068393918b80cc757988990b6713949f8a6c9676835e7a0a0ea9a5b0fc0ae0c51fa439688704f6c1a511c8319164534aa1080dfd1feb408b7e94d8b59b92e54bf09d8b271452a3a4c16c8c7c625058030a4e9211d12bdb0a5486b0131c8fe9ec4a34fe71d789f72a766c8e87c4abdd9323785760cb1e7502389528e54b08f8a8bdb5eabdd6890e788af61419cb0d07ce6bd5ec17a970df0012444a4e297f7c831724e7860cc901ac0f76374881e3800fe3a61
+      modulus_length: 2048
+      not_after: '1383320259'
+      not_before: '1351784259'
+      subject.commonName: collegiate-advisor.com
+    www_collegiate_advisor_com_b6aac_0839d_1385942399_777e2ea2d2c00b7ea125a4965e0f2b37: 
+      created: '1351785953'
+      domains: 
+        - www.collegiate-advisor.com
+        - collegiate-advisor.com
+      friendly_name: www.collegiate-advisor.com
+      id: www_collegiate_advisor_com_b6aac_0839d_1385942399_777e2ea2d2c00b7ea125a4965e0f2b37
+      is_self_signed: 0
+      issuer.commonName: COMODO SSL CA
+      issuer.organizationName: COMODO CA Limited
+      modulus: b6aac8732b6e7c074fe63dd17ff6d729a4a256dd9ab150ca2eb3ddac485956e4d710638c15b128f570720f6de54aa03ba132bc2bc2474eeaec3e7316ede44419c37dc2bb919888ab97d0d730e50f6962c2ef5674590953bbe7ba72a2b41cfe0f756a73f7c62a116214a3b8e01b8c0a3543c7cd0fc036142ec1ac2432d0d64d053db927e81e48898e6dad8b120ab86bae61de7c0ff0eb52698654fdee1f2e4f874d9903c201dfee5d217213d6b3500522f0f292d4ec00ce997f7730be0c545bdf37fca1c307c867c2f1c9342b11a6ac6fe8285639e0c68d8e05777c03d5fe276d1652be1d975c191b6c2652878b4c73697a39b9f1c108af1b6d7be55aa280839d
+      modulus_length: 2048
+      not_after: '1385942399'
+      not_before: '1351728000'
+      subject.commonName: www.collegiate-advisor.com
+  key: 
+    b6aac_0839d_135e559d464a24be456931f6581632d9: 
+      created: '1370914117'
+      friendly_name: www.collegiate-advisor.com
+      id: b6aac_0839d_135e559d464a24be456931f6581632d9
+      modulus: b6aac8732b6e7c074fe63dd17ff6d729a4a256dd9ab150ca2eb3ddac485956e4d710638c15b128f570720f6de54aa03ba132bc2bc2474eeaec3e7316ede44419c37dc2bb919888ab97d0d730e50f6962c2ef5674590953bbe7ba72a2b41cfe0f756a73f7c62a116214a3b8e01b8c0a3543c7cd0fc036142ec1ac2432d0d64d053db927e81e48898e6dad8b120ab86bae61de7c0ff0eb52698654fdee1f2e4f874d9903c201dfee5d217213d6b3500522f0f292d4ec00ce997f7730be0c545bdf37fca1c307c867c2f1c9342b11a6ac6fe8285639e0c68d8e05777c03d5fe276d1652be1d975c191b6c2652878b4c73697a39b9f1c108af1b6d7be55aa280839d
+      modulus_length: 2048
+indexes: 
+  certificate: 
+    modulus: 
+      a4e41fb1af70620351f58cd4b4d7cfd003a4e3b84713b52c5f6323dc14a27f84bfd03c4a016837bffdb49bf7d3d8062b1cb05f95eada0405ec8ae50e42163bfb27e7890e40b2657969221036db12fff9a8acc3e724148785a43f774850d7320a80f768ef6cc5aeb10a1fd932f409a0a2ff484034a725107c28744a510c49a735725cb1057e59963e9d787391466cbeb6b173e7b2e9ca47968e11167fe6b0a9fae269c7470f34fe8be719275b081a41a1f899a646c647505249f72cdf481ad4a0ef7b15b51d073f63c257133550fd905548b5ba3f5c3f01533a336f3919b6424510cd78216a35aabb43d00c5ccb81655181e9aa548316098958fb08467b74d855: 
+        collegiate_advisor_com_a4e41_4d855_1383320977_fd6bd6e9002d476a7bb3205ec090f1f0: ~
+      b6aac8732b6e7c074fe63dd17ff6d729a4a256dd9ab150ca2eb3ddac485956e4d710638c15b128f570720f6de54aa03ba132bc2bc2474eeaec3e7316ede44419c37dc2bb919888ab97d0d730e50f6962c2ef5674590953bbe7ba72a2b41cfe0f756a73f7c62a116214a3b8e01b8c0a3543c7cd0fc036142ec1ac2432d0d64d053db927e81e48898e6dad8b120ab86bae61de7c0ff0eb52698654fdee1f2e4f874d9903c201dfee5d217213d6b3500522f0f292d4ec00ce997f7730be0c545bdf37fca1c307c867c2f1c9342b11a6ac6fe8285639e0c68d8e05777c03d5fe276d1652be1d975c191b6c2652878b4c73697a39b9f1c108af1b6d7be55aa280839d: 
+        www_collegiate_advisor_com_b6aac_0839d_1385942399_777e2ea2d2c00b7ea125a4965e0f2b37: ~
+      b7f71a33e6f200042d39e04e5bed1fbc6c0fcdb5fa23b6cede9b113397a4294c7d939fbd4abc93ed031ae38fcfe56d505ad69729945a80b0497adb2e95fdb8cabf37382d1e3e9141ad7056c7f04f3fe8329e74cac89054e9c65f0f789d9a403c0eac61aa5e148f9e87a16a50dcd79a4eaf05b3a671949c71b350600ac7139d38078602a8e9a869261890ab4cb04f23ab3a4f84d8dfce9fe1696fbbd742d76b44e4c7adee6d415f725a710837b37965a459a09437f7002f0dc29272dad03872db14a845c45d2a7db7b4d6c4eeaccd1344b7c92bdd430025fa61b9696a582311b7a7338f567559f5cd29d746b70a2b65b6d3426f15b2b87bfbefe95d53d5345a27: 
+        AddTrust_External_CA_Root_b7f71_45a27_1590835718_99439f8250a71cf3344d253034ef851e: ~
+      caa1691326639de74197bc16563fc0ddf22d9026edd912df09e9246ed377b0931267a722390c466dc0ecb72bcfeb651db6acdf7800f3bfd0bd11b36bd6d63d71fbf0e9c91643d7bcd2f8e000d81068393918b80cc757988990b6713949f8a6c9676835e7a0a0ea9a5b0fc0ae0c51fa439688704f6c1a511c8319164534aa1080dfd1feb408b7e94d8b59b92e54bf09d8b271452a3a4c16c8c7c625058030a4e9211d12bdb0a5486b0131c8fe9ec4a34fe71d789f72a766c8e87c4abdd9323785760cb1e7502389528e54b08f8a8bdb5eabdd6890e788af61419cb0d07ce6bd5ec17a970df0012444a4e297f7c831724e7860cc901ac0f76374881e3800fe3a61: 
+        collegiate_advisor_com_caa16_e3a61_1383320259_eb52aecf009a5e86dbfd6ef9cd81e3d0: ~
+      d42b2e1cd2a3f87f551440def744dd8455f7857b556669a7e559eb6583f4f376b166c34f4e989309b740b3d117a01209a880e1296397028c319d0a02e0595bbbed30b5ef7e5daf084e8d8bc2395616987394780ac9a64f28b7a83437db2521b13c99f6e0123e73ea64329f42063c19d80a047a4c57492bd2777ad000bc5efa8eeeccc2e4136e255fdc3ca488a3dc49c7bcc70fdd19c0b172ed78ef38830a45171bc97d9deddfab2c2ca375ae5b821d88838dce08650c66265705a10cdfe607840b84a3c8abd59547bfdcdcfe1dfc02934401cae6b5b76b1630015de98909959ef85e295cddc7558cf28e204e407ae4f54503b4982bc4807e53876fc2d257b0e9: 
+        COMODO_SSL_CA_d42b2_7b0e9_1590835718_7cadf056652abc91a4d5f7bca0b97565: ~
+    subject.commonName: 
+      AddTrust External CA Root: 
+        AddTrust_External_CA_Root_b7f71_45a27_1590835718_99439f8250a71cf3344d253034ef851e: ~
+      COMODO SSL CA: 
+        COMODO_SSL_CA_d42b2_7b0e9_1590835718_7cadf056652abc91a4d5f7bca0b97565: ~
+      collegiate-advisor.com: 
+        collegiate_advisor_com_a4e41_4d855_1383320977_fd6bd6e9002d476a7bb3205ec090f1f0: ~
+        collegiate_advisor_com_caa16_e3a61_1383320259_eb52aecf009a5e86dbfd6ef9cd81e3d0: ~
+      www.collegiate-advisor.com: 
+        www_collegiate_advisor_com_b6aac_0839d_1385942399_777e2ea2d2c00b7ea125a4965e0f2b37: ~
+uniques: 
+  certificate: 
+    friendly_name: 
+      collegiate-advisor.com.cabundle.old.1351785419: COMODO_SSL_CA_d42b2_7b0e9_1590835718_7cadf056652abc91a4d5f7bca0b97565
+      collegiate-advisor.com.crt.old.1351784277: collegiate_advisor_com_caa16_e3a61_1383320259_eb52aecf009a5e86dbfd6ef9cd81e3d0
+      collegiate-advisor.com.crt.old.1351785036: collegiate_advisor_com_a4e41_4d855_1383320977_fd6bd6e9002d476a7bb3205ec090f1f0
+      www.collegiate-advisor.com: www_collegiate_advisor_com_b6aac_0839d_1385942399_777e2ea2d2c00b7ea125a4965e0f2b37
+      www.collegiate-advisor.com.cabundle: AddTrust_External_CA_Root_b7f71_45a27_1590835718_99439f8250a71cf3344d253034ef851e
+  key: 
+    friendly_name: 
+      www.collegiate-advisor.com: b6aac_0839d_135e559d464a24be456931f6581632d9
+    modulus: 
+      b6aac8732b6e7c074fe63dd17ff6d729a4a256dd9ab150ca2eb3ddac485956e4d710638c15b128f570720f6de54aa03ba132bc2bc2474eeaec3e7316ede44419c37dc2bb919888ab97d0d730e50f6962c2ef5674590953bbe7ba72a2b41cfe0f756a73f7c62a116214a3b8e01b8c0a3543c7cd0fc036142ec1ac2432d0d64d053db927e81e48898e6dad8b120ab86bae61de7c0ff0eb52698654fdee1f2e4f874d9903c201dfee5d217213d6b3500522f0f292d4ec00ce997f7730be0c545bdf37fca1c307c867c2f1c9342b11a6ac6fe8285639e0c68d8e05777c03d5fe276d1652be1d975c191b6c2652878b4c73697a39b9f1c108af1b6d7be55aa280839d: b6aac_0839d_135e559d464a24be456931f6581632d9

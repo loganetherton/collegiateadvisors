@@ -1,0 +1,100 @@
+<?php header( 'Content-type: text/css' ); ?>
+
+body
+{
+	background-color: <?php echo '#' . $style->get( 'background_color' ); ?>;
+}
+
+#menu_back,
+#menu,
+#inactive_menu,
+#main ul.login_button li,
+.containing_box .header
+{
+	background-color: <?php echo '#' . $style->get( 'menu_color' ); ?>;
+}
+
+body, .oneeighthundred h3, .oneeighthundred strong
+{
+	color: <?php echo '#' . $style->get( 'font_color' ); ?>;
+}
+
+#menu a,
+#main ul.login_button li a,
+#inactive_menu,
+#menu h3,
+#menu h6,
+#menu strong,
+.containing_box .header,
+.sub
+{
+	color: <?php echo '#' . $style->get( 'menu_font_color' ); ?>;
+}
+
+#menu .take_a_tour
+{
+	border-color: <?php echo '#' . $style->get( 'menu_font_color' ); ?>;
+}
+
+#main,
+#content
+{
+	background-color: <?php echo '#' . $style->get( 'content_color' ); ?>;
+}
+
+#facts_box,
+#financial_fact,
+.containing_box
+{
+	background-color: <?php echo '#' . $style->get( 'accent_color' ); ?>;
+}
+
+h3, h1
+{
+	color: <?php echo '#' . $style->get( 'heading_color' ); ?>;
+}
+
+hr
+{
+	background-color: <?php echo '#' . $style->get( 'heading_color' ); ?>;
+}
+
+#content a
+{
+	color: <?php echo '#' . $style->get( 'link_color' ); ?>;
+	border-bottom: 1px dotted <?php echo '#' . $style->get( 'link_color' ); ?>;
+}
+
+#content a:hover
+{
+	border: none;
+	color: <?php echo '#' . $style->get( 'font_color' ); ?>;
+}
+
+#sub_menu li a
+{
+	border: none;
+}
+
+#footer,
+#footer a
+{
+	background-color: <?php echo '#' . $style->get( 'footer_color' ); ?>;
+	color: <?php echo '#' . $style->get( 'footer_font_color' ); ?>;
+}
+
+#container,
+#header
+{
+	<?php if ( $style->get( 'border_color' ) == '' ): ?>
+
+		border: none;
+
+	<?php else: ?>
+
+		border-color: <?php echo '#' . $style->get( 'border_color' ); ?>
+
+	<?php endif; ?>
+
+}
+

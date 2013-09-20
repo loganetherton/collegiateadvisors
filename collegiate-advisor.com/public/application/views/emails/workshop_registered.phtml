@@ -1,0 +1,31 @@
+Workshop Registration Confirmation from <?php echo $GLOBALS['advisor']->get( 'business_name' ); ?>:
+<br /><br />
+
+<?php echo $registrant_data['first_name'] . ' ' . $registrant_data['last_name']; ?> <br />
+Thank you for signing up to attend a <?php echo $GLOBALS['advisor']->get( 'business_name' ); ?> workshop.
+<br /><br />
+
+Below you will find the contact information you provided:
+<br /><br />
+
+Email: <?php echo $registrant_data['email_address']; ?> <br />
+Telephone: <?php echo $registrant_data['phone_number']; ?>
+<br /><br />
+
+Workshop: <br />
+<?php echo date( 'F jS, Y g:i A', $workshop->get('time') ) . ' - ' . $workshop->get( 'city' ) . ', ' . $workshop->get( 'state' ); ?> <br />
+<?php echo $workshop->get( 'location' ); ?> <br />
+<?php echo $workshop->get( 'address' ); ?> <br />
+<?php echo $workshop->get( 'city' ) . ', ' . $workshop->get( 'state' ) . ' ' . $workshop->get( 'zip' ); ?> <br />
+<?php echo 'Phone: ' . $workshop->get( 'phone_number' ); ?>
+<br /><br />
+
+<?php if ( $workshop->get( 'description' ) ) echo $workshop->get( 'description' ) . '<br /><br />'; ?>
+
+Your Children's Grades: <br />
+<?php
+
+	foreach ( $grades as $grade )
+		echo $grade . '<br />';
+
+?>

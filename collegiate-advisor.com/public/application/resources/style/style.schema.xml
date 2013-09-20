@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<resource_schema>
+	<db>Main</db>	
+	<tables>		
+		<table>styles</table>	
+	</tables>	
+	<sub_resources>
+		<sub_resource>Advisor</sub_resource>
+	</sub_resources>
+</resource_schema>

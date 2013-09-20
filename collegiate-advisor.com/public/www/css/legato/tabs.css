@@ -1,0 +1,104 @@
+.tabbed_view .tabs
+{
+	list-style: none;
+	margin: 0px 0px 0px 15px;
+	padding: 0px;
+}
+
+.tabbed_view .tabs li
+{
+	float: left;
+	position: relative;
+	margin: 0px 0px 0px 3px;
+	padding: 0px;
+	cursor: pointer;
+	z-index: 2;
+}
+
+.tabbed_view .tabs li .left,
+.tabbed_view .tabs li .right
+{
+	position: absolute;
+	top: 0px;
+	width: 4px;
+	height: 21px;
+}
+
+.tabbed_view .tabs li .left { left: 0px; }
+.tabbed_view .tabs li .right { right: 0px; }
+
+.tabbed_view .tabs li .title
+{
+	margin: 0px 4px 0px 4px;
+	padding: 4px;
+	height: 13px;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.tabbed_view .tabs li .title { background: url("../../images/legato/tabs.png") -8px -21px; color: #626262; }
+.tabbed_view .tabs li .left { background: url("../../images/legato/tabs.png") 0px -21px; }
+.tabbed_view .tabs li .right { background: url("../../images/legato/tabs.png") -4px -21px; }
+
+.tabbed_view .tabs li.active .title { background: url("../../images/legato/tabs.png") -8px 0px; color: #000; }
+.tabbed_view .tabs li.active .left { background: url("../../images/legato/tabs.png") 0px 0px; }
+.tabbed_view .tabs li.active .right { background: url("../../images/legato/tabs.png") -4px 0px; }
+
+.tabbed_view .tabs li.focused .title { background: url("../../images/legato/tabs.png") -8px -63px; }
+.tabbed_view .tabs li.focused .left { background: url("../../images/legato/tabs.png") 0px -63px; }
+.tabbed_view .tabs li.focused .right { background: url("../../images/legato/tabs.png") -4px -63px; }
+
+.tabbed_view .tabs li.disabled { cursor: default; }
+.tabbed_view .tabs li.disabled .title { background: url("../../images/legato/tabs.png") -8px -42px; color: #818181; }
+.tabbed_view .tabs li.disabled .left { background: url("../../images/legato/tabs.png") 0px -42px; }
+.tabbed_view .tabs li.disabled .right { background: url("../../images/legato/tabs.png") -4px -42px; }
+
+.tabbed_view .window
+{
+	clear: both;	
+	position: relative;
+	top: -1px;
+	z-index: 1;
+}
+
+.tabbed_view .window .top_left,
+.tabbed_view .window .top_right,
+.tabbed_view .window .bottom_left,
+.tabbed_view .window .bottom_right
+{
+	position: absolute;
+	width: 9px;
+	height: 9px;
+	z-index: 2;
+}
+
+.tabbed_view .window .top_left { top: 0px; left: 0px; background: url("../../images/legato/windows.png") 0px 0px; }
+.tabbed_view .window .top_right { top: 0px; right: 0px; background: url("../../images/legato/windows.png") -10px 0px; }
+.tabbed_view .window .bottom_left { bottom: 0px; left: 0px; background: url("../../images/legato/windows.png") 0px -10px; }
+.tabbed_view .window .bottom_right { bottom: 0px; right: 0px; background: url("../../images/legato/windows.png") -10px -10px; }
+
+.tabbed_view .window .top,
+.tabbed_view .window .right,
+.tabbed_view .window .bottom,
+.tabbed_view .window .left
+{
+	position: absolute;
+	width: 6px;
+	height: 6px;
+}
+
+.tabbed_view .window .top { top: 0px; left: 9px; right: 9px; width: auto; background: url("../../images/legato/windows-horizontal.png") 0px 0px repeat-x; }
+.tabbed_view .window .right { right: 0px; top: 9px; bottom: 9px; height: auto; background: url("../../images/legato/windows-vertical.png") -6px 0px repeat-y; }
+.tabbed_view .window .bottom { bottom: 0px; left: 9px; right: 9px; width: auto; background: url("../../images/legato/windows-horizontal.png") 0px -6px repeat-x; }
+.tabbed_view .window .left { left: 0px; top: 9px; bottom: 9px; height: auto; background: url("../../images/legato/windows-vertical.png") 0px 0px repeat-y; }
+
+.tabbed_view .window .content
+{
+	padding: 20px;
+	position: absolute;
+	top: 6px;
+	right: 6px;
+	bottom: 6px;
+	left: 6px;
+	overflow: auto;
+}

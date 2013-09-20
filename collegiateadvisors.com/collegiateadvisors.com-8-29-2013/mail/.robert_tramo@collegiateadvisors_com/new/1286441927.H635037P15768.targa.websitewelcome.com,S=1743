@@ -1,0 +1,45 @@
+Return-path: <adhesive@ms66.hinet.net>
+Envelope-to: robert.tramo@collegiateadvisors.com
+Delivery-date: Thu, 07 Oct 2010 03:58:47 -0500
+Received: from h109-187-111-149.dyn.bashtel.ru ([109.187.111.149]:12165)
+	by targa.websitewelcome.com with esmtp (Exim 4.69)
+	(envelope-from <adhesive@ms66.hinet.net>)
+	id 1P3mJL-00043n-86
+	for robert.tramo@collegiateadvisors.com; Thu, 07 Oct 2010 03:58:47 -0500
+Received: from 109.187.111.149 by ms66a.hinet.net; Thu, 7 Oct 2010 13:58:44 +0500
+Date:	Thu, 7 Oct 2010 13:58:44 +0500
+From:	"EFTPS Tax Payment" <customers@eftps.gov>
+X-Mailer: The Bat! (v3.51) Home
+Reply-To: r1021203@ms21.hinet.net
+X-Priority: 3 (Normal)
+Message-ID: <377369484.16357398496861@ms66.hinet.net>
+To: <robert.tramo@collegiateadvisors.com>
+Subject: Your Federal Tax Payment has been rejected in system.
+MIME-Version: 1.0
+Content-Type: text/html;
+  charset=iso-8859-2
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<b>Your Federal Tax Payment ID: 010375202 has been rejected.</b>
+<br>Return Reason Code R21 - The identification number used in the Company
+Identification Field is not valid.</br>
+
+<br>Please, check the information and refer to Code R21 to get details
+about your company payment in transaction contacts section:</br>
+<br>
+<br><a href="http://eftpsID3462.com/contacts/s3">http://eftps.gov/R21</a>
+
+<br>In other way forward information to your accountant adviser.
+
+<br><b>EFTPS:
+<br> The Electronic Federal Tax Payment System</b>
+<br><b>PLEASE NOTE:</b> Your tax payment is due regardless of EFTPS online
+<br>availability. In case of an emergency, you can always make your tax
+<br>payment by calling the EFTPS.
+
+</BODY></HTML>

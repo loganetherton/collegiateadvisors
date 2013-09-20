@@ -1,0 +1,364 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201211 will be lost/reset.
+# Last config file used to build this data file was /home/collegia/tmp/awstats/ssl/awstats.collegiate-advisor.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2020                
+POS_TIME 2694                
+POS_VISITOR 7071                
+POS_DAY 8430                
+POS_DOMAIN 3339                
+POS_LOGIN 3712                
+POS_ROBOT 3867                
+POS_WORMS 4278                
+POS_EMAILSENDER 4409                
+POS_EMAILRECEIVER 4552                
+POS_SESSION 9000                
+POS_SIDER 9200                
+POS_FILETYPES 4687                
+POS_DOWNLOADS 4810                
+POS_OS 4880                
+POS_BROWSER 4975                
+POS_SCREENSIZE 5255                
+POS_UNKNOWNREFERER 5329                
+POS_UNKNOWNREFERERBROWSER 5527                
+POS_ORIGIN 5642                
+POS_SEREFERRALS 5780                
+POS_PAGEREFS 5924                
+POS_SEARCHWORDS 6436                
+POS_KEYWORDS 6588                
+POS_MISC 2357                
+POS_ERRORS 6647                
+POS_CLUSTER 3568                
+POS_SIDER_404 6762                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20121201055142 2 152 8416817331993
+FirstTime 20121101115746
+LastTime 20121128160155
+LastUpdate 20121201070214 2 0 1 0 0
+TotalVisits 63                  
+TotalUnique 33                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 33                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 28 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 13 13 196026 8 14 50553
+1 0 0 0 2 5 23376
+2 2 2 52 0 1 29
+3 2 2 52 4 9 47299
+4 0 0 0 3 7 116
+5 0 0 0 1 2 58
+6 2 2 52 4 8 48399
+7 8 8 170785 0 2 1435
+8 12 12 192096 1 4 1464
+9 5 5 94115 1 4 110
+10 3 3 47214 1 2 58
+11 20 20 393056 0 7 5711
+12 23 23 343914 2 6 4616
+13 26 26 469291 8 22 58987
+14 9 9 125354 4 11 27756
+15 8 8 148530 0 5 4377
+16 8 8 168832 4 8 47215
+17 8 8 124807 1 4 2971
+18 2 2 47017 0 2 29
+19 9 9 195015 3 7 48343
+20 10 10 195751 2 5 9256
+21 3 3 47590 1 3 29
+22 2 2 52 4 6 46728
+23 6 6 74421 3 8 2000
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 12
+us 50 50 765045
+pk 35 35 663180
+in 29 29 542439
+cn 26 26 568271
+ru 19 19 322794
+gb 6 6 174
+kr 5 5 115
+np 4 4 74365
+my 4 4 74365
+il 1 1 23228
+ca 1 1 23
+th 1 1 23
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+bot[\s_+:,\.\;\/\\-] 36 101008 20121130232807 17
+robot 22 638 20121129161621 22
+googlebot 17 256698 20121130061326 6
+checker 16 0 20121124224800 16
+no_user_agent 3 75 20121123130245 0
+unknown 3 87 20121116013312 3
+discovery 2 23451 20121118163501 1
+netcraft 1 0 20121108045448 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+php 8 23589 0 0
+html 44 581645 0 0
+Unknown 129 2428788 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 65 0 7807
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 6
+macosx 12
+winlong 8
+winxp 28
+Unknown 3
+linux 2
+win7 128
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 16
+firefox3.5.6 6
+chrome23.0.1271.64 7
+firefox3.0 7
+safari6.0 4
+safari5.1.6 4
+chrome23.0.1271.60 4
+curl 1
+opera9.80 4
+mozilla 7
+firefox14.0.1 26
+firefox16.0 49
+chrome22.0.1229.94 46
+msie9.0 9
+Unknown 2
+firefox15.0.1 4
+firefox11.0 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Python-urllib/2.4 20121124125401
+Mozilla/5.0_(Android;_Mobile;_rv:16.0)_Gecko/16.0_Firefox/16.0 20121105063745
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Python-urllib/2.4 20121124125401
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 50 50
+From1 2 2
+From2 0 0
+From3 27 27
+From4 102 102
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 6
+http://2collegeavenue.collegiate-advisor.com./user_signup 16 16
+http://collegiateadvisors.collegiate-advisor.com/user_signup 7 7
+http://educationsuccesssolutions.collegiate-advisor.com/user_signup 1 1
+https://www.odesk.com/leaving_odesk.php 1 1
+http://mycompletecollegecoach.com/services.php 1 1
+http://summitcollegeplanning.collegiate-advisor.com/user_signup 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+403 2 58
+302 4 6144
+400 4 0
+301 14 3388
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 33
+60.169.78.172 24 24 568225 20121119093209
+182.180.65.222 24 24 442312 20121114195622
+174.59.53.171 20 20 387916 20121105101211
+178.76.228.205 18 18 322771 20121105140235
+202.191.220.242 13 13 244979 20121107075924
+178.255.87.241 6 6 174 20121125230443
+175.110.67.37 6 6 123075 20121105131318
+180.131.3.12 5 5 115 20121105175952
+182.177.173.113 5 5 97793 20121105123345
+71.174.88.175 4 4 74363 20121109234301
+174.59.107.198 4 4 74165 20121125201853
+124.41.252.36 4 4 74365 20121106001322
+14.96.193.175 4 4 74365 20121105204023
+122.173.174.61 4 4 74365 20121106003400
+115.251.135.137 4 4 74365 20121105114911
+115.242.85.155 4 4 74365 20121108154054
+66.189.28.215 4 4 74367 20121106175011
+210.195.131.71 4 4 74365 20121105114901
+72.196.193.91 4 4 74165 20121101153826
+68.112.239.191 4 4 74165 20121128160155
+120.39.183.250 2 2 46 20121103090709
+66.193.171.223 2 2 46 20121122080023
+66.226.72.105 2 2 58 20121128135504
+68.178.193.148 1 1 23 20121112140817
+82.80.249.137 1 1 23228 20121115094238
+174.37.49.106 1 1 2851 20121124125401
+31.186.97.13 1 1 23 20121113002846
+75.125.227.210 1 1 23 20121110120546
+24.152.214.67 1 1 29 20121105063745
+70.38.12.213 1 1 23 20121111083611
+216.214.181.195 1 1 23 20121104120430
+208.87.242.201 1 1 2851 20121101173611
+122.154.101.54 1 1 23 20121104212647
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 25
+20121101 20 20 371215 4
+20121102 4 4 93688 2
+20121103 2 2 46 2
+20121104 3 3 69 3
+20121105 64 64 1061371 14
+20121106 16 16 297262 4
+20121107 9 9 170814 2
+20121108 4 4 74365 1
+20121109 4 4 74363 1
+20121110 1 1 23 1
+20121111 1 1 23 1
+20121112 1 1 23 1
+20121113 1 1 23 1
+20121114 8 8 147854 2
+20121115 9 9 212665 5
+20121116 8 8 189585 3
+20121117 2 2 47017 1
+20121118 4 4 94744 2
+20121119 2 2 47442 1
+20121121 4 4 110 4
+20121122 2 2 52 2
+20121123 1 1 29 1
+20121124 1 1 2851 1
+20121125 5 5 74194 2
+20121128 5 5 74194 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 2
+0s-30s 55
+15mn-30mn 2
+2mn-5mn 1
+30s-2mn 2
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 24
+/signup/compressor/js_top/6 26 101351 0 1
+/signup/compressor/css_common/6 26 161655 0 1
+/signup/compressor/js_bottom/6 26 1015004 0 13
+/signup/42 17 398276 12 1
+/ 13 371 12 13
+/signup/42/ 10 242624 0 2
+/signup/20 10 234220 4 3
+/vtigercrm/graph.php 7 161 7 7
+/signup/40 7 162596 5 0
+/signup/59 6 139368 6 0
+/signup/65 6 140532 5 0
+/signup/65/ 6 144657 0 6
+/signup/59/ 6 143668 0 5
+/phpmyadmin/translators.html 2 46 2 2
+/phpMyAdmin/translators.html 2 46 2 2
+/admin/login 2 5702 2 2
+/signup/40/ 2 50164 0 1
+/signup/50 1 23228 1 1
+/signup/42/index.php 1 23428 0 0
+/pma/translators.html 1 23 1 1
+/mysql/translators.html 1 23 1 1
+/signup/47 1 23430 1 0
+/translators.html 1 23 1 1
+/signup/23 1 23426 1 0
+END_SIDER

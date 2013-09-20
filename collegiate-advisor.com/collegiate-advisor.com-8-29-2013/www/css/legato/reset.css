@@ -1,0 +1,35 @@
+body,
+h1, h2, h3, h4, h5, h6,
+div, p, span, a,
+br, hr,
+big, small, em, i, strong, b, sub, sup,
+blockquote, pre, code,
+abbr, address, caption, cite, code, del, dfn, ins, kbd, q, tt, samp, var,
+ul, ol, li,
+/*form, fieldset, legend, textarea,*/ label, /*input, button,*/
+table, thead, th, tbody, tr, td, tfoot,
+dl, dt, dd
+{
+	
+	color: inherit;
+	background-color: transparent;
+	
+	font-family: inherit;
+	font-weight: inherit;
+	font-size: 1.0em;
+	font-style: inherit;
+	
+	text-decoration: none;
+	
+	margin: 0px;
+	padding: 0px;
+	
+	border: none;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	
+	list-style: none;
+	
+	vertical-align: middle;
+
+}

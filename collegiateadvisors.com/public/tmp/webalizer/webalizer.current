@@ -1,0 +1,1684 @@
+# Webalizer V2.23-05 Incremental Data - 08/28/2013 02:33:12
+2013 8 28 2 33 12
+2097 1726 286 21 141 180 21888130 891 404 0
+6 35 66 1 28
+72 56 703594 27 28 16
+80 69 723958 17 40 20
+82 71 891947 17 32 15
+68 55 346610 19 40 19
+75 60 852064 14 27 12
+72 45 408349 22 33 17
+112 96 1291793 23 43 19
+76 69 1058899 20 35 14
+84 70 897591 19 35 18
+51 37 205797 15 28 12
+80 61 620570 19 39 16
+129 107 1508699 24 50 23
+51 38 208906 20 28 14
+96 84 1149878 23 39 17
+62 44 402879 16 26 11
+81 70 749229 23 41 22
+57 50 435092 19 27 9
+39 33 172713 13 22 12
+47 40 371041 12 26 11
+115 88 1281274 13 44 15
+17 16 269510 4 7 4
+21 20 313858 9 6 5
+51 46 872233 24 21 14
+28 21 101241 13 17 5
+148 113 1557470 24 52 19
+167 151 3005134 31 47 20
+91 81 962876 25 51 23
+45 35 524925 6 7 2
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+77 64 540945 37
+64 45 260135 36
+200 179 3168067 56
+40 29 152046 22
+93 77 752091 44
+70 57 466434 37
+67 50 630995 38
+55 44 458159 23
+195 159 2277714 68
+107 98 1410838 45
+42 33 362290 19
+62 48 903275 21
+92 73 1001170 32
+137 105 1135409 71
+59 48 663534 28
+85 67 550072 54
+95 89 1609384 34
+90 76 767395 40
+101 82 795734 47
+91 80 1172293 36
+63 51 849745 13
+67 54 617289 33
+60 43 440325 19
+85 75 902791 38
+0
+0
+0
+1726
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+19
+0
+0
+0
+0
+0
+0
+284
+0
+67
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/js/bottom.js
+0 75 7238531900362719232 7828447 0 0
+/services.php
+0 56 499917926002 374920 0 0
+/img/header.jpg
+0 48 8319666290405015552 982606 0 0
+/css/
+0 1 7235421350660962145 323 1 0
+/js/
+0 63 7628142 539301 8 8
+/favicon.ico
+0 30 7307489712345788973 0 0 0
+/about.php
+0 73 3761400932729957939 307184 0 0
+/js/top.js
+0 74 8391157610387039022 552528 0 0
+/js/yahoo-min.js
+0 57 499917925998 324885 0 0
+/img/menu-arrow-dark.gif
+0 2 3543829563165442048 98 0 0
+/avatar.php
+0 1 16984720 438 0 0
+/terms_and_conditions.php
+0 45 0 491535 0 0
+/img/indexpic.jpg
+0 41 0 814530 0 0
+/
+0 807 0 3970545 394 233
+/css/main.css
+0 73 0 752813 0 0
+/references.php
+0 49 0 343294 0 0
+/img/avatar-popup.png
+0 2 0 4260 0 0
+/privacy_policy.php
+0 45 0 496170 0 0
+/js/domass.js
+0 74 0 3127968 0 0
+/js/dom-min.js
+0 56 0 594756 0 0
+/become_member.php
+0 73 0 366387 0 0
+# End Of Table - urls
+# -sites- (monthly)
+msnbot-157-55-35-105.search.msn.com
+0 4 2 17721 0 0
+-
+67-202-89-225.rdns.getisys.net
+0 1 1 5019 0 0
+-
+37-139-52-23.mrhost.biz
+0 12 12 57166 6 1377642370
+/
+yokehost.info
+0 1 1 5391 1 1376446291
+/
+baiduspider-123-125-71-99.crawl.baidu.com
+0 2 2 18688 0 0
+-
+crawl-66-249-74-147.googlebot.com
+0 1 0 0 0 0
+-
+msnbot-157-56-92-176.search.msn.com
+0 1 1 5233 1 1377584094
+/
+msnbot-199-30-25-126.search.msn.com
+0 4 4 167604 0 0
+-
+baiduspider-123-125-71-89.crawl.baidu.com
+0 2 1 43444 0 0
+-
+abts-north-dynamic-112.62.64.182.airtelbroadband.in
+0 1 1 5391 1 1376618111
+/
+46x0x193x105.static-customer.samara.ertelecom.ru
+0 1 1 5385 1 1375658612
+/
+36.248.171.32
+0 1 1 5019 0 0
+-
+5.149.248.84
+0 1 1 5339 1 1375493043
+/
+130.185.109.243
+0 2 1 5385 1 1375842823
+/
+wvc5.webair.com
+0 40 40 971636 2 1376323971
+/js/
+crawl-66-249-74-152.googlebot.com
+0 1 0 0 0 0
+-
+124.238.215.152
+0 2 1 5385 1 1376151986
+/
+msnbot-65-55-24-215.search.msn.com
+0 8 4 19198 2 1376403811
+/
+crawl-66-249-74-9.googlebot.com
+0 1 1 5233 1 1377553191
+/
+uspider-180-76-5-53.crawl.baidu.com
+0 1 1 5385 1 1375868895
+/
+193.17.208.108
+0 3 0 452 1 1375707603
+-
+pool-71-103-158-236.lsanca.fios.verizon.net
+0 2 2 12397 1 1376616718
+/
+218.93.127.107
+0 5 5 25833 2 1376383373
+/
+uspider-180-76-5-140.crawl.baidu.com
+0 1 1 5385 1 1376022923
+/
+msnbot-157-55-32-62.search.msn.com
+0 2 1 5233 1 1377637908
+/
+crawl-66-249-74-154.googlebot.com
+0 1 0 0 0 0
+-
+198.199.71.16
+0 36 36 668337 3 1376946319
+/
+msnbot-157-55-35-47.search.msn.com
+0 2 0 0 0 0
+-
+baiduspider-123-125-71-116.crawl.baidu.com
+0 3 2 18688 0 0
+-
+crawl-66-249-74-159.googlebot.com
+0 2 2 9441 1 1377500688
+/
+84.200.8.173
+0 1 1 5339 1 1375566211
+/
+36.248.168.109
+0 1 1 5019 0 0
+-
+175.44.31.77
+0 1 1 5019 0 0
+-
+baiduspider-123-125-71-29.crawl.baidu.com
+0 1 1 8841 1 1377268502
+/js/
+crawl-66-249-74-125.googlebot.com
+0 4 3 20855 1 1377498826
+/
+msnbot-157-56-92-165.search.msn.com
+0 25 14 128698 1 1375619109
+/js/
+202.46.62.97
+0 1 1 4208 0 0
+-
+5.10.83.58-static.reverse.softlayer.com
+0 2 1 5339 1 1375321472
+/
+180.76.5.27
+0 1 0 0 0 0
+-
+ip-50-62-40-202.ip.secureserver.net
+0 4 4 21673 1 1375981257
+/
+180.76.5.161
+0 1 1 10603 0 0
+-
+202.46.56.113
+0 1 0 0 0 0
+-
+baiduspider-123-125-71-117.crawl.baidu.com
+0 1 0 0 0 0
+-
+msnbot-157-55-32-58.search.msn.com
+0 7 4 236530 0 0
+-
+198.211.99.110
+0 12 12 222857 1 1376782259
+/
+180.76.5.166
+0 1 0 0 0 0
+-
+msnbot-131-253-24-65.search.msn.com
+0 7 7 192576 0 0
+-
+reverse.aeori.com
+0 1 1 6695 0 0
+-
+119.63.193.130
+0 1 1 5385 1 1376093631
+/
+ip68-101-206-61.sd.sd.cox.net
+0 12 12 246959 1 1377547598
+/js/
+baiduspider-123-125-71-38.crawl.baidu.com
+0 1 1 5391 1 1376395386
+/
+crawl-66-249-74-124.googlebot.com
+0 1 0 0 0 0
+-
+180.76.6.223
+0 1 1 8841 1 1376469624
+/js/
+226.9.207.91.unknown.steephost.net
+0 75 75 350607 23 1377598818
+/
+46.229.164.98
+0 1 0 226 1 1376215097
+/
+msnbot-157-55-32-56.search.msn.com
+0 2 1 107239 0 0
+-
+195.242.218.133
+0 14 14 68088 5 1377389970
+/
+180.76.5.23
+0 1 0 0 0 0
+-
+112.111.191.228
+0 1 1 5019 0 0
+-
+130.185.109.210
+0 2 1 10603 0 0
+-
+baiduspider-123-125-71-85.crawl.baidu.com
+0 1 1 5907 0 0
+-
+baiduspider-123-125-71-28.crawl.baidu.com
+0 1 0 0 0 0
+-
+180.76.5.190
+0 1 0 0 0 0
+-
+ip-95-221-115-168.bb.netbynet.ru
+0 10 10 242857 1 1375403602
+/js/
+unallocated.sta.lan.ua
+0 40 40 184509 15 1377623607
+/
+c-71-58-186-87.hsd1.pa.comcast.net
+0 13 13 260223 1 1377631963
+/
+193.106.136.61.usersnat.smileweb.com.ua
+0 2 2 7962 1 1376124873
+/
+193.43.252.252
+0 3 3 16155 1 1376148625
+/
+180.76.5.24
+0 1 0 0 0 0
+-
+5.10.83.39-static.reverse.softlayer.com
+0 1 0 226 1 1375961487
+/
+msnbot-157-55-36-39.search.msn.com
+0 1 1 107239 0 0
+-
+5.10.83.36-static.reverse.softlayer.com
+0 5 0 1130 1 1375772063
+/
+msnbot-157-55-32-99.search.msn.com
+0 2 1 5233 1 1377561896
+/
+static.231.95.76.144.clients.your-server.de
+0 1 0 226 0 0
+-
+ec2-54-227-108-127.compute-1.amazonaws.com
+0 1 1 5385 1 1376055912
+/
+uspider-180-76-5-165.crawl.baidu.com
+0 1 1 10923 0 0
+-
+uspider-180-76-5-90.crawl.baidu.com
+0 1 0 0 0 0
+-
+180.76.5.18
+0 1 1 11026 0 0
+-
+208.43.225.84-static.reverse.softlayer.com
+0 8 7 50262 1 1376246227
+/
+81.26.210.166
+0 1 0 0 0 0
+-
+5.10.83.45-static.reverse.softlayer.com
+0 6 0 904 0 0
+-
+173-163-169-109-cpennsylvania2.hfc.comcastbusiness.net
+0 26 26 507131 1 1376472632
+/
+msnbot-157-55-35-99.search.msn.com
+0 2 1 7006 0 0
+-
+ec2-174-129-100-76.compute-1.amazonaws.com
+0 2 1 5385 1 1375776590
+/
+crawl-66-249-74-8.googlebot.com
+0 1 0 0 0 0
+-
+uspider-180-76-5-60.crawl.baidu.com
+0 1 0 0 0 0
+-
+baiduspider-123-125-71-114.crawl.baidu.com
+0 2 1 5907 0 0
+-
+msnbot-157-56-92-150.search.msn.com
+0 1 1 5233 1 1377506655
+/
+66.39.223.199
+0 1 1 5233 1 1377590932
+/
+218.6.8.179
+0 1 1 5019 0 0
+-
+msnbot-157-56-229-87.search.msn.com
+0 4 3 14978 1 1376182114
+/
+h1891509.stratoserver.net
+0 1 1 5391 1 1376296415
+/
+baiduspider-123-125-71-70.crawl.baidu.com
+0 1 1 43444 0 0
+-
+cpe-76-84-64-245.neb.res.rr.com
+0 19 17 269192 1 1375520325
+/js/
+spider-199-21-99-87.yandex.com
+0 88 59 317796 18 1377565609
+/
+bzq-82-80-244-53.cablep.bezeqint.net
+0 1 1 21435 0 0
+-
+192.157.239.46
+0 2 2 21949 0 0
+-
+142.4.109.195
+0 2 2 10782 2 1376710701
+/
+46.229.164.97
+0 1 0 226 0 0
+-
+hosted-by.leaseweb.com
+0 14 10 66441 2 1376487071
+/
+180.76.5.16
+0 1 0 0 0 0
+-
+c-71-237-89-255.hsd1.co.comcast.net
+0 11 11 242903 1 1375960748
+/js/
+baiduspider-123-125-71-42.crawl.baidu.com
+0 1 1 8841 1 1377268503
+/js/
+crawl-66-249-74-144.googlebot.com
+0 2 2 10351 1 1377297090
+/
+198.199.66.41
+0 12 12 222857 1 1376592424
+/
+crawl-66-249-74-220.googlebot.com
+0 1 0 0 0 0
+-
+220.181.51.102
+0 1 0 0 0 0
+-
+msnbot-65-55-215-107.search.msn.com
+0 2 1 21361 0 0
+-
+msnbot-65-55-52-108.search.msn.com
+0 2 1 5332 1 1377298214
+/
+crawl-66-249-74-126.googlebot.com
+0 1 0 0 0 0
+-
+50.28.44.52
+0 3 3 15996 1 1377372384
+/
+112.111.191.64
+0 1 1 5019 0 0
+-
+202.46.62.41
+0 1 0 0 0 0
+-
+baiduspider-123-125-71-71.crawl.baidu.com
+0 1 1 5332 1 1377268302
+/
+msnbot-157-55-32-236.search.msn.com
+0 2 1 11026 0 0
+-
+5.10.83.60-static.reverse.softlayer.com
+0 1 0 226 1 1375961497
+/
+61.154.16.109
+0 1 1 5019 0 0
+-
+nat-vlan550.las1.sco.cisco.com
+0 2 2 9540 1 1376868607
+/
+176.223.89.210
+0 1 0 0 0 0
+-
+baiduspider-220-181-108-97.crawl.baidu.com
+0 1 1 5332 1 1377268702
+/
+220.181.51.81
+0 1 1 6695 0 0
+-
+crawl02.exabot.com
+0 4 2 10572 2 1377529702
+/
+146.120.166.87
+0 1 1 4208 0 0
+-
+crawl-66-249-74-201.googlebot.com
+0 1 1 5332 1 1377282660
+/
+baiduspider-123-125-71-105.crawl.baidu.com
+0 1 1 5332 1 1377078994
+/
+64.74.215.96
+0 60 58 1560073 1 1377483607
+/js/
+static.197.113.76.144.clients.your-server.de
+0 1 1 5332 1 1377270587
+/
+uspider-180-76-5-99.crawl.baidu.com
+0 1 0 0 0 0
+-
+180.76.6.20
+0 1 0 0 0 0
+-
+109.120.157.179.addr.datapoint.ru
+0 10 10 39736 5 1377559588
+/
+msnbot-157-55-35-44.search.msn.com
+0 1 1 5385 1 1376241103
+/
+193.106.136.37.usersnat.smileweb.com.ua
+0 3 3 10387 1 1377565721
+/
+msnbot-157-55-35-90.search.msn.com
+0 2 1 5391 1 1376266776
+/
+static-76-148-224-77.ipcom.comunitel.net
+0 2 1 5233 1 1377452187
+/
+193.106.136.50.usersnat.smileweb.com.ua
+0 3 3 15996 1 1376904271
+/
+ks3001877.kimsufi.com
+0 2 2 10776 2 1376275641
+/
+host72171005916.direcway.com
+0 8 8 211450 0 0
+-
+137.175.9.193
+0 1 1 5391 1 1376690631
+/
+strike.dotvps.net
+0 20 13 222979 1 1377655331
+-
+crawl-66-249-74-120.googlebot.com
+0 1 0 0 0 0
+-
+76.73.3.18
+0 1 1 5339 1 1375452144
+/
+cpe-065-190-213-171.nc.res.rr.com
+0 13 11 242903 1 1375898632
+/js/
+206-225-83-83.dedicated.codero.net
+0 2 2 9599 1 1376671157
+/
+218.6.8.19
+0 1 1 5019 0 0
+-
+sol-fttb.23.152.118.46.sovam.net.ua
+0 36 36 162726 10 1375977404
+/
+msnbot-157-55-32-76.search.msn.com
+0 1 1 8841 1 1377494803
+/js/
+msnbot-157-55-35-95.search.msn.com
+0 12 7 112127 4 1377494765
+/
+37-115-113-47-broadband.kyivstar.net
+0 3 3 13255 1 1375406487
+/
+msnbot-157-55-32-221.search.msn.com
+0 12 11 87891 0 0
+-
+baiduspider-123-125-71-83.crawl.baidu.com
+0 1 1 5339 1 1375617923
+/
+node1.crawler.botify.com
+0 4 4 21328 3 1377148464
+/
+180.76.6.212
+0 1 1 4208 0 0
+-
+69.58.178.57
+0 10 8 55647 1 1376157236
+/
+133-221.sunnet.com.ua
+0 10 10 45437 5 1377621068
+/
+ec2-54-221-28-189.compute-1.amazonaws.com
+0 1 1 0 1 1376297997
+/
+ec2-54-216-186-129.eu-west-1.compute.amazonaws.com
+0 1 1 5339 1 1375401766
+/
+220.181.51.79
+0 4 4 31733 0 0
+-
+msnbot-65-55-24-214.search.msn.com
+0 4 2 10038 0 0
+-
+ip-64-134-42-29.public.wayport.net
+0 26 26 504626 1 1375905114
+/
+crawl-66-249-74-123.googlebot.com
+0 1 1 4208 0 0
+-
+static.147.113.76.144.clients.your-server.de
+0 2 0 452 0 0
+-
+msnbot-65-55-213-33.search.msn.com
+0 8 8 200061 1 1375497838
+/js/
+hosted-in.infiumhost.com
+0 4 2 7962 2 1377638522
+/
+93-81-72-115.broadband.corbina.ru
+0 1 1 4051 1 1375371818
+/
+88-191-178-243.rev.dedibox.fr
+0 11 10 228167 1 1376488790
+/js/
+208.115.113.87
+0 12 4 31422 0 0
+-
+37-115-112-210-broadband.kyivstar.net
+0 6 6 25360 2 1375675963
+/
+202.46.63.124
+0 1 1 7006 0 0
+-
+193.106.136.60.usersnat.smileweb.com.ua
+0 3 3 16173 1 1376644738
+/
+202.46.52.31
+0 1 1 5019 0 0
+-
+178-137-93-32-lvv.broadband.kyivstar.net
+0 46 46 223014 13 1376049410
+/
+66.212.171.234.tor.pathcom.com
+0 1 1 5391 1 1376639913
+/
+38.109.45.55
+0 1 1 5391 1 1376334607
+/
+220.181.51.77
+0 1 1 5332 1 1377138840
+/
+64.74.215.89
+0 1 1 5332 1 1377424562
+/
+123.125.67.148
+0 1 0 0 0 0
+-
+112.111.188.124
+0 1 1 5019 0 0
+-
+host721710024816.direcway.com
+0 16 16 322362 1 1375362048
+/js/
+178.33.178.12
+0 3 3 23009 1 1376418033
+/
+46.229.164.99
+0 1 0 226 0 0
+-
+msnbot-65-55-213-52.search.msn.com
+0 7 7 196804 0 0
+-
+174.36.204.225-static.reverse.softlayer.com
+0 4 1 5385 1 1376194203
+/
+198.2.203.193
+0 1 1 5339 1 1375353696
+/
+crawl-66-249-73-4.googlebot.com
+0 51 36 392761 15 1377575270
+/
+c-68-47-129-55.hsd1.ar.comcast.net
+0 2 0 0 0 0
+-
+74.112.202.21
+0 2 0 452 0 0
+-
+crawl-66-249-74-161.googlebot.com
+0 1 0 0 0 0
+-
+208.43.225.85-static.reverse.softlayer.com
+0 9 6 37622 1 1377457138
+/
+198.211.104.25
+0 12 12 222541 1 1377552806
+/
+202.46.62.124
+0 1 0 0 0 0
+-
+173.199.116.35.ahrefs.com
+0 5 0 1130 1 1376602760
+/
+baiduspider-220-181-108-115.crawl.baidu.com
+0 1 1 5332 1 1377268703
+/
+www.whois.sc
+0 7 5 26693 3 1377583467
+/
+msnbot-131-253-36-196.search.msn.com
+0 2 2 49351 0 0
+-
+123.125.67.151
+0 1 0 0 0 0
+-
+bzq-82-80-244-58.cablep.bezeqint.net
+0 1 1 21361 0 0
+-
+free.ds
+0 1 0 0 0 0
+-
+202.46.62.26
+0 1 1 7006 0 0
+-
+baiduspider-123-125-71-91.crawl.baidu.com
+0 1 1 11026 0 0
+-
+112.111.165.174
+0 1 1 5019 0 0
+-
+202.46.49.75
+0 1 1 5019 0 0
+-
+173.199.115.35.ahrefs.com
+0 2 0 452 0 0
+-
+ppp-70-226-162-150.dsl.mdsnwi.ameritech.net
+0 28 28 521180 1 1375732820
+/js/
+ip-68-178-129-156.ip.secureserver.net
+0 1 1 5233 1 1377547519
+/
+msnbot-157-55-32-82.search.msn.com
+0 2 1 7006 0 0
+-
+bzq-82-80-244-52.cablep.bezeqint.net
+0 1 1 2130 0 0
+-
+38.100.21.62
+0 10 9 66158 1 1375507477
+/
+crawl-66-249-74-136.googlebot.com
+0 1 1 10923 0 0
+-
+msnbot-157-55-32-80.search.msn.com
+0 2 1 11026 0 0
+-
+199.187.122.91
+0 4 3 22637 0 0
+-
+46.119.118.152
+0 78 78 359748 22 1377617754
+/
+cpe-static-nancypratz-rtr.cmts.mlf.ptd.net
+0 147 128 2751378 10 1377592819
+/js/
+msnbot-131-253-24-78.search.msn.com
+0 7 7 190089 0 0
+-
+193.106.136.58.usersnat.smileweb.com.ua
+0 6 6 32169 2 1377399754
+/
+crawl-66-249-74-5.googlebot.com
+0 1 0 0 0 0
+-
+173.199.119.19.ahrefs.com
+0 19 0 4294 3 1376343879
+/
+180.76.5.214
+0 1 1 5332 1 1377184528
+/
+msnbot-157-55-35-81.search.msn.com
+0 2 1 10923 0 0
+-
+208-115-111-71-reverse.wowrack.com
+0 14 6 41893 2 1376917436
+/
+msnbot-157-55-32-87.search.msn.com
+0 2 2 12693 0 0
+-
+baiduspider-123-125-71-96.crawl.baidu.com
+0 1 1 107239 0 0
+-
+c-174-49-135-211.hsd1.pa.comcast.net
+0 16 16 264217 1 1377471438
+/
+ofdp-3.phishmongers.com
+0 1 1 5332 1 1377292333
+/
+baiduspider-123-125-71-88.crawl.baidu.com
+0 1 1 107239 0 0
+-
+vm2305.hvm.agava.net
+0 2 2 10678 1 1375343886
+/
+crawl-66-249-74-130.googlebot.com
+0 1 1 5019 0 0
+-
+216.244.85.234
+0 1 1 10923 0 0
+-
+msnbot-157-56-93-85.search.msn.com
+0 7 6 74041 0 0
+-
+msnbot-157-56-229-187.search.msn.com
+0 2 1 5332 1 1377411989
+/
+msnbot-199-30-24-18.search.msn.com
+0 5 5 73254 1 1376986319
+/js/
+175.44.31.84
+0 1 1 5019 0 0
+-
+202.46.59.49
+0 1 1 4208 0 0
+-
+msnbot-157-56-229-88.search.msn.com
+0 50 30 318300 20 1376163077
+/
+uspider-180-76-5-49.crawl.baidu.com
+0 1 1 5339 1 1375329891
+/
+crawl-66-249-73-220.googlebot.com
+0 137 111 916489 17 1377638433
+/
+198.2.198.98
+0 2 2 10782 2 1376763685
+/
+204.12.208.234
+0 2 0 452 1 1376544163
+/
+c-24-99-27-223.hsd1.ga.comcast.net
+0 29 29 526671 4 1377593287
+/
+192.241.130.31
+0 24 24 445702 2 1376301170
+/
+192.74.240.42
+0 1 1 5019 0 0
+-
+193.106.136.57.usersnat.smileweb.com.ua
+0 3 3 13255 1 1375378128
+/
+36.250.177.206
+0 1 1 0 1 1376838122
+/
+bzq-82-80-244-57.cablep.bezeqint.net
+0 1 1 49 0 0
+-
+msnbot-65-55-212-92.search.msn.com
+0 6 6 150604 1 1377474007
+/js/
+198.211.102.42
+0 12 12 222739 1 1377405276
+/
+msnbot-157-55-32-81.search.msn.com
+0 2 1 7674 0 0
+-
+msnbot-157-55-32-116.search.msn.com
+0 31 18 133893 13 1376978967
+/
+bzq-62-219-8-230.static.dcenter.bezeqint.net
+0 2 2 15988 1 1375860106
+/
+mail.almegagroup.com
+0 9 4 0 0 0
+-
+uspider-180-76-5-158.crawl.baidu.com
+0 1 1 5385 1 1375759017
+/
+204.12.208.162
+0 5 0 1130 0 0
+-
+178-137-128-238-kie.broadband.kyivstar.net
+0 36 36 158253 11 1377596025
+/
+baiduspider-220-181-108-187.crawl.baidu.com
+0 1 1 5339 1 1375617598
+/
+sol-fttb.194.126.118.46.sovam.net.ua
+0 71 71 344778 18 1377656023
+/
+108-237-109-251.lightspeed.stlsmo.sbcglobal.net
+0 11 11 242909 1 1376696009
+/js/
+baiduspider-220-181-108-175.crawl.baidu.com
+0 1 1 107239 0 0
+-
+180.76.5.147
+0 2 1 5391 1 1376790925
+/
+msnbot-157-55-32-105.search.msn.com
+0 2 1 8841 1 1377428486
+/js/
+pool-173-70-141-147.nwrknj.fios.verizon.net
+0 50 31 485036 1 1377420520
+/js/
+msnbot-157-55-34-176.search.msn.com
+0 1 1 107239 0 0
+-
+msnbot-157-55-34-183.search.msn.com
+0 4 2 9599 1 1376331697
+/
+220.181.51.82
+0 1 1 11026 0 0
+-
+uspider-180-76-5-95.crawl.baidu.com
+0 1 0 0 0 0
+-
+msnbot-199-30-16-23.search.msn.com
+0 2 1 21361 0 0
+-
+msnbot-157-55-32-219.search.msn.com
+0 7 3 225504 0 0
+-
+199.19.74.172
+0 1 1 10923 0 0
+-
+msnbot-65-55-24-244.search.msn.com
+0 2 1 6695 0 0
+-
+173.192.235.226-static.reverse.softlayer.com
+0 2 1 5339 1 1375623095
+/
+66.249.16.212
+0 1 1 5391 1 1376277423
+/
+202.46.54.41
+0 1 1 4097 1 1376093554
+/
+72-8-142-55.rdns.rogmeo.com
+0 1 1 4208 0 0
+-
+baiduspider-123-125-71-106.crawl.baidu.com
+0 1 1 8841 1 1377268710
+/js/
+142.4.109.193
+0 1 1 5339 1 1375390422
+/
+173.199.114.243.ahrefs.com
+0 13 0 2938 3 1375915094
+/
+180.76.5.65
+0 2 2 4531 1 1376554284
+/css/
+uspider-180-76-5-169.crawl.baidu.com
+0 1 1 5391 1 1376288838
+/
+198.2.218.15
+0 1 1 5019 0 0
+-
+cl-78-158-11-226.fastlink.lt
+0 6 6 39176 2 1377645896
+/
+220.181.51.74
+0 1 1 5332 1 1377138839
+/
+ip53.69-162-129.static.steadfastdns.net
+0 1 1 11026 0 0
+-
+relay.comsec.com
+0 13 13 254995 1 1376685806
+/
+baiduspider-123-125-71-79.crawl.baidu.com
+0 1 0 0 0 0
+-
+baiduspider-123-125-71-97.crawl.baidu.com
+0 1 1 5385 1 1375878017
+/
+178-137-128-12-kie.broadband.kyivstar.net
+0 12 12 54889 4 1377348593
+/
+180.76.5.15
+0 1 0 0 0 0
+-
+5-9-36-119.crawler.sistrix.net
+0 10 8 55555 1 1375418353
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+msnbot-157-55-35-105.search.msn.com
+0 2 1 6695 0 0
+-
+strike.dotvps.net
+0 20 13 222979 1 1377655331
+-
+msnbot-65-55-213-52.search.msn.com
+0 7 7 196804 0 0
+-
+crawl-66-249-73-4.googlebot.com
+0 6 5 37871 0 0
+-
+crawl-66-249-73-220.googlebot.com
+0 7 6 44877 0 0
+-
+sol-fttb.194.126.118.46.sovam.net.ua
+0 3 3 15699 1 1377656023
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://prikoly.ws/
+0 6
+collegiateadvisors.com
+0 1
+http://www.uabuild.com/
+0 6
+http://moregirls.org/
+0 3
+http://free-bet-max.info/
+0 6
+http://sovetogorod.ru/frukt_poleza_granata.html
+0 3
+http://bigweekend.mybb.ru/
+0 3
+http://bezlimitural.ru/
+0 2
+http://www.collegiateadvisors.com/
+0 220
+http://collegiateadvisors.com/about.php
+0 6
+http://worldlovers.ru/
+0 6
+http://www.bravica.pro/ru/
+0 3
+http://samsung-servicemanuals.ru/
+0 3
+http://www.collegiateadvisors.com/terms_and_conditions.php
+0 7
+http://healthyhair.mybb.ru/
+0 3
+http://gidserials.ru/
+0 3
+http://www.google.com/url
+0 9
+http://eroto4ka.ru/
+0 3
+http://collegiateadviser.com/
+0 1
+http://netkurenia.ru/
+0 3
+http://wmcbank.com/
+0 6
+http://muzik-stili.ru/
+0 6
+http://cubochki.com.ua/
+0 12
+http://www.profil-sites.co.il/
+0 3
+http://torrentec.net/
+0 9
+http://religii.mybb.ru/
+0 2
+http://videosoc.ru/
+0 6
+http://collegiateadvisors.com/become_member.php
+0 6
+http://arch-skin.spb.ru/
+0 3
+http://regaleadrus.com/
+0 3
+http://remont-komputerov-notebook.ru/
+0 3
+http://seofan.info/
+0 4
+http://www.bravica.jobs/ru/
+0 3
+http://galaxyflowers.ru/
+0 8
+http://killmalware.com/collegiateadvisors.com/
+0 1
+http://collegiateadvisors.collegiate-advisor.com/workshop
+0 2
+http://www.greenlampspb.ru/
+0 3
+http://sivs.ru/
+0 3
+http://art.bbrpg.ru/
+0 2
+http://www.medius-spb.ru/
+0 3
+http://muznachas-service.ru/
+0 18
+http://rgekmenu.ya.ru/replies.xml
+0 2
+http://evropaedu.ru/
+0 3
+http://www.koskam.ru/
+0 9
+http://www.collegiateadvisors.com/css/main.css
+0 2
+http://www.vmk-logistics.ru/
+0 3
+http://remont-mobile-phones.ru/
+0 3
+http://www.studia-silk.ru/
+0 3
+http://www.bravica.mobi/ru/
+0 3
+http://monderaul.com/
+0 3
+http://timermet.ru/
+0 3
+http://zemlanin.info/
+0 9
+http://www.collegiateadvisors.com/references.php
+0 4
+http://gribnoybiz.ru/
+0 3
+http://reklama1.ru/
+0 3
+http://stroiremont.mybb.ru/
+0 2
+http://soc24.ru/
+0 3
+https://www.google.com/
+0 9
+- (Direct Request)
+0 1070
+http://worldsonew.biz/
+0 3
+http://fre4games.net/
+0 3
+http://collegiateadvisors.com/wp-login.php
+0 1
+http://www.collegiateadvisors.com/services.php
+0 20
+http://www.bravica.ws/ru/
+0 3
+http://getmortgage.co.il/
+0 3
+http://collegiateadvisors.collegiate-advisor.com/login
+0 1
+http://www.collegiateadvisors.com/about.php
+0 26
+http://roomgirls.ru/
+0 6
+http://wreune.ru/
+0 2
+http://planetakino.com/
+0 2
+http://emigrant.name/
+0 3
+http://www.collegiateadvisors.com/become_member.php
+0 18
+http://sameid.net/domain/www.collegiateadvisors.com/
+0 1
+http://investaki.ru/
+0 3
+http://sovetogorod.ru/cveti_barhatec_polza.html
+0 3
+http://remdizain.ru/
+0 9
+http://collegiateadvisors.com/index.php
+0 16
+http://www.chamberofcommerce.com/mountville-pa/26686452-collegiate-advisors/
+0 1
+http://kalineks.net/
+0 2
+http://missigra.ru/
+0 3
+http://bodrosvetra.ya.ru/replies.xml
+0 2
+http://weightlosskingdom.com/
+0 2
+http://wj-kosmeya.ru/
+0 3
+http://investicii-v.ru/
+0 3
+http://internet-exe.com/
+0 6
+http://na-znakomstva.ru/dating_4.php
+0 3
+http://dollyeye.ru/
+0 3
+http://collegiateadvisors.com/services.php
+0 7
+http://kinonew-online.net/
+0 3
+http://vse-o-cvetah2.ru/
+0 2
+http://en.winpm.ws/
+0 2
+http://www.auto-loker.ru/
+0 3
+http://ledekole.com/
+0 6
+http://mug-na-chas-moscow.ru/
+0 21
+http://dalirans.net/
+0 6
+http://traveluar.net/
+0 3
+http://www.cabinetpsy.ru/
+0 3
+http://korea-cosmetics.ru/
+0 3
+http://timetorelax.biz/
+0 3
+http://sadovodst.ru/
+0 3
+http://android-ru.ru/
+0 2
+http://telety.ru/
+0 3
+http://getfilesme.com/
+0 3
+http://master-muznachas.ru/
+0 9
+http://moygarag.ru/
+0 4
+http://www.polimin.ru/
+0 3
+http://collegiateadvisors.com/
+0 135
+http://www.bravica.co/ru/
+0 3
+http://seoprodvig.ru/
+0 8
+http://xn--80adj4atbj1eb.xn--p1ai/
+0 9
+http://www.collegiateadvisors.com/index.php
+0 13
+http://yandex.ru/yandsearch
+0 1
+http://www.pro-body.co.il/
+0 6
+http://whois.domaintools.com/collegiateadviser.com
+0 3
+http://lifeshen.biz/
+0 3
+http://atkinx.com/
+0 9
+http://collegiateadvisors.com/terms_and_conditions.php
+0 6
+http://s808.ru/
+0 5
+http://ranedaly.net/
+0 2
+http://www.collegiateadviser.com/
+0 5
+http://collegiateadvisors.com/privacy_policy.php
+0 11
+http://collegiateadvisors.collegiate-advisor.com/user_signup
+0 1
+http://xn--10--8cd9agl1abic8a.xn--p1ai/
+0 15
+http://www.fotopostapp.com/
+0 3
+http://collegiateadvisors.collegiate-advisor.com/services
+0 1
+http://www.industrial-capital.org/
+0 3
+http://stroikak.com/
+0 6
+http://www.script-tutorials.com/
+0 3
+http://unamored.com/
+0 5
+http://remont-comp-pomosh.ru/
+0 3
+http://www.bravica.ch/ru/
+0 9
+http://collegiateadvisors.com
+0 8
+http://sovetogorod.ru/frukt_mandarin_virashivanie-doma.html
+0 3
+http://sovetogorod.ru/
+0 2
+http://www.narugka.ru/
+0 3
+http://whois.domaintools.com/collegiateadvisors.com
+0 3
+http://valdaidom.ru/
+0 6
+http://moneycredits.ru/
+0 3
+http://collegiateadvisors.com/references.php
+0 7
+http://azbuka-sro.ru/
+0 12
+http://samsungknowhow.mybb.by/
+0 2
+# End Of Table - referrers
+# -agents- 
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MRA 4.3 (build 01218); .NET CLR 1.1.4322)
+0 3
+Mozilla/5.0 (compatible; MJ12bot/v1.4.3; http://www.majestic12.co.uk/bot.php?+)
+0 11
+Mozilla/5.0 (Windows NT 5.2; rv:16.0) Gecko/20100101 Firefox/16.0
+0 1
+Mozilla/5.0 (compatible; CompSpyBot/1.0; +http://www.compspy.com/spider.html)
+0 3
+PagesInventory (robot http://www.pagesinventory.com)
+0 1
+Opera/9.00 (Windows NT 5.1; U; ru)
+0 3
+Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9.1.2) Firefox/3.5.2
+0 3
+Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.0.14) Gecko/2009082707 Firefox/3.0.14 ( .NET CLR 3.5.30729)
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; FunWebProducts; .NET CLR 1.1.4322; PeoplePal 6.2)
+0 3
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36
+0 29
+Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)
+0 1
+Mozilla/5.0 (Windows NT 6.2; rv:16.0) Gecko/20100101 Firefox/16.0
+0 1
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:22.0; kooky) Gecko/20100101 Firefox/22.0
+0 4
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36
+0 37
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:22.0) Gecko/20100101 Firefox/22.0 (support@google.com)
+0 1
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 1
+Mozilla/4.0 (compatible; MSIE 5.0; Windows 3.1)
+0 3
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.0.19) Gecko/2010031422 Firefox/3.0.19 YB/3.5.1 (.NET CLR 3.5.30729)
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+0 10
+Mozilla/5.0 (Windows NT 5.2; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b
+0 9
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1;  SLCC1;  .NET CLR 1.1.4325;  .NET CLR 2.0.50727;  .NET CLR 3.0.04506.648)
+0 8
+Opera/9.00 (Windows NT 5.1; U; en)
+0 3
+Java/1.6.0_04
+0 20
+Mozilla/5.0 (compatible; Add Catalog/2.1;)
+0 10
+PagesInventory (robot http://www.pagesinvenotry.com)
+0 2
+Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+0 34
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 GTB7.1
+0 2
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.95 Safari/537.11
+0 1
+panscient.com
+0 50
+Mozilla/4.0 (compatible; MSIE 5.0; Windows 95) Opera 6.01  [en]
+0 167
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; FunWebProducts)
+0 2
+Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+0 25
+Mozilla/5.0 (compatible; SISTRIX Crawler; http://crawler.sistrix.net/)
+0 10
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3
+0 10
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; KTXN)
+0 3
+Opera/7.54 (Windows NT 5.1; U)  [pl]
+0 27
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+0 1
+Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 4.0)
+0 1
+msnbot-media/1.1 (+http://search.msn.com/msnbot.htm)
+0 4
+Mozilla/5.0 (Windows NT 6.1; rv:19.0) Gecko/20100101 Firefox/19.0
+0 3
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 156
+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.2 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.1634 Safari/535.19 YI
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; MSIE 5.5; Windows NT 4.0) Opera 7.0 [en]
+0 3
+Mozilla/5.0 (Linux;u;Android 2.3.7;zh-cn;) AppleWebKit/533.1 (KHTML,like Gecko) Version/4.0 Mobile Safari/533.1 (compatible; 
+0 3
+Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+0 213
+Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)
+0 2
+Mozilla/4.76 [en] (Windows NT 5.0; U)
+0 6
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en; rv:1.9.0.13) Gecko/2009073022 Firefox/3.5.2 (.NET CLR 3.5.30729) SurveyBot/2.3 (
+0 7
+Opera/9.80 (Windows NT 6.1; U; en-US) Presto/2.7.62 Version/11.01
+0 1
+Opera/9.80 (Windows NT 6.1; WOW64; MRA 8.0 (build 5880)) Presto/2.12.388 Version/12.11
+0 1
+Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9) Gecko Minefield/3.0
+0 11
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2;  SV1;  .NET CLR 1.1.4322;  .NET CLR 2.0.40607;  .NET CLR 3.0.04506.648)
+0 7
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:2.0.1) Gecko/20100101 Firefox/4.0.1
+0 2
+Opera/7.11 (Windows NT 5.1; U) [en]
+0 6
+Opera/9.80 (Windows NT 6.1; U; en) Presto/2.8.131 Version/11.52
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; InfoPath.1)
+0 5
+Mozilla/5.0 (compatible; SemrushBot/0.96.4; +http://www.semrush.com/bot.html)
+0 3
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:22.0) Gecko/20100101 Firefox/22.0
+0 2
+Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko/20100101 Firefox/11.0
+0 1
+Mozilla/5.0 (compatible; MJ12bot/v1.4.4; http://www.majestic12.co.uk/bot.php?+)
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Crazy Browser 1.0.5)
+0 3
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+0 1
+Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.10.289 Version/12.00
+0 1
+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.95 Safari/537.11
+0 2
+Mozilla/5.0 (X11; U; Linux x86_64; en-GB; rv:1.9.0.10) Gecko/2009042523 Ubuntu/9.04 (jaunty) Firefox/3.0.10
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:21.0) Gecko/20100101 Firefox/21.0
+0 88
+WebInDetail.com
+0 2
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.8) Gecko/2009033100 Ubuntu/9.04 (jaunty) Firefox/3.0.8
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)
+0 4
+Mozilla/6.0 (compatible; MSIE 7.0a1; Windows NT 5.2; SV1)
+0 3
+Opera/7.60 (Windows NT 5.2; U)  [en] (IBM EVV/3.0/EAK01AG9/LE)
+0 30
+Lynx/2.8.5rel.1 libwww-FM/2.15FC SSL-MM/1.4.1c OpenSSL/0.9.7e-dev
+0 6
+Googlebot-Image/1.0
+0 3
+Mozilla/4.0 (compatible; MSIE 6.0; America Online Browser 1.1; rev1.2; Windows NT 5.1; SV1; .NET CLR 1.1.4322)
+0 3
+Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20121026 Firefox/16.0 SeaMonkey/2.13.2
+0 1
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2;  SV1;  .NET CLR 1.1.4325;  .NET CLR 2.0.40607;  .NET CLR 3.0.30729;  .NET 
+0 8
+Mozilla/4.0 (compatible; Blog Search;)
+0 10
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)
+0 14
+Mozilla/5.0 (compatible; Exabot/3.0; +http://www.exabot.com/go/robot)
+0 4
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:22.0) Gecko/20100101 Firefox/22.0
+0 26
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; KKman2.0)
+0 3
+Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.11
+0 1
+Mozilla/5.0 (compatible; Ezooms/1.0; ezooms.bot@gmail.com)
+0 26
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2)
+0 10
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+0 40
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
+0 2
+Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.27 Safari/532.0
+0 40
+Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.19 (KHTML, like Gecko) Chrome/25.0.1323.1 Safari/537.19
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:22.0) Gecko/20100101 Firefox/22.0
+0 13
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; Crazy Browser 2.0.0 Beta 1; .NET CLR 1.0.3705; .NET CLR 1.1.4322)
+0 2
+EventMachine HttpClient
+0 2
+Mozilla/4.0 (compatible; MSIE 6.0; Update a; AOL 6.0; Windows 98)
+0 3
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0) 0.4
+0 1
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.8
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; Media Center PC
+0 6
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2; Deepnet Explorer)
+0 3
+Mozilla/5.0 (compatible; SiteExplorer/1.0b; +http://siteexplorer.info/)
+0 23
+Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)
+0 15
+Mozilla/5.0 (Linux; Android 4.1.2; GT-N8013 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.94 Safari/5
+0 13
+Mozilla/4.0 (compatible; MSIE 6.0; Windows XP)
+0 5
+Opera/9.80 (Windows NT 6.0; U; en) Presto/2.7.62 Version/11.00
+0 3
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.91 Safari/537.11
+0 1
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)
+0 3
+Opera/9.80 (Windows NT 5.1; MRA 6.0 (build 5998)) Presto/2.12.388 Version/12.11
+0 1
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+0 1
+Mozilla/4.0 (compatible; MSIE 5.5; Windows 95; BCD2000)
+0 3
+Opera/9.80 (Windows NT 6.1; MRA 6.0 (build 5970)) Presto/2.12.388 Version/12.10
+0 1
+Wget/1.14 (linux-gnu)
+0 11
+Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.2)
+0 5
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0)
+0 1
+Mozilla/5.0 (Windows NT 5.1; rv:13.0) Gecko/20100101 Firefox/13.0.1
+0 20
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Maxthon; .NET CLR 1.1.4322)
+0 3
+Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:14.0; ips-agent) Gecko/20100101 Firefox/14.0.1
+0 10
+Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10B329 Safa
+0 13
+Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_1 like Mac OS X; en-us) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8B
+0 32
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+0 4
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en) AppleWebKit/523.15 (KHTML, like Gecko) Safari/419.3 Qt
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; .NET CLR 1.0.3705; .NET CLR 1.1.4322)
+0 3
+Mozilla/5.0 (Windows NT 6.1; rv:10.0.2) Gecko/20100101 Firefox/10.0.2
+0 2
+Mojolicious (Perl)
+0 1
+Opera/9.0 (Windows NT 5.1; U; en)
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Deepnet Explorer 1.5.0; .NET CLR 1.0.3705)
+0 3
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.91 Safari/537.11
+0 1
+nutch-1.4/Nutch-1.4
+0 2
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Win64; x64; Trident/6.0; MALNJS)
+0 2
+Opera/9.64(Windows NT 5.1; U; en) Presto/2.1.1
+0 1
+Mozilla/4.0 (compatible- MSIE 6.0- Windows NT 5.1- SV1- .NET CLR 1.1.4322
+0 3
+Mozilla/3.0 (x86 [en] Windows NT 5.1; Sun)
+0 2
+Mozilla/4.0 (compatible; MSIE 5.0; Windows 2000) Opera 6.0 [en]
+0 3
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:16.0) Gecko/20100101 Firefox/16.0
+0 3
+Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+0 87
+Mozilla/4.61 [en] (X11; U; ) - BrowseX (2.0.0 Windows)
+0 3
+Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0
+0 2
+Wget/1.12 (linux-gnu)
+0 1
+python-requests/1.1.0 CPython/2.7.4 Linux/3.8.0-19-generic
+0 1
+Mozilla/4.0 (compatible; MSIE 5.01; Windows 95; MSIECrawler)
+0 6
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2;  SV1;  .NET CLR 1.1.4325;  .NET CLR 2.0.50727;  .NET CLR 3.0.04506.648)
+0 7
+Mozilla/4.0 (compatible; GoogleToolbar 7.5.4209.2358; Windows 6.1; MSIE 9.0.8112.16421)
+0 6
+Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B334b 
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11
+0 1
+DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)
+0 9
+Mozilla/4.0 (compatible; MSIE 6.0; AOL 9.0; Windows NT 5.1)
+0 10
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/536.30.1 (KHTML, like Gecko) Version/6.0.5 Safari/536.30.1
+0 12
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322; FDM)
+0 3
+Mozilla/5.0 (compatible; AhrefsBot/4.0; +http://ahrefs.com/robot/)
+0 39
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1;  SLCC1;  .NET CLR 1.1.4325;  .NET CLR 2.0.40607;  .NET CLR 3.0.30729;  .NE
+0 7
+Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0)
+0 6
+Mozilla/5.0 (Windows NT 6.1; rv:12.0) Gecko/20100101 Firefox/12.0
+0 1
+Mozilla/5.0 (Windows NT 6.1; rv:16.0) Gecko/20100101 Firefox/16.0
+0 1
+Mozilla/5.0 (Windows NT 6.2; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0
+0 131
+Python-urllib/2.6
+0 2
+SAMSUNG-SGH-E250/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0 (compatible; Googlebot-
+0 12
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.8) Gecko/2009032713 Fedora/3.0.8-1.fc10 Firefox/3.0.8
+0 1
+Mozilla/4.0 (compatible; GoogleToolbar 7.5.4413.1752; Windows 6.1; MSIE 9.0.8112.16421)
+0 3
+PagesInventory (robot +http://www.pagesinventory.com)
+0 1
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)
+0 2
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; MDDRJS)
+0 19
+Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36
+0 39
+Mozilla/3.0 (compatible; WebCapture 2.0; Auto; Windows)
+0 9
+Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.133 Safari/534.16
+0 1
+Mozilla/4.0 (compatible; MSIE 5.5; Windows 95)
+0 6
+Mozilla/4.79 [en] (Windows NT 5.0; U)
+0 3
+Mozilla/5.0 (Windows NT 5.1; rv:12.0) Gecko/20100101 Firefox/12.0
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) Qt/4.8.4 Safari/534.34
+0 59
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0; MALNJS)
+0 14
+Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+0 3
+Mozilla/4.0 (compatible; MSIE 7.0b; Windows NT 6.0)
+0 5
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.0.3705)
+0 6
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322) Babya Discoverer  8.0:
+0 3
+Mozilla/5.0 (Windows NT 6.1; rv:1.9) Gecko/20100101 Firefox/4.0
+0 1
+Mozilla/5.0 (compatible)
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64; en-US;) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36
+0 2
+Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.25 Safari/532.0
+0 2
+Mozilla/5.0 (compatible; WBSearchBot/1.1; +http://www.warebay.com/bot.html)
+0 12
+Mozilla/5.0 (compatible; news bot /2.1)
+0 40
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; Win64; AMD64)
+0 3
+# End Of Table - agents
+# -search strings- 
+collegiateadvisors.com
+1
+collegiate advisors lancaster pa
+1
+collegiate advisors fees
+2
+www.collegiateadvisors.com
+1
+lancaster pa college counselors
+1
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

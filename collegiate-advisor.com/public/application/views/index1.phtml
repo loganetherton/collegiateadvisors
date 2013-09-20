@@ -1,0 +1,112 @@
+<div id="index1">
+
+	<table cellpadding="0" cellspacing="0" border="0">
+	
+		<tr class="top_content">
+		
+			<td class="left_column">
+			
+				<?php
+					
+					$plugins = $GLOBALS['advisor']->get( 'plugins' );
+					$base = SITE_URL . '/advisor_files/' . $GLOBALS['advisor']->get( 'id' );
+				
+					if ( file_exists( SITE_ROOT . $base. '/indexpic.jpg' ) )
+					{
+					
+						
+						echo '<div id="advisors_image"><img src="' . $base . '/indexpic.jpg" alt="" /></div>';
+						
+						echo '<p>';	
+								
+						echo $GLOBALS['advisor']->get( 'first_name' ) . ' ' . $GLOBALS['advisor']->get( 'last_name' ); 
+											
+						if ( $GLOBALS['advisor']->get( 'certifications' ) != '' )
+							echo ', ' . $GLOBALS['advisor']->get( 'certifications' );	
+												
+						echo '</p>';
+											
+					}
+					else if ( file_exists( SITE_ROOT . $base . '/genericpic.jpg' ) )
+						echo '<div id="advisors_image"><img src="' . $base . '/genericpic.jpg" alt="" /></div>';
+						
+				?>
+			
+			</td>
+			
+			<td class="right_column">
+			
+				<div id="facts_box"><p id="financial_fact"></p></div>
+				
+				<ul>
+				
+					<li><a href="<?php echo SITE_URL . '/services'; ?>">College Planning Information</a></li>
+					<?php if ( $plugins['workshops'] ): ?><li><a href="<?php echo SITE_URL . '/workshop'; ?>">Workshop Registration</a></li><?php endif; ?>
+					
+					<?php Legato_Stage::delegate( 'Hooks', 'index_top' ); ?>
+					
+				</ul>
+			
+			</td>
+			
+		</tr>
+		
+		<tr class="bottom_content">
+		
+			<td class="left_column">
+			
+				<h3><?php echo $GLOBALS['advisor']->get( 'business_name' ); ?></h3>
+		
+				<p><?php $index_view->render(); ?></p>
+			
+			</td>
+			
+			<td class="right_column">
+			
+				<p>
+					<?php	
+									
+						echo $GLOBALS['advisor']->get( 'address' ) . '<br />';
+						echo $GLOBALS['advisor']->get( 'city' ) . ', ' . $GLOBALS['advisor']->get( 'state' ) . ' ' . $GLOBALS['advisor']->get( 'zip' );
+					
+					?>					
+				</p>
+				
+				<hr class="small_separator" />
+				
+				<p>
+					<?php
+					
+						echo 'Phone: ' . $GLOBALS['advisor']->get( 'contact_phone_number' ) . '<br />';
+						echo 'Fax: ' . $GLOBALS['advisor']->get( 'contact_fax_number' );
+						
+					?>
+				</p>
+				
+				<?php if ( $plugins['eighthundred_number'] ): ?>
+				
+					<hr class="small_separator" />
+					
+					<div class="oneeighthundred">
+						
+						<h3>Free Student Loan Advice<br />(800) 515-3807</h3>
+							
+						<p>Find out which loans are best for you!</p>
+						
+					</div>
+				
+				<?php endif; ?>
+				
+				<?php Legato_Stage::delegate( 'Hooks', 'index_bottom' ); ?>
+			
+			</td>
+			
+		</tr>
+	
+	</table>	
+	
+	<?php $news_view->render(); ?>
+
+</div>
+
+<script type="text/javascript" src="<?php echo Legato_Compressor::get( 'JS_Index' ); ?>"></script>

@@ -1,0 +1,12 @@
+<h1><?php echo $page->title; ?></h1>
+
+<?php if ( $complete ): ?>
+
+	<div class="containing_box"><p><strong>You've successfully referred a friend. Thanks!</div>
+	<br>
+
+<?php endif; ?>
+
+<?php $content_view->render(); ?>
+
+<?php echo $form->output(); ?>

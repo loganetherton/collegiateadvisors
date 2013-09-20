@@ -1,0 +1,18 @@
+<div id="admin_home">
+
+	<h1>Home Page</h1>
+
+	<p>You can use the menu on the left to manage the various parts of the site.</p>
+	
+	<?php if ( $level < 2 ): ?>
+	
+		<p>
+			<em>Remember to always keep your account information updated.<br />
+			You can do so by clicking on the "Update Your Info" link on the left.</em>
+		</p>
+		
+		<?php $tutorials_view->render(); ?>
+	
+	<?php endif; ?>
+
+</div>

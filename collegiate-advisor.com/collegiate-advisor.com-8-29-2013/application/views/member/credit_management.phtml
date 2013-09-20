@@ -1,0 +1,50 @@
+<div id="<?php echo $page; ?>">
+
+	<h1>Credit Management</h1>
+	
+	<p>We have put together some videos to walk you through how to manage your credit in college.<br />
+	We suggest that you watch them in order.</p>
+	
+	<br />
+	
+	<div id="sub_menu">
+	
+		<ul id="tutorials" class="commands">
+		
+			<li><a href="<?php echo SITE_URL . '/files/credit_management/credit_module1.swf'; ?>" onclick="loadVideo( this ); return false;">Credit Overview</a></li>
+			<li><a href="<?php echo SITE_URL . '/files/credit_management/credit_module2.swf'; ?>" onclick="loadVideo( this ); return false;">Your Credit Report</a></li>
+			<li><a href="<?php echo SITE_URL . '/files/credit_management/credit_module3.swf'; ?>" onclick="loadVideo( this ); return false;">Student Loans</a></li>
+			<li><a href="<?php echo SITE_URL . '/files/credit_management/credit_module4.swf'; ?>" onclick="loadVideo( this ); return false;">Credit Trouble</a></li>
+			<li class="last"><a href="<?php echo SITE_URL . '/files/credit_management/credit_module5.swf'; ?>" onclick="loadVideo( this ); return false;">Identity Theft</a></li>
+		
+		</ul>
+		
+	</div>
+	
+	<br />
+	
+	<div id="tutorial_video"></div>
+	
+	<script type="text/javascript">
+	
+		function loadVideo( element )
+		{
+			
+			document.getElementById( "tutorial_video" ).innerHTML = "";
+			
+			var vid1 = new SWFObject( element.href, "video", "400", "300", "9");  
+			vid1.addParam( "quality", "high" );
+			
+			vid1.write( "tutorial_video" );
+			
+			var active = Legato_DOM_Library.getElementsByClassName( "active", "li", document.getElementById( "tutorials" ) );
+			
+			if ( active[0] ) active[0].className = "";
+			
+			element.parentNode.className = "active";
+			
+		}
+	
+	</script>
+	
+</div>

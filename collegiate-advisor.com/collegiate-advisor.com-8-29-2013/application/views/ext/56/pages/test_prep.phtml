@@ -1,0 +1,108 @@
+<h1><?php echo $page->title; ?></h1>
+
+<?php $content_view->render(); ?>
+
+<h3>ACT Options</h3>
+
+<ul>
+	<li><strong>Standard</strong>, 2 Tests, 2 point guarantee 550 Video explanations, 12 months, $175.00, $50 rebate check if added with any other service or discount off any other service</li>
+	<li><strong>Premium</strong>, 3 Tests, 3 point guarantee 750 Video explanations, 12 months, $225.00, $75 rebate check if added with any other service or discount off any other service</li>
+</ul>
+
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+	<input type="hidden" name="cmd" value="_s-xclick">
+	<input type="hidden" name="hosted_button_id" value="7770819">
+	<input type="hidden" name="on0" value="ACT Options">
+
+	<select name="os0">
+		<option value="Standard">Standard $175.00
+		<option value="Premium">Premium $225.00
+	</select>
+
+	<input type="hidden" name="currency_code" value="USD">
+	<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_paynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+
+	<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+
+</form>
+
+<br>
+
+<h3>SAT Options</h3>
+
+<ul>
+	<li><strong>Standard</strong>, 2 Tests, 200 point guarantee 550 Video explanations, 12 months, $175.00, $50 rebate check if added with any other service or discount off any other service</li>
+	<li><strong>Premium</strong>, 3 Tests, 300 point guarantee 750 Video explanations, 12 months, $225.00, $75 rebate check if added with any other service or discount off any other service</li>
+</ul>
+
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+	<input type="hidden" name="cmd" value="_s-xclick">
+	<input type="hidden" name="hosted_button_id" value="7772397">
+	<input type="hidden" name="on0" value="SAT Options">
+
+	<select name="os0">
+		<option value="Standard">Standard $175.00
+		<option value="Premium">Premium $225.00
+	</select>
+
+	<input type="hidden" name="currency_code" value="USD">
+	<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_paynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+	<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+
+</form>
+
+<br>
+
+<h3>ACT/SAT Combo Options</h3>
+
+<ul>
+	<li><strong>Standard</strong>, 2 Tests, 200 point guarantee SAT and 3 point guarantee ACT 1200 Video explanations, 18 months, $449.00, $125 rebate check if added with any other service or discount off any other service</li>
+	<li><strong>Premium</strong>, 3 Tests, 300 point guarantee and 3 point guarantee ACT 2000 Video explanations, 18 months, $625.00, $200 rebate check if added with any other service or discount off any other service</li>
+</ul>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+	<input type="hidden" name="cmd" value="_s-xclick">
+	<input type="hidden" name="hosted_button_id" value="7772632">
+	<input type="hidden" name="on0" value="ACT/SAT Options">
+
+	<select name="os0">
+		<option value="Standard">Standard $449.00
+		<option value="Premium">Premium $625.00
+	</select>
+
+	<input type="hidden" name="currency_code" value="USD">
+	<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_paynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+	<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+
+</form>
+
+<br>
+
+<h3>Subject Test Options</h3>
+
+<ul>
+	<li><strong>Math Level 1</strong>, 3 Tests, 100 point guarantee 150 Video explanations, $89.00, $25 rebate check if added with any other service or discount off any other service</li>
+	<li><strong>Math Level 2</strong>, 3 Tests, 100 point guarantee 150 Video explanations, $89.00, $25 rebate check if added with any other service or discount off any other service</li>
+	<li><strong>Math Level 1 &amp; 2</strong>, 3 Tests, 100 point guarantee each 150 each Video explanations, $139.00, $25 rebate check if added with any other service or discount off any other service</li>
+</ul>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+	<input type="hidden" name="cmd" value="_s-xclick">
+	<input type="hidden" name="hosted_button_id" value="7772790">
+	<input type="hidden" name="on0" value="Subject Test Options">
+
+	<select name="os0">
+		<option value="Math Level 1">Math Level 1 $89.00
+		<option value="Math Level 2">Math Level 2 $89.00
+		<option value="Math Level 1 &amp; 2">Math Level 1 &amp; 2 $139.00
+	</select>
+
+	<input type="hidden" name="currency_code" value="USD">
+	<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_paynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+	<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+
+</form>

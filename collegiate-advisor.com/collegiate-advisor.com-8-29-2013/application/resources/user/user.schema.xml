@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<resource_schema>
+	<db>Main</db>	
+	<tables>	
+		<table>users</table>
+		<table>users_info</table>
+	</tables>
+	<foreign_keys>
+		<reference>Advisor</reference>
+	</foreign_keys>	
+</resource_schema>

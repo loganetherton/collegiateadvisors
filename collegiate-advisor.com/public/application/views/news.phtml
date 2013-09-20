@@ -1,0 +1,19 @@
+<div class="containing_box">
+
+	<div class="header">News</div>
+	
+	<?php foreach($news as $news_item): ?>
+		
+		<h3><?php echo date( 'F j, Y', $news_item->get( 'date' ) ); ?></h3>
+		<div class="news_item">
+		
+			<p><?php echo $news_item->get( 'news' ); ?></p>
+		
+		</div>
+		
+		<div class="option">(<a href="<?php echo $news_item->get( 'link' ); ?>" target="_blank"><?php echo $news_item->get( 'link_description' ); ?></a>)</div>		
+		<br style="clear: right;" />
+	
+	<?php endforeach; ?>	
+
+</div>

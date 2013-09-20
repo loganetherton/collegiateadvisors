@@ -1,0 +1,3 @@
+3600
+1222794509
+a:5:{s:6:"tables";a:1:{s:9:"workshops";a:2:{s:2:"id";s:2:"id";s:6:"fields";a:10:{i:0;s:2:"id";i:1;s:10:"advisor_id";i:2;s:4:"time";i:3;s:8:"location";i:4;s:7:"address";i:5;s:4:"city";i:6;s:5:"state";i:7;s:3:"zip";i:8;s:12:"phone_number";i:9;s:11:"description";}}}s:2:"db";s:4:"Main";s:6:"fields";a:10:{s:2:"id";s:9:"workshops";s:10:"advisor_id";s:9:"workshops";s:4:"time";s:9:"workshops";s:8:"location";s:9:"workshops";s:7:"address";s:9:"workshops";s:4:"city";s:9:"workshops";s:5:"state";s:9:"workshops";s:3:"zip";s:9:"workshops";s:12:"phone_number";s:9:"workshops";s:11:"description";s:9:"workshops";}s:12:"foreign_keys";a:1:{s:10:"advisor_id";s:7:"Advisor";}s:13:"sub_resources";a:1:{s:19:"Workshop_Registrant";s:11:"workshop_id";}}

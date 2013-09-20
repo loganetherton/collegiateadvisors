@@ -1,0 +1,439 @@
+/* Content.css - Content stylesheet */
+
+/* ----- Table Styles ----- */
+
+table
+{
+	margin: 0 0 10px 0;
+
+	border-left: 1px solid #999;
+	border-top: 1px solid #999;
+}
+
+th, td
+{
+	padding: 4px;
+
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #999;
+
+	vertical-align: top;
+}
+
+th, td.side_heading
+{
+	font-size: 1em;
+	font-weight: bold;
+}
+
+td.side_heading a
+{
+	border-bottom: none;
+}
+
+/* ----- Index Page ----- */
+
+#index1 table, #index1 td,
+#index2 table, #index2 td
+{
+	border: 0px;
+}
+
+#index1 .top_content { margin-top: 15px; }
+#index1 .bottom_content { margin-top: 35px; }
+
+.left_column
+{
+	padding-left: 2%;
+	width: 48%;
+	text-align: left;
+}
+
+.right_column
+{
+	width: 50%;
+	text-align: center;
+}
+
+#index1 .top_content .left_column
+{
+	font-weight: bold;
+	text-align: center;
+}
+
+#index1 .top_content .right_column
+{
+	line-height: 1.2em;
+}
+
+#index1 ul,
+#index2 ul
+{
+	text-align: center;
+	padding: 10px 20px 0px 0px;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+#index2 ul { text-align: left; }
+
+#index1 li,
+#index2 li
+{
+	margin: 20px 0;
+	list-style: none;
+}
+
+#index1 .bottom_content .right_column
+{
+	padding-top: 40px;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+#index1 .bottom_content .right_column p
+{
+	padding-bottom: 10px;
+}
+
+#facts_box
+{
+	margin-left: 27px;
+	padding: 30px;
+	height: 70px;
+	width: 170px;
+	text-align: center;
+	font-style: italic;
+	font-size: 1.1em;
+	border: 1px solid #999;
+}
+
+#index2 #facts_box { margin-bottom: 30px; }
+#index2 #advisors_image { margin-bottom: 10px; }
+
+/* ----- General Content Rules ----- */
+
+/* ----- Headings ----- */
+
+#content h1
+{
+	font-size: 1.4em;
+	font-weight: bold;
+	padding-bottom: 8px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #999;
+}
+
+#content h3
+{
+	font-size: 1.2em;
+	font-weight: bold;
+	padding-bottom: 1px;
+	margin-bottom: 6px;
+
+	border-bottom: 1px solid #ddd;
+}
+
+#content h6
+{
+	font-size: 1.1em;
+	font-weight: bold;
+	margin-bottom: 2px;
+}
+
+/* ----- Ps ----- */
+
+#content p
+{
+	margin-bottom: 7px;
+}
+
+#content a
+{
+	font-weight: bold;
+}
+
+/* ----- Lists ----- */
+
+#content ol, #content ul
+{
+	margin: 0 0 0 25px;
+}
+
+#content ol
+{
+	list-style-type: decimal;
+}
+
+#content ul
+{
+	list-style-type: disc;
+}
+
+#content ol li, #content ul li
+{
+	margin-bottom: 7px;
+}
+
+#content ol li ul li, #content ul li ol li, #content ul li ul li
+{
+	padding-top: 0;
+	margin-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+/* ----- Sub Menu ----- */
+
+#sub_menu
+{
+	display: block;
+}
+
+#sub_menu ul
+{
+	text-align: center;
+	width: 98%;
+	padding: 5px 0;
+	margin: 5px 0 8px 0;
+	border: 1px solid #999;
+}
+
+#sub_menu ul li
+{
+	display: inline;
+	border-right: 1px dotted #000;
+	list-style-type: none;
+	padding: 0 5px 0 5px;
+}
+
+#sub_menu ul li.last
+{
+	border-right: none;
+	padding: 0 0 0 5px;
+}
+
+#sub_menu ul li a
+{
+	font-weight: normal;
+	border-bottom: none;
+}
+
+/* ----- Test Prep ----- */
+
+#member_test_prep table, #member_test_prep table td
+{
+	border: none;
+}
+
+#member_test_prep .side_heading
+{
+	white-space: nowrap;
+}
+
+#member_test_prep ul.pdf_list
+{
+	text-align: center;
+	padding: 5px 60px 15px 5px;
+}
+
+#member_test_prep ul.pdf_list li
+{
+	display: inline;
+	padding: 0 30px 0 10px;
+}
+
+/* ----- About ----- */
+
+#about ul, #about ol
+{
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+#about li
+{
+	margin-left: 20px;
+}
+
+#about blockquote
+{
+	padding: 5px 20px 5px 30px;
+}
+
+/* ----- Contact ----- */
+
+#contact table, #contact td
+{
+	border: 0px;
+}
+
+#contact td
+{
+	padding-right: 20px;
+}
+
+/* ----- Workshops ----- */
+
+form table.childrens_grades, form table.childrens_grades td, form table.childrens_grades tr
+{
+	border:none;
+}
+
+form table.childrens_grades td
+{
+	padding: 0 5px 0 0;
+}
+
+#workshop_analysis3 label { width: 230px; }
+#workshop_analysis3 p.error { margin-left: 253px; }
+#workshop_analysis4 textarea { width: 300px; height: 100px}
+
+/* ----- Containing Box ----- */
+
+.containing_box
+{
+	border: 1px solid #999;
+	background-color: #DDD;
+	margin-top: 20px;
+	padding: 10px 15px;
+}
+
+.containing_box .header
+{
+	display: inline;
+	position: relative;
+	margin: 0px;
+	padding: 2px 5px;
+	top: -20px;
+	font-size: 1.2em;
+	font-weight: bold;
+	border: 1px solid #999;
+	background-color: #CCC;
+}
+
+.containing_box .news_item
+{
+	height: 20px;
+	overflow: hidden;
+}
+
+.containing_box .option
+{
+	float: right;
+}
+
+/* ----- 1 800 ----- */
+
+#content .small_separator
+{
+	border: 0px;
+	width: 55px;
+	margin-bottom: 10px;
+	height: 1px;
+}
+
+#content .oneeighthundred
+{
+	text-align: center;
+}
+
+#content .oneeighthundred h1
+{
+	font-size: 5em;
+	border: none;
+	font-weight: normal;
+	float: right;
+	margin-top: 10px;
+}
+
+#content .oneeighthundred h3
+{
+	font-size: 1.1em;
+	border-bottom: none;
+	padding: 0;
+	margin: 0;
+}
+
+#content .oneeighthundred strong
+{
+	margin-top: 5px;
+	font-size: 1.1em;
+}
+
+#content .oneeighthundred p
+{
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+}
+
+/* ----- Credit Module ----- */
+
+#tutorial_video
+{
+	text-align:center;
+}
+
+/* ----- Avatar ----- */
+
+#menu .take_a_tour
+{
+	margin: 20px 10px 0 0;
+	padding: 10px 0;
+	text-align: center;
+	font-size: 1.45em;
+	font-weight: bold;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+}
+
+#background
+{
+	position: absolute;
+	background-color: #000;
+	z-index: 11;
+}
+
+#enlarged
+{
+	position: absolute;
+	width: 819px;
+	height: 354px;
+	background: url(../../images/avatar-popup.png) 0 0 no-repeat;
+	z-index: 12;
+}
+
+#enlarged iframe
+{
+	position: absolute;
+	top: 52px;
+	left: 7px;
+	width: 805px;
+	height: 295px;
+	border: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+#enlarged .avatar-close
+{
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding-top: 12px;
+	width: 116px;
+	height: 29px;
+	text-align: center;
+	font-family: georgia, "Times New Roman", serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #ddd;
+}
+
+#enlarged .avatar-close:hover
+{
+	text-decoration: none;
+	color: #fff;
+}

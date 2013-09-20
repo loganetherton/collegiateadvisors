@@ -1,0 +1,421 @@
+/* ----- Main ----- */
+html 
+{
+    background-color: #FFF;
+    color: #000;
+    text-align: left;
+}
+
+body 
+{
+    margin: 0;
+    padding: 0; 
+    font: normal 0.7em/1.4em Tahoma, Verdana, Arial, Georgia, sans-serif;
+    color: #000;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+a:link, a:visited 
+{
+    color: #404040;
+    text-decoration: none;
+    border-bottom: 1px solid #404040; 
+}
+
+a:hover, a:active
+{
+    color: #7e7e7e;
+    text-decoration: none;
+    border-bottom: 1px solid #7E7E7E;
+}
+
+p 
+{ 
+    margin-top: 12px;
+    margin-bottom: 12px;
+    line-height: 17px;
+}
+
+ul
+{
+	padding-left: 30px;
+}
+
+ul li
+{
+	padding: 2px 0px;
+}
+
+/* ----- Form Styles ----- */
+
+textarea
+{
+	width: 250px;
+	height: 100px;
+}
+
+/* ----- Table Styles ----- */
+
+table
+{
+	text-align: left;
+}
+
+th, td
+{
+	padding: 3px 10px;
+	border-right: 2px solid #FFF;
+	border-bottom: 2px solid #FFF;
+	vertical-align: top;
+}
+
+th, tfoot td
+{
+    background-color: #E8E8E8;
+    font-weight: bold;
+}
+
+tr.row1 td
+{
+    background-color: #F5F5F5;
+}
+
+tr.row2 td
+{
+    background-color: #EDEDED;
+}
+
+tr.inactive
+{
+	font-style: italic;
+	color: #555;
+}
+
+.information_table
+{
+	margin-bottom: 20px;
+    width: 600px;
+}
+
+.information_table td 
+{
+    padding: 5px 7px 5px 7px;
+    width: 50%;
+    vertical-align: top;
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid #FFF;
+    background-color: #F7F7F7;
+}
+
+.information_table td:first-child 
+{ 
+    text-align: right;
+    font-weight: bold;
+}
+
+.information_table table { width: 100%; }
+
+.information_table table td
+{
+    border-right: 2px solid #F5F5F5;
+    border-bottom: 2px solid #F5F5F5;
+    background-color: #FFF;
+}
+
+.information_table ul
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+/* ----- Top Container ----- */
+
+#header
+{
+	padding-top: 13px;
+	padding-left: 15px;
+    height: 27px;
+    background-color: #FBFAF4;
+    border-top: 5px solid #000;
+    border-bottom: 1px solid #000;
+    color: #333;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 23px;
+    font-variant: small-caps;
+}
+
+/* ----- Menu ----- */
+
+#menu
+{
+    width: 250px;
+    float: left;
+    border-bottom: 2px solid #494949; 
+    border-right: 2px solid #494949;
+}
+
+#menu h1
+{
+    margin: 0px;
+    padding: 5px;
+    background-color: #494949;
+    font-size: 15px;
+    color: #E7FCC2;
+}
+
+#menu ul
+{
+    margin: 0px 0px 0px 10px;
+    padding: 10px 10px 13px 0px;
+    list-style: none;
+    border-left: 1px solid #CCC;
+}
+
+#menu li
+{
+	padding: 0px 0px 0px 8px;
+    margin-left: 2px;
+}
+
+#menu li:hover
+{
+    margin-left: 0px;
+    border-left: 2px solid #CCC;
+}
+
+#menu li.heading,
+#menu li.nested,
+#menu li.spacer
+{ 
+	border: 0px; 
+	margin-left: 2px; 
+}
+
+#menu li.heading { font-weight: bold; }
+#menu li.nested { margin-left: 0px; padding-left: 0px; }
+
+#menu ul ul
+{
+	margin: 10px 0px 10px 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+#menu li li { padding-left: 23px; }
+
+/* ----- Content ----- */
+
+#content
+{
+	position: relative;
+    margin-left: 250px;
+    padding: 20px;
+    border-left: 2px solid #494949;
+    border-bottom: 2px solid #494949; 
+}
+
+#content h1
+{
+    margin: 20px 0px 15px 0px;
+    padding-bottom: 5px;
+    font-family:"Times New Roman", Times, serif;
+    font-variant: small-caps;
+    font-size: 23px;
+    color: #656565;
+    border-bottom: 1px solid #000;
+}
+
+#content h2
+{
+    margin: 20px 0px 15px 0px;
+    padding-bottom: 5px;
+    font-family:"Times New Roman", Times, serif;
+    font-size: 15px;
+    color: #323232;
+}
+
+/* ----- Header Menu ----- */
+
+#header_menu
+{
+    position: absolute;
+    top: -14px;
+    right: 20px;
+    width: 500px;
+}
+
+#header_menu li
+{
+    float: right;
+    list-style: none;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #EDE9CF;
+    border: 1px solid #D9CF96;
+}
+
+#header_menu li:hover { background-color: #F4F1E1; }
+
+#header_menu li a
+{
+    color: #6A8772;
+    border: 0px;
+}
+
+/* ----- Page Trail ----- */
+
+#page_trail
+{
+    text-align: center;
+}
+
+#page_trail a 
+{ 
+    padding: 3px 10px 3px 10px;
+    background-color: #494949;
+    font-size: 13px;
+    color: #E7FCC2; 
+}
+
+#page_trail a:hover
+{
+    color: #C5F277
+}
+
+/* ----- Command List ----- */
+
+ul.commands
+{
+
+    border-bottom: 1px solid #CCC;
+    margin: 0px;
+    padding-left: 20px;
+    padding-bottom: 3px;
+    list-style: none;
+}
+
+ul.commands li
+{
+    display: inline;
+    margin: 0px;
+    margin-right: 5px;
+    padding: 3px 5px 3px 5px;
+    font-size: 15px; 
+    background-color: #CCC;
+    border-top: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+}
+
+ul.commands li:hover
+{
+	background-color: #888;
+}
+
+ul.commands li a
+{
+	color: #333;
+    border: 0px;
+}
+
+ul.commands li a:hover
+{
+	color: #E7FCC2;
+}
+
+/* ----- Advisor Select Box ----- */
+#admin_advisor_select
+{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#admin_advisor_select h3, #admin_advisor_select form
+{
+	display: inline;
+}
+
+#admin_advisor_select h3
+{
+	font-size: 15px;
+}
+
+/* ----- Edit Page ----- */
+
+#admin_edit_page p
+{
+	margin: 20px auto;
+	text-align: center;
+	width: 520px;
+}
+
+/* ----- Print ----- */
+#print
+{
+	font-family: "New Century Schoolbook", Times, serif;
+	font-size: 12px;
+}
+
+#print h1
+{
+	font-size: 1.5em;
+	text-align: center;
+	margin: 10px 0px;
+}
+
+#print table
+{
+	width: 100%;
+}
+
+/* ----- The Rest ----- */
+
+.indent { margin-left: 30px; }
+
+.clear_left
+{
+	clear: left;
+}
+
+.long_information
+{
+	width: 600px;
+}
+
+.alert_container
+{
+	position: absolute;
+	padding: 10px;
+	font-size: 12px;
+	width: 300px;
+	text-align: center;
+	color: #E7FCC2;
+	background-color: #494949;
+	border: 3px solid #777;
+}
+
+#tutorial_video
+{
+	width: 640px;
+	height: 533px;
+}
+
+#tutorials
+{
+	padding-left: 0px;
+}
+
+#tutorials li
+{
+	font-size: 12px;
+}
+
+#tutorials li.active
+{
+	font-weight: bold;
+}
+
+#admin_newsletter #news { width: 500px; height: 300px; }

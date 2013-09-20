@@ -1,0 +1,18 @@
+<div id="login">
+
+	<? if( isset( $error_message ) ): ?>
+		<p>Error: <?= $error_message; ?></p>
+	<? endif; ?>
+
+	<script type="text/javascript">
+	
+		Legato_Events_Handler.addEvent( window, "onload", function(){ document.getElementById( "username" ).focus(); } );
+	
+	</script>
+
+	<?php echo $form->output(); ?>
+	
+	<br />
+	<p><a href="<?php echo SITE_URL . '/recovery'; ?>">Forgot your username or password?</a></p>
+
+</div>

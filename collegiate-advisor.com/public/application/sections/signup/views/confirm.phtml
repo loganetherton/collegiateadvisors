@@ -1,0 +1,21 @@
+<h1>Confirm Information</h1>
+
+<p>Carefully look over your information to confirm that it's correct. If you need to change something, you can "Go Back," or if it's correct, you can "Process Payment."</p>
+
+<?php echo $payment_synopsis->render(); ?>
+
+<div class="button left">
+	<a href="<?php echo SITE_URL . '/signup/change/'; ?>">
+		Go Back <br />
+		<small>Change Something</small>
+	</a>
+</div>
+
+<div class="button right">
+	<a href="<?php echo SITE_URL . '/signup/process/'; ?>">
+		Process Payment<br />
+		<small>Sign Me Up!</small>
+	</a>
+</div>
+
+<br style="clear: both;" />

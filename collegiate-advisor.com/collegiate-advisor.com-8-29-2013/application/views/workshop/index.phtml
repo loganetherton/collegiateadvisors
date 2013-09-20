@@ -1,0 +1,37 @@
+<div id="workshop">
+	
+	<h1>Workshop &amp; Webinar Registration</h1>
+
+	<?php if ( file_exists( ROOT . '/application/views/ext/' . $GLOBALS['advisor']->get( 'id' ) . '/workshop.phtml' ) ): ?> 
+	
+		<?php 
+		
+			$view = new Legato_View( 'ext/' . $GLOBALS['advisor']->get( 'id' ) . '/workshop' );
+			$view->render();
+			
+		?>
+
+	<?php else: ?>
+	
+		<p><em>No Membership Required</em></p>
+	
+		<p>Attend one of our workshops/webinars to learn the answers to some of the following questions:</p>
+		
+		<ul>
+			<li>How do we choose the correct college for our student?</li> 
+			<li>Are ACT and SAT preparation courses really that important?</li> 
+			<li>How important are the admissions essay and interview?</li> 
+			<li>How can we minimize the cost of college?</li>
+			<li>Is the scholarship search worth the time?</li>
+			<li>How can we maximize financial aid?</li>
+		</ul>
+		
+		<p>You may register online by filling in the form below.</p>
+		
+		<p><em>You can register for a workshop/webinar by clicking on the corresponding radio button next to the workshop/webinar and fill out the form at the bottom or click on the register link within the workshop/webinar information.</em></p> 
+		
+	<?php endif; ?>
+	
+	<?php echo $form->output(); ?>
+	
+</div>

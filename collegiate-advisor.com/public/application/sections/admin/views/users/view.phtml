@@ -1,0 +1,84 @@
+<h1>View User</h1>
+
+<?php if ( $GLOBALS['admin']->get('level') > 1 ):	?>
+
+	<ul class="commands">
+	 
+	  <li><a href="<?php echo SITE_URL . '/admin/users/edit/' . $user->get( 'id' ); ?>">Edit User</a></li>
+	  <li><a href="" onclick="delete_resource( 'user', '<?php echo $user->get( 'id' ); ?>', '/admin/users/<?php echo $user->get( 'advisor_id' ); ?>/deleted' ); return false;">Delete User</a></li>
+		
+	</ul>
+
+<?php endif; ?>
+
+<table cellspacing="0" class="information_table">
+	<tr>
+		<td>User ID:</td>
+		<td><?php echo $user->get( 'id' ); ?></td>
+	</tr>
+	<tr>
+		<td>Username:</td>
+		<td><?php echo $user->get( 'username' ); ?></td>
+	</tr>
+	<tr>
+		<td>Full Name:</td>
+		<td><?php echo $user->get( 'first_name' ) .' '. $user->get( 'last_name' ); ?></td>
+	</tr>
+	<tr>
+		<td colspan="2"><br /></td>
+	</tr>
+	<tr>
+		<td>Email Address:</td>
+		<td><?php echo '<a href="mailto:'. $user->get( 'email_address' ) .'">'. $user->get( 'email_address' ) .'</a>'; ?></td>
+	</tr>
+	<tr>
+		<td>Phone Number:</td>
+		<td><?php echo $user->get( 'phone_number' ); ?></td>
+	</tr>
+	<tr>
+		<td colspan="2"><br /></td>
+	</tr>
+	<tr>
+		<td>Address:</td>
+		<td><?php echo $user->get( 'address' ); ?></td>
+	</tr>
+	<tr>
+		<td>City:</td>
+		<td><?php echo $user->get( 'city' ); ?></td>
+	</tr>
+	<tr>
+		<td>State:</td>
+		<td><?php echo $user->get( 'state' ); ?></td>
+	</tr>
+	<tr>
+		<td>Zip:</td>
+		<td><?php echo $user->get( 'zip' ); ?></td>
+	</tr>
+	<tr>
+		<td colspan="2"><br /></td>
+	</tr>
+	<tr>
+		<td>Birth Date:</td>
+		<td><?php echo $user->birth_date ? date( 'n/j/Y', $user->birth_date ) : 'Not Entered'; ?></td>
+	</tr>
+	<tr>
+		<td>Graduation Year:</td>
+		<td>
+			<?php
+				if ( $user->graduation_year )
+					echo ($user->graduation_year == 1) ? 'Already Graduated' : $user->graduation_year; 
+				else
+					echo 'Not Entered';
+			?>
+		</td>
+	</tr>
+	<?php if ( $GLOBALS['admin']->level > 1 ): ?>
+		<tr>
+			<td colspan="2"><br /></td>
+		</tr>
+		<tr>
+			<td>Extra:</td>
+			<td><?php echo $user->extra; ?></td>
+		</tr>
+	<?php endif; ?>
+</table>

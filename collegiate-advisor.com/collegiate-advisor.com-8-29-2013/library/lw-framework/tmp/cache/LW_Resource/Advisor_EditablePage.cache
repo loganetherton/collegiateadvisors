@@ -1,0 +1,3 @@
+3600
+1222794278
+a:5:{s:6:"tables";a:1:{s:14:"editable_pages";a:2:{s:2:"id";s:2:"id";s:6:"fields";a:5:{i:0;s:2:"id";i:1;s:10:"advisor_id";i:2;s:8:"filename";i:3;s:5:"title";i:4;s:7:"private";}}}s:2:"db";s:4:"Main";s:6:"fields";a:5:{s:2:"id";s:14:"editable_pages";s:10:"advisor_id";s:14:"editable_pages";s:8:"filename";s:14:"editable_pages";s:5:"title";s:14:"editable_pages";s:7:"private";s:14:"editable_pages";}s:12:"foreign_keys";a:1:{s:10:"advisor_id";s:7:"Advisor";}s:13:"sub_resources";a:1:{s:4:"Hook";s:23:"advisor_editablepage_id";}}

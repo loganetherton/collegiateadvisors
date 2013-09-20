@@ -1,0 +1,1423 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201207 will be lost/reset.
+# Last config file used to build this data file was /home/collegia/tmp/awstats/awstats.collegiate-advisor.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2016                
+POS_TIME 2699                
+POS_VISITOR 27388               
+POS_DAY 45024               
+POS_DOMAIN 3634                
+POS_LOGIN 4226                
+POS_ROBOT 4381                
+POS_WORMS 5178                
+POS_EMAILSENDER 5309                
+POS_EMAILRECEIVER 5452                
+POS_SESSION 45905               
+POS_SIDER 46117               
+POS_FILETYPES 5587                
+POS_DOWNLOADS 5907                
+POS_OS 6289                
+POS_BROWSER 6576                
+POS_SCREENSIZE 7749                
+POS_UNKNOWNREFERER 7823                
+POS_UNKNOWNREFERERBROWSER 9149                
+POS_ORIGIN 10239               
+POS_SEREFERRALS 10385               
+POS_PAGEREFS 10572               
+POS_SEARCHWORDS 24587               
+POS_KEYWORDS 25887               
+POS_MISC 2361                
+POS_ERRORS 26767               
+POS_CLUSTER 4082                
+POS_SIDER_404 26913               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20120801000537 465 86427 9965382862102
+FirstTime 20120701010846
+LastTime 20120731235539
+LastUpdate 20120801081055 465 0 464 0 0
+TotalVisits 853                 
+TotalUnique 428                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 469                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 167 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 132 160 1279915 296 478 1781580
+1 99 113 841926 335 518 2058521
+2 51 55 356936 402 601 2193166
+3 47 53 501338 401 568 3559488
+4 43 45 236025 710 933 3721659
+5 67 79 611569 339 504 1645327
+6 85 120 5540583 318 482 1656241
+7 65 74 360075 274 463 1567580
+8 80 89 765262 318 554 2728356
+9 177 198 1564026 399 626 1767682
+10 142 175 1463028 353 528 2887055
+11 119 141 985503 334 568 2910805
+12 171 197 1386681 370 567 1745118
+13 108 135 1135730 408 646 2082752
+14 145 162 1272453 513 690 2005137
+15 198 254 1843457 317 515 1680873
+16 233 291 2119650 367 551 1870835
+17 103 121 824118 324 472 1543089
+18 199 248 2659798 375 556 2250584
+19 153 180 1555122 354 498 2002065
+20 121 146 1231538 352 580 2065351
+21 117 150 1358765 457 693 4937459
+22 103 131 17810194 471 672 4009471
+23 149 176 9025896 485 660 2716206
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 27
+us 2350 2910 49572338
+cn 252 252 244103
+ru 49 49 814705
+ca 48 61 510734
+hk 36 36 183888
+fr 24 24 171962
+de 20 20 26806
+nl 17 17 94742
+ua 16 16 48651
+pl 15 15 77609
+ph 13 18 152691
+in 11 16 126791
+gb 9 10 154943
+eu 6 6 21813
+hu 6 6 138
+za 6 8 79528
+tw 5 5 39265
+se 5 5 2176836
+jp 4 4 12976
+dk 4 4 8150
+md 2 2 20230
+kr 2 2 13680
+br 2 2 29
+lt 2 2 5048
+cz 1 1 35
+fi 1 1 8033
+be 1 1 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 17
+bot[\s_+:,\.\;\/\\-] 3851 19722920 20120731233736 1337
+spider 2874 6370262 20120731235820 381
+googlebot 1924 3696126 20120731233501 736
+[\s_+:,\.\;\/\\-]bot 1259 6867660 20120731233243 781
+unknown 764 1948942 20120731223134 764
+checker 727 6545332 20120731233854 0
+no_user_agent 708 1938892 20120731074622 102
+crawl 592 5058376 20120730175541 56
+robot 490 2121764 20120731213405 136
+slurp 135 1713338 20120731050116 0
+netcraft 52 134722 20120706155706 0
+ia_archiver 32 183818 20120729230331 15
+msnbot\-media 14 105029 20120731021713 5
+msnbot 12 33313 20120708192803 2
+voila 12 22538 20120723203709 6
+discovery 2 6368 20120725225544 1
+scanner 2 46 20120728043726 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 14
+css 3 17885 0 0
+asp 4 26040 0 0
+png 27 85264 0 0
+pdf 2 3254792 0 0
+swf 5 166191 0 0
+php 224 1278787 0 0
+flv 2 23841498 0 0
+html 1017 2778465 0 0
+js 14 1584074 0 0
+xml 2 9609 0 0
+jpg 519 11240329 0 0
+Unknown 1654 10264592 0 0
+gif 19 18169 0 0
+com 1 29 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 8
+/robots.txt 4307 0 15029713
+/workshop/robots.txt 11 0 38093
+/advisor_files/59/NCAG%20Information.pdf 9 2 11901252
+//robots.txt 4 0 27343
+/ADVISOR_FILES/59/NCAG%20INFORMATION.PDF 1 0 8996
+/files/credit_management/credit_module1.flv 1 0 16326253
+/vicidial/project_auth_entries.txt 1 0 23
+/files/tutorials/member_section.flv 1 0 7515245
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 22
+linuxsuse 1
+linuxandroid 39
+winlong 225
+winxp 1018
+win2000 12
+linuxfedora 17
+winvista 7
+linuxgentoo 7
+winunknown 2
+win95 2
+wince 12
+linuxcentos 30
+win2003 90
+java 12
+winnt 27
+win98 1
+linuxubuntu 7
+linux 46
+win7 1233
+winme 6
+macosx 358
+Unknown 343
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 75
+msie6.0 283
+firefox3.6 2
+firefox2.0.0.1 1
+safari5.1.6 66
+lynx 2
+curl 18
+firefox3.6.26 30
+safari5.0.2 34
+msie8.0 506
+msie7.0 252
+firefox9.0.1 4
+wget 2
+chrome20.0.1132.43 7
+w3c_validator 1
+netscape 7
+safari5.1.1 29
+chrome9.0.597.98 1
+msie5.01 27
+chrome10.0.626.0 1
+firefox3.0 1
+opera9.01 2
+firefox3.5.2 5
+firefox7.0.1 9
+firefox12.0 48
+mozilla 281
+chrome16.0.912.77 10
+netscape5.0 5
+firefox14.0.1 170
+firefox3.6.3 8
+safari 8
+chrome11.0.696.65 16
+firefox3.0.15 4
+firefox5.0 1
+firefox4.0.1 1
+firefox3.0.9 4
+android 39
+firefox3.5.4 7
+chrome12.0.742.112 1
+firefox2.0.0.12 1
+msie3.02 3
+firefox3.5.3 2
+opera9.80 1
+netscape4.76 2
+iphone 9
+chrome18.6.872.0 20
+firefox6.0.2 39
+firefox13.0.1 429
+chrome20.0.1132.47 34
+netscape0.91 2
+firefox3.5.8 14
+msie9.0 288
+firefox3.6.10 14
+Unknown 270
+firefox11.0 9
+opera9.53 3
+chrome9.0.597.107 1
+libwww 24
+firefox3.6.2 10
+firefox3.6.16 1
+firefox3.0.11 1
+chrome20.0.1132.57 181
+msie5.5 6
+chrome13.0.782.215 9
+safari5.1.7 25
+firefox2.0.0.11 1
+safari4.0 1
+firefox1.0 1
+firefox3.0.6 2
+chrome5.0.358.0 1
+firefox3.6.28 20
+safari5.1 159
+firefox 1
+chrome5.0.375.70 5
+chrome19.0.1084.36 7
+firefox3.6.8 6
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 24
+OppO_1.0_(_http://www.inboundscore.com_) 20120723235635
+LWP::Simple/5.827_libwww-perl/5.830 20120722021118
+Python-urllib/2.7 20120713172804
+Feedfetcher-Google;_(_http://www.google.com/feedfetcher.html;_feed-id=4059877916368195245) 20120727125742
+Explore_6.0 20120719020414
+SOFTWING_TEAR_AGENT_1_0 20120728061251
+libwww-perl/5.831 20120702050048
+facebookexternalhit/1.0_(_http://www.facebook.com/externalhit_uatext.php) 20120714161622
+Feedfetcher-Google;_(_http://www.google.com/feedfetcher.html;_feed-id=3600249536755659955) 20120720121311
+CC-rget/5.818_libwww-perl/5.837 20120706103817
+PycURL/7.15.5 20120724033319
+Opera 20120731124330
+ZmEu 20120705193443
+W3C_Validator/1.3 20120731103844
+IE_5.5_Compatible_Browser 20120722153107
+Mozilla/5.0 20120731111114
+YahooCacheSystem 20120730104415
+Mozilla/5.0_(compatible;_Dow_Jones_Searchbot) 20120726095909
+python-requests/0.12.1 20120723235637
+Feedfetcher-Google;_(_http://www.google.com/feedfetcher.html;_feed-id=17471962199473857302) 20120727211849
+nutch-1.4/Nutch-1.4 20120729013730
+Mozilla/5.0_(compatible;_Dataprovider_Site_Explorer;_http://www.dataprovider.com/) 20120719021210
+InetURL:/1.0 20120724113341
+Lynx/2.8.5rel.1_libwww-FM/2.14FC_SSL-MM/1.4.1b_OpenSSL/0.9.7d-dev 20120724215804
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 23
+OppO_1.0_(_http://www.inboundscore.com_) 20120723235635
+Java/1.6.0_23 20120702080124
+Java/1.6.0_20 20120720043458
+Java/1.6.0_26 20120704115921
+Python-urllib/2.7 20120713172804
+Feedfetcher-Google;_(_http://www.google.com/feedfetcher.html;_feed-id=4059877916368195245) 20120727125742
+Explore_6.0 20120719020414
+SOFTWING_TEAR_AGENT_1_0 20120728061251
+Java/1.6.0_27 20120710163529
+Java/1.6.0_13 20120706130622
+facebookexternalhit/1.0_(_http://www.facebook.com/externalhit_uatext.php) 20120714161622
+Feedfetcher-Google;_(_http://www.google.com/feedfetcher.html;_feed-id=3600249536755659955) 20120720121311
+Opera 20120731124330
+ZmEu 20120705193443
+Java/1.6.0_31 20120702080151
+IE_5.5_Compatible_Browser 20120722153107
+YahooCacheSystem 20120730104415
+Java/1.6.0_06 20120706151434
+Java/1.7.0 20120703082319
+python-requests/0.12.1 20120723235637
+Feedfetcher-Google;_(_http://www.google.com/feedfetcher.html;_feed-id=17471962199473857302) 20120727211849
+nutch-1.4/Nutch-1.4 20120729013730
+InetURL:/1.0 20120724113341
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 861 909
+From1 4 4
+From2 78 81
+From3 1795 2331
+From4 169 170
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+google 68 71
+bing 8 8
+yandex 1 1
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 217
+http://2collegeavenue.collegiate-advisor.com 208 256
+http://wisconsincollegeplanning.collegiate-advisor.com 129 211
+http://collegiateadvisors.collegiate-advisor.com/workshop 73 91
+http://collegefundingservices.collegiate-advisor.com 72 129
+http://manuelreyes.collegiate-advisor.com 62 86
+http://paragoncollegiateadvisors.collegiate-advisor.com 60 85
+http://summitcollegeplanning.collegiate-advisor.com 59 107
+http://2collegeavenue.collegiate-advisor.com/phpmyadmin/scripts/setup.php 50 50
+http://collegeeducationsolutions.collegiate-advisor.com 50 72
+http://2collegeavenue.collegiate-advisor.com/phpmyadmin/scripts/setup.inc.php 46 46
+http://2collegeavenue.com 42 42
+http://planningforcollege.collegiate-advisor.com 42 60
+http://educationsuccesssolutions.collegiate-advisor.com 41 57
+http://2collegeavenue.collegiate-advisor.com/phpmyadmin/scripts/inc.php 38 38
+http://collegiateadvisors.collegiate-advisor.com/login 36 40
+http://2collegeavenue.collegiate-advisor.com/phpmyadmin/scripts/wn.inc.php 34 34
+http://www.dollars-for-scholars.com 31 31
+http://www.collegefundingstrategies.collegiate-advisor.com 28 70
+http://certifiedcollegeplanning.collegiate-advisor.com 25 47
+http://www.orangeask.com 24 24
+http://www.collegefundingservices.collegiate-advisor.com 21 33
+http://certifiedcollegeplanning.collegiate-advisor.com/member/ 18 21
+http://certifiedcollegeplanning.collegiate-advisor.com/member/tutoring 17 17
+http://certifiedcollegeplanning.collegiate-advisor.com/member/testgear_full/testing 13 18
+http://manuelreyes.collegiate-advisor.com/login 12 12
+http://niccp.collegiate-advisor.com/workshop 3 3
+http://collegefundingservices.collegiate-advisor.com/retirement/life_insurance 3 4
+http://manuelreyes.collegiate-advisor.com/member/ 11 15
+http://manuelreyes.collegiate-advisor.com/login/member/ 2 3
+http://collegefundingfoundation.collegiate-advisor.com 9 11
+http://manuelreyes.collegiate-advisor.com/member/testgear_full/middle_school 3 4
+http://collegefundingservices.collegiate-advisor.com 6 10
+http://www.collegiateadvisors.com 1 1
+http://mycollegevision.collegiate-advisor.com/terms_and_conditions 3 4
+http://collegefundingfoundation.collegiate-advisor.com/user_signup 3 3
+http://certifiedcollegeplanning.collegiate-advisor.com/member/test_prep 1 3
+http://collegefundingcoaches.collegiate-advisor.com 1 1
+http://collegefundingservices.collegiate-advisor.com/terms_and_conditions 3 4
+http://manuelreyes.collegiate-advisor.com/admin/pages/edit/about 2 5
+http://2collegeavenue.com 1 1
+http://colleges-careers.collegiate-advisor.com/phpmyadmin/scripts/setup.php 2 2
+http://www.linkedin.com/profile/view 4 4
+http://www.wisconsincollegeplanning.com 1 1
+http://niccp.collegiate-advisor.com 4 6
+http://www.mycompletecollegecoach.com 0 7
+http://collegiateadvisors.com/become_member.php 4 4
+http://niccp.collegiate-advisor.com/retirement/p401k 1 1
+http://www.collegeeducationsolutions.com 1 1
+http://collegiateadvisors.collegiate-advisor.com/admin/tutorials 2 2
+http://manuelreyes.collegiate-advisor.com/member 1 1
+http://www.tuitionfundingsolutions.collegiate-advisor.com/retirement/life_insurance 1 1
+http://collegeeducationsolutions.collegiate-advisor.com/ext/56/ces_process 0 1
+http://www.collegeeducationsolutionsonline.com 1 1
+http://mail.aol.com/36478-111/aol-6/en-us/Suite.aspx 1 1
+http://educationsuccesssolutions.collegiate-advisor.com/workshop 2 2
+http://abccollegeplanning.collegiate-advisor.com 2 2
+http://certifiedcollegeplanning.collegiate-advisor.com/member/tax/opportunity 3 3
+http://planningforcollege.collegiate-advisor.com/member/ 5 5
+http://www.collegefundingstrategies.collegiate-advisor.com/login 4 4
+http://certifiedcollegeplanning.collegiate-advisor.com/login 8 8
+http://planningforcollege.collegiate-advisor.com/member/elite_schools 1 1
+http://educationsuccesssolutions.collegiate-advisor.com/services 7 8
+http://collegefundingservices.collegiate-advisor.com/workshop 1 1
+http://paragoncollegiateadvisors.collegiate-advisor.com 9 11
+http://affordableeducation.org 1 1
+http://certifiedcollegeplanning.collegiate-advisor.com/member/credit_management 2 2
+http://www.yellowpages.com/liverpool-ny/cash 1 1
+http://colleges-careers.collegiate-advisor.com/workshop 2 2
+http://www.tuitionfundingsolutions.collegiate-advisor.com 3 3
+http://certifiedcollegeplanning.collegiate-advisor.com/member/testgear_full/ 10 10
+http://summitcollegeplanning.collegiate-advisor.com/contact 3 3
+http://www.collegiateadvisors.com/about.php 4 4
+http://certifiedcollegeplanning.collegiate-advisor.com/member/tax 1 2
+http://mycollegevision.collegiate-advisor.com/login/member/credit_management 1 1
+http://collegefundingservices.collegiate-advisor.com/compressor/js_index/6 3 3
+http://goodreplicawatchesstore.com 4 4
+http://www.planningforcollege.collegiate-advisor.com 12 18
+http://collegefundingservices.collegiate-advisor.com/services 1 1
+http://www.collegeeducationsolutions.info 1 1
+http://www.collegefundingstrategies.collegiate-advisor.com/retirement/life_insurance 5 5
+http://paragoncollegiateadvisors.collegiate-advisor.com/services 3 3
+http://collegiateadvisors.com/services.php 7 7
+http://wisconsincollegeplanning.collegiate-advisor.com/ext/20/scholarship_praises 2 2
+http://www.collegefundingstrategies.collegiate-advisor.com/retirement/life_insurance/ 3 3
+http://2collegeavenue.collegiate-advisor.com/services 4 4
+http://www.collegiateadvisors.com/references.php 3 3
+http://paragoncollegiateadvisors.collegiate-advisor.com/user_signup 1 1
+http://planningforcollege.collegiate-advisor.com/member/letters_of_recommendation 2 2
+http://www.planningforcollege.collegiate-advisor.com 4 6
+http://paragoncollegiateadvisors.collegiate-advisor.com/workshop 5 7
+http://planningforcollege.collegiate-advisor.com/member/student_loans 2 2
+http://collegiateadvisors.com 5 5
+http://sameid.net/domain/educationsuccesssolutions.collegiate-advisor.com/ 1 1
+http://2collegeave.com 7 7
+http://certifiedcollegeplanning.collegiate-advisor.com/member/letters_of_recommendation 1 1
+http://www.mycollegevision.com/online-college-admissions-guidance/ 1 1
+http://2collegeavenue.collegiate-advisor.com/contact 1 1
+http://2collegeavenue.collegiate-advisor.com/ext/42/about 2 2
+http://www.tuitionfundingsolutions.com/contact.html 1 1
+http://downtowndepere.org/Business_Directory.html 1 1
+http://certifiedcollegeplanning.collegiate-advisor.com/workshop 1 1
+http://74.117.159.49/~premiuml/system/index.php 1 1
+http://www.wisconsincollegeplanning.collegiate-advisor.com/ext/20/scholarship_praises 3 3
+http://educationsuccesssolutions.collegiate-advisor.com/login/member/ 3 3
+http://educationoutlook.collegiate-advisor.com/phpmyadmin/scripts/setup.php 2 2
+http://mycompletecollegecoach.com/index.php 0 2
+http://abccollegeplanning.collegiate-advisor.com/retirement/life_insurance 1 1
+http://collegeeducationsolutions.net 2 2
+http://www.2collegeavenue.com 11 11
+http://educationsuccesssolutions.collegiate-advisor.com/contact 6 7
+http://planningforcollege.collegiate-advisor.com/contact 4 4
+http://www.linkedin.com/profile/edit 1 1
+http://summitcollegeplanning.collegiate-advisor.com/login 1 1
+http://www.collegiateadvisors.com/services.php 12 12
+http://niccp.collegiate-advisor.com/phpmyadmin/scripts/setup.php 2 2
+http://summitcollegeplanning.collegiate-advisor.com/workshop 4 4
+http://collegiateadvisors.collegiate-advisor.com/admin/login 1 1
+http://planningforcollege.collegiate-advisor.com/login/member/ 3 3
+http://educationsuccesssolutions.collegiate-advisor.com/login 4 4
+http://manuelreyes.collegiate-advisor.com/js/tiny_mce/themes/advanced/skins/o2k7/ui.css 0 1
+http://www.pagesinventory.com/domain/fmicollegeplann.collegiate-advisor.com.html 1 1
+http://www.thecollegeplanningnetwork.com/public/expert-profile/ 2 2
+http://www.collegeeducationsolutions.net 1 1
+http://innovativecollegeplanning.com 1 1
+http://mycollegevision.collegiate-advisor.com/phpmyadmin/scripts/setup.php 2 2
+http://collegeeducationsolutions.collegiate-advisor.com/ext/56/about 1 1
+http://collegefundingcoaches.collegiate-advisor.com 3 3
+http://manuelreyes.collegiate-advisor.com/js/tiny_mce/themes/advanced/skins/o2k7/ui_black.css 0 1
+http://summitcollegeplanning.collegiate-advisor.com 7 11
+http://educationsuccesssolutions.collegiate-advisor.com/member/testgear_full/high_school 10 11
+http://colleges-careers.collegiate-advisor.com 12 14
+http://www.linkedin.com/company/1184628 3 3
+http://certifiedcollegeplanning.collegiate-advisor.com/login/member/tutoring 2 2
+http://wisconsincollegeplanning.collegiate-advisor.com/retirement/iras 3 4
+http://wisconsincollegeplanning.collegiate-advisor.com/services 10 10
+http://planningforcollege.collegiate-advisor.com/login 6 6
+http://mycompletecollegecoach.com 0 2
+http://wisconsincollegeplanning.collegiate-advisor.com/terms_and_conditions 3 3
+http://collegefundingservices.collegiate-advisor.com/contact 2 2
+http://wisconsincollegeplanning.collegiate-advisor.com/retirement/life_insurance 3 4
+http://www.facebook.com/l.php 1 1
+http://businessfinder.nj.com/4564500/Education-Success-Solutions-LLC-Bridgewater-NJ 5 5
+http://educationsuccesssolutions.collegiate-advisor.com/login/member/test_out 1 1
+http://securestate.collegiate-advisor.com/phpmyadmin/scripts/setup.php 2 2
+http://www.webstatschecker.com/stats/domain/colleges-careers.collegiate-advisor.com 1 1
+http://certifiedcollegeplanning.collegiate-advisor.com/login/member/testgear_full/ 1 1
+http://beyond12th.collegiate-advisor.com/phpmyadmin/scripts/setup.php 2 2
+http://test2.collegiate-advisor.com 3 3
+http://manuelreyes.collegiate-advisor.com/admin/login 4 4
+http://wisconsincollegeplanning.com 1 1
+http://ffgroupinc.collegiate-advisor.com/phpmyadmin/scripts/setup.php 2 2
+http://manuelreyes.collegiate-advisor.com/member/financial_aid_overview 1 1
+http://educationsuccesssolutions.collegiate-advisor.com/ext/23/about 6 7
+http://wisconsincollegeplanning.collegiate-advisor.com/ext/20/scholarship_seekers 3 3
+http://manuelreyes.collegiate-advisor.com/member/testgear_full/high_school 8 14
+http://preview.mycompletecollegecoach.com 0 2
+http://mycollegevision.collegiate-advisor.com 4 4
+http://paragoncollegiateadvisors.collegiate-advisor.com/ext/52/about 5 5
+http://www.2collegeavenue.com 2 2
+http://planningforcollege.collegiate-advisor.com/member/testgear_full/high_school 4 5
+http://manuelreyes.collegiate-advisor.com/admin 1 1
+http://manuelreyes.collegiate-advisor.com/member/testgear_full/ 3 3
+http://wisconsincollegeplanning.collegiate-advisor.com/workshop 5 5
+http://certifiedcollegeplanning.collegiate-advisor.com/login/member/ 4 5
+http://certifiedcollegeplanning.collegiate-advisor.com/member/testgear_full/middle_school 2 4
+http://mycollegevision.collegiate-advisor.com/compressor/js_top/6 4 4
+http://collegefundingservices.collegiate-advisor.com/compressor/js_top/6 3 3
+http://summitcollegeplanning.collegiate-advisor.com/ext/50/about 2 2
+http://www.collegefundingstrategies.collegiate-advisor.com/workshop 1 1
+http://www.whorush.com/search/ 1 1
+http://collegefundingservices.org 1 1
+http://securestateonline.com/planning-investment-services/college-planning/ 1 1
+http://www.linkedin.com/in/garysaitowitz 1 1
+http://beyond12th.collegiate-advisor.com 1 1
+http://planningforcollege.collegiate-advisor.com/ext/76/about 1 1
+http://summitcollegeplanning.collegiate-advisor.com/ext/50/testimonials 1 1
+http://2collegeavenue.collegiate-advisor.com 10 12
+http://educationsuccesssolutions.collegiate-advisor.com/member/ 4 4
+http://dollars-for-scholars.com 3 3
+http://collegefundingservices.collegiate-advisor.com/retirement/ 3 4
+http://manuelreyes.collegiate-advisor.com/services 5 5
+http://mycollegevision.collegiate-advisor.com/user_signup 3 4
+http://mycollegevision.collegiate-advisor.com/compressor/js_bottom/6 4 4
+http://collegiateadvisors.collegiate-advisor.com/admin 6 6
+http://www.collegiateadvisors.com/become_member.php 6 6
+http://syracusecollegeplanning.com/contact-innovative-college-planning-syracuse-ny.htm 1 1
+http://collegefundingservices.collegiate-advisor.com/compressor/js_bottom/6 3 3
+http://collegiateadvisors.collegiate-advisor.com/admin/login/ 4 4
+http://www.collegefundingservices.collegiate-advisor.com/retirement/life_insurance 3 3
+http://s-cf.collegiate-advisor.com/phpmyadmin/scripts/setup.php 2 2
+http://www.thecollegeplanningnetwork.com/expert/edit-profile/ 1 1
+http://summitcollegeplanning.collegiate-advisor.com/services 7 8
+http://www.paragoncollegiateadvisors.collegiate-advisor.com 4 6
+http://manuelreyes.collegiate-advisor.com/logout 1 2
+http://2collegeavenue.com.collegiate-advisor.com/user_signup 3 3
+http://wisconsincollegeplanning.collegiate-advisor.com/ext/20/testimonials 1 1
+http://paragoncollegiateadvisors.collegiate-advisor.com/contact 3 3
+http://www.collegeadvisoryservices.com 2 2
+http://planningforcollege.collegiate-advisor.com/services 4 4
+http://collegefundingservices.collegiate-advisor.com/ext/59/about 1 1
+http://planningforcollege.collegiate-advisor.com/logout 3 6
+http://collegiateadvisors.collegiate-advisor.com/services 3 4
+http://fatallisto.com 1 1
+http://collegeeducationsolutions.collegiate-advisor.com/contact 2 2
+http://certifiedcollegeplanning.collegiate-advisor.com/contact 3 4
+http://certifiedcollegeplanning.collegiate-advisor.com/logout 1 1
+http://mycollegevision.collegiate-advisor.com 1 1
+http://certifiedcollegeplanning.collegiate-advisor.com/files/credit_management/credit_module1.swf 1 2
+http://certifiedcollegeplanning.collegiate-advisor.com/member/update/ 0 1
+http://www.tuitionfundingsolutions.com/index.html 1 1
+http://collegiateadvisors.com/index.php 3 3
+http://collegiateadvisors.collegiate-advisor.com/user_signup 3 4
+http://manuelreyes.collegiate-advisor.com/admin/pages/edit/contact 2 3
+http://collegefundingfoundation.collegiate-advisor.com/services 2 2
+http://summitcollegeplanning.collegiate-advisor.com/user_signup 2 2
+http://www.educationsuccesssolutions.com 1 1
+http://colleges-careers.collegiate-advisor.com/login 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 33
+steve+nimmer 5
+certifiedcollegeplanning.com 4
+summit+college+planning 3
+529+plan+title+iv 2
+bass+college+and+education+solutions 2
+steve+nimmer+wisconsin+college+planning+llc 2
+education+success+solutions 2
+http+%2f%2fcfalancaster.collegiate-advisor.com%2f 2
+college+planning+wisonsin 2
+bestcollegeeducationsolutions.com 1
+collegiate+advisors+llc 1
+variable+annuity+college+planning 1
+gary+lucas+financial+advisor+liverpool 1
+wisconsin+college+planning+llc 1
+vision+of+any+college 1
+summit+college+assessment+test 1
+when+a+variable+life+policy+owner+moves+funds+from+one+account+to+another 1
+steven+nimmer+insurance 1
+midwest+college+planning+llc 1
+innovative+college+planning 1
+wisconsin+college+planning+logo 1
+college+fund+foundation 1
+ewerth+and+associates+237+so.+70th+lincoln+ne 1
+innovative+college+building+plans 1
+educationsuccesssolutions.collegiate-advisor.com 1
+college+education+services+llc+reviews 1
+wisconsin+college+planning 1
+innovative+college+course+registration+processes 1
+gary+saitowitz 1
+paragon+collegiate+advisors 1
+summit+college+planning+indiana 1
+college+education+services+llc 1
+what+is+the+wis+planning+for+school 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 78
+college 23
+planning 15
+nimmer 8
+steve 7
+llc 7
+education 6
+wisconsin 5
+summit 5
+certifiedcollegeplanning.com 4
+solutions 4
+innovative 3
+and 3
+variable 2
+%2f%2fcfalancaster.collegiate-advisor.com%2f 2
+collegiate 2
+iv 2
+http 2
+gary 2
+plan 2
+wisonsin 2
+success 2
+bass 2
+services 2
+529 2
+title 2
+ne 1
+funds 1
+advisor 1
+lucas 1
+another 1
+life 1
+wis 1
+course 1
+associates 1
+what 1
+reviews 1
+foundation 1
+one 1
+ewerth 1
+of 1
+processes 1
+is 1
+registration 1
+plans 1
+to 1
+from 1
+school 1
+when 1
+account 1
+assessment 1
+steven 1
+so. 1
+midwest 1
+any 1
+logo 1
+financial 1
+the 1
+bestcollegeeducationsolutions.com 1
+vision 1
+237 1
+test 1
+a 1
+policy 1
+for 1
+liverpool 1
+insurance 1
+moves 1
+paragon 1
+educationsuccesssolutions.collegiate-advisor.com 1
+building 1
+fund 1
+saitowitz 1
+indiana 1
+owner 1
+70th 1
+advisors 2
+lincoln 1
+annuity 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 19 58617
+302 256 618916
+206 1 36
+400 5 1167
+301 22 6042
+404 3 2998
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 3
+http://www.abbott22.com/carbonless-books/A4InvoiceBookthumbnail4.jpg 1 -
+/icons/apache_pb.gif 1 -
+/advisor_files/77/header.jpg 1 http://test2.collegiate-advisor.com/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 469
+70.44.37.229 230 264 10193092 20120730100010
+66.221.55.243 166 166 1009126 20120731124330
+76.84.64.245 103 134 17785996 20120730153544
+24.102.238.96 57 63 694170 20120717084125
+99.46.83.53 49 65 702167 20120730214534
+76.127.189.173 47 89 1070605 20120731062318
+75.92.123.193 42 53 523562 20120726140107
+205.203.134.197 39 39 287267 20120726095909
+101.78.137.119 36 36 183888 20120707013739
+119.147.6.60 32 32 1312 20120731235539
+119.147.75.140 31 31 1271 20120731072738
+183.62.115.227 30 30 1230 20120731101525
+119.147.75.137 30 30 1230 20120730201541
+69.28.58.42 30 30 92412 20120731192331
+209.144.63.76 30 35 245896 20120727144305
+124.115.1.7 29 29 1189 20120731104825
+124.115.1.8 29 29 1189 20120730215138
+68.45.162.83 28 31 101528 20120711192740
+99.245.146.181 28 37 301266 20120729180812
+64.134.243.117 26 33 250810 20120709133838
+71.174.88.175 25 26 157319 20120718004316
+76.182.101.111 25 32 261177 20120722004814
+108.94.105.237 25 32 222523 20120727102843
+66.215.65.77 25 34 147716 20120706180742
+188.165.230.147 24 24 171962 20120727213354
+89.145.108.203 1 1 2334 20120727083715
+121.97.111.179 9 13 91716 20120724222215
+65.52.111.241 5 5 23644 20120731092034
+69.128.243.32 8 17 85044 20120728105839
+66.189.110.98 10 11 55238 20120721001247
+202.46.61.28 1 1 2346 20120726211439
+71.56.54.210 5 7 89273 20120705160730
+108.178.25.178 1 1 7571 20120705234522
+50.17.66.62 5 7 54771 20120716050924
+66.215.174.240 1 1 2793 20120726190148
+50.10.102.54 9 12 102399 20120726173109
+63.234.144.178 6 8 110597 20120724121322
+38.99.85.39 1 1 29 20120720211406
+218.93.127.117 8 8 42476 20120718220927
+207.46.199.22 5 5 23524 20120710104511
+207.46.204.166 2 2 77 20120728230446
+12.133.124.130 16 19 92272 20120713123059
+173.227.230.196 6 6 75840 20120712192940
+157.55.112.234 5 5 24375 20120728062033
+69.164.111.198 1 2 9036 20120707133222
+173.84.37.66 5 7 110224 20120712140053
+69.171.237.6 0 4 90108 
+69.171.237.3 0 1 22527 
+166.137.88.176 5 9 81451 20120717130252
+174.120.104.2 1 1 8192 20120728212100
+157.56.229.246 3 3 103 20120723134156
+69.175.127.66 11 11 82309 20120708025627
+173.192.77.142 2 2 16086 20120727063956
+75.134.22.203 8 11 73620 20120716205601
+24.96.118.186 4 5 51918 20120722163213
+157.55.33.226 1 1 42 20120731124251
+76.74.90.189 11 15 157742 20120712112051
+71.184.197.98 12 13 59061 20120714103340
+207.46.204.216 6 6 23557 20120727222443
+115.236.51.184 2 2 12600 20120719020414
+69.28.58.83 1 1 43 20120719064917
+174.252.42.99 5 7 110224 20120711122458
+157.56.229.145 6 6 23553 20120714085644
+67.221.59.204 2 2 15144 20120723165557
+65.52.0.56 1 1 2618 20120701223349
+220.181.51.111 3 3 8695 20120723150247
+209.85.224.108 1 1 2341 20120709203559
+114.237.17.88 8 8 52080 20120724113341
+178.16.217.98 0 1 1081932 
+74.103.60.155 9 12 146992 20120705152830
+31.186.86.158 5 5 34347 20120726151643
+72.131.80.213 6 10 91170 20120730001619
+118.169.46.34 1 1 8042 20120705153021
+74.125.19.34 1 1 2536 20120724075256
+69.253.106.109 17 25 208350 20120723011144
+50.131.195.155 0 1 131751 
+202.46.55.105 1 1 2346 20120726211439
+157.56.229.76 16 16 81900 20120731064717
+65.52.111.213 7 7 23595 20120721134008
+46.4.121.230 1 1 29 20120723235635
+157.56.92.172 1 2 131783 20120714222430
+184.59.206.28 12 15 81874 20120717104927
+128.9.132.248 1 1 0 20120706130622
+69.171.234.2 0 1 22527 
+157.56.229.245 7 7 23624 20120731144757
+95.27.63.130 5 5 95862 20120727031312
+24.58.167.16 5 10 1163382 20120712183512
+174.127.133.93 3 3 9093 20120718145532
+123.125.71.56 1 1 2758 20120701045136
+216.55.186.180 5 7 54771 20120711094824
+121.96.67.28 0 1 35055 
+74.125.19.40 1 1 3184 20120727211849
+68.47.129.55 2 2 13871 20120721235024
+157.56.229.211 6 6 23560 20120721074338
+96.44.147.148 1 1 3188 20120705083827
+174.129.82.167 5 5 41199 20120725222653
+207.46.204.169 4 4 146 20120730081324
+109.206.179.175 1 1 43 20120721071429
+66.226.74.197 1 1 29 20120722043338
+74.116.71.59 1 1 7572 20120723235635
+195.70.36.86 6 6 138 20120705193443
+121.96.67.27 1 1 1127 20120721150644
+202.46.52.128 1 1 3184 20120724142356
+66.226.74.85 2 2 5302 20120715114816
+207.46.204.172 1 1 32 20120720040415
+123.125.71.86 2 2 5128 20120727185658
+202.46.60.60 1 1 2814 20120731214408
+216.147.166.214 6 9 68222 20120727001003
+74.125.178.29 5 5 23803 20120731210507
+207.46.199.26 7 7 23611 20120723221911
+69.28.58.89 1 1 3069 20120713061315
+207.46.204.223 5 5 3462 20120715044128
+173.60.14.171 6 8 108141 20120705160811
+128.238.153.6 2 2 9039 20120714065611
+208.90.56.152 1 1 29 20120716020442
+66.220.149.247 0 2 45054 
+157.55.112.239 0 1 131751 
+38.99.85.33 1 1 3184 20120727034628
+71.164.229.198 1 1 0 20120706120741
+69.84.207.246 5 5 18112 20120729155214
+69.171.229.251 0 2 45054 
+217.45.180.242 1 1 0 20120702080124
+69.171.224.0 0 1 22527 
+207.46.199.29 2 2 76 20120716004010
+68.224.226.166 1 1 41 20120706154508
+199.193.114.119 2 2 64 20120727112242
+75.108.174.228 16 23 231901 20120723163250
+157.56.229.8 5 5 34798 20120704055909
+76.105.76.244 7 9 82565 20120721135322
+95.24.36.35 5 5 95850 20120715212719
+66.43.56.8 1 1 8043 20120724043434
+204.140.22.58 21 21 177766 20120706103817
+80.198.37.6 1 1 8033 20120722153107
+207.46.204.162 2 2 58 20120725115911
+72.90.74.34 10 14 95586 20120719205141
+108.217.73.191 17 22 295210 20120719133631
+123.125.71.59 1 1 2793 20120724005823
+67.191.213.134 8 10 84268 20120723152802
+114.112.57.241 1 1 0 20120704214050
+88.198.227.103 2 2 58 20120725173936
+69.193.107.99 8 12 89771 20120725201256
+108.5.248.160 21 29 205630 20120724184947
+50.57.141.123 3 3 7849 20120708003559
+209.190.38.162 1 1 6831 20120718205259
+180.153.228.15 3 3 1125 20120713062526
+209.85.224.85 1 1 2344 20120719035258
+173.166.3.205 6 8 126904 20120706155112
+209.85.224.106 1 1 2341 20120704224912
+24.188.179.211 1 1 43 20120724005125
+69.28.58.81 1 1 3047 20120729013723
+65.52.111.251 0 1 131751 
+74.237.43.166 5 7 78010 20120720110502
+69.171.228.246 0 1 22527 
+157.55.112.206 1 1 26 20120702091512
+74.125.178.31 0 2 36468 
+216.52.219.150 1 1 36 20120702050048
+174.127.133.64 1 1 164 20120718152647
+220.181.51.108 1 1 3176 20120710135710
+157.56.93.215 1 1 38 20120731104207
+71.202.116.193 1 1 43 20120705141824
+207.46.204.217 10 10 58332 20120725151946
+220.181.51.109 1 1 3198 20120731001351
+121.96.67.23 1 1 2861 20120721150644
+193.0.212.68 2 2 20230 20120712054811
+209.85.224.109 1 1 2341 20120703125259
+66.235.38.58 6 10 95916 20120703181709
+123.125.71.40 1 1 2814 20120731133955
+69.171.229.247 0 1 22527 
+207.46.199.30 1 1 37 20120728054448
+38.99.85.38 1 1 29 20120726132240
+203.129.198.50 1 1 29 20120723141555
+213.229.84.96 1 1 29 20120705185719
+69.171.237.0 0 1 22527 
+207.46.204.213 2 2 70 20120709141020
+174.229.1.219 6 8 79667 20120710121638
+69.253.172.136 11 22 161998 20120709155910
+212.7.194.137 3 3 20229 20120722213123
+123.125.71.26 1 1 2792 20120704220221
+69.171.234.5 0 2 45054 
+123.125.71.100 1 1 2790 20120712005219
+23.22.120.242 5 9 93773 20120719091519
+69.28.58.82 1 1 41 20120710200521
+176.14.146.192 5 5 95850 20120712191500
+107.22.118.110 5 5 41199 20120727073143
+50.56.126.129 1 1 0 20120710163529
+98.189.227.108 6 7 47683 20120719203331
+173.51.253.56 6 6 14236 20120726135605
+207.46.193.37 5 5 3470 20120707052451
+74.232.17.138 17 24 179241 20120719195410
+178.16.217.114 0 1 1081932 
+74.176.78.60 5 5 13777 20120720113918
+64.202.161.41 8 8 84066 20120725080848
+65.52.111.207 4 4 34580 20120706224132
+207.46.204.165 4 4 138 20120720001239
+207.46.204.209 1 1 36 20120704203731
+24.213.185.100 7 11 86587 20120725151831
+99.102.204.94 4 5 50291 20120727125720
+157.55.112.209 6 6 23561 20120709175640
+75.118.230.71 13 17 146427 20120722120703
+220.181.127.17 2 2 15131 20120711025913
+109.206.163.198 1 1 29 20120705090704
+66.220.149.246 0 3 67581 
+178.137.82.160 11 11 32029 20120722074244
+69.171.234.7 0 1 22527 
+207.46.204.219 2 2 67 20120707115333
+78.158.11.226 2 2 5048 20120724215804
+123.125.71.110 1 1 2811 20120717074117
+99.188.19.149 6 9 68198 20120714211928
+157.56.93.214 1 1 38 20120731233008
+66.42.108.240 1 1 23 20120730234346
+157.56.92.173 1 1 41 20120712005645
+65.52.111.137 5 7 92942 20120714103530
+69.171.234.3 0 2 71384 
+207.46.204.210 3 3 99 20120719162547
+95.25.240.177 5 5 95852 20120719040038
+89.145.108.202 2 2 4685 20120717090744
+64.245.221.34 4 5 61327 20120730122659
+24.8.209.41 6 10 95730 20120712150247
+61.38.186.176 2 2 13680 20120708023245
+199.187.122.98 3 3 12773 20120718092957
+98.139.241.250 1 1 11096 20120716143313
+95.220.230.83 5 5 95861 20120707182941
+208.125.57.50 5 9 81472 20120731101220
+173.225.17.50 2 2 5585 20120728112025
+166.147.120.146 0 2 18860 
+207.46.199.34 2 2 61 20120713203244
+23.22.18.215 6 6 15501 20120726070744
+76.73.3.18 1 1 29 20120727193430
+65.52.111.220 5 5 3099 20120721080937
+98.220.103.167 1 1 31 20120729181711
+123.125.71.85 1 1 2346 20120724095244
+128.238.153.15 3 3 26188 20120724033319
+150.70.172.103 2 2 6488 20120705164516
+37.1.222.92 2 2 46 20120719160634
+157.55.112.205 1 1 38 20120729092018
+66.226.74.170 1 1 3177 20120718154515
+81.176.230.40 1 1 11096 20120711140129
+109.206.179.171 1 1 6841 20120729023819
+88.198.53.144 4 4 0 20120731111114
+65.52.111.33 5 5 23683 20120728175701
+187.35.138.30 1 1 0 20120702080151
+94.102.51.246 1 1 29 20120715130715
+65.52.111.145 4 4 7673 20120730071502
+70.40.232.8 6 9 67311 20120727115434
+201.86.183.202 1 1 29 20120713094022
+69.28.58.76 1 1 3074 20120711142944
+76.90.123.196 13 17 112232 20120709233302
+174.127.133.92 6 6 10889 20120718145525
+147.238.8.13 4 5 60552 20120719152122
+123.125.71.99 1 1 2341 20120702121135
+88.214.193.166 1 1 29 20120703201033
+70.246.235.161 1 1 43 20120702191005
+184.107.247.194 1 1 8953 20120701070837
+75.108.75.94 8 10 90670 20120723170549
+31.131.100.36 1 1 6310 20120723005241
+69.171.224.4 0 1 22527 
+208.54.5.206 12 14 125550 20120704002739
+123.125.67.222 1 1 2308 20120701022339
+65.254.224.15 2 2 58 20120722021118
+65.52.111.215 2 2 59 20120730205018
+123.125.71.36 1 1 36 20120703221030
+216.163.254.2 1 1 3226 20120709161830
+50.97.167.80 1 1 9026 20120731112240
+174.127.133.89 3 3 7577 20120718145533
+70.102.111.82 2 2 86 20120712145521
+67.176.103.62 0 1 131751 
+68.78.215.198 18 21 110941 20120712183430
+82.192.74.108 10 10 74399 20120719021210
+50.32.50.174 2 2 64 20120717165456
+69.28.58.74 1 1 2259 20120709090009
+67.217.35.25 4 4 12476 20120708155701
+85.25.95.43 4 4 120 20120709124652
+157.55.17.92 5 5 24384 20120713183618
+139.127.253.7 17 33 135533 20120726102223
+178.73.212.230 2 2 12857 20120715200522
+67.221.59.144 21 21 0 20120727050313
+207.46.199.12 5 5 23716 20120730171517
+121.96.67.30 1 1 16401 20120721150645
+93.160.60.22 3 3 117 20120728175630
+69.171.228.249 0 1 22527 
+176.9.111.204 2 2 58 20120730001136
+69.129.59.130 5 8 65425 20120720163856
+157.55.112.216 4 4 22011 20120718155633
+24.99.226.212 7 9 81011 20120717164127
+68.52.27.194 4 5 43184 20120725160621
+202.46.56.210 1 1 2783 20120722104416
+184.105.140.157 1 1 0 20120720135610
+69.171.234.4 0 1 22527 
+50.97.167.82 1 1 9026 20120731112234
+74.50.112.46 1 1 0 20120703082319
+128.30.52.71 1 1 29 20120731103844
+123.125.71.101 1 1 2341 20120701235525
+74.125.19.231 1 1 2536 20120727125742
+184.72.58.234 8 8 72006 20120724035106
+66.220.147.247 0 1 22527 
+72.52.91.152 12 16 108903 20120731101020
+77.78.109.73 1 1 35 20120710014305
+143.165.48.50 7 9 82739 20120716135357
+69.171.228.248 0 1 22527 
+207.231.238.65 1 1 11107 20120704115921
+70.122.106.92 1 1 38 20120710002255
+117.211.57.11 5 9 81451 20120719070846
+23.21.21.131 5 7 138286 20120715052736
+66.220.149.248 0 1 22527 
+123.125.71.54 2 2 2371 20120716224936
+108.12.40.149 5 9 81451 20120719083429
+76.21.74.60 11 13 125755 20120727151049
+184.255.59.64 13 15 114940 20120711032252
+92.241.245.126 2 2 15623 20120730174852
+69.171.237.4 0 2 45054 
+188.40.42.204 3 3 16599 20120726084516
+157.56.92.141 2 2 59 20120718040551
+157.55.112.208 2 2 85 20120715232210
+207.46.204.171 5 5 23532 20120708205358
+75.233.19.172 5 9 61021 20120718152946
+67.41.158.225 0 2 131751 
+207.46.204.164 7 7 23608 20120726030330
+174.139.75.66 2 2 46 20120708104151
+46.242.105.239 4 4 43040 20120702073250
+157.55.112.220 4 4 26055 20120718044005
+65.52.111.222 5 5 3095 20120713121627
+65.52.111.237 1 1 37 20120707170105
+118.160.199.250 4 4 31223 20120719015912
+50.80.166.204 5 8 76690 20120706184256
+208.54.32.220 5 9 81451 20120718153612
+180.153.228.12 1 1 366 20120713073320
+123.125.71.60 1 1 2341 20120704133446
+24.229.245.115 7 10 73547 20120729011650
+81.82.227.28 1 1 0 20120706151434
+72.94.249.38 4 4 28533 20120727072912
+24.12.57.193 6 8 95493 20120706113557
+157.55.18.49 4 4 26272 20120731194100
+69.171.237.1 0 4 90108 
+75.150.37.173 5 5 29735 20120729112340
+38.100.21.14 1 1 29 20120718181821
+65.52.111.242 0 1 131751 
+69.28.58.70 1 1 3074 20120720121512
+76.95.245.43 9 11 117423 20120701223349
+67.255.240.127 1 3 3112 20120727165436
+123.125.71.105 1 1 2364 20120731101134
+50.63.157.179 7 7 36638 20120722163343
+157.55.112.210 2 2 67 20120713232510
+180.153.240.70 6 6 12491 20120713073309
+216.240.136.96 1 1 23 20120718235539
+115.111.61.66 4 5 45282 20120724074802
+202.46.51.66 1 1 2531 20120717175216
+50.56.238.111 1 1 11107 20120702221443
+69.171.228.250 0 1 22527 
+123.125.71.75 1 1 2335 20120710135454
+65.52.111.249 5 5 24465 20120715165212
+68.39.43.195 4 5 54042 20120705123726
+132.239.10.207 1 1 9008 20120726003430
+76.222.71.172 5 8 65442 20120730205921
+196.215.207.147 6 8 79528 20120721175657
+74.116.71.22 1 1 29 20120723235637
+69.147.234.122 24 24 139822 20120723162053
+68.44.24.46 14 19 148280 20120709181341
+207.46.199.33 6 6 34844 20120704060039
+66.30.161.249 7 9 82060 20120731110628
+66.215.65.92 17 23 131191 20120706181604
+71.177.141.91 1 1 3176 20120714155546
+128.238.153.31 1 1 6378 20120724020710
+24.228.209.134 5 7 97799 20120724090234
+174.127.132.10 1 1 6071 20120718125246
+69.130.43.124 4 5 31462 20120711114307
+65.52.111.245 7 7 34857 20120711210638
+61.17.213.177 1 1 29 20120710074736
+69.28.58.85 1 1 2409 20120729013730
+157.56.229.202 1 1 38 20120718115347
+157.55.112.201 1 1 38 20120711224359
+157.56.229.141 1 1 39 20120705121208
+69.58.178.57 2 2 50 20120701212208
+76.28.109.237 5 7 95320 20120726115419
+157.55.112.203 2 2 80 20120718074618
+151.138.28.141 5 8 66035 20120707163721
+76.79.16.2 4 7 64823 20120731113854
+66.249.17.126 5 7 110237 20120709102541
+157.55.17.91 4 4 23487 20120728215400
+50.56.215.136 1 1 8953 20120701145253
+157.55.112.202 6 6 23554 20120710182318
+202.46.52.120 1 1 29 20120725064708
+173.221.90.98 5 7 57575 20120711153946
+68.46.15.181 6 9 68198 20120715185939
+216.245.209.10 1 1 6378 20120724215021
+209.85.224.97 1 1 2344 20120720121311
+207.46.199.32 1 1 29 20120708142621
+202.46.55.52 1 1 2790 20120727221225
+109.169.72.13 1 2 131780 20120712160922
+150.70.97.43 2 2 6488 20120705230631
+74.52.245.146 1 1 7571 20120703005551
+74.125.19.21 2 2 4859 20120716213540
+65.52.111.146 4 4 21996 20120728205124
+207.46.199.24 1 1 46 20120717123853
+69.198.184.251 5 7 95337 20120731192418
+65.52.111.214 1 1 36 20120719112837
+109.206.182.56 1 1 6831 20120721064228
+108.212.125.187 5 8 65420 20120715231221
+207.46.204.211 3 3 108 20120727214248
+69.171.237.2 0 1 22527 
+184.107.247.186 1 1 8042 20120706101854
+64.202.161.46 4 4 39634 20120725080758
+69.64.62.122 4 4 33638 20120717004244
+66.220.146.250 0 1 22527 
+66.31.223.87 6 7 47683 20120717190444
+69.171.228.247 0 1 22527 
+178.137.160.135 2 2 10266 20120720214054
+115.236.51.185 1 1 6300 20120718193856
+71.212.219.233 0 4 527004 
+198.228.201.148 6 8 112690 20120710203447
+173.198.152.19 16 23 120145 20120719161608
+173.203.22.42 4 4 0 20120720043458
+123.125.71.21 1 1 2335 20120710204359
+69.28.58.78 1 1 29 20120725121558
+208.54.39.179 4 5 67557 20120718013805
+66.225.167.79 16 20 173323 20120721122051
+99.153.25.50 11 15 214515 20120731015437
+216.163.254.1 15 21 164340 20120709161843
+80.220.103.219 1 1 8033 20120718125621
+207.46.199.21 1 1 29 20120715122053
+220.181.51.107 1 1 2341 20120703052437
+220.181.51.110 3 3 8717 20120706051811
+67.221.59.205 5 5 42331 20120728084747
+66.249.17.123 5 7 121503 20120702092937
+98.139.241.243 1 1 11126 20120730104415
+50.75.109.53 5 9 81458 20120726214145
+216.163.255.1 7 9 86091 20120709161830
+69.28.58.43 3 3 18055 20120709191131
+157.56.92.145 7 7 23593 20120725220701
+98.251.105.88 9 11 86409 20120710204720
+69.171.234.1 0 1 22527 
+207.46.199.25 1 1 38 20120702140650
+176.9.138.23 4 4 9942 20120726150032
+157.56.92.144 2 2 68 20120727003257
+91.236.74.152 10 10 43262 20120702090354
+207.46.204.168 3 3 110 20120730123628
+121.96.67.26 1 1 5531 20120721150644
+174.127.133.90 3 3 4187 20120718145059
+95.25.66.222 6 6 169645 20120704081019
+207.46.204.173 1 1 37 20120727163428
+63.143.47.194 6 6 23002 20120711053620
+66.220.146.246 0 1 22527 
+123.125.71.83 1 1 2341 20120703151201
+198.181.13.254 11 13 91182 20120712153943
+69.28.58.84 1 1 2790 20120714131532
+69.171.229.245 0 1 22527 
+207.223.48.10 23 25 98780 20120719162919
+95.25.19.94 5 5 95852 20120718055407
+91.206.230.51 6 6 174 20120723223032
+85.232.60.90 2 2 16086 20120728061251
+184.17.65.193 6 10 95730 20120711193340
+109.206.176.240 1 1 38 20120702002106
+209.85.224.84 1 1 2344 20120720115440
+74.64.4.187 15 18 172049 20120730012538
+157.55.112.211 4 4 22010 20120718185458
+23.22.10.132 5 7 78010 20120718205157
+80.82.66.111 3 3 85 20120714093931
+72.94.249.37 6 6 44369 20120723020713
+178.73.212.245 3 3 115 20120708234111
+209.83.61.170 7 10 66158 20120711092925
+208.109.242.76 2 2 46 20120714110900
+65.52.111.252 5 5 3463 20120718053512
+202.46.55.107 1 1 1483 20120720013417
+68.181.178.83 4 5 42242 20120729164409
+69.171.237.5 0 2 45054 
+109.206.179.181 1 1 8031 20120716173006
+68.169.167.114 11 13 127986 20120731214236
+157.56.92.175 1 1 36 20120720142433
+123.125.71.70 1 1 2335 20120710174042
+65.35.178.99 6 7 47683 20120709091352
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20120701 105 133 8818929 25
+20120702 85 104 1055878 22
+20120703 56 83 768124 30
+20120704 53 59 670020 22
+20120705 57 71 641281 29
+20120706 134 158 1021951 30
+20120707 52 59 384986 22
+20120708 34 36 224850 24
+20120709 133 173 1463744 27
+20120710 96 108 851418 35
+20120711 95 115 715002 27
+20120712 124 150 2383703 27
+20120713 95 103 2673778 22
+20120714 57 66 377658 24
+20120715 62 72 2733115 28
+20120716 100 116 981715 20
+20120717 128 149 991662 33
+20120718 155 186 18007119 44
+20120719 170 212 1578728 40
+20120720 122 147 1183023 29
+20120721 69 81 553927 29
+20120722 81 92 650425 26
+20120723 106 133 1254018 21
+20120724 127 144 950631 35
+20120725 103 120 917928 28
+20120726 102 128 812570 29
+20120727 93 111 819144 33
+20120728 32 39 532265 17
+20120729 61 74 480187 21
+20120730 102 127 1119936 22
+20120731 118 144 1111873 32
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 9
+5mn-15mn 17
+15mn-30mn 14
+2mn-5mn 38
+30s-2mn 28
+0s-30s 729
+30mn-1h 18
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 148
+/ 927 2483223 717 547
+/compressor/css_common/6 255 723809 4 28
+/compressor/js_bottom/6 237 4216580 1 90
+/compressor/js_top/6 235 313770 2 14
+/compressor/js_index/6 186 173393 0 20
+/phpmyadmin/scripts/setup.php 91 475873 16 5
+/login 82 193851 10 8
+/services 79 300183 4 16
+/workshop 71 139866 20 20
+/contact 50 136108 7 15
+/phpmyadmin/scripts/setup.inc.php 46 279628 0 1
+/member/ 43 123877 1 7
+/phpmyadmin/scripts/inc.php 38 231002 0 1
+/admin/login 37 40626 7 1
+/phpmyadmin/scripts/wn.inc.php 34 206708 0 9
+/admin 34 32600 0 0
+/user_signup 21 54335 8 1
+/member/testgear_full/testing 15 30720 0 0
+/member/tutoring 14 52906 0 0
+/member/testgear_full/ 14 27786 0 0
+/login/member/ 13 24771 0 1
+/retirement/life_insurance 13 109539 6 2
+/admin/news 13 314585 0 0
+/member/testgear_full/high_school 12 23564 0 0
+/admin/compressor/css_common/6 11 88286 0 0
+/admin/users/76 5 10124 0 0
+/ext/59/testimonials 2 30020 0 1
+/member/testgear_redirect/high_school 8 2500 0 0
+/forumdata/cache/usergroup_01.php 2 13020 1 0
+/admin/pages/edit/about 2 4052 0 0
+/admin/news/edit/354 4 7117 0 0
+/member/testgear_redirect/ 1 306 0 0
+/retirement/p401k 5 27569 3 3
+/member/tax/opportunity 1 2404 0 0
+/login/member/testgear_full/high_school 1 4804 0 0
+/c.phpttv.asp 2 13020 0 1
+http://proxyjudge3.proxyfire.net/fastenv 2 62 1 2
+/login/member/testgear_full/ 1 1937 0 0
+/ext/59/case_studies 2 20724 0 0
+/login/member/financial_aid_overview 1 4804 0 0
+/retirement/p529 4 15508 1 1
+/member/letters_of_recommendation 3 8428 0 0
+/privacy_policy 8 94009 0 0
+/admin/users/view/386 3 3328 0 1
+/forumdata/cache/usergroup_01.phpttv.asp 2 13020 0 0
+//wp-login.php 1 30 1 0
+/admin/tutorials 2 2545 0 0
+/member/testgear_redirect/middle_school 2 630 0 0
+/phpMyAdmin/scripts/setup.php 1 23 0 0
+/admin/login/ 1 1219 0 0
+/admin/advisors/edit/76 2 5706 0 0
+/ext/42/about 4 8988 0 0
+/login/member/testgear_redirect/middle_school 1 1937 0 0
+/member/update/ 1 3205 0 0
+/login/member/hs_timeline_sophomore 1 4804 0 0
+/admin/users/edit/386 2 6384 0 0
+/admin/advisors/view/77 1 1216 0 0
+//phpmyadmin/translators.html 1 6840 1 1
+/retirement/ 5 50893 2 2
+/member/student_loans 2 6792 0 0
+/crossdomain.xml 1 2778 0 1
+/retirement/iras 4 28048 2 1
+/logout 9 12636 3 4
+http://24x7-allrequestsallowed.com/ 1 29 1 1
+/pro_efc 6 12753 1 2
+/admin/news/edited 8 194270 0 0
+/ext/52/about 6 9108 0 1
+/login/member/tutoring 3 8678 0 0
+/login/member/credit_management 2 9648 0 1
+/manager/status 8 0 8 8
+/retirement/services 3 12158 1 1
+/admin/news/edit/357 3 5321 0 0
+/admin/users/add/76 1 3148 0 0
+/member/testgear_full/middle_school 7 13861 0 1
+/sitemap.xml 1 6831 0 0
+/ext/23/about 7 37486 1 2
+/ext/20/about 4 14872 0 0
+/ext/76/about 3 5136 0 1
+// 1 29 0 1
+/member/private_file/act_practice_test1 1 631615 0 0
+/login/member/test_prep 1 4804 0 0
+/wordpress/wp-login.php 1 30 0 0
+/member/credit_management 1 2047 0 0
+/admin/news/edit/355 1 1819 0 0
+/admin/pages/edit/contact 1 1753 0 0
+/recordings/misc/callme_page.php 1 23 1 1
+/ext/50/about 5 15249 0 0
+/login/member/waiting_list 1 4804 0 0
+/admin/advisors/edited 1 4881 0 0
+/admin/SkinOverPlayStopSeekMuteVol.swf 1 6835 0 1
+/login/member/testgear_redirect/high_school 4 7532 0 0
+/phpMyAdmin/translators.html 2 46 2 1
+/ext/59/about 4 34193 0 0
+/terms_and_conditions 11 88791 4 4
+/member/elite_schools 1 3470 0 0
+/ext/44/about 2 7109 0 1
+/admin/logout 2 1294 0 1
+/login/member/elite_schools 1 4804 0 0
+/admin/users 7 82656 0 0
+http://www.verizon.com 1 29 1 1
+//phpMyAdmin/translators.html 1 6840 1 1
+/ext/56/about 3 7398 0 1
+/admin/financial/printable 1 2101 0 1
+/admin/advisors 5 23940 0 0
+/admin/users/76/edited 1 2128 0 0
+/member/financial_aid_overview 1 4866 0 0
+/member/private_file/2008_8863 1 301744 0 0
+/admin/news/added 7 170982 0 0
+http://198.144.176.59/own.php 1 23 1 0
+/member 1 2831 0 0
+/myadmin/scripts/setup.php 1 23 0 0
+/recovery 5 876 1 3
+/phpmyadmin/translators.html 2 46 1 2
+/blog/wp-login.php 1 30 0 0
+/admin/news/add 9 15181 1 0
+/login/member/testgear_full/middle_school 1 4804 0 0
+/admin/users/76/added 1 2128 0 0
+/w00tw00t.at.blackhats.romanian.anti-sec:) 1 23 1 0
+/login/member/private_file/financial_aid_handbook 1 4804 0 0
+/admin/news/edit/356 2 3584 0 0
+/ext/56/ces_process 1 1719 0 1
+/member/test_prep 3 14910 0 0
+/MyAdmin/scripts/setup.php 1 23 0 1
+/ext/50/testimonials 3 11123 0 1
+/login/member/student_loans 1 4804 0 0
+/ext/20/testimonials 4 31445 0 1
+/login/member/letters_of_recommendation 1 4804 0 0
+/member/tax 1 2330 1 0
+/files/credit_management/credit_module1.swf 2 101686 0 0
+/wp/wp-login.php 1 30 0 1
+/ext/59/free_analysis 1 5019 0 0
+/retirement/life_insurance/ 3 47418 2 1
+/ext/20/scholarship_praises 6 23560 1 0
+/ext/20/scholarship_seekers 4 14393 0 0
+/retirement/_529 5 195 5 5
+/admin/financial 1 3008 0 0
+/files/credit_management/SkinOverPlayStopSeekMuteVol.swf 1 6835 0 1
+/c.php 2 13020 0 0
+/member/sample_recommendation_letter 1 2721 0 0
+/login/member/test_out 2 6713 0 0
+/login/member/imperative_financial_aid 1 4804 0 0
+/pma/scripts/setup.php 1 23 0 0
+/admin/compressor/js_bottom/6 11 1035277 0 0
+/ext/65/about 1 1360 0 0
+/admin/compressor/js_top/6 11 64347 0 0
+/files/tutorials/member_section.swf 1 50835 0 0
+/js/tiny_mce/tiny_mce_gzip.php 1 59278 0 0
+/member/testgear_redirect/testing 5 1550 0 0
+END_SIDER

@@ -1,0 +1,112 @@
+<div id="admin_advisors_view">
+
+	<h1>View Advisor</h1>
+
+	<ul class="commands">
+	 
+		<li><a href="<?php echo SITE_URL . '/admin/users/' . $advisor->get( 'id' ); ?>">Advisor's Users</a></li>
+		<li><a href="<?php echo SITE_URL . '/admin/workshops/' . $advisor->get( 'id' ); ?>">Advisor's Workshops</a></li>
+		<li><a href="<?php echo SITE_URL . '/admin/advisors/edit/' . $advisor->get( 'id' ); ?>">Edit Advisor</a></li>     
+		<li><a href="<?php echo 'http://' . $advisor->get( 'namespace' ) . '.' . MAIN_DOMAIN; ?>" onclick="window.open( '<?php echo 'http://' . $advisor->get( 'namespace' ) . '.' . MAIN_DOMAIN; ?>', '<?php echo $advisor->get( 'namespace' ); ?>' ); return false;">View Web Site</a></li>   
+		
+	</ul>
+
+	<table cellspacing="0" class="information_table">
+		<tr>
+			<td>Advisor ID:</td>
+			<td><?php echo $advisor->get( 'id' ); ?></td>
+		</tr>
+		<tr>
+			<td>Status:</td>
+			<td><?php echo $advisor->get( 'status' ) ? 'Active' : 'Disabled'; ?></td>
+		</tr>
+		<tr>
+			<td>Start Date:</td>
+			<td><?php echo date( 'F j, Y', $advisor->get( 'start_date' ) ); ?></td>
+		</tr>
+		<tr>
+			<td>Name:</td>
+			<td><?php echo $advisor->get( 'first_name' ) . ' ' . $advisor->get( 'last_name' ); ?></td>
+		</tr>
+		<tr>
+			<td>Namespace:</td>
+			<td><?php echo $advisor->get( 'namespace' ); ?></td>
+		</tr>
+		<tr>
+			<td>E-mail Address:</td>
+			<td><?php echo $advisor->get( 'email_address' ); ?></td>
+		</tr>		
+		<tr>
+			<td>Web Site:</td>
+			<td><?php echo $advisor->get( 'web_site' ); ?></td>
+		</tr>
+		<tr>
+			<td>Test User:</td>
+			<td>
+			
+				<?php 
+					
+					if ( $advisor->get( 'test_user_id' ) != 0 )				
+						echo $advisor->get( 'test_user' )->get( 'username' );
+					else
+						echo 'None';
+					
+				?>
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2"><br /></td>
+		</tr>
+		<tr>
+			<td>Business:</td>
+			<td><?php echo $advisor->get( 'business_name' ); ?></td>
+		</tr>
+		<tr>
+			<td>Slogan:</td>
+			<td><?php echo $advisor->get( 'slogan' ); ?></td>
+		</tr>
+		<tr>
+			<td colspan="2"><br /></td>
+		</tr>
+		<tr>
+			<td>Address:</td>
+			<td><?php echo $advisor->get( 'address' ); ?></td>
+		</tr>
+		<tr>
+			<td>City:</td>
+			<td><?php echo $advisor->get( 'city' ); ?></td>
+		</tr>
+		<tr>
+			<td>State:</td>
+			<td><?php echo $advisor->get( 'state' ); ?></td>
+		</tr>
+		<tr>
+			<td>Zip:</td>
+			<td><?php echo $advisor->get( 'zip' ); ?></td>
+		</tr>
+		<tr>
+			<td colspan="2"><br /></td>
+		</tr>
+		<tr>
+			<td>Contact Phone Number:</td>
+			<td><?php echo $advisor->get( 'contact_phone_number' ); ?></td>
+		</tr>
+		<tr>
+			<td>Contact E-mail Address:</td>
+			<td><?php echo $advisor->get( 'contact_email_address' ); ?></td>
+		</tr>
+		<tr>
+			<td>Contact Fax Number:</td>
+			<td><?php echo $advisor->get( 'contact_fax_number' ); ?></td>
+		</tr>
+		<tr>
+			<td colspan="2"><br /></td>
+		</tr>
+		<tr>
+			<td>Extra:</td>
+			<td><?php echo $advisor->extra; ?></td>
+		</tr>
+	</table>
+
+</div>

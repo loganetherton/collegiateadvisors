@@ -1,0 +1,24 @@
+<?php
+
+	foreach( $hooks as $hook )
+	{
+		
+		$data = $hook->get( 'data' );
+		
+		if ( $type == 'member' && !$GLOBALS['user'] )
+			echo '<li>' . $data[0] . '</li>';
+		else
+		{
+			
+			if ( $page == $hook->get( 'page' ) )
+				echo '<li class="active">';
+			else
+				echo '<li>';
+			
+			echo '<a href="' . SITE_URL . $data[1] . '">' . $data[0] . '</a></li>';
+			
+		}
+		
+	}
+	
+?>

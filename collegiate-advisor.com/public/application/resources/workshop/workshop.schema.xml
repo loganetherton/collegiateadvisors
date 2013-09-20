@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+	
+<resource_schema>
+	<db>Main</db>	
+	<tables>
+		<table>workshops</table>
+	</tables>
+	<foreign_keys>
+		<reference>Advisor</reference>
+	</foreign_keys>
+	<sub_resources>
+		<sub_resource>Workshop_Registrant</sub_resource>
+	</sub_resources>	
+</resource_schema>

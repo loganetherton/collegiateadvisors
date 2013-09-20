@@ -1,0 +1,150 @@
+body
+{
+	font-family: "Trebuchet MS", Verdana, Helvetica, sans-serif;
+	color: #555;
+	font-size: 10pt;
+	background-color: #F8F8F8;
+}
+
+#container
+{
+	margin: 0 auto;
+	padding: 5px 15px 30px 15px;
+	width: 600px;
+	background-color: #FFF;
+}
+
+h1
+{
+	margin-bottom: 15px;
+	text-align: center;
+	color: #000;
+	font-size: 2.2em;
+}
+
+form fieldset
+{
+	border: none;
+	border-top: 2px solid #DDD;
+}
+
+form legend
+{
+	font-family: georgia, times, serif;
+	font-size: 1.8em;
+	color: #888;
+}
+
+input.text, input.password { padding: 3px; }
+
+input.submit 
+{ 
+	margin-top: 20px;
+	padding: 3px 10px;
+	color: #333;
+	font-weight: bold;
+	background-color: #EEE;
+	cursor: pointer;
+}
+
+input.submit:hover
+{
+	background-color: #d9d9d9;
+}
+
+input.checkbox:hover { background-color: #EEE; }
+input.checkbox { padding: 3px; font-size: 1.2em; margin-top: 10px; cursor: pointer; }
+
+form label
+{
+	padding: 3px 20px 5px 3px;
+	width: 250px;
+}
+
+
+form label em:before,
+form .group label:before
+{
+	content: "* ";
+}
+
+form .group { clear: both; }
+form .group label { font-weight: bold; }
+form .group .group_elements { width: 250px; }
+
+form .error 
+{ 
+	color: #CA0820;
+	padding: 3px;
+	margin-left: 273px;
+}
+
+table
+{
+	margin: 7px 0px 25px 0px;
+	width: 100%;
+}
+
+table caption
+{
+	font-family: georgia, times, serif;
+	font-size: 1.8em;
+	text-align: left;
+}
+
+table td:first-child
+{
+	width: 40%;
+}
+
+table td
+{
+	padding: 10px 0px 2px 0px;
+	border: none;
+	border-bottom: 1px solid #EEE;
+}
+
+.left
+{
+	float: left;
+}
+
+.right
+{
+	float: right;
+}
+
+.button a
+{
+	display: block;
+	padding: 10px 0px;
+	width: 200px;
+	color: #555;
+	background-color: #EEE;
+	font-size: 1.3em;
+	text-align: center;
+	border: 1px solid #DDD;
+}
+
+.button a small
+{
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+.button a:hover
+{
+	background-color: #F8F8F8;
+	color: #555;
+	border: 1px solid #DDD;
+}
+
+.agreement
+{
+	padding: 15px;
+	height: 100px;
+	overflow: auto;
+	border: 2px solid #DDD;
+}
+
+ul li { list-style: disc; }

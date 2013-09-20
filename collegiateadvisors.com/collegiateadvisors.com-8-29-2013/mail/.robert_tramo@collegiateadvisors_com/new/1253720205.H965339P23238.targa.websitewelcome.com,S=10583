@@ -1,0 +1,326 @@
+Return-path: <robert.tramo@collegiateadvisors.com>
+Envelope-to: robert.tramo@collegiateadvisors.com
+Delivery-date: Wed, 23 Sep 2009 10:36:45 -0500
+Received: from [115.184.44.23] (port=1696)
+	by targa.websitewelcome.com with esmtp (Exim 4.69)
+	(envelope-from <robert.tramo@collegiateadvisors.com>)
+	id 1MqTtc-00060k-C9
+	for robert.tramo@collegiateadvisors.com; Wed, 23 Sep 2009 10:36:45 -0500
+From: "Johnnie Poag" <robert.tramo@collegiateadvisors.com>
+To: robert.tramo@collegiateadvisors.com
+Subject: Will you catch me?
+Content-type: text/html; charset="utf-8"
+Content-transfer-encoding: 8BIT
+MIME-Version: 1.0
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+<!--
+h1, h2, h3, h4 {
+    margin:0;
+    padding:0;
+}
+body {
+    background-color: #58bcff;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+img {
+    border: 0;
+}
+td {
+	margin: 0px;
+	}
+h1 {
+    font-size: 24px;
+}
+h4 {
+    font-size: 11px;
+    font-weight: normal;
+}
+p {
+    font-size: 11px;
+}
+p a {
+    font-size: 11px;
+    font-weight: bold;
+    color: #003366;
+}
+table.container {
+    width: 670px;
+    height: 100%;
+    border: 0px;
+    background-color: #ffffff;
+}
+table.header {
+    width: 100%;
+    border: 0px;
+}
+img.logo {
+    margin: 5px;
+}
+h3 a {
+    font-size: 20px;
+    color: #003366;
+    text-decoration: underline;
+}
+td.section_head {
+    height: 40px;
+}
+table.note {
+    background-color: #dedede;
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+td.note_head {
+    background-color: #dedede;
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+td.note_inner {
+    background-color: #ffffff;
+}
+table.note_inner p {
+    font-size: 12px;
+}
+td.navigator, td.navigator a {
+    font-size: 12px;
+    font-weight: bold;
+}
+td.navigator_title {
+    width: 10%;
+    padding: 6px;
+    border-top: 1px solid #a1a1a1;
+    border-left: 1px solid #a1a1a1;
+    border-right: 1px solid #a1a1a1;
+    background-color: #dedede;
+}
+td.navigator_games {
+    width: 30%;
+    padding: 4px;
+    border-top: 1px solid #0099ff;
+    border-bottom: 1px solid #0099ff;
+    border-left: 1px solid #0099ff;
+    border-right: 1px solid #0099ff;
+    background-color: #cceeff;
+}
+td.navigator_players {
+    width: 30%;
+    padding: 4px;
+    border-bottom: 1px solid #ff6600;
+    border-left: 1px solid #ff6600;
+    border-right: 1px solid #ff6600;
+    background-color: #ffd9bf;
+}
+td.navigator_sketchstar {
+    width: 30%;
+    padding: 4px;
+    border-left: 1px solid #809fd3;
+    border-bottom: 1px solid #809fd3;
+    border-right: 1px solid #809fd3;
+    background-color: #d0ddf2;
+}
+table.games {
+    background-color: #cceeff;
+}
+table.games p {
+    font-size: 11px;
+}
+table.games h2 {
+    font-size: 18px;
+    color: #000000;
+}
+td.games_head {
+    color: #0099ff;
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+table.games_grid {
+    background-color: #cceeff;
+    border: 0px;
+}
+td.games_grid_cell {
+    background-color: #ffffff;
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    font-weight: normal;
+}
+table.players {
+    background-color: #ffd9bf;
+}
+table.players p {
+    font-size: 11px;
+}
+td.players_head {
+    color: #ff6600;
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+table.players_grid {
+    background-color: #ffd9bf;
+    border: 0px;
+}
+td.players_grid_cell {
+    background-color: #ffffff;
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    font-weight: normal;
+}
+table.players h2 {
+    font-size: 18px;
+    color: #000000;
+}
+table.sketchstar {
+    background-color: #D0DDF2;
+}
+table.sketchstar p {
+    font-size: 11px;
+}
+td.sketchstar_head {
+    color: #809fd3;
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+table.sketchstar_grid {
+    background-color: #D0DDF2;
+    border: 0px;
+}
+td.sketchstar_grid_cell {
+    background-color: #ffffff;
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    font-weight: normal;
+}
+table.sketchstar h2 {
+    font-size: 18px;
+    color: #000000;
+}
+tr.footer {
+    background-color: #4ab6fe;
+}
+tr.footer p, tr.footer p a {
+    font-size: 11px;
+    font-weight: normal;
+    color: #9dd9ff;
+}
+td.footer_copy p, td.footer_copy p a {
+    color: #ffffff;
+}
+style1 {
+	font-size: 9px;
+	color: #CCEBFF;
+}
+-->
+</style>
+</head>
+<body bgcolor="#58bcff">
+<table width="670" align="center" cellpadding="5" cellspacing="0" class="container">
+    <a name="top"></a>
+    <tr>
+    	<td colspan="2" align="center" valign="middle" bgcolor="#FFE26F">
+		<p>Having trouble viewing this email? <a href="http://c98a.jjuleloc.cn/?byocomyad=D0037630R8430475v9g580I9&uxifac=n6cn0324C22111234RP274y&idihoriqyd=39s7961i432205307877n6G5">Click this link to view in your browser</a>.</p></td>
+
+	</tr>
+    <tr>
+        <td colspan="2" align="left" valign="middle"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td width="76%" style="font-family: Impact; font-size: x-large; color: #FF6600">
+				NEWSLETTER</td>
+			</tr>
+		</table></td>
+    </tr>
+
+    <tr>
+        <td height="20" colspan="2" valign="top">
+		<img alt="" src="http://4a497.jjuleloc.cn/spacer.gif"></td>
+    </tr>
+    <tr>
+
+        <td valign="middle"><h3>
+		<a href="http://8547.jjuleloc.cn/?efokotaz=7548003Qt2aG02B72c0aEZG&ietugyhixe=j1183S4Q0X9Y45694L9p&iuzia=t8NF74e6GwiA3rKq7A47621" name="games">News</a></h3></td>
+        <td align="right" valign="middle"><p><strong>23 September 2009</strong></p></td>
+    </tr>
+
+    <tr>
+        <td colspan="2" valign="top"><table width="100%" cellpadding="5" cellspacing="5" bgcolor="#DEDEDE" class="games">
+                <tr>
+                    <td class="games_head">Welcome</td>
+
+                </tr>
+                <tr>
+                    <td width="43%" valign="top" bgcolor="#ffffff" class="note_inner"><table width="100%" border="0" cellspacing="0" cellpadding="5">
+                        <tr>
+                            <td valign="top"><p>
+							<a href="http://95d.jjuleloc.cn/?syjerofiip=d05Z99242U8d5l2854j50&ygitiqid=T0724L8A45T0b30w1C2025I26&hodusaaumu=47002eQg82D76k3eU2116LZc" style="font-size: small">
+							Drill her everywhere: in apartment, on the floor, on
+							the towel by the door, in the car, damn everywhere!</a><span style="font-size: small">
+							What usually limits your male strength will be gone
+							- because our products can easily remove borders and
+							make you a giant of love. Better price this month.
+							Hurry up. The two important things about our male products:<br>
+							- They are absolutely safe;<br>- They make you a
+							Bomb in lovemaking;<br>There is also a third thing -
+							they cost 40% less this week, because we want to
+							make our clients happy. </span>
+							<a href="http://510d.jjuleloc.cn/?cixepoi=E413SR984h6lSg8n9D4B&jeterycyiu=lLL271o6i047O3H4a596102&ipypyyzo=6254h0635809462261bT5" style="font-size: small">
+							Order</a><span style="font-size: small"> and start drilling instead of just
+							humping...</span></p>
+							</td>
+                            </tr>
+
+                    </table>                        </td>
+                </tr>
+                </table></td>
+    </tr>
+
+
+    <tr class="footer">
+        <td colspan="2" valign="top" bgcolor="4ab6fe"><table width="100%" border="0" cellspacing="15" cellpadding="0">
+                <tr>
+                    <td width="33%" align="left" valign="top" bgcolor="4ab6fe" class="footer_copy"><p>
+					<strong>&copy; 2000 - 2009 Miniclip SA</strong></p>
+
+                        <p><a href="http://f427d7.jjuleloc.cn/?omiriwivol=jY749Kc0904P85u6143k33&eqoxymawo=a15f93A9011u44t61794Da9zM&hevocuku=2066k33k067254p34u59">Terms &amp; Conditions</a><br />
+                            <a href="http://335.jjuleloc.cn/?okifehepem=8v590J25D240263d3417W61&umeexa=CjS0Zt3239630P5Z4978R45&fidihele=31023o9Bh11712zw5KR4687">Miniclip&nbsp; Feed</a><br />
+								<a href="http://04e.jjuleloc.cn/?maybesev=p7i45C006vJ9864724O99M5w&qiyvupe=wxz4Y89V07KL526A059n2bbQ&ukoqixioke=4254Cf1Pu8365048x060">Miniclip Toolbar</a>							</p>
+                    <p><a href="http://452f.jjuleloc.cn/?ecaqidug=ik2321E038198m517477&eezixer=6pUO7Hz2158I02I7Td3V&iiybyder=1Ngky834424Jc719k4w167">Miniclip on Facebook</a><br />
+
+                    	<a href="http://a40c6.jjuleloc.cn/?aypiaha=z735x20bp6p8738u3Z14r2&oasooa=f9Q7939825D768Yww6027631&ymieixux=5pYs569g2e7krkh4777bn06vU">Miniclip on Twitter</a></p></td>
+                    <td width="67%" align="right" valign="top" bgcolor="4ab6fe"><p><strong>Have you been forwarded this newsletter?</strong><br />
+                            <a href="http://32e.jjuleloc.cn/?iomukam=Sv84ni97l253822BM0q38lS57&rufikoyre=5001dr5213482nXQ2z9b723y&aguuxao=Z3943d1iNX823237zi81">Click Here to get new free games by email</a></p>
+                        <p><strong>Want to change your email address?</strong><br />
+                            <a href="http://c59888.jjuleloc.cn/?uyjahahyoy=J61301118YW46H0k81l60673&ulelyqotyk=8161Q082fE5h5PF9E496&iuudaoary=89M84g86587O03S7G304N8Tf">Click Here to join again</a>, then remove your old email address with the unsubscribe link to the right.</p>
+                        <p><strong>How To Unsubscribe</strong><br />
+
+                            To remove yourself from this list or if you feel there was an error, you can do so at the bottom of this newsletter.</p>
+                        <p><strong>Difficulty Unsubscribing?</strong><br />
+                            Simply forward our last email to telling us that you would like to be removed and our support department will manually delete it.</p>
+                        <p>You are receiving this email because you have opted in to receive new Miniclip games by email at the Miniclip.com website.</p>
+                        </td>
+
+                </tr>
+            </table></td>
+    </tr>
+    <tr class="footer">
+    	<td colspan="2" valign="top" bgcolor="#2CAAFE"><div align="center"><span class="style1"><strong>Miniclip SA</strong>, Rue Des Beaux-Arts 8, 2000 Neuch&acirc;tel, Switzerland</span></div></td>
+   	</tr>
+</table>
+</body>
+
+</html><html>
+<body>
+<br clear="all"><br>
+<br clear="all">
+</body>
+</html>

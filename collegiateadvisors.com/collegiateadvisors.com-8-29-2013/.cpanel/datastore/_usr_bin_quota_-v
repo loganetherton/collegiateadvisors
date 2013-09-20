@@ -1,0 +1,3 @@
+Disk quotas for user collegia (uid 33330): 
+     Filesystem  blocks   quota   limit   grace   files   quota   limit   grace
+      /dev/sda7   91136  204800  204800            4496       0       0        

@@ -1,0 +1,19 @@
+<p>Keith,</p>
+
+<p>A new user just signed up from <?php echo $advisor->business_name; ?> - <?php echo $advisor->first_name . ' ' . $advisor->last_name; ?>.</p>
+
+<p>
+	Member Name: <?php echo $first_name . ' ' . $last_name; ?> <br />
+	Username: <?php echo $username; ?> <br />
+	Password: <?php echo $password; ?> <br />
+	Email Address: <?php echo $email_address; ?> <br />
+	Phone Number: <?php echo $phone_number; ?> <br />
+	Birth Date: <?php echo $birth_date_month . '/' . $birth_date_day . '/' . $birth_date_year; ?> <br />
+	Highschool Graduation Year: <?php echo ($graduation_year == 1) ? 'Already Graduated' : $graduation_year; ?> <br />
+	Anticipated First Year of College: <?php echo $college_year; ?>
+</p>
+
+<p>
+	IP Address: <?php echo $_SERVER['REMOTE_ADDR']; ?> <br />
+	Time: <?php echo date( 'n/j/Y g:i:s A' ); ?>
+</p>

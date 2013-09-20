@@ -1,0 +1,137 @@
+<?php if ( $action != '' ): ?>
+
+	<script type="text/javascript">
+	
+		<?php if ( $action == 'added' ): ?>
+		
+			Legato_Events_Handler.addEvent( window, "onload", function(){ show_alert( "Successfully Added User" ); } );
+			
+		<?php elseif ( $action == 'edited' ): ?>
+		
+			Legato_Events_Handler.addEvent( window, "onload", function(){ show_alert( "Successfully Edited User" ); } );
+			
+		<?php elseif ( $action == 'deleted' ): ?>
+		
+			Legato_Events_Handler.addEvent( window, "onload", function(){ show_alert( "Successfully Deleted User" ); } );
+		
+		<?php endif; ?>	
+	
+	</script>
+	
+<?php endif; ?>
+
+<h1>Manage Users <?php echo '(' . count( $users ) . ')'; ?></h1>
+
+<?php if ( $level > 1 ): ?>
+
+	<div id="admin_advisor_select">
+	
+		<h3>Select Advisor:</h3>
+		
+		<select name="advisor_id" id="advisor_id" onchange="location = '<?php echo SITE_URL . '/admin/users/'; ?>' + document.getElementById( 'advisor_id' ).value;">
+		
+			<option <?php if ( $selected == 0 ) echo 'selected="selected"'; ?> value="0">Global</option>
+			
+			<?php
+			
+				foreach( $advisors as $advisor )
+				{
+					echo '<option';
+
+					if ( $advisor->get('id') == $selected )
+						echo ' selected="selected"';
+
+					echo ' value="'. $advisor->get('id') .'">';
+					echo $advisor->get('business_name');
+					echo '</option>';
+				}
+				
+			?>
+			
+		</select>
+  		<br /><br />
+
+		<h3>Search for User:</h3>
+		
+  		<form action="" method="post" name="admin_user_search" >
+  		
+			<input type="text" name="user_search" value="<?php echo $_POST['user_search']; ?>" />
+  			<input type="submit" value="Search" />
+  			
+  		</form>
+  		
+	</div>
+
+	<ul class="commands">
+
+	  <li><a href="<?php echo SITE_URL . '/admin/users/add/' . $selected; ?>">Add User</a></li>
+
+	</ul>
+
+<?php endif; ?>
+
+<?php if ( $users ): ?>
+
+	<table cellspacing="0">
+
+		<tr>
+			<?php if ( $advisor_id == '' || $advisor_id == 0 ) echo '<th>Advisor</th>'; ?>
+			<th>Username</th>
+			<th>Full Name</th>
+			<th>Commands</th>
+		</tr>
+
+		<?php
+		
+			// Loop through each user.
+			$i = 0;
+			foreach ( $users as $user_id => $user )
+			{
+	
+				// Which row type?
+				if ( $i == 0 )
+					echo '<tr class="row1" id="user'. $user_id .'">';
+				else
+					echo '<tr class="row2" id="user'. $user_id .'">';
+					
+				if ( $advisor_id == '' || $advisor_id == 0 ) 
+					echo '<td>' . $user->get( 'advisor' )->get( 'business_name' ) . '</td>';
+	
+				?>
+	
+				<td><?php echo str_replace( $_POST['user_search'], '<strong>' . $_POST['user_search'] . '</strong>', $user->get( 'username' ) ); ?></td>
+				<td>
+					<?php
+					 
+						echo str_replace( $_POST['user_search'], '<strong>' . $_POST['user_search'] . '</strong>', $user->get( 'first_name' ) . ' ' . $user->get( 'last_name' ) );
+					
+					?>
+				</td>
+				<td>
+	
+					<a href="<?php echo SITE_URL . '/admin/users/view/' . $user_id; ?>">View</a>
+	
+			 		<?php if ( $GLOBALS['admin']->get('level') > 1 ):	?>
+	
+				 		| <a href="<?php echo SITE_URL . '/admin/users/edit/' . $user_id; ?>">Edit</a> | <a href="" onclick="delete_resource( 'user', '<?php echo $user_id; ?>', null ); return false;">Delete</a>
+	
+		            <?php endif; ?>
+	
+			 	</td>
+				</tr>
+				
+			 	<?php
+	
+			 	$i++;
+	
+			   	// Wrap.
+			   	if ( $i == 2 )
+			   		$i = 0;
+	
+			}	
+		
+		?>
+
+	</table>
+
+<?php endif; ?>

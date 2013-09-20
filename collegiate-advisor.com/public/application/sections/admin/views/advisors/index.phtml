@@ -1,0 +1,91 @@
+<?php if ( $action != '' ): ?>
+
+	<script type="text/javascript">
+	
+		<?php if ( $action == 'added' ): ?>
+		
+			Legato_Events_Handler.addEvent( window, "onload", function(){ show_alert( "Successfully Added Advisor" ); } );
+			
+		<?php elseif ( $action == 'edited' ): ?>
+		
+			Legato_Events_Handler.addEvent( window, "onload", function(){ show_alert( "Successfully Edited Advisor" ); } );
+			
+		<?php elseif ( $action == 'disabled' ): ?>
+		
+			Legato_Events_Handler.addEvent( window, "onload", function(){ show_alert( "Successfully Disabled Advisor" ); } );
+			
+		<?php elseif ( $action == 'enabled' ): ?>
+		
+			Legato_Events_Handler.addEvent( window, "onload", function(){ show_alert( "Successfully Enabled Advisor" ); } );
+		
+		<?php endif; ?>	
+	
+	</script>
+	
+<?php endif; ?>
+
+<div id="admin_advisors">
+
+	<h1>Manage Advisors <?php echo '(' . count( $advisors ) . ')'; ?></h1>
+
+	<ul class="commands">
+	 
+		<?php if ( $level > 2 ): ?>
+	  
+			<li><a href="<?php echo SITE_URL . '/admin/advisors/add'; ?>">Add Advisor</a></li>
+	
+		<?php endif; ?>
+		
+	</ul>
+
+	<table cellspacing="0">
+
+		<tr>
+			<th>Business</th>
+			<th>Contact Name</th>
+			<th>Phone Number</th>
+			<th>Commands</th>
+			<th>Status</th>
+		</tr>
+		
+		<?php
+			
+			// Loop through each advisor.
+			$i = 0;
+			foreach ( $advisors as $advisor_id => $advisor )
+			{
+					
+				// Which row type?
+				echo $advisor->get( 'status' ) ? '<tr class="row' . ($i + 1) . ' active" id="advisor'. $advisor_id .'">' : '<tr class="row' . ($i + 1) . ' inactive" id="advisor'. $advisor_id .'">';
+					
+				?>
+				
+				<td><?php echo $advisor->get( 'business_name' ); ?></td>
+				<td><?php echo $advisor->get( 'first_name' ) . ' ' . $advisor->get( 'last_name' ); ?></td>
+				<td><?php echo $advisor->get( 'contact_phone_number' ); ?></td>
+				<td>
+				
+					<a href="<?php echo SITE_URL . '/admin/advisors/view/' . $advisor_id; ?>">View</a> |
+					<a href="<?php echo SITE_URL . '/admin/advisors/edit/' . $advisor_id; ?>">Edit</a> |
+					<a href="<?php echo 'http://' . $advisor->get( 'namespace' ) . '.' . MAIN_DOMAIN; ?>" onclick="window.open( '<?php echo 'http://' . $advisor->get( 'namespace' ) . '.' . MAIN_DOMAIN; ?>', '<?php echo $advisor->get( 'namespace' ); ?>' ); return false;">View Web Site</a>
+					
+				
+				</td>
+				<td><?php echo $advisor->get( 'status' ) ? '<a href="' . SITE_URL . '/admin/advisors/disable/' . $advisor_id . '">Disable Advisor</a>' : '<a href="' . SITE_URL . '/admin/advisors/enable/' . $advisor_id . '">Enable Advisor</a>'; ?></td>
+					
+				<?php
+				
+				echo '</tr>';
+				
+				$i++;
+				
+				// Wrap.
+				if ( $i == 2 )
+					$i = 0;
+			
+			}
+		?>
+		
+	</table>
+	
+</div>

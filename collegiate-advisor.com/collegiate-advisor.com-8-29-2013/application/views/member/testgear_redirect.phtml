@@ -1,0 +1,15 @@
+<form method="post" id="redirectform" action="https://access.bridges.com/auth/login.do">
+
+	<input type="hidden" name="loginTheme" value="portfolio" />
+	<input type="hidden" name="loginType" value="PORTFOLIO" />
+	<input type="hidden" name="targetUri" value="<?php echo $target_url; ?>" />				
+	<input type="hidden" name="name" value="<?php echo $username; ?>" />				
+	<input type="hidden" name="password" value="<?php echo $password; ?>" />		
+
+</form>
+
+<script type="text/javascript">
+	
+	window.onload = function(){ document.getElementById( "redirectform" ).submit(); };
+	
+</script>

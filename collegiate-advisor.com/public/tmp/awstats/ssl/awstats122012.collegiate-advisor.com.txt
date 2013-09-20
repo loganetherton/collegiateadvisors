@@ -1,0 +1,290 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201212 will be lost/reset.
+# Last config file used to build this data file was /home/collegia/tmp/awstats/ssl/awstats.collegiate-advisor.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2020                
+POS_TIME 2680                
+POS_VISITOR 6351                
+POS_DAY 6844                
+POS_DOMAIN 3275                
+POS_LOGIN 3558                
+POS_ROBOT 3713                
+POS_WORMS 4121                
+POS_EMAILSENDER 4252                
+POS_EMAILRECEIVER 4395                
+POS_SESSION 7139                
+POS_SIDER 7307                
+POS_FILETYPES 4530                
+POS_DOWNLOADS 4647                
+POS_OS 4717                
+POS_BROWSER 4789                
+POS_SCREENSIZE 4921                
+POS_UNKNOWNREFERER 4995                
+POS_UNKNOWNREFERERBROWSER 5082                
+POS_ORIGIN 5164                
+POS_SEREFERRALS 5298                
+POS_PAGEREFS 5442                
+POS_SEARCHWORDS 5717                
+POS_KEYWORDS 5869                
+POS_MISC 2344                
+POS_ERRORS 5928                
+POS_CLUSTER 3414                
+POS_SIDER_404 6042                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20130101015408 5 591 9168283898257
+FirstTime 0
+LastTime 20121228102105
+LastUpdate 20130101071142 5 0 4 0 0
+TotalVisits 17                  
+TotalUnique 11                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 11                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 7 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 1 1 0
+1 1 1 23 3 4 46906
+2 0 0 0 3 4 46881
+3 0 0 0 6 9 91761
+4 0 0 0 2 3 23488
+5 0 0 0 1 1 29
+6 0 0 0 4 6 46968
+7 0 0 0 7 11 93931
+8 0 0 0 2 3 87
+9 0 0 0 2 2 58
+10 4 4 74165 4 8 94995
+11 1 1 23 3 6 23569
+12 10 10 197615 1 5 26292
+13 3 3 46885 3 5 23752
+14 8 8 148524 5 8 96376
+15 0 0 0 3 5 145
+16 6 6 75267 3 6 59617
+17 0 0 0 3 6 46741
+18 1 1 23 3 5 25045
+19 4 4 74365 6 11 142076
+20 3 3 81 4 7 47182
+21 0 0 0 3 7 70188
+22 0 0 0 7 8 116883
+23 1 1 23 5 8 46772
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+us 27 27 468491
+ca 4 4 74165
+pl 4 4 74165
+cn 3 3 81
+de 2 2 46
+gb 2 2 46
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+bot[\s_+:,\.\;\/\\-] 73 633662 20121231203042 28
+googlebot 26 350541 20121230193600 11
+robot 9 58327 20121228234756 6
+spider 5 114620 20121226031814 0
+unknown 2 58 20121222210421 2
+no_user_agent 1 23 20121215111414 0
+checker 1 0 20121205172336 1
+netcraft 1 0 20121207024142 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+php 5 115 0 0
+html 6 25134 0 0
+Unknown 31 591745 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 48 0 1363
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 4
+macosx 4
+winxp 7
+linux 2
+win7 29
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 6
+firefox3.5.6 2
+msie9.0 10
+firefox17.0 15
+curl 2
+chrome23.0.1271.97 8
+firefox3.0 5
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 13 13
+From1 0 0
+From2 0 0
+From3 7 7
+From4 22 22
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://2collegeavenue.collegiate-advisor.com./user_signup 5 5
+http://collegiateadvisors.collegiate-advisor.com/user_signup 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+403 2 58
+302 1 1536
+400 7 87
+301 4 988
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 11
+107.195.168.41 10 10 195586 20121212190820
+50.78.249.25 6 6 123250 20121210124350
+24.238.60.106 5 5 75250 20121216201157
+89.71.182.70 4 4 74165 20121217142710
+184.45.53.143 4 4 74359 20121214141216
+209.195.93.116 4 4 74165 20121228102105
+23.25.119.97 2 2 46 20121213010733
+213.229.90.131 2 2 46 20121214164355
+89.238.66.147 2 2 46 20121225182019
+114.255.52.162 2 2 58 20121204135501
+211.142.95.149 1 1 23 20121222234552
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 12
+20121203 1 1 29 1
+20121204 1 1 29 1
+20121208 1 1 23 1
+20121210 6 6 123250 1
+20121212 12 12 195632 4
+20121213 5 5 75244 2
+20121214 5 5 74382 2
+20121216 1 1 29 1
+20121217 4 4 74165 1
+20121222 1 1 23 1
+20121225 1 1 23 1
+20121228 4 4 74165 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+5mn-15mn 1
+0s-30s 15
+2mn-5mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 13
+/ 5 133 5 5
+/vtigercrm/graph.php 5 115 5 5
+/signup/42 5 117140 3 1
+/signup/compressor/css_common/8 4 25907 0 0
+/signup/compressor/js_bottom/8 4 162442 0 3
+/signup/compressor/js_top/8 4 16255 0 1
+/signup/compressor/css_common/6 3 19502 0 0
+/signup/compressor/js_top/6 3 12262 0 0
+/signup/compressor/js_bottom/6 3 121903 0 1
+/signup/40 2 46456 2 0
+/signup/50 2 46456 1 1
+/signup/44 1 23422 1 0
+/signup/50/ 1 25001 0 0
+END_SIDER

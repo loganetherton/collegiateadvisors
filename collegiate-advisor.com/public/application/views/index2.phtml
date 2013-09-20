@@ -1,0 +1,55 @@
+<div id="index2">
+
+	<table cellpadding="0" cellspacing="0" border="0">
+
+		<tr>
+
+			<td class="left_column">
+
+				<p><?php $index_view->render(); ?></p>
+
+				<ul>
+
+					<li><a href="<?php echo SITE_URL . '/services'; ?>">College Planning Information</a></li>
+					<li><a href="<?php echo SITE_URL . '/workshop'; ?>">Workshop Registration</a></li>
+
+					<?php Legato_Stage::delegate( 'Hooks', 'index_top' ); ?>
+
+				</ul>
+
+			</td>
+
+			<td class="right_column">
+
+				<div id="facts_box"><p id="financial_fact"></p></div>
+
+				<?php
+
+					$base = SITE_URL . '/advisor_files/' . $GLOBALS['advisor']->get( 'id' );
+
+					if ( file_exists( SITE_ROOT . $base . '/indexpic.jpg' ) )
+						echo '<div id="advisors_image"><img src="' . $base . '/indexpic.jpg" alt="" /></div>';
+					else if ( file_exists( SITE_ROOT . $base . '/genericpic.jpg' ) )
+						echo '<div id="advisors_image"><img src="' . $base . '/genericpic.jpg" alt="" /></div>';
+
+					if ( $GLOBALS['advisor']->niccp )
+					{
+						echo '<div id="advisors_image"><img src="' . SITE_URL . '/advisor_files/niccp.jpg" alt="" /></div>';
+					}
+
+
+				?>
+
+				<?php Legato_Stage::delegate( 'Hooks', 'index_bottom' ); ?>
+
+			</td>
+
+		</tr>
+
+	</table>
+
+	<?php $news_view->render(); ?>
+
+</div>
+
+<script type="text/javascript" src="<?php echo Legato_Compressor::get( 'JS_Index' ); ?>"></script>

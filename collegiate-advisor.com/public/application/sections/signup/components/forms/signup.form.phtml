@@ -1,0 +1,65 @@
+{student_information}
+
+	{first_name}
+	{last_name}
+	<br />
+	
+	{email_address}
+	{retype_email_address}
+	<br />
+	
+	{phone_number}
+	<br />
+	
+	{birth_date}
+	{graduation_year}
+	{college_year}
+
+{student_information}
+
+{billing_information}
+
+	{amount}
+	<br />
+	
+	{card_type}
+	<br />
+	
+	<div id="credit_card_fields">
+	
+		{billing_first_name}
+		{billing_last_name}
+		<br />
+		
+		{card_number}
+		{exp}
+		{cvv}
+		<br />
+		
+		{address1}
+		{address2}
+		{city}
+		{state}
+		{zip_code}
+		
+	</div>
+
+{billing_information}
+
+{create_login_information}
+
+{agreement}
+
+	<div class="agreement">
+	
+		<?php Legato_Stage::delegate( 'Index', 'agreement' ); ?>
+				
+	</div>
+	<br />
+
+	{agree}
+
+	{sign_up}
+
+{agreement}
+			

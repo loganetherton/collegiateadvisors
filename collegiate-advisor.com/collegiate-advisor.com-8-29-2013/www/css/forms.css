@@ -1,0 +1,89 @@
+/* ----- Form Styles ----- */
+
+form
+{
+	width: 97%;
+}
+
+form fieldset
+{
+	padding: 20px 10px 15px 10px;
+	border: 2px solid #DDD;
+	
+}
+
+form legend
+{
+	padding: 5px;
+	font-weight: bold;
+	color: #000;
+}
+
+form label, form input, form textarea, form select
+{
+	margin-bottom: 5px;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+form textarea
+{
+	font-family: arial;
+}
+
+form label 
+{
+	float: left;
+	text-align: right;
+	width: 170px;
+	padding-right: 20px;
+}
+
+form .group .group_elements
+{
+	float: left;
+}
+
+form .group .group_elements .element { display: inline; }
+
+form .group_elements .element label, 
+form .group_elements .element div.title
+{
+	float: left;
+	margin: 0;
+	padding-right: 0px;
+	width: auto;
+	text-align: left;
+}
+
+form .group .group_elements div.title
+{
+	width: 300px;
+}
+
+form .group br { clear: left; }
+
+form .element { clear: left; }
+
+form .element br { clear: left; }
+
+form .element em { font-weight: bold; font-style: normal; }
+
+form .radio, form .checkbox
+{
+	float: left;
+	margin-right: 7px;
+}
+
+form .submit, .button, .reset
+{
+	padding: 1px 5px 1px 5px;
+	margin-top: 15px;
+}
+
+form .error 
+{ 
+	color: #CC3300;
+	padding: 3px;
+	margin-left: 193px;
+}

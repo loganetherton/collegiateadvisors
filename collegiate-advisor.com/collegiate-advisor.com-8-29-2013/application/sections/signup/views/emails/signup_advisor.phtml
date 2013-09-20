@@ -1,0 +1,14 @@
+<p><?php echo $advisor->first_name . ' ' . $advisor->last_name; ?>,</p>
+
+<p>A new user just signed up on your Collegiate Advisors web site.</p>
+
+<p>
+	Member Name: <?php echo $first_name . ' ' . $last_name; ?> <br />
+	Username: <?php echo $username; ?> <br />
+	Password: <?php echo $password; ?> <br />
+	Email Address: <?php echo $email_address; ?> <br />
+	Phone Number: <?php echo $phone_number; ?> <br />
+	Birth Date: <?php echo $birth_date_month . '/' . $birth_date_day . '/' . $birth_date_year; ?> <br />
+	Highschool Graduation Year: <?php echo ($graduation_year == 1) ? 'Already Graduated' : $graduation_year; ?> <br />
+	Anticipated First Year of College: <?php echo $college_year; ?>
+</p>

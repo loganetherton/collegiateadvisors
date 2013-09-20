@@ -1,0 +1,14 @@
+<?php if ( $GLOBALS['user']->payment_type == 1 ): ?>
+
+	<div id="sub_menu">
+	
+		<ul>
+			
+			<li><a href="<?php echo SITE_URL; ?>/member/update/">Basic Information</a></li>
+			<li class="last"><a href="<?php echo str_replace( 'http', 'https', DOMAIN ); ?>/signup/update/credit_card/<?php echo $GLOBALS['user']->id; ?>/<?php echo md5( $GLOBALS['user']->password . date( 'FY' ) ); ?>" onclick="window.open( this.href, 'ca_update_card', 'menubar=yes,location=yes,resizable=yes,scrollbars=yes,status=yes,width=700,height=600' ); return false;">Credit Card Information (popup)</a></li>
+		
+		</ul>
+		
+	</div>
+
+<?php endif; ?>

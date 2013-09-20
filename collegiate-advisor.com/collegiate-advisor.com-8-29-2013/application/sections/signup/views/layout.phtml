@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+	
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		
+		<title><?php echo $this->layout->title; ?></title>
+		
+		<link rel="stylesheet" type="text/css" href="<?php echo SITE_URL . Legato_Compressor::get( 'CSS_Common' ); ?>" />
+
+		<?php include( ROOT . '/application/settings/jsconfig.conf.php' ); ?>
+		
+		<script type="text/javascript" src="<?php echo SITE_URL . Legato_Compressor::get( 'JS_Top' ); ?>"></script>
+		
+	</head>
+	
+	<body>
+	
+		<div id="container">
+	        
+	        <?php echo $this->layout->content; ?>
+	        		
+		</div>
+	
+		<script type="text/javascript" src="<?php echo SITE_URL . Legato_Compressor::get( 'JS_Bottom' ); ?>"></script>
+	
+	</body>
+	
+</html>

@@ -1,0 +1,62 @@
+<script type="text/javascript">
+
+	var new_window = null;
+	
+	function stepOne()
+	{
+		
+		new_window = window.open( "", "testgear" );		
+		new_window.document.write( "Please wait while we load the page..." );
+				
+		document.getElementById( "testgear_frame" ).src = "<?php echo SITE_URL . '/member/testgear_redirect/' . $type; ?>";		
+		setTimeout( stepTwo, 5000 );
+		
+	}
+	
+	function stepTwo()
+	{
+		
+		<?php
+		
+			if ( $type == 'testing' )
+				echo 'new_window.location = "https://access.bridges.com/launch/testGearLauncher.do?id=4";';
+			else if ( $type == 'high_school' )
+				echo 'new_window.location = "https://access.bridges.com/choices/DisplayHome.do";';
+			else if ( $type == 'middle_school' )
+				echo 'new_window.location = "https://access.bridges.com/cx/DisplayHome.do";';
+		
+		?>
+			
+		new_window.focus();
+			
+		location.href = "<?php echo SITE_URL . '/member/'; ?>";
+		
+	}
+	
+	var func_called = false;
+	function doneLoading()
+	{
+		
+		if ( !func_called )
+		{
+			func_called = true;
+			return;
+		}
+				
+		var redirect_text = document.getElementById( "redirect_text" );
+		
+		redirect_text.innerHTML = '<a href="" onclick="stepOne(); return false;">Click here to continue.</a>';
+		
+	}
+	
+</script>
+
+<div id="member_testgear">
+	
+	<h1>Action Needed</h1>
+	
+	<p id="redirect_text">This may take a few seconds. Please be patient... <img src="<?php echo SITE_URL . '/images/loading.gif'; ?>" alt="Loading" /></p>
+	
+	<iframe style="border: 0px; width: 0px; height: 0px;" id="testgear_frame"  onload="doneLoading();" src="http://www.bridges.com"></iframe>
+	
+</div>

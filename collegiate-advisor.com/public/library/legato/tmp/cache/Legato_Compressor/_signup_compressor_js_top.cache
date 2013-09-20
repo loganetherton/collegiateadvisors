@@ -1,0 +1,46 @@
+2592000
+1377288520
+a:2:{s:7:"version";s:2:"11";s:6:"output";s:3993:"
+Legato_Events_Handler={id_counter:1,events:{},addEvent:function(element,event_type,event_handler,event_id)
+{if(!event_handler.Legato_event_id&&event_id==null)
+event_handler.Legato_event_id="Legato_EVENT_"+Legato_Events_Handler.id_counter++;else if(event_id!=null)
+event_handler.Legato_event_id=event_id;if(!element.Legato_events)element.Legato_events={};var handlers=element.Legato_events[event_type];if(!handlers)
+{handlers=element.Legato_events[event_type]={};if(element[event_type])
+Legato_Events_Handler.addEvent(element,event_type,element[event_type],"Legato_BASE_EVENT");}
+handlers[event_handler.Legato_event_id]=event_handler;if(!Legato_Events_Handler.events[event_handler.Legato_event_id])
+Legato_Events_Handler.events[event_handler.Legato_event_id]=[];Legato_Events_Handler.events[event_handler.Legato_event_id].push({"element":element,"type":event_type,"handler":event_handler});element[event_type]=function(e){return Legato_Events_Handler.handleEvent(this,e,event_type);};return event_handler.Legato_event_id;},removeEvent:function(element,event_type,event_handler)
+{if(!element.Legato_events&&!element.Legato_events[event_type])
+return;delete element.Legato_events[event_type][event_handler.Legato_event_id];},removeEventByID:function(event_id)
+{if(!Legato_Events_Handler.events[event_id])
+return;for(var i=0;i<Legato_Events_Handler.events[event_id].length;i++)
+{var event=Legato_Events_Handler.events[event_id][i];Legato_Events_Handler.removeEvent(event.element,event.type,event.handler);delete Legato_Events_Handler.events[event_id][i];}
+delete Legato_Events_Handler.events[event_id];},removeEventType:function(element,event_type)
+{if(!element.Legato_events&&!element.Legato_events[event_type])
+return;for(var i in element.Legato_events[event_type])
+delete element.Legato_events[event_type][i];delete element.Legato_events[event_type];},handleEvent:function(element,event,event_type)
+{var ret=true;var handlers=element.Legato_events[event_type];for(var i in handlers)
+{if(!event)
+event=window.event;if(handlers[i](event)===false)
+ret=false;}
+return ret;},unloadEvents:function()
+{for(var id in Legato_Events_Handler.events)
+{if(!Legato_Events_Handler.events[id])
+Legato_Events_Handler.removeEventByID(id);}},getCursorPos:function(event)
+{var pos=new Legato_Structure_Point();if(!event)
+event=window.event;if(event.pageX||event.pageY)
+{pos.X=event.pageX;pos.Y=event.pageY;}
+else if(event.clientX||event.clientY)
+{pos.X=event.clientX+document.body.scrollLeft;pos.Y=event.clientY+document.body.scrollTop;}
+return pos;},getTarget:function(event)
+{if(!event)
+event=window.event;if(event.target)
+return event.target;else if(event.srcElement)
+return event.srcElement;else
+return false;}};Legato_Events_Handler.addEvent(window,"onunload",Legato_Events_Handler.unloadEvents);Legato_Events_Handler.DOMLoad=function(){var DOMLoaded=false;var DOMLoadTimer=null;var functionsToCall=[];var addedStrings={};var errorHandling=null;var execFunctions=function(){for(var i=0,il=functionsToCall.length;i<il;i++){try{functionsToCall[i]();}
+catch(e){if(errorHandling&&typeof errorHandling==="function"){errorHandling(e);}}}
+functionsToCall=[];};var DOMHasLoaded=function(){if(DOMLoaded){return;}
+DOMLoaded=true;execFunctions();};if(document.addEventListener){document.addEventListener("DOMContentLoaded",DOMHasLoaded,false);}
+if(/KHTML|WebKit|iCab/i.test(navigator.userAgent)){DOMLoadTimer=setInterval(function(){if(/loaded|complete/i.test(document.readyState)){DOMHasLoaded();clearInterval(DOMLoadTimer);}},10);}
+window.onload=DOMHasLoaded;return{DOMReady:function(){for(var i=0,il=arguments.length,funcRef;i<il;i++){funcRef=arguments[i];if(!funcRef.DOMReady&&!addedStrings[funcRef]){if(typeof funcRef==="string"){addedStrings[funcRef]=true;funcRef=new Function(funcRef);}
+funcRef.DOMReady=true;functionsToCall.push(funcRef);}}
+if(DOMLoaded){execFunctions();}},setErrorHandling:function(funcRef){errorHandling=funcRef;}};};Legato_Events_Handler.DOMReady=(new Legato_Events_Handler.DOMLoad).DOMReady;";}

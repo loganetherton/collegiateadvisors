@@ -1,0 +1,35 @@
+<p><?php echo $first_name . ' ' . $last_name; ?></p>
+
+<p>Thank you for signing up for our online services.</p>
+
+<p><?php echo $advisor->business_name; ?> is committed to providing high quality college planning services through our web site.</p>
+
+<p>Please keep this email as a record of your membership and as a receipt of the payment transaction.</p>
+
+<p>You can access these services by going to our website, clicking login, then entering your information:</p>
+
+<p>
+	Username: <?php echo $username; ?> <br />
+	Password: <?php echo $password; ?>
+</p>
+
+<p>You may begin using your new membership immediately, however some features may take a few days to become active.</p>
+
+<p>
+	You can review the terms of your Agreement here: 
+	(<a href="<?php echo DOMAIN . SITE_URL . '/signup/agreement/'; ?>"><?php echo DOMAIN . SITE_URL . '/signup/agreement/'; ?></a>)
+</p>
+
+<p>You've entered the following information:</p>
+
+<p>
+	First Name: <?php echo $first_name; ?> <br />
+	Last Name: <?php echo $last_name; ?> <br />
+	Email Address: <?php echo $email_address; ?> <br />
+	Phone Number: <?php echo $phone_number; ?> <br />
+	Birth Date: <?php echo $birth_date_month . '/' . $birth_date_day . '/' . $birth_date_year; ?> <br />
+	Highschool Graduation Year: <?php echo ($graduation_year == 1) ? 'Already Graduated' : $graduation_year; ?> <br />
+	Anticipated First Year of College: <?php echo $college_year; ?>
+</p>
+
+<p><strong>Note: You can update your information at any time by logging in to the site.</strong></p>

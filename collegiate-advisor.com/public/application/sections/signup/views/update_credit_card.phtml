@@ -1,0 +1,29 @@
+<h1>Update Your Payment Information</h1>
+
+<?php if ( $updated ): ?>
+
+	<p style="text-align: center;"><em>Your information has successfully been updated.</em></p>
+
+<?php endif; ?>
+
+<br />
+<p><strong>Current Billing Information</strong></p>
+
+<div style="padding-left: 30px;">
+	
+	<p>
+	
+		Billing Name: <?php echo $payment_profile['FIRSTNAME'] . ' ' . $payment_profile['LASTNAME']; ?> <br />
+		Card Number: **** **** **** <?php echo $payment_profile['ACCT']; ?><br />
+		Expiration Date: <?php echo substr( $payment_profile['EXPDATE'], 0, 2 ) . '/' . substr( $payment_profile['EXPDATE'], 2 ); ?><br />
+		Billing Address: <?php echo $payment_profile['STREET'] . ', ' . $payment_profile['CITY'] . ', ' . $payment_profile['STATE'] . ', ' . $payment_profile['ZIP']; ?>
+	
+	</p>
+	
+</div>
+<br />
+
+<p style="text-align: center; font-size: 1.1em; font-style: italic;">Please fill out the form below if you would like to update your billing information.</p>
+<br />
+
+<?php echo $form->output(); ?>

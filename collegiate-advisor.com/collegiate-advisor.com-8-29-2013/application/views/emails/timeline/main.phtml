@@ -1,0 +1,36 @@
+<p><?php echo $user->first_name . ' ' . $user->last_name; ?>,</p>
+
+<p>Based on your graduation year of <?php echo $user->graduation_year; ?>, this month you should consider the following:</p>
+
+<ul>
+
+	<?php if ( $common_view ) $common_view->render(); ?>	
+	<?php $timeline_view->render(); ?>
+
+</ul>
+
+<hr />
+
+<?php if ( $keith_news ): ?>
+
+	<p>
+		<?php echo reset( $keith_news )->news; ?>
+	</p>
+	<hr />
+
+<?php endif; ?>
+
+<p>
+	<?php echo $user->advisor->business_name; ?>
+	<?php 
+		if ( $user->advisor->slogan )
+			echo '<br />' . $user->advisor->slogan;
+	?>
+</p>
+
+<p>
+	<?php echo $user->advisor->address; ?> <br />
+	<?php echo $user->advisor->city . ', ' . $user->advisor->state . ' ' . $user->advisor->zip; ?>
+</p>
+
+<p><?php echo $user->advisor->contact_phone_number; ?></p>

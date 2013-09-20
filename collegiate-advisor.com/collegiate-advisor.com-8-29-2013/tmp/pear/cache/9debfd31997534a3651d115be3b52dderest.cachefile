@@ -1,0 +1,4 @@
+a:8:{s:7:"attribs";a:4:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:9:"xmlns:xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:11:"xmlns:xlink";s:28:"http://www.w3.org/1999/xlink";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:19:"Crypt_DiffieHellman";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:18:"/rest/c/Encryption";}s:8:"_content";s:10:"Encryption";}s:1:"l";s:15:"New BSD License";s:1:"s";s:77:"Implementation of Diffie-Hellman Key Exchange cryptographic protocol for PHP5";s:1:"d";s:225:"Implementation of the Diffie-Hellman Key Exchange cryptographic protocol
+in PHP5. Enables two parties without any prior knowledge of each other
+establish a secure shared secret key across an insecure channel
+of communication.";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:27:"/rest/r/crypt_diffiehellman";}}}
